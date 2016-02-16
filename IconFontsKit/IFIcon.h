@@ -16,6 +16,10 @@ typedef unichar IFIconType;
  */
 @interface IFIcon : NSObject
 
+///=============================================
+/// @name Initialization
+///=============================================
+
 /**
  * Creates an IFIcon instance for the given `type` and `fontSize`.
  *
@@ -52,7 +56,13 @@ typedef unichar IFIconType;
  */
 - (instancetype)initWithCode:(NSString *)code fontSize:(CGFloat)fontSize;
 
+///=============================================
+/// @name Attributes Accessor
+///=============================================
 
+/**
+ * The font size for the icon.
+ */
 @property (nonatomic) CGFloat fontSize;
 
 - (NSString *)code;
@@ -67,6 +77,31 @@ typedef unichar IFIconType;
 - (void)addAttribute:(NSString *)name value:(id)value;
 - (void)addAttributes:(NSDictionary *)attributes;
 - (void)removeAttribute:(NSString *)name;
+
+///=============================================
+/// @name Image Drawing
+///=============================================
+
+/**
+ * The drawing offset of the icon in the image. If you do not specify this property, the icon is centered horizontally and vertically inside the image.
+ */
+@property (nonatomic) UIOffset drawingPositionAdjustment;
+
+/**
+ * The background color of the image while drawing. If you do not specify this property, no background color is drawn.
+ */
+@property (nonatomic, strong) UIColor *drawingBackgroundColor;
+
+/**
+ * Draws the icon on an image. 
+ * The icon will be centered horizontally and vertically by default. 
+ * You can set the `drawingPositionAdjustment` property to adjust drawing offset.
+ */
+- (UIImage *)imageWithSize:(CGSize)imageSize;
+
+///=============================================
+/// @name Helper
+///=============================================
 
 /**
  * Returns a UIFont instance for this icon font.

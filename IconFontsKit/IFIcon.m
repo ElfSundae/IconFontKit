@@ -118,12 +118,16 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
-#pragma mark - Attributes
+#pragma mark - Private
 
 - (NSRange)rangeForMutableAttributedString
 {
     return NSMakeRange(0, self.mutableAttributedString.length);
 }
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Attributes
 
 - (NSDictionary *)attributes
 {
@@ -159,6 +163,48 @@
 - (void)removeAttribute:(NSString *)name
 {
     [self.mutableAttributedString removeAttribute:name range:[self rangeForMutableAttributedString]];
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Image Drawing
+
+- (void)_fillBackgroundColorForContext:(CGContextRef)context backgroundSize:(CGSize)size
+{
+    if (self.drawingBackgroundColor) {
+        [self.drawingBackgroundColor setFill];
+        CGContextFillRect(context, CGRectMake(0, 0, size.width, size.height));
+    }
+}
+
+/// Calculate the correct drawing position
+- (CGRect)_drawingRectWithImageSize:(CGSize)imageSize
+{
+    CGSize iconSize = [self.mutableAttributedString size];
+    CGFloat xOffset = (imageSize.width - iconSize.width) / 2.0;
+    xOffset += self.drawingPositionAdjustment.horizontal;
+    CGFloat yOffset = (imageSize.height - iconSize.height) / 2.0;
+    yOffset += self.drawingPositionAdjustment.vertical;
+    return CGRectMake(xOffset, yOffset, iconSize.width, iconSize.height);
+}
+
+- (void)fillBackgroundForContext:(CGContextRef)context backgroundSize:(CGSize)size
+{
+    if (self.drawingBackgroundColor) {
+        [self.drawingBackgroundColor setFill];
+        CGContextFillRect(context, CGRectMake(0, 0, size.width, size.height));
+    }
+}
+
+- (UIImage *)imageWithSize:(CGSize)imageSize
+{
+    UIGraphicsBeginImageContextWithOptions(imageSize, NO, 0);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    [self _fillBackgroundColorForContext:context backgroundSize:imageSize];
+    [self.mutableAttributedString drawInRect:[self _drawingRectWithImageSize:imageSize]];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
 }
 
 @end
