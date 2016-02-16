@@ -131,6 +131,22 @@ typedef unichar IFIconType;
 
 @end
 
+@interface UIImage (IFIconAdditions)
+
+/**
+ * Draws the IFIcons on an image. 
+ * These icons will be centered horizontally and vertically by default. 
+ * You can set the `drawingPositionAdjustment` property to adjust drawing offset for each icon.
+ *
+ * @param icons The icons to be drawn. The first icon will be drawn on the bottom and the last icon will be drawn on the top.
+ * @param imageSize Height and width for the generated image.
+ *
+ * @return An image with the icons.
+ */
++ (UIImage *)if_imageWithStackedIcons:(NSArray <IFIcon *>*)icons imageSize:(CGSize)imageSize;
+
+@end
+
 FOUNDATION_EXTERN BOOL IFRegisterFontWithURL(NSURL *fontFileURL, NSError **error);
 FOUNDATION_EXTERN NSString *IFIconCodeForType(IFIconType type);
 FOUNDATION_EXTERN IFIconType IFIconTypeForCode(NSString *code);

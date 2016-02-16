@@ -228,6 +228,25 @@
 
 @end
 
+@implementation UIImage (IFIconAdditions)
+
++ (UIImage *)if_imageWithStackedIcons:(NSArray <IFIcon *>*)icons imageSize:(CGSize)imageSize
+{
+    UIGraphicsBeginImageContextWithOptions(imageSize, NO, 0);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    for (IFIcon *icon in icons) {
+        if ([icon isKindOfClass:[IFIcon class]]) {
+            [icon _fillBackgroundColorForContext:context backgroundSize:imageSize];
+            [icon.mutableAttributedString drawInRect:[icon _drawingRectWithImageSize:imageSize]];
+        }
+    }
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
+}
+
+@end
+
 BOOL IFRegisterFontWithURL(NSURL *fontFileURL, NSError **error)
 {
     NSError *err = nil;
