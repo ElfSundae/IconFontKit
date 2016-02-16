@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
     ss.source_files         = "IconFontsKit/IFIcon.{h,m}"
   end
 
-  s.subspec "FontAwesome" do |ss|
-    ss.source_files         = "IconFontsKit/IFFontAwesome.{h,m}"
-    ss.resource             = "IconFontsKit/"
-    ss.dependency           "IconFontsKit/Core"
-  end
+  # s.subspec "FontAwesome" do |ss|
+  #   ss.source_files         = "IconFontsKit/IFFontAwesome.{h,m}"
+  #   ss.resource             = "IconFontsKit/"
+  #   ss.dependency           "IconFontsKit/Core"
+  # end
 
 end
