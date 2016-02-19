@@ -90,6 +90,7 @@
                 *stop = YES;
             }
         }];
+        _identifier = foundIdentifier;
     }
     return _identifier;
 }
