@@ -119,6 +119,8 @@ typedef unichar IFIconType;
 
 /**
  * Returns the font name for this icon font.
+ *
+ * If you did not subclass this method or returns `nil` in this method, the `fontName` will be the filename of the `fontFileURL`.
  */
 + (NSString *)fontName;
 

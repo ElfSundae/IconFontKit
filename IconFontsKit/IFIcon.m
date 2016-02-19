@@ -214,16 +214,18 @@
 
 + (NSURL *)fontFileURL
 {
+    [self doesNotRecognizeSelector:_cmd];
     return nil;
 }
 
 + (NSString *)fontName
 {
-    return nil;
+    return [[[self fontFileURL] lastPathComponent] stringByDeletingPathExtension];
 }
 
 + (NSDictionary *)allIcons
 {
+    [self doesNotRecognizeSelector:_cmd];
     return nil;
 }
 
