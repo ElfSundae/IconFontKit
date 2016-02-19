@@ -65,6 +65,12 @@ typedef unichar IFIconType;
  */
 @property (nonatomic) CGFloat fontSize;
 
+/**
+ * The foreground color for the icon.
+ * If you do not specify this attribute, the icon will be rendered in black.
+ */
+@property (nonatomic) UIColor *color;
+
 - (NSString *)code;
 - (IFIconType)type;
 - (NSString *)identifier;

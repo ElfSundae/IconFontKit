@@ -117,6 +117,20 @@
     }
 }
 
+- (UIColor *)color
+{
+    return [self attribute:NSForegroundColorAttributeName];
+}
+
+- (void)setColor:(UIColor *)color
+{
+    if (color) {
+        [self addAttribute:NSForegroundColorAttributeName value:color];
+    } else {
+        [self removeAttribute:NSForegroundColorAttributeName];
+    }
+}
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Private
