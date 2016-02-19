@@ -24,6 +24,7 @@
 {
     self = [super init];
     if (self) {
+        self.adjustsFontSizeWhileDrawing = YES;
         self.mutableAttributedString = [[NSMutableAttributedString alloc] initWithString:code attributes:@{NSFontAttributeName: [[self class] fontWithSize:fontSize]}];
     }
     return self;
@@ -192,15 +193,28 @@
     }
 }
 
-/// Calculate the correct drawing position
-- (CGRect)_drawingRectWithImageSize:(CGSize)imageSize
+- (void)_drawWithImageSize:(CGSize)imageSize
 {
-    CGSize iconSize = [self.mutableAttributedString size];
-    CGFloat xOffset = (imageSize.width - iconSize.width) / 2.0;
+    NSAttributedString *string = self.mutableAttributedString;
+    CGSize iconSize = [string size];
+    
+    if (self.adjustsFontSizeWhileDrawing && iconSize.width > imageSize.width) {
+        NSMutableDictionary *attrs = [self.attributes mutableCopy];
+        CGFloat tmpFontSize = self.fontSize;
+        while (iconSize.width > imageSize.width && tmpFontSize > 3.f/*minimumFontSize*/) {
+            tmpFontSize -= 1.5f;
+            attrs[NSFontAttributeName] = [[self class] fontWithSize:tmpFontSize];
+            iconSize = [self.code sizeWithAttributes:attrs];
+        }
+        string = [[NSAttributedString alloc] initWithString:self.code attributes:attrs];
+    }
+    
+    CGFloat xOffset = (imageSize.width - iconSize.width) / 2.f;
     xOffset += self.drawingPositionAdjustment.horizontal;
-    CGFloat yOffset = (imageSize.height - iconSize.height) / 2.0;
+    CGFloat yOffset = (imageSize.height - iconSize.height) / 2.f;
     yOffset += self.drawingPositionAdjustment.vertical;
-    return CGRectMake(xOffset, yOffset, iconSize.width, iconSize.height);
+    CGRect rect = CGRectMake(xOffset, yOffset, iconSize.width, iconSize.height);
+    [string drawInRect:rect];
 }
 
 - (void)fillBackgroundForContext:(CGContextRef)context backgroundSize:(CGSize)size
@@ -216,7 +230,7 @@
     UIGraphicsBeginImageContextWithOptions(imageSize, NO, 0);
     CGContextRef context = UIGraphicsGetCurrentContext();
     [self _fillBackgroundColorForContext:context backgroundSize:imageSize];
-    [self.mutableAttributedString drawInRect:[self _drawingRectWithImageSize:imageSize]];
+    [self _drawWithImageSize:imageSize];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return image;
@@ -254,7 +268,7 @@
     for (IFIcon *icon in icons) {
         if ([icon isKindOfClass:[IFIcon class]]) {
             [icon _fillBackgroundColorForContext:context backgroundSize:imageSize];
-            [icon.mutableAttributedString drawInRect:[icon _drawingRectWithImageSize:imageSize]];
+            [icon _drawWithImageSize:imageSize];
         }
     }
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();

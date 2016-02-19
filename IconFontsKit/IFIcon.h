@@ -67,7 +67,7 @@ typedef unichar IFIconType;
 
 /**
  * The foreground color for the icon.
- * If you do not specify this attribute, the icon will be rendered in black.
+ * If you do not specify this property, the icon will be rendered in black.
  */
 @property (nonatomic) UIColor *color;
 
@@ -97,6 +97,12 @@ typedef unichar IFIconType;
  * The background color of the image while drawing. If you do not specify this property, no background color is drawn.
  */
 @property (nonatomic, strong) UIColor *drawingBackgroundColor;
+
+/**
+ * Indicates whether the font size should be reduced in order to fit the image's bounding rectangle while drawing.
+ * Default is YES.
+ */
+@property (nonatomic) BOOL adjustsFontSizeWhileDrawing;
 
 /**
  * Draws the icon on an image. 
