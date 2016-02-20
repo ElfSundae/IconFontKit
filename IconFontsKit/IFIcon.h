@@ -127,6 +127,12 @@ typedef unichar IFIconType;
 @property (nonatomic) UIOffset drawingPositionAdjustment;
 
 /**
+ * If the `drawingPaddingMultiplier` is not `UIOffsetZero`, the drawed image's top or bottom padding will be `imageSize.height * drawingPaddingMultiplier.vertical`, and the left or right padding will be `imageSize.width * drawingPaddingMultiplier.horizontal`.
+ * Default is `+[defaultDrawingPaddingMultiplier]`.
+ */
+@property (nonatomic) UIOffset drawingPaddingMultiplier;
+
+/**
  * The background color of the image while drawing. If you do not specify this property, no background color is drawn.
  */
 @property (nonatomic, strong) UIColor *drawingBackgroundColor;
@@ -143,6 +149,33 @@ typedef unichar IFIconType;
  * You can set the `drawingPositionAdjustment` property to adjust drawing offset.
  */
 - (UIImage *)imageWithSize:(CGSize)imageSize;
+
+/**
+ * Draws the icon on an image. 
+ */
++ (UIImage *)imageWithType:(IFIconType)type
+                     color:(UIColor *)color
+           backgroundColor:(UIColor *)backgroundColor
+        positionAdjustment:(UIOffset)positionAdjustment
+                attributes:(NSDictionary *)attributes
+                  fontSize:(CGFloat)fontSize
+                 imageSize:(CGSize)imageSize;
+
+/**
+ * Draws the icon on an image.
+ */
++ (UIImage *)imageWithType:(IFIconType)type color:(UIColor *)color fontSize:(CGFloat)fontSize imageSize:(CGSize)imageSize;
+
+/**
+ * Draws the icon on an image.
+ */
++ (UIImage *)imageWithType:(IFIconType)type color:(UIColor *)color fontSize:(CGFloat)fontSize;
+
+/**
+ * Draws the icon on an image.
+ */
++ (UIImage *)imageWithType:(IFIconType)type color:(UIColor *)color imageSize:(CGSize)imageSize;
+
 
 ///=============================================
 /// @name Helper
@@ -175,6 +208,13 @@ typedef unichar IFIconType;
  * @return A dictionary of all icons. the keys are icon identifiers, like "fa-mobile", and the corresponding value for a key is the character code.
  */
 + (NSDictionary *)allIcons;
+
+/**
+ * Returns the default `drawingPaddingMultiplier` for this icon font.
+ *
+ * Default is `{0.1, 0.05}`.
+ */
++ (UIOffset)defaultDrawingPaddingMultiplier;
 
 @end
 

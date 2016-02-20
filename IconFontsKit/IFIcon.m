@@ -25,6 +25,7 @@
     self = [super init];
     if (self) {
         self.adjustsFontSizeWhileDrawing = YES;
+        self.drawingPaddingMultiplier = [[self class] defaultDrawingPaddingMultiplier];
         self.mutableAttributedString = [[NSMutableAttributedString alloc] initWithString:code attributes:@{NSFontAttributeName: [[self class] fontWithSize:fontSize]}];
     }
     return self;
@@ -173,7 +174,9 @@
 
 - (void)addAttributes:(NSDictionary *)attrs
 {
-    [self.mutableAttributedString addAttributes:attrs range:[self rangeForMutableAttributedString]];
+    if ([attrs isKindOfClass:[NSDictionary class]] && [attrs count]) {
+        [self.mutableAttributedString addAttributes:attrs range:[self rangeForMutableAttributedString]];
+    }
 }
 
 - (void)removeAttribute:(NSString *)name
@@ -201,17 +204,18 @@
     if (self.adjustsFontSizeWhileDrawing && iconSize.width > imageSize.width) {
         NSMutableDictionary *attrs = [self.attributes mutableCopy];
         CGFloat tmpFontSize = self.fontSize;
-        while (iconSize.width > imageSize.width && tmpFontSize > 3.f/*minimumFontSize*/) {
-            tmpFontSize -= 1.5f;
+        while (iconSize.width * (1.0 + self.drawingPaddingMultiplier.horizontal) > imageSize.width &&
+               tmpFontSize > 3.0/*minimumFontSize*/) {
+            tmpFontSize -= 1.5;
             attrs[NSFontAttributeName] = [[self class] fontWithSize:tmpFontSize];
             iconSize = [self.code sizeWithAttributes:attrs];
         }
         string = [[NSAttributedString alloc] initWithString:self.code attributes:attrs];
     }
     
-    CGFloat xOffset = (imageSize.width - iconSize.width) / 2.f;
+    CGFloat xOffset = (imageSize.width - iconSize.width) / 2.0;
     xOffset += self.drawingPositionAdjustment.horizontal;
-    CGFloat yOffset = (imageSize.height - iconSize.height) / 2.f;
+    CGFloat yOffset = (imageSize.height - iconSize.height) / 2.0;
     yOffset += self.drawingPositionAdjustment.vertical;
     CGRect rect = CGRectMake(xOffset, yOffset, iconSize.width, iconSize.height);
     [string drawInRect:rect];
@@ -236,6 +240,44 @@
     return image;
 }
 
++ (UIImage *)imageWithType:(IFIconType)type
+                     color:(UIColor *)color
+           backgroundColor:(UIColor *)backgroundColor
+        positionAdjustment:(UIOffset)positionAdjustment
+                attributes:(NSDictionary *)attributes
+                  fontSize:(CGFloat)fontSize
+                 imageSize:(CGSize)imageSize
+
+{
+    IFIcon *icon = [self iconWithType:type fontSize:fontSize];
+    icon.color = color;
+    icon.drawingBackgroundColor = backgroundColor;
+    icon.drawingPositionAdjustment = positionAdjustment;
+    [icon addAttributes:attributes];
+    return [icon imageWithSize:imageSize];
+}
+
++ (UIImage *)imageWithType:(IFIconType)type color:(UIColor *)color fontSize:(CGFloat)fontSize imageSize:(CGSize)imageSize
+{
+    return [self imageWithType:type color:color backgroundColor:nil positionAdjustment:UIOffsetZero attributes:nil fontSize:fontSize imageSize:imageSize];
+}
+
++ (UIImage *)imageWithType:(IFIconType)type color:(UIColor *)color fontSize:(CGFloat)fontSize
+{
+    IFIcon *icon = [self iconWithType:type fontSize:fontSize];
+    icon.color = color;
+    CGSize imageSize = [icon.mutableAttributedString size];
+    imageSize.width *= (1.0 + [self defaultDrawingPaddingMultiplier].horizontal);
+    imageSize.height *= (1.0 + [self defaultDrawingPaddingMultiplier].vertical);
+    return [icon imageWithSize:imageSize];
+}
+
++ (UIImage *)imageWithType:(IFIconType)type color:(UIColor *)color imageSize:(CGSize)imageSize
+{
+    CGFloat fontSize = fminf(imageSize.width, imageSize.height);
+    return [self imageWithType:type color:color backgroundColor:nil positionAdjustment:UIOffsetZero attributes:nil fontSize:fontSize imageSize:imageSize];
+}
+
 @end
 
 @implementation IFIcon (Subclassing)
@@ -255,6 +297,11 @@
 {
     [self doesNotRecognizeSelector:_cmd];
     return nil;
+}
+
++ (UIOffset)defaultDrawingPaddingMultiplier
+{
+    return UIOffsetMake(0.1, 0.05);
 }
 
 @end
