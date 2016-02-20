@@ -29,6 +29,15 @@ typedef unichar IFIconType;
 + (instancetype)iconWithType:(IFIconType)type fontSize:(CGFloat)fontSize;
 
 /**
+ * Creates an IFIcon instance for the given `type`, `fontSize` and `color`.
+ *
+ * @param type IFIconType
+ * @param fontSize The desired size (in points) of the icon font that will be used for the icon. This value must be greater than 0.0.
+ * @param color The foreground color of the icon, if it is nil, blank color will be used.
+ */
++ (instancetype)iconWithType:(IFIconType)type fontSize:(CGFloat)fontSize color:(UIColor *)color;
+
+/**
  * Creates an IFIcon instance for the given `code` and `fontSize`.
  * 
  * @param code A string represents a character code, like @"\uf000".

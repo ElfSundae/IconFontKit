@@ -38,6 +38,13 @@
     return icon;
 }
 
++ (instancetype)iconWithType:(IFIconType)type fontSize:(CGFloat)fontSize color:(UIColor *)color
+{
+    IFIcon *icon = [self iconWithType:type fontSize:fontSize];
+    icon.color = color;
+    return icon;
+}
+
 + (instancetype)iconWithCode:(NSString *)code fontSize:(CGFloat)fontSize
 {
     return [[self alloc] initWithCode:code fontSize:fontSize];
