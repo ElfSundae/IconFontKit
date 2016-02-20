@@ -16,6 +16,7 @@
 		E7E724EF1C7384720049EE82 /* IFIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724EE1C7384720049EE82 /* IFIcon.m */; };
 		E7E724F21C7760F80049EE82 /* IFFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724F11C7760F80049EE82 /* IFFontAwesome.m */; };
 		E7E724F41C7762030049EE82 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7E724F31C7762030049EE82 /* FontAwesome.otf */; };
+		E7E724F71C787BD40049EE82 /* ExplorerIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724F61C787BD40049EE82 /* ExplorerIconCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		E7E724F01C7760F80049EE82 /* IFFontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFFontAwesome.h; sourceTree = "<group>"; };
 		E7E724F11C7760F80049EE82 /* IFFontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFFontAwesome.m; sourceTree = "<group>"; };
 		E7E724F31C7762030049EE82 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		E7E724F51C787BD40049EE82 /* ExplorerIconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplorerIconCell.h; sourceTree = "<group>"; };
+		E7E724F61C787BD40049EE82 /* ExplorerIconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplorerIconCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				E7E724E71C7382BC0049EE82 /* SampleViewController.m */,
 				E7E724E91C7382D20049EE82 /* ExplorerViewController.h */,
 				E7E724EA1C7382D20049EE82 /* ExplorerViewController.m */,
+				E7E724F51C787BD40049EE82 /* ExplorerIconCell.h */,
+				E7E724F61C787BD40049EE82 /* ExplorerIconCell.m */,
 				E7E724D61C73816B0049EE82 /* Assets.xcassets */,
 				E7E724D81C73816B0049EE82 /* LaunchScreen.storyboard */,
 				E7E724DB1C73816B0049EE82 /* Info.plist */,
@@ -182,6 +187,7 @@
 				E7E724CC1C73816B0049EE82 /* main.m in Sources */,
 				E7E724EF1C7384720049EE82 /* IFIcon.m in Sources */,
 				E7E724E81C7382BC0049EE82 /* SampleViewController.m in Sources */,
+				E7E724F71C787BD40049EE82 /* ExplorerIconCell.m in Sources */,
 				E7E724EB1C7382D20049EE82 /* ExplorerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
