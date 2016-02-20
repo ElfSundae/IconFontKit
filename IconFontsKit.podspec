@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = "IconFontsKit"
-  s.version           = "0.1.0"
+  s.version           = "0.1.1"
   s.license           = "MIT"
   s.summary           = "Icon fonts for iOS."
   s.homepage          = "https://github.com/ElfSundae/IconFontsKit"
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
     ss.source_files         = "IconFontsKit/IFIcon.{h,m}"
   end
 
-  # s.subspec "FontAwesome" do |ss|
-  #   ss.source_files         = "IconFontsKit/IFFontAwesome.{h,m}"
-  #   ss.resource             = "IconFontsKit/"
-  #   ss.dependency           "IconFontsKit/Core"
-  # end
+  s.subspec "FontAwesome" do |ss|
+    ss.source_files         = "IconFontsKit/IFFontAwesome.{h,m}"
+    ss.resource             = "IconFontsKit/FontAwesome.otf"
+    ss.dependency           "IconFontsKit/Core"
+  end
 
 end
