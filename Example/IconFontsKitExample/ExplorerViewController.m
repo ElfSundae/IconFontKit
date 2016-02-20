@@ -52,6 +52,7 @@
     
     self.searchBar = [[UISearchBar alloc] initWithFrame:CGRectZero];
     self.searchBar.showsCancelButton = YES;
+    self.searchBar.placeholder = @"Search Icons";
     self.searchBar.delegate = self;
     [self.view addSubview:self.searchBar];
     
