@@ -27,6 +27,14 @@
     return self;
 }
 
+- (void)setSelected:(BOOL)selected
+{
+    [super setSelected:selected];
+    self.icon.color = (selected ? [UIColor redColor] : nil);
+    self.iconLabel.attributedText = self.icon.attributedString;
+    self.iconIdentifierLabel.textColor = (selected ? [UIColor colorWithRed:0.191 green:0.415 blue:1.000 alpha:1.000] : nil);
+}
+
 - (void)setIcon:(IFIcon *)icon
 {
     _icon = icon;
