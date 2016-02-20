@@ -2,8 +2,9 @@
 
 ## Supported Icon Fonts
 
-+ [Font Awesome](http://fontawesome.io) `v4.5.0` [605 Icons](http://fontawesome.io/icons)
-+ [GitHub Octicons](https://octicons.github.com) `v3.5.0` [165 Icons](https://octicons.github.com)
++ [Font Awesome](http://fontawesome.io) `v4.5.0` [605 icons](http://fontawesome.io/icons)
++ [GitHub Octicons](https://octicons.github.com) `v3.5.0` [165 icons](https://octicons.github.com)
++ [Foundation Icon Fonts 3](http://zurb.com/playground/foundation-icon-fonts-3) `v3.0` [283 icons](http://zurb.com/playground/foundation-icon-fonts-3#allicons)
 
 ## Installation
 
@@ -14,6 +15,7 @@
 ```ruby
 pod 'IconFontsKit/FontAwesome'
 pod 'IconFontsKit/Octicons'
+pod 'IconFontsKit/FoundationIcons'
 ```
 
 ## License

@@ -19,6 +19,8 @@
 		E7E724F71C787BD40049EE82 /* ExplorerIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724F61C787BD40049EE82 /* ExplorerIconCell.m */; };
 		E7E724F91C78DEEB0049EE82 /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7E724F81C78DEEB0049EE82 /* octicons.ttf */; };
 		E7E724FC1C78EAC30049EE82 /* IFOcticons.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724FB1C78EAC30049EE82 /* IFOcticons.m */; };
+		E7E725001C78F4890049EE82 /* foundation-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7E724FD1C78F4890049EE82 /* foundation-icons.ttf */; };
+		E7E725011C78F4890049EE82 /* IFFoundationIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724FF1C78F4890049EE82 /* IFFoundationIcons.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,9 @@
 		E7E724F81C78DEEB0049EE82 /* octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = octicons.ttf; sourceTree = "<group>"; };
 		E7E724FA1C78EAC30049EE82 /* IFOcticons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFOcticons.h; sourceTree = "<group>"; };
 		E7E724FB1C78EAC30049EE82 /* IFOcticons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFOcticons.m; sourceTree = "<group>"; };
+		E7E724FD1C78F4890049EE82 /* foundation-icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "foundation-icons.ttf"; sourceTree = "<group>"; };
+		E7E724FE1C78F4890049EE82 /* IFFoundationIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFFoundationIcons.h; sourceTree = "<group>"; };
+		E7E724FF1C78F4890049EE82 /* IFFoundationIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFFoundationIcons.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,9 @@
 				E7E724FA1C78EAC30049EE82 /* IFOcticons.h */,
 				E7E724FB1C78EAC30049EE82 /* IFOcticons.m */,
 				E7E724F81C78DEEB0049EE82 /* octicons.ttf */,
+				E7E724FE1C78F4890049EE82 /* IFFoundationIcons.h */,
+				E7E724FF1C78F4890049EE82 /* IFFoundationIcons.m */,
+				E7E724FD1C78F4890049EE82 /* foundation-icons.ttf */,
 			);
 			name = IconFontsKit;
 			path = ../IconFontsKit;
@@ -181,6 +189,7 @@
 				E7E724D71C73816B0049EE82 /* Assets.xcassets in Resources */,
 				E7E724F91C78DEEB0049EE82 /* octicons.ttf in Resources */,
 				E7E724F41C7762030049EE82 /* FontAwesome.otf in Resources */,
+				E7E725001C78F4890049EE82 /* foundation-icons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +202,7 @@
 			files = (
 				E7E724FC1C78EAC30049EE82 /* IFOcticons.m in Sources */,
 				E7E724CF1C73816B0049EE82 /* AppDelegate.m in Sources */,
+				E7E725011C78F4890049EE82 /* IFFoundationIcons.m in Sources */,
 				E7E724F21C7760F80049EE82 /* IFFontAwesome.m in Sources */,
 				E7E724CC1C73816B0049EE82 /* main.m in Sources */,
 				E7E724EF1C7384720049EE82 /* IFIcon.m in Sources */,

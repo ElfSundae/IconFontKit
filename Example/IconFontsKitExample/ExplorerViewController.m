@@ -17,6 +17,7 @@
 @property (nonatomic, strong) UISegmentedControl *segmentedControl;
 @property (nonatomic, strong) NSMutableArray *icons;
 @property (nonatomic, strong) NSArray *fullIcons;
+@property (nonatomic, strong) NSArray *iconGroups;
 @end
 
 @implementation ExplorerViewController
@@ -28,6 +29,10 @@
         self.title = @"Explorer";
         self.tabBarItem.image = [IFFontAwesome imageWithType:IFFASearch color:nil fontSize:26];
         self.icons = [NSMutableArray array];
+        self.iconGroups = @[ @{ @"FontAwesome": [IFFontAwesome class] },
+                             @{ @"Octicons": [IFOcticons class] },
+                             @{ @"FoundationIcons": [IFFoundationIcons class] },
+                             ];
     }
     return self;
 }
@@ -36,8 +41,11 @@
 {
     [super viewDidLoad];
     
-    self.segmentedControl = [[UISegmentedControl alloc] initWithItems:
-                             @[@"FontAwesome", @"Octicons"]];
+    NSMutableArray *segItems = [NSMutableArray array];
+    for (NSDictionary *dict in self.iconGroups) {
+        [segItems addObject:[dict allKeys][0]];
+    }
+    self.segmentedControl = [[UISegmentedControl alloc] initWithItems:segItems];
     [self.segmentedControl addTarget:self action:@selector(segmentedControlValueDidChange:) forControlEvents:UIControlEventValueChanged];
     self.navigationItem.titleView = self.segmentedControl;
     
@@ -69,14 +77,8 @@
 
 - (void)reloadIcons
 {
-    Class FontClass;
-    switch (self.segmentedControl.selectedSegmentIndex) {
-        case 1:
-            FontClass = [IFOcticons class];
-            break;
-        default:
-            FontClass = [IFFontAwesome class];
-    }
+    NSInteger selectedIndex = self.segmentedControl.selectedSegmentIndex < self.iconGroups.count ? self.segmentedControl.selectedSegmentIndex : 0;
+    Class FontClass = [self.iconGroups[selectedIndex] allValues].firstObject;
     
     [self.icons removeAllObjects];
     
@@ -85,11 +87,13 @@
     for (NSString *identifier in sortedIdentifiers) {
         NSString *code = allIcons[identifier];
         IFIcon *icon = [FontClass performSelector:@selector(iconWithCode:fontSize:) withObject:code withObject:@(50.0)];
-        [icon setValue:identifier forKey:@"_identifier"];
-        NSMutableParagraphStyle *paragraphStyle = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
-        paragraphStyle.alignment = NSTextAlignmentCenter;
-        [icon addAttribute:NSParagraphStyleAttributeName value:paragraphStyle];
-        [self.icons addObject:icon];
+        if (icon) {
+            [icon setValue:identifier forKey:@"_identifier"];
+            NSMutableParagraphStyle *paragraphStyle = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
+            paragraphStyle.alignment = NSTextAlignmentCenter;
+            [icon addAttribute:NSParagraphStyleAttributeName value:paragraphStyle];
+            [self.icons addObject:icon];            
+        }
     }
     self.fullIcons = [self.icons copy];
 }

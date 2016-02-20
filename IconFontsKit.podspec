@@ -30,4 +30,10 @@ Pod::Spec.new do |s|
     ss.resource             = "IconFontsKit/octicons.ttf"
   end
 
+  s.subspec "FoundationIcons" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFFoundationIcons.{h,m}"
+    ss.resource             = "IconFontsKit/foundation-icons.ttf"
+  end
+
 end
