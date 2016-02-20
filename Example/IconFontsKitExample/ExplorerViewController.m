@@ -7,6 +7,7 @@
 //
 
 #import "ExplorerViewController.h"
+#import <IconFontsKit/IconFontsKit.h>
 
 @implementation ExplorerViewController
 
@@ -15,6 +16,7 @@
     self = [super init];
     if (self) {
         self.title = @"Explorer";
+        self.tabBarItem.image = [IFFontAwesome imageWithType:IFFASearch color:nil fontSize:26];
     }
     return self;
 }
