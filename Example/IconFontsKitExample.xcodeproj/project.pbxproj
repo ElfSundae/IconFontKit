@@ -14,6 +14,8 @@
 		E7E724E81C7382BC0049EE82 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724E71C7382BC0049EE82 /* SampleViewController.m */; };
 		E7E724EB1C7382D20049EE82 /* ExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724EA1C7382D20049EE82 /* ExplorerViewController.m */; };
 		E7E724EF1C7384720049EE82 /* IFIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724EE1C7384720049EE82 /* IFIcon.m */; };
+		E7E724F21C7760F80049EE82 /* IFFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724F11C7760F80049EE82 /* IFFontAwesome.m */; };
+		E7E724F41C7762030049EE82 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7E724F31C7762030049EE82 /* FontAwesome.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		E7E724EC1C73844F0049EE82 /* IconFontsKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconFontsKit.h; sourceTree = "<group>"; };
 		E7E724ED1C7384720049EE82 /* IFIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFIcon.h; sourceTree = "<group>"; };
 		E7E724EE1C7384720049EE82 /* IFIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFIcon.m; sourceTree = "<group>"; };
+		E7E724F01C7760F80049EE82 /* IFFontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFFontAwesome.h; sourceTree = "<group>"; };
+		E7E724F11C7760F80049EE82 /* IFFontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFFontAwesome.m; sourceTree = "<group>"; };
+		E7E724F31C7762030049EE82 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +99,9 @@
 				E7E724EC1C73844F0049EE82 /* IconFontsKit.h */,
 				E7E724ED1C7384720049EE82 /* IFIcon.h */,
 				E7E724EE1C7384720049EE82 /* IFIcon.m */,
+				E7E724F01C7760F80049EE82 /* IFFontAwesome.h */,
+				E7E724F11C7760F80049EE82 /* IFFontAwesome.m */,
+				E7E724F31C7762030049EE82 /* FontAwesome.otf */,
 			);
 			name = IconFontsKit;
 			path = ../IconFontsKit;
@@ -158,6 +166,7 @@
 			files = (
 				E7E724DA1C73816B0049EE82 /* LaunchScreen.storyboard in Resources */,
 				E7E724D71C73816B0049EE82 /* Assets.xcassets in Resources */,
+				E7E724F41C7762030049EE82 /* FontAwesome.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7E724CF1C73816B0049EE82 /* AppDelegate.m in Sources */,
+				E7E724F21C7760F80049EE82 /* IFFontAwesome.m in Sources */,
 				E7E724CC1C73816B0049EE82 /* main.m in Sources */,
 				E7E724EF1C7384720049EE82 /* IFIcon.m in Sources */,
 				E7E724E81C7382BC0049EE82 /* SampleViewController.m in Sources */,
@@ -274,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = ../;
 				INFOPLIST_FILE = IconFontsKitExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -286,6 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = ../;
 				INFOPLIST_FILE = IconFontsKitExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
