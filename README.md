@@ -2,7 +2,7 @@
 
 ## Supported icon fonts
 
-+ [FontAwesome](http://fontawesome.io) `v4.5.0` [605 Icons](http://fontawesome.io/icons/)
++ [Font Awesome](http://fontawesome.io) `v4.5.0` [605 Icons](http://fontawesome.io/icons)
 
 ## Installation
 

@@ -35,3 +35,6 @@ Pods/
 # Carthage/Checkouts
 
 Carthage/Build
+
+CodeGenerators/**/*.h
+CodeGenerators/**/*.m
