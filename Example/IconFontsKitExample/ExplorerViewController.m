@@ -36,7 +36,8 @@
 {
     [super viewDidLoad];
     
-    self.segmentedControl = [[UISegmentedControl alloc] initWithItems:@[@"FontAwesome"]];
+    self.segmentedControl = [[UISegmentedControl alloc] initWithItems:
+                             @[@"FontAwesome", @"Octicons"]];
     [self.segmentedControl addTarget:self action:@selector(segmentedControlValueDidChange:) forControlEvents:UIControlEventValueChanged];
     self.navigationItem.titleView = self.segmentedControl;
     
@@ -66,10 +67,13 @@
     self.collectionView.frame = CGRectMake(0, self.view.bounds.origin.y + 44, self.view.bounds.size.width, self.view.bounds.size.height - 44);
 }
 
-- (void)segmentedControlValueDidChange:(UISegmentedControl *)seg
+- (void)reloadIcons
 {
     Class FontClass;
-    switch (seg.selectedSegmentIndex) {
+    switch (self.segmentedControl.selectedSegmentIndex) {
+        case 1:
+            FontClass = [IFOcticons class];
+            break;
         default:
             FontClass = [IFFontAwesome class];
     }
@@ -88,20 +92,25 @@
         [self.icons addObject:icon];
     }
     self.fullIcons = [self.icons copy];
-    [self.collectionView reloadData];
 }
 
 - (void)searchWithKeyword:(NSString *)keyword
 {
     keyword || (keyword = @"");
     keyword = [keyword stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
-    self.icons = [self.fullIcons mutableCopy];
-    [self.icons filterUsingPredicate:[NSPredicate predicateWithFormat:@"%K contains[cd] %@", @"identifier", keyword]];
     if (keyword.length == 0) {
-        [self.segmentedControl sendActionsForControlEvents:UIControlEventValueChanged];
+        [self reloadIcons];
     } else {
-        [self.collectionView reloadData];
+        self.icons = [self.fullIcons mutableCopy];
+        [self.icons filterUsingPredicate:[NSPredicate predicateWithFormat:@"%K contains[cd] %@", @"identifier", keyword]];
     }
+    [self.collectionView reloadData];
+}
+
+- (void)segmentedControlValueDidChange:(UISegmentedControl *)seg
+{
+    [self reloadIcons];
+    [self searchWithKeyword:self.searchBar.text];
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////

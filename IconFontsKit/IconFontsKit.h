@@ -7,3 +7,4 @@
 //
 
 #import <IconFontsKit/IFFontAwesome.h>
+#import <IconFontsKit/IFOcticons.h>

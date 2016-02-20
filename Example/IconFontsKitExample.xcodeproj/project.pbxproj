@@ -17,6 +17,8 @@
 		E7E724F21C7760F80049EE82 /* IFFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724F11C7760F80049EE82 /* IFFontAwesome.m */; };
 		E7E724F41C7762030049EE82 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7E724F31C7762030049EE82 /* FontAwesome.otf */; };
 		E7E724F71C787BD40049EE82 /* ExplorerIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724F61C787BD40049EE82 /* ExplorerIconCell.m */; };
+		E7E724F91C78DEEB0049EE82 /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7E724F81C78DEEB0049EE82 /* octicons.ttf */; };
+		E7E724FC1C78EAC30049EE82 /* IFOcticons.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724FB1C78EAC30049EE82 /* IFOcticons.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,9 @@
 		E7E724F31C7762030049EE82 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
 		E7E724F51C787BD40049EE82 /* ExplorerIconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplorerIconCell.h; sourceTree = "<group>"; };
 		E7E724F61C787BD40049EE82 /* ExplorerIconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplorerIconCell.m; sourceTree = "<group>"; };
+		E7E724F81C78DEEB0049EE82 /* octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = octicons.ttf; sourceTree = "<group>"; };
+		E7E724FA1C78EAC30049EE82 /* IFOcticons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFOcticons.h; sourceTree = "<group>"; };
+		E7E724FB1C78EAC30049EE82 /* IFOcticons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFOcticons.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,9 @@
 				E7E724F01C7760F80049EE82 /* IFFontAwesome.h */,
 				E7E724F11C7760F80049EE82 /* IFFontAwesome.m */,
 				E7E724F31C7762030049EE82 /* FontAwesome.otf */,
+				E7E724FA1C78EAC30049EE82 /* IFOcticons.h */,
+				E7E724FB1C78EAC30049EE82 /* IFOcticons.m */,
+				E7E724F81C78DEEB0049EE82 /* octicons.ttf */,
 			);
 			name = IconFontsKit;
 			path = ../IconFontsKit;
@@ -171,6 +179,7 @@
 			files = (
 				E7E724DA1C73816B0049EE82 /* LaunchScreen.storyboard in Resources */,
 				E7E724D71C73816B0049EE82 /* Assets.xcassets in Resources */,
+				E7E724F91C78DEEB0049EE82 /* octicons.ttf in Resources */,
 				E7E724F41C7762030049EE82 /* FontAwesome.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E724FC1C78EAC30049EE82 /* IFOcticons.m in Sources */,
 				E7E724CF1C73816B0049EE82 /* AppDelegate.m in Sources */,
 				E7E724F21C7760F80049EE82 /* IFFontAwesome.m in Sources */,
 				E7E724CC1C73816B0049EE82 /* main.m in Sources */,
