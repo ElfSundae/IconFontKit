@@ -41,7 +41,7 @@ typedef unichar IFIconType;
  *
  * FontAwesome icons identifiers should be like "fa-{icon}"
  *
- * @param identifier A string that represents the icon, e.g. @"fa-mobile".
+ * @param identifier A string that represents the icon, e.g. `@"fa-mobile"`.
  * @param fontSize The desired size (in points) of the icon font that will be used for the icon. This value must be greater than 0.0.
  *
  * @return Returns an IFIcon instance if the `identifier` is existed in `allIcons`, returns nil otherwise.
@@ -71,17 +71,50 @@ typedef unichar IFIconType;
  */
 @property (nonatomic) UIColor *color;
 
+/**
+ * Returns the code of this icon. e.g. `@"\uf10a"`
+ */
 - (NSString *)code;
+/**
+ * Returns the type of this icon. e.g. `IFFAMobile`
+ */
 - (IFIconType)type;
+/**
+ * Returns the Identifier of this icon. e.g. `@"fa-mobile"`
+ */
 - (NSString *)identifier;
+/**
+ * Returns the attributed string of this icon.
+ */
 - (NSAttributedString *)attributedString;
+/**
+ * Returns the font of this icon.
+ */
 - (UIFont *)font;
 
+/**
+ * Returns all attributes applied on this icon.
+ */
 - (NSDictionary *)attributes;
+/**
+ * Returns the value for an attribute with the given name of this icon's attributes, or nil if there is no such attribute.
+ */
 - (id)attribute:(NSString *)attributeName;
+/**
+ * Sets the attributes for this icon.
+ */
 - (void)setAttributes:(NSDictionary *)attributes;
+/**
+ * Adds an attribute with the given name and value.
+ */
 - (void)addAttribute:(NSString *)name value:(id)value;
+/**
+ * Adds attributes for this icon.
+ */
 - (void)addAttributes:(NSDictionary *)attributes;
+/**
+ * Removes an attribute with the given name.
+ */
 - (void)removeAttribute:(NSString *)name;
 
 ///=============================================
@@ -161,6 +194,17 @@ typedef unichar IFIconType;
 
 @end
 
+/**
+ * Registers custom font
+ */
 FOUNDATION_EXTERN BOOL IFRegisterFontWithURL(NSURL *fontFileURL, NSError **error);
+
+/**
+ * Converts `IFIconType` icon type to `NSString` icon code.
+ */
 FOUNDATION_EXTERN NSString *IFIconCodeForType(IFIconType type);
+
+/**
+ * Converts icon code to icon type.
+ */
 FOUNDATION_EXTERN IFIconType IFIconTypeForCode(NSString *code);
