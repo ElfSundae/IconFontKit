@@ -25,7 +25,7 @@
     self = [super init];
     if (self) {
         self.adjustsFontSizeWhileDrawing = YES;
-        self.drawingPaddingMultiplier = [[self class] defaultDrawingPaddingMultiplier];
+        self.drawingPaddingMultiplie = [[self class] defaultDrawingPaddingMultiplie];
         self.mutableAttributedString = [[NSMutableAttributedString alloc] initWithString:code attributes:@{NSFontAttributeName: [[self class] fontWithSize:fontSize]}];
     }
     return self;
@@ -211,7 +211,7 @@
     if (self.adjustsFontSizeWhileDrawing && iconSize.width > imageSize.width) {
         NSMutableDictionary *attrs = [self.attributes mutableCopy];
         CGFloat tmpFontSize = self.fontSize;
-        while (iconSize.width * (1.0 + self.drawingPaddingMultiplier.horizontal) > imageSize.width &&
+        while (iconSize.width * (1.0 + self.drawingPaddingMultiplie.horizontal) > imageSize.width &&
                tmpFontSize > 3.0/*minimumFontSize*/) {
             tmpFontSize -= 1.5;
             attrs[NSFontAttributeName] = [[self class] fontWithSize:tmpFontSize];
@@ -274,8 +274,8 @@
     IFIcon *icon = [self iconWithType:type fontSize:fontSize];
     icon.color = color;
     CGSize imageSize = [icon.mutableAttributedString size];
-    imageSize.width *= (1.0 + [self defaultDrawingPaddingMultiplier].horizontal);
-    imageSize.height *= (1.0 + [self defaultDrawingPaddingMultiplier].vertical);
+    imageSize.width *= (1.0 + [self defaultDrawingPaddingMultiplie].horizontal);
+    imageSize.height *= (1.0 + [self defaultDrawingPaddingMultiplie].vertical);
     return [icon imageWithSize:imageSize];
 }
 
@@ -306,7 +306,7 @@
     return nil;
 }
 
-+ (UIOffset)defaultDrawingPaddingMultiplier
++ (UIOffset)defaultDrawingPaddingMultiplie
 {
     return UIOffsetMake(0.1, 0.05);
 }

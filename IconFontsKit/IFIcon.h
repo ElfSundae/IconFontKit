@@ -136,10 +136,10 @@ typedef unichar IFIconType;
 @property (nonatomic) UIOffset drawingPositionAdjustment;
 
 /**
- * If the `drawingPaddingMultiplier` is not `UIOffsetZero`, the drawed image's top or bottom padding will be `imageSize.height * drawingPaddingMultiplier.vertical`, and the left or right padding will be `imageSize.width * drawingPaddingMultiplier.horizontal`.
- * Default is `+[defaultDrawingPaddingMultiplier]`.
+ * If the `drawingPaddingMultiplie` is not `UIOffsetZero`, the drawed image's top or bottom padding will be `imageSize.height * drawingPaddingMultiplie.vertical`, and the left or right padding will be `imageSize.width * drawingPaddingMultiplie.horizontal`.
+ * Default is `+[defaultDrawingPaddingMultiplie]`.
  */
-@property (nonatomic) UIOffset drawingPaddingMultiplier;
+@property (nonatomic) UIOffset drawingPaddingMultiplie;
 
 /**
  * The background color of the image while drawing. If you do not specify this property, no background color is drawn.
@@ -219,11 +219,11 @@ typedef unichar IFIconType;
 + (NSDictionary *)allIcons;
 
 /**
- * Returns the default `drawingPaddingMultiplier` for this icon font.
+ * Returns the default `drawingPaddingMultiplie` for this icon font.
  *
  * Default is `{0.1, 0.05}`.
  */
-+ (UIOffset)defaultDrawingPaddingMultiplier;
++ (UIOffset)defaultDrawingPaddingMultiplie;
 
 @end
 
