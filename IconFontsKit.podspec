@@ -48,4 +48,10 @@ Pod::Spec.new do |s|
     ss.resource             = "IconFontsKit/materialdesignicons-webfont.ttf"
   end
 
+  s.subspec "ElusiveIcons" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFElusiveIcons.{h,m}"
+    ss.resource             = "IconFontsKit/elusiveicons-webfont.ttf"
+  end
+
 end

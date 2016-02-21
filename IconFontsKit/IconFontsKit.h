@@ -11,3 +11,4 @@
 #import <IconFontsKit/IFFoundationIcons.h>
 #import <IconFontsKit/IFIonicons.h>
 #import <IconFontsKit/IFMaterialDesignIcons.h>
+#import <IconFontsKit/IFElusiveIcons.h>

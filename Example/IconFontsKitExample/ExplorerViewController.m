@@ -36,6 +36,7 @@ JTSImageViewControllerDismissalDelegate>
                              @{ @"FoundationIcons": [IFFoundationIcons class] },
                              @{ @"Ionicons": [IFIonicons class] },
                              @{ @"MDI": [IFMaterialDesignIcons class] },
+                             @{ @"ElusiveIcons": [IFElusiveIcons class] },
                              ];
     }
     return self;
