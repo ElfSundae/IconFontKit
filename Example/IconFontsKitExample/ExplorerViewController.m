@@ -146,7 +146,7 @@ JTSImageViewControllerDismissalDelegate>
 {
     ExplorerIconCell *cell = (ExplorerIconCell *)[collectionView cellForItemAtIndexPath:indexPath];
     IFIcon *icon = [self.icons[indexPath.row] copy];
-    icon.fontSize = 180;
+    icon.fontSize = fminf(self.view.frame.size.width, self.view.frame.size.height) * 0.75;
     icon.color = [UIColor colorWithRed:(CGFloat)arc4random()/UINT_MAX green:(CGFloat)arc4random()/UINT_MAX blue:(CGFloat)arc4random()/UINT_MAX alpha:1.f];
     
     JTSImageInfo *imageInfo = [[JTSImageInfo alloc] init];
