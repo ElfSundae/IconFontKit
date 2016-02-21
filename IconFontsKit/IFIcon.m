@@ -31,6 +31,19 @@
     return self;
 }
 
+- (id)copyWithZone:(NSZone *)zone
+{
+    IFIcon *icon = [[[self class] allocWithZone:zone] init];
+    icon.mutableAttributedString = [self.mutableAttributedString mutableCopy];
+    icon->_type = self->_type;
+    icon->_identifier = [self->_identifier copy];
+    icon.drawingPositionAdjustment = self.drawingPositionAdjustment;
+    icon.drawingPaddingMultiplie = self.drawingPaddingMultiplie;
+    icon.drawingBackgroundColor = [self.drawingBackgroundColor copy];
+    icon.adjustsFontSizeWhileDrawing = self.adjustsFontSizeWhileDrawing;
+    return icon;
+}
+
 + (instancetype)iconWithType:(IFIconType)type fontSize:(CGFloat)fontSize
 {
     IFIcon *icon = [self iconWithCode:IFIconCodeForType(type) fontSize:fontSize];
