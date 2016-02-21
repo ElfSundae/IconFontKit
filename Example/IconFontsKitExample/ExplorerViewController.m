@@ -11,7 +11,7 @@
 #import "ExplorerIconCell.h"
 
 @interface ExplorerViewController ()
-<UICollectionViewDataSource, UICollectionViewDelegate, UISearchBarDelegate>
+<UICollectionViewDataSource, UICollectionViewDelegate, UISearchBarDelegate, UIAlertViewDelegate>
 @property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic, strong) UISearchBar *searchBar;
 @property (nonatomic, strong) UISegmentedControl *segmentedControl;
@@ -139,6 +139,22 @@
     [self.searchBar resignFirstResponder];
 }
 
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    IFIcon *icon = [self.icons[indexPath.row] copy];
+    icon.fontSize = 200;
+    UIImageView *iconImageView = [[UIImageView alloc] initWithImage:[icon imageWithSize:CGSizeMake(200, 200)]];
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:icon.identifier delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles: nil];
+    if (floor(NSFoundationVersionNumber) > NSFoundationVersionNumber_iOS_6_1) {
+        [alert setValue:iconImageView forKey:@"accessoryView"];
+    }else{
+        [alert addSubview:iconImageView];
+    }
+    alert.tag = 100;
+    [alert show];
+}
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark - UISearchBar Delegate
@@ -166,6 +182,20 @@
     [searchBar resignFirstResponder];
     self.searchBar.text = nil;
     [self searchWithKeyword:nil];
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark - UIAlertView Delegate
+
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
+{
+    if (100 == alertView.tag) {
+        NSIndexPath *selectedIndexPath = [self.collectionView indexPathsForSelectedItems].firstObject;
+        if (selectedIndexPath) {
+            [self.collectionView deselectItemAtIndexPath:selectedIndexPath animated:YES];
+        }
+    }
 }
 
 @end
