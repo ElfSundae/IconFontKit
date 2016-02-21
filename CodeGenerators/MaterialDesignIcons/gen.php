@@ -9,12 +9,5 @@ $iconTypePrefix     = 'Mdi';
 $fontFile           = 'materialdesignicons-webfont.ttf';
 $fontName           = 'Material Design Icons';
 
-$variables = file_get_contents('materialdesignicons.css');
-preg_match_all("#^\\.mdi-([^:]+):[^\"}]*\"\\\\([0-9a-f]+)#im", $variables, $matches);
-$iconNames = $matches[1];
-$iconCodes = $matches[2];
-foreach ($matches[1] as $str) {
-    $iconIdentifiers[] = 'mdi-' . $str;
-}
-
+parseCSS('materialdesignicons.css', 'mdi');
 CodeGenerator();

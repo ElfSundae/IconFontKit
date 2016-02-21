@@ -71,4 +71,41 @@ function CodeGenerator()
         rename("$className.h", "../../IconFontsKit/$className.h");
         rename("$className.m", "../../IconFontsKit/$className.m");
     }
+
+    echo "$fontIdentifier contains " . count($iconIdentifiers) . " icons (including aliases).\n";
+}
+
+/**
+ * Parse CSS file to get icon names and codes.
+ *
+ * CSS file looks like: .iconPrefix-icon-name:... { xxxx "\f001" }
+ * e.g.
+ *
+ *   .fa-play-circle-o:before {
+ *     content: "\f01d";
+ *   }
+ *
+ *   .fa-rotate-right:before,
+ *   .fa-repeat:before {
+ *     content: "\f01e";
+ *   }
+ *
+ *   .ion-android-add:before { content: "\f2c7"; }
+ *
+ */
+function parseCSS($cssFile, $iconPrefix)
+{
+    global $iconNames, $iconCodes, $iconIdentifiers;
+
+    $variables = file_get_contents($cssFile);
+    $variables = preg_replace_callback("#^\\.$iconPrefix-[^,\\n]+,[^{]+({[^}]+})#im", function($matches) {
+        return str_replace(',', $matches[1], $matches[0]);
+    }, $variables);
+
+    preg_match_all("#^\\.$iconPrefix-([^:]+):[^\"'}]*[\"']\\\\([0-9a-f]+)#im", $variables, $matches);
+    $iconNames = $matches[1];
+    $iconCodes = $matches[2];
+    foreach ($matches[1] as $str) {
+        $iconIdentifiers[] = $iconPrefix . '-' . $str;
+    }
 }
