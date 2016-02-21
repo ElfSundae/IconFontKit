@@ -5,7 +5,7 @@ require "../CodeGenerator.php";
 
 $fontIdentifier     = 'Octicons';
 $fontDescription    = 'GitHub Octicons v3.5.0 https://octicons.github.com';
-$iconTypePrefix     = 'Octicon';
+$iconTypePrefix     = 'OI';
 $fontFile           = 'octicons.ttf';
 
 parseCSS('octicons.css', 'octicon');

@@ -1,6 +1,6 @@
 //
 // GitHub Octicons v3.5.0 https://octicons.github.com
-// Generated on 2016-02-21
+// Generated on 2016-02-22
 //
 
 #import "IFOcticons.h"
