@@ -9,3 +9,4 @@
 #import <IconFontsKit/IFFontAwesome.h>
 #import <IconFontsKit/IFOcticons.h>
 #import <IconFontsKit/IFFoundationIcons.h>
+#import <IconFontsKit/IFIonicons.h>
