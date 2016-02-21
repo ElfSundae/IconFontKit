@@ -5,7 +5,7 @@ require "../CodeGenerator.php";
 
 $fontIdentifier     = 'MaterialDesignIcons';
 $fontDescription    = 'Material Design Icons v1.4.57 https://materialdesignicons.com';
-$iconTypePrefix     = 'Mdi';
+$iconTypePrefix     = 'MDI';
 $fontFile           = 'materialdesignicons-webfont.ttf';
 $fontName           = 'Material Design Icons';
 

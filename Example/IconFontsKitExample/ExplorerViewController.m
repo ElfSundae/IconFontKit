@@ -32,9 +32,9 @@ JTSImageViewControllerDismissalDelegate>
         self.tabBarItem.image = [IFFontAwesome imageWithType:IFFASearch color:nil fontSize:26];
         self.icons = [NSMutableArray array];
         self.iconGroups = @[ @{ @"FA": [IFFontAwesome class] },
-                             @{ @"Oct": [IFOcticons class] },
+                             @{ @"OI": [IFOcticons class] },
                              @{ @"FI": [IFFoundationIcons class] },
-                             @{ @"Ion": [IFIonicons class] },
+                             @{ @"II": [IFIonicons class] },
                              @{ @"MDI": [IFMaterialDesignIcons class] },
                              @{ @"EI": [IFElusiveIcons class] },
                              @{ @"MI": [IFMaterialIcons class] },

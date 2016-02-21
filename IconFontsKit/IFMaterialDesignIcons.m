@@ -1,6 +1,6 @@
 //
 // Material Design Icons v1.4.57 https://materialdesignicons.com
-// Generated on 2016-02-21
+// Generated on 2016-02-22
 //
 
 #import "IFMaterialDesignIcons.h"

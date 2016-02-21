@@ -5,7 +5,7 @@ require "../CodeGenerator.php";
 
 $fontIdentifier     = 'Ionicons';
 $fontDescription    = 'Ionicons v2.0.1 http://ionicons.com';
-$iconTypePrefix     = 'Ion';
+$iconTypePrefix     = 'II';
 $fontFile           = 'ionicons.ttf';
 $fontName           = 'Ionicons';
 
