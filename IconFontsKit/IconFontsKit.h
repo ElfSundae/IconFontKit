@@ -10,3 +10,4 @@
 #import <IconFontsKit/IFOcticons.h>
 #import <IconFontsKit/IFFoundationIcons.h>
 #import <IconFontsKit/IFIonicons.h>
+#import <IconFontsKit/IFMaterialDesignIcons.h>

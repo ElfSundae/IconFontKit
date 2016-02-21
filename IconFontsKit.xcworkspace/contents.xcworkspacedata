@@ -49,6 +49,15 @@
       <FileRef
          location = "group:ionicons.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFMaterialDesignIcons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFMaterialDesignIcons.m">
+      </FileRef>
+      <FileRef
+         location = "group:materialdesignicons-webfont.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">

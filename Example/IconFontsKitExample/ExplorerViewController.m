@@ -34,7 +34,8 @@ JTSImageViewControllerDismissalDelegate>
         self.iconGroups = @[ @{ @"FontAwesome": [IFFontAwesome class] },
                              @{ @"Octicons": [IFOcticons class] },
                              @{ @"FoundationIcons": [IFFoundationIcons class] },
-                             @{ @"Ionicons": [IFIonicons class]},
+                             @{ @"Ionicons": [IFIonicons class] },
+                             @{ @"MDI": [IFMaterialDesignIcons class] },
                              ];
     }
     return self;

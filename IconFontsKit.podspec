@@ -42,4 +42,10 @@ Pod::Spec.new do |s|
     ss.resource             = "IconFontsKit/ionicons.ttf"
   end
 
+  s.subspec "MaterialDesignIcons" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFMaterialDesignIcons.{h,m}"
+    ss.resource             = "IconFontsKit/materialdesignicons-webfont.ttf"
+  end
+
 end
