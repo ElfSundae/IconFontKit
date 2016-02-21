@@ -8,11 +8,14 @@ $fontName           = null; // e.g. "FontAwesome" or null to use the filename of
 $iconIdentifiers    = [];   // e.g. ['fa-wifi-o']
 $iconNames          = [];   // e.g. ['wifi-o']
 $iconCodes          = [];   // e.g. ['f01a']
+$moveToProject      = true; // determines move .h and .m files to Xcode project
 
 function CodeGenerator()
 {
     global $fontIdentifier, $fontDescription, $iconTypePrefix, $fontFile, $fontName;
     global $iconIdentifiers, $iconNames, $iconCodes;
+    global $moveToProject;
+
     date_default_timezone_set('Asia/Shanghai');
 
     $header = "//\n";
@@ -63,4 +66,9 @@ function CodeGenerator()
 
     file_put_contents("$className.h", $hContent);
     file_put_contents("$className.m", $mContent);
+
+    if ($moveToProject) {
+        rename("$className.h", "../../IconFontsKit/$className.h");
+        rename("$className.m", "../../IconFontsKit/$className.m");
+    }
 }
