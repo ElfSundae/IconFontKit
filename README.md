@@ -42,7 +42,7 @@ pod 'IconFontsKit/MaterialIcons'
 
  ```objc
  IFFontAwesome *faIcon = [IFFontAwesome iconWithCode:@"\uf17b" fontSize:20.0];
- IFIonicons *ionIcon = [IFFontAwesome iconWithType:IFIonWifi fontSize:20.0];
+ IFIonicons *ionIcon = [IFFontAwesome iconWithType:IFIIWifi fontSize:20.0];
  IFOcticons *octIcon = [IFOcticons iconWithIdentifier:@"octicon-gift" fontSize:20.0];
  ```
 
@@ -58,7 +58,7 @@ pod 'IconFontsKit/MaterialIcons'
 + You can get an icon image using `-[IFxxxIcon imageWithSize:]`, or `+[IFxxxIcon imageWithType:color: xxx]`.
 
  ```objc
- UIImage *image = [IFFontAwesome imageWithType:IFOcticonArrowRight color:nil imageSize:CGSizeMake(30, 30)];
+ UIImage *image = [IFFontAwesome imageWithType:IFOIArrowRight color:nil imageSize:CGSizeMake(30, 30)];
  ```
 
 + Use `+[IFxxxIcon fontWithSize:]` to get the icon font instance.
