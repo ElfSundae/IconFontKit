@@ -43,10 +43,8 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[IFFontAwesome imageWithType:IFFAShareAlt color:nil fontSize:26]
                                                                               style:UIBarButtonItemStylePlain target:nil action:nil];
     
-    IFFontAwesome *container = [IFFontAwesome iconWithType:IFFASquareO fontSize:100.0];
-    container.color = [UIColor colorWithWhite:0.88 alpha:1.0];
-    IFFontAwesome *forbidden = [IFFontAwesome iconWithType:IFFABan fontSize:70.0];
-    forbidden.color = [[UIColor redColor] colorWithAlphaComponent:0.6];
+    IFFontAwesome *container = [IFFontAwesome iconWithType:IFFASquareO fontSize:100.0 color:[UIColor colorWithWhite:0.88 alpha:1.0]];
+    IFFontAwesome *forbidden = [IFFontAwesome iconWithType:IFFABan fontSize:70.0 color:[[UIColor redColor] colorWithAlphaComponent:0.6]];
     
     IFFontAwesome *twitterIcon = [IFFontAwesome iconWithType:IFFATwitter fontSize:60 color:[UIColor colorWithRed:0.25f green:0.60f blue:1.00f alpha:1.00f]];
     UIImage *twitter = [UIImage if_imageWithStackedIcons:@[container, twitterIcon] imageSize:CGSizeMake(100, 100)];
