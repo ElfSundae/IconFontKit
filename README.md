@@ -49,6 +49,29 @@ pod 'IconFontsKit/Ionicons'
  - (void)setAttributes:(NSDictionary *)attributes;
  ```
 
++ You can get an icon image using `-[IFxxxIcon imageWithSize:]`, or `+[IFxxxIcon imageWithType:color: xxx]`.
+
+ ```objc
+ UIImage *image = [IFFontAwesome imageWithType:IFOcticonArrowRight color:nil imageSize:CGSizeMake(30, 30)];
+ ```
+
++ Use `+[IFxxxIcon fontWithSize:]` to get the icon font instance.
+
++ To stack multiple icons to one image, use `+[UIImage if_imageWithStackedIcons:(NSArray <IFIcon *>*)icons imageSize:(CGSize)imageSize]`.
+These icons will be centered horizontally and vertically by default.
+You can set the `drawingPositionAdjustment` property to adjust drawing offset for each icon.
+
+ The first icon will be drawn on the bottom and the last icon will be drawn on the top.
+
+ ```objc
+ IFFontAwesome *container = [IFFontAwesome iconWithType:IFFASquareO fontSize:100.0 color:[UIColor colorWithWhite:0.88 alpha:1.0]];
+ container.drawingPositionAdjustment = UIOffsetMake(0, 4);
+ IFFontAwesome *forbidden = [IFFontAwesome iconWithType:IFFABan fontSize:70.0 color:[[UIColor redColor] colorWithAlphaComponent:0.6]];
+ IFFontAwesome *usbIcon = [IFFontAwesome iconWithType:IFFAUsb fontSize:50];
+
+ UIImage *stackedImage = [UIImage if_imageWithStackedIcons:@[container, usbIcon, forbidden] imageSize:CGSizeMake(100, 100)];
+ ```
+
 ## License
 
 IconFontsKit is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
