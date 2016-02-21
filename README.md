@@ -1,6 +1,11 @@
 ## Summary
 
+[![Pod Version](http://img.shields.io/cocoapods/v/IconFontsKit.svg)](http://cocoadocs.org/docsets/IconFontsKit)
+
 **IconFontsKit** is inspired to [FontAwesomeKit](https://github.com/PrideChung/FontAwesomeKit).
+
+[![Sample](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/sample.png)](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/sample.png)
+[![Explorer](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/explorer.png)](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/sample.png)
 
 ## Supported Icon Fonts
 
