@@ -7,25 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		600AFB68D73295B3E4E4D37D /* libPods-IconFontsKitExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 536CF7578840DF38FFE38509 /* libPods-IconFontsKitExample.a */; };
 		E7E724CC1C73816B0049EE82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724CB1C73816B0049EE82 /* main.m */; };
 		E7E724CF1C73816B0049EE82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724CE1C73816B0049EE82 /* AppDelegate.m */; };
 		E7E724D71C73816B0049EE82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E724D61C73816B0049EE82 /* Assets.xcassets */; };
 		E7E724DA1C73816B0049EE82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E724D81C73816B0049EE82 /* LaunchScreen.storyboard */; };
 		E7E724E81C7382BC0049EE82 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724E71C7382BC0049EE82 /* SampleViewController.m */; };
 		E7E724EB1C7382D20049EE82 /* ExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724EA1C7382D20049EE82 /* ExplorerViewController.m */; };
-		E7E724EF1C7384720049EE82 /* IFIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724EE1C7384720049EE82 /* IFIcon.m */; };
-		E7E724F21C7760F80049EE82 /* IFFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724F11C7760F80049EE82 /* IFFontAwesome.m */; };
-		E7E724F41C7762030049EE82 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7E724F31C7762030049EE82 /* FontAwesome.otf */; };
 		E7E724F71C787BD40049EE82 /* ExplorerIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724F61C787BD40049EE82 /* ExplorerIconCell.m */; };
-		E7E724F91C78DEEB0049EE82 /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7E724F81C78DEEB0049EE82 /* octicons.ttf */; };
-		E7E724FC1C78EAC30049EE82 /* IFOcticons.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724FB1C78EAC30049EE82 /* IFOcticons.m */; };
-		E7E725001C78F4890049EE82 /* foundation-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7E724FD1C78F4890049EE82 /* foundation-icons.ttf */; };
-		E7E725011C78F4890049EE82 /* IFFoundationIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724FF1C78F4890049EE82 /* IFFoundationIcons.m */; };
-		E7E725051C7984300049EE82 /* IFIonicons.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E725031C7984300049EE82 /* IFIonicons.m */; };
-		E7E725061C7984300049EE82 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7E725041C7984300049EE82 /* ionicons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02987B2B828E10543AC768C9 /* Pods-IconFontsKitExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IconFontsKitExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-IconFontsKitExample/Pods-IconFontsKitExample.release.xcconfig"; sourceTree = "<group>"; };
+		536CF7578840DF38FFE38509 /* libPods-IconFontsKitExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IconFontsKitExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85189A6589C166DC99A23457 /* Pods-IconFontsKitExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IconFontsKitExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IconFontsKitExample/Pods-IconFontsKitExample.debug.xcconfig"; sourceTree = "<group>"; };
 		E7E724C71C73816B0049EE82 /* IconFontsKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconFontsKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E724CB1C73816B0049EE82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7E724CD1C73816B0049EE82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,23 +32,8 @@
 		E7E724E71C7382BC0049EE82 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
 		E7E724E91C7382D20049EE82 /* ExplorerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplorerViewController.h; sourceTree = "<group>"; };
 		E7E724EA1C7382D20049EE82 /* ExplorerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplorerViewController.m; sourceTree = "<group>"; };
-		E7E724EC1C73844F0049EE82 /* IconFontsKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconFontsKit.h; sourceTree = "<group>"; };
-		E7E724ED1C7384720049EE82 /* IFIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFIcon.h; sourceTree = "<group>"; };
-		E7E724EE1C7384720049EE82 /* IFIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFIcon.m; sourceTree = "<group>"; };
-		E7E724F01C7760F80049EE82 /* IFFontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFFontAwesome.h; sourceTree = "<group>"; };
-		E7E724F11C7760F80049EE82 /* IFFontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFFontAwesome.m; sourceTree = "<group>"; };
-		E7E724F31C7762030049EE82 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
 		E7E724F51C787BD40049EE82 /* ExplorerIconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplorerIconCell.h; sourceTree = "<group>"; };
 		E7E724F61C787BD40049EE82 /* ExplorerIconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplorerIconCell.m; sourceTree = "<group>"; };
-		E7E724F81C78DEEB0049EE82 /* octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = octicons.ttf; sourceTree = "<group>"; };
-		E7E724FA1C78EAC30049EE82 /* IFOcticons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFOcticons.h; sourceTree = "<group>"; };
-		E7E724FB1C78EAC30049EE82 /* IFOcticons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFOcticons.m; sourceTree = "<group>"; };
-		E7E724FD1C78F4890049EE82 /* foundation-icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "foundation-icons.ttf"; sourceTree = "<group>"; };
-		E7E724FE1C78F4890049EE82 /* IFFoundationIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFFoundationIcons.h; sourceTree = "<group>"; };
-		E7E724FF1C78F4890049EE82 /* IFFoundationIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFFoundationIcons.m; sourceTree = "<group>"; };
-		E7E725021C7984300049EE82 /* IFIonicons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFIonicons.h; sourceTree = "<group>"; };
-		E7E725031C7984300049EE82 /* IFIonicons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFIonicons.m; sourceTree = "<group>"; };
-		E7E725041C7984300049EE82 /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,18 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				600AFB68D73295B3E4E4D37D /* libPods-IconFontsKitExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		891544214BDD41105F62F557 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				536CF7578840DF38FFE38509 /* libPods-IconFontsKitExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2EF78665E3E4F3210AF838C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85189A6589C166DC99A23457 /* Pods-IconFontsKitExample.debug.xcconfig */,
+				02987B2B828E10543AC768C9 /* Pods-IconFontsKitExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E7E724BE1C73816B0049EE82 = {
 			isa = PBXGroup;
 			children = (
-				E7E724E11C7382370049EE82 /* IconFontsKit */,
 				E7E724C91C73816B0049EE82 /* IconFontsKitExample */,
 				E7E724C81C73816B0049EE82 /* Products */,
+				A2EF78665E3E4F3210AF838C /* Pods */,
+				891544214BDD41105F62F557 /* Frameworks */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -113,29 +112,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E7E724E11C7382370049EE82 /* IconFontsKit */ = {
-			isa = PBXGroup;
-			children = (
-				E7E724EC1C73844F0049EE82 /* IconFontsKit.h */,
-				E7E724ED1C7384720049EE82 /* IFIcon.h */,
-				E7E724EE1C7384720049EE82 /* IFIcon.m */,
-				E7E724F01C7760F80049EE82 /* IFFontAwesome.h */,
-				E7E724F11C7760F80049EE82 /* IFFontAwesome.m */,
-				E7E724F31C7762030049EE82 /* FontAwesome.otf */,
-				E7E724FA1C78EAC30049EE82 /* IFOcticons.h */,
-				E7E724FB1C78EAC30049EE82 /* IFOcticons.m */,
-				E7E724F81C78DEEB0049EE82 /* octicons.ttf */,
-				E7E724FE1C78F4890049EE82 /* IFFoundationIcons.h */,
-				E7E724FF1C78F4890049EE82 /* IFFoundationIcons.m */,
-				E7E724FD1C78F4890049EE82 /* foundation-icons.ttf */,
-				E7E725021C7984300049EE82 /* IFIonicons.h */,
-				E7E725031C7984300049EE82 /* IFIonicons.m */,
-				E7E725041C7984300049EE82 /* ionicons.ttf */,
-			);
-			name = IconFontsKit;
-			path = ../IconFontsKit;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7E724DE1C73816B0049EE82 /* Build configuration list for PBXNativeTarget "IconFontsKitExample" */;
 			buildPhases = (
+				24BF6675F6AB777F6F4103B6 /* Check Pods Manifest.lock */,
 				E7E724C31C73816B0049EE82 /* Sources */,
 				E7E724C41C73816B0049EE82 /* Frameworks */,
 				E7E724C51C73816B0049EE82 /* Resources */,
+				E324D50C1717977AE6D65B6D /* Embed Pods Frameworks */,
+				3C8355010F32B5B8AD8BB4BA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,31 +172,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7E725061C7984300049EE82 /* ionicons.ttf in Resources */,
 				E7E724DA1C73816B0049EE82 /* LaunchScreen.storyboard in Resources */,
 				E7E724D71C73816B0049EE82 /* Assets.xcassets in Resources */,
-				E7E724F91C78DEEB0049EE82 /* octicons.ttf in Resources */,
-				E7E724F41C7762030049EE82 /* FontAwesome.otf in Resources */,
-				E7E725001C78F4890049EE82 /* foundation-icons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24BF6675F6AB777F6F4103B6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C8355010F32B5B8AD8BB4BA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IconFontsKitExample/Pods-IconFontsKitExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E324D50C1717977AE6D65B6D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IconFontsKitExample/Pods-IconFontsKitExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E7E724C31C73816B0049EE82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7E724FC1C78EAC30049EE82 /* IFOcticons.m in Sources */,
 				E7E724CF1C73816B0049EE82 /* AppDelegate.m in Sources */,
-				E7E725011C78F4890049EE82 /* IFFoundationIcons.m in Sources */,
-				E7E724F21C7760F80049EE82 /* IFFontAwesome.m in Sources */,
 				E7E724CC1C73816B0049EE82 /* main.m in Sources */,
-				E7E724EF1C7384720049EE82 /* IFIcon.m in Sources */,
 				E7E724E81C7382BC0049EE82 /* SampleViewController.m in Sources */,
 				E7E724F71C787BD40049EE82 /* ExplorerIconCell.m in Sources */,
-				E7E725051C7984300049EE82 /* IFIonicons.m in Sources */,
 				E7E724EB1C7382D20049EE82 /* ExplorerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,9 +336,9 @@
 		};
 		E7E724DF1C73816B0049EE82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85189A6589C166DC99A23457 /* Pods-IconFontsKitExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				HEADER_SEARCH_PATHS = ../;
 				INFOPLIST_FILE = IconFontsKitExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -331,9 +349,9 @@
 		};
 		E7E724E01C73816B0049EE82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02987B2B828E10543AC768C9 /* Pods-IconFontsKitExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				HEADER_SEARCH_PATHS = ../;
 				INFOPLIST_FILE = IconFontsKitExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

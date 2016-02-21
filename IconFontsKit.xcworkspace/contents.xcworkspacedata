@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:IconFontsKit"
+      name = "IconFontsKit">
+      <FileRef
+         location = "group:IconFontsKit.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFIcon.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFIcon.m">
+      </FileRef>
+      <FileRef
+         location = "group:IFFontAwesome.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFFontAwesome.m">
+      </FileRef>
+      <FileRef
+         location = "group:FontAwesome.otf">
+      </FileRef>
+      <FileRef
+         location = "group:IFOcticons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFOcticons.m">
+      </FileRef>
+      <FileRef
+         location = "group:octicons.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFFoundationIcons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFFoundationIcons.m">
+      </FileRef>
+      <FileRef
+         location = "group:foundation-icons.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFIonicons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFIonicons.m">
+      </FileRef>
+      <FileRef
+         location = "group:ionicons.ttf">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Example/IconFontsKitExample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Example/Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

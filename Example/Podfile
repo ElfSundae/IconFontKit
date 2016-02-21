@@ -1,0 +1,7 @@
+platform :ios, '7.0'
+workspace '../IconFontsKit.xcworkspace'
+
+target 'IconFontsKitExample' do
+    pod "IconFontsKit", :path => "../IconFontsKit.podspec"
+    pod "JTSImageViewController"
+end

@@ -9,9 +9,11 @@
 #import "ExplorerViewController.h"
 #import <IconFontsKit/IconFontsKit.h>
 #import "ExplorerIconCell.h"
+#import <JTSImageViewController/JTSImageViewController.h>
 
 @interface ExplorerViewController ()
-<UICollectionViewDataSource, UICollectionViewDelegate, UISearchBarDelegate, UIAlertViewDelegate>
+<UICollectionViewDataSource, UICollectionViewDelegate, UISearchBarDelegate,
+JTSImageViewControllerDismissalDelegate>
 @property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic, strong) UISearchBar *searchBar;
 @property (nonatomic, strong) UISegmentedControl *segmentedControl;
@@ -41,6 +43,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     
     NSMutableArray *segItems = [NSMutableArray array];
     for (NSDictionary *dict in self.iconGroups) {
@@ -141,18 +144,20 @@
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
+    ExplorerIconCell *cell = (ExplorerIconCell *)[collectionView cellForItemAtIndexPath:indexPath];
     IFIcon *icon = [self.icons[indexPath.row] copy];
-    icon.fontSize = 200;
-    UIImageView *iconImageView = [[UIImageView alloc] initWithImage:[icon imageWithSize:CGSizeMake(200, 200)]];
+    icon.fontSize = 180;
+    icon.color = [UIColor colorWithRed:(CGFloat)arc4random()/UINT_MAX green:(CGFloat)arc4random()/UINT_MAX blue:(CGFloat)arc4random()/UINT_MAX alpha:1.f];
     
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:icon.identifier delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles: nil];
-    if (floor(NSFoundationVersionNumber) > NSFoundationVersionNumber_iOS_6_1) {
-        [alert setValue:iconImageView forKey:@"accessoryView"];
-    }else{
-        [alert addSubview:iconImageView];
-    }
-    alert.tag = 100;
-    [alert show];
+    JTSImageInfo *imageInfo = [[JTSImageInfo alloc] init];
+    imageInfo.image = [icon imageWithSize:CGSizeMake(icon.fontSize, icon.fontSize)];
+    imageInfo.referenceView = cell.iconLabel.superview;
+    imageInfo.referenceRect = cell.iconLabel.frame;
+    JTSImageViewController *imageViewController = [[JTSImageViewController alloc] initWithImageInfo:imageInfo
+                                                                                               mode:JTSImageViewControllerMode_Image
+                                                                                    backgroundStyle:JTSImageViewControllerBackgroundOption_Blurred];
+    imageViewController.dismissalDelegate = self;
+    [imageViewController showFromViewController:self.tabBarController transition:JTSImageViewControllerTransition_FromOriginalPosition];
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -186,15 +191,13 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
-#pragma mark - UIAlertView Delegate
+#pragma mark - JTSImageViewController Delegate
 
-- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
+- (void)imageViewerDidDismiss:(JTSImageViewController *)imageViewer
 {
-    if (100 == alertView.tag) {
-        NSIndexPath *selectedIndexPath = [self.collectionView indexPathsForSelectedItems].firstObject;
-        if (selectedIndexPath) {
-            [self.collectionView deselectItemAtIndexPath:selectedIndexPath animated:YES];
-        }
+    NSIndexPath *selectedIndexPath = [self.collectionView indexPathsForSelectedItems].firstObject;
+    if (selectedIndexPath) {
+        [self.collectionView deselectItemAtIndexPath:selectedIndexPath animated:YES];
     }
 }
 

@@ -1,0 +1,31 @@
+PODS:
+  - IconFontsKit (1.0.1):
+    - IconFontsKit/Core (= 1.0.1)
+    - IconFontsKit/FontAwesome (= 1.0.1)
+    - IconFontsKit/FoundationIcons (= 1.0.1)
+    - IconFontsKit/Ionicons (= 1.0.1)
+    - IconFontsKit/Octicons (= 1.0.1)
+  - IconFontsKit/Core (1.0.1)
+  - IconFontsKit/FontAwesome (1.0.1):
+    - IconFontsKit/Core
+  - IconFontsKit/FoundationIcons (1.0.1):
+    - IconFontsKit/Core
+  - IconFontsKit/Ionicons (1.0.1):
+    - IconFontsKit/Core
+  - IconFontsKit/Octicons (1.0.1):
+    - IconFontsKit/Core
+  - JTSImageViewController (1.5.1)
+
+DEPENDENCIES:
+  - IconFontsKit (from `../IconFontsKit.podspec`)
+  - JTSImageViewController
+
+EXTERNAL SOURCES:
+  IconFontsKit:
+    :path: "../IconFontsKit.podspec"
+
+SPEC CHECKSUMS:
+  IconFontsKit: f062ea99c02833fc61fb1a5fcedc005459479dc0
+  JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
+
+COCOAPODS: 0.39.0
