@@ -28,6 +28,7 @@ pod 'IconFontsKit/FontAwesome'
 pod 'IconFontsKit/Octicons'
 pod 'IconFontsKit/FoundationIcons'
 pod 'IconFontsKit/Ionicons'
+pod 'IconFontsKit/MaterialDesignIcons'
 ```
 ## Usage
 
