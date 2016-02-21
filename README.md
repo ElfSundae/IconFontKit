@@ -21,6 +21,7 @@
 pod 'IconFontsKit/FontAwesome'
 pod 'IconFontsKit/Octicons'
 pod 'IconFontsKit/FoundationIcons'
+pod 'IconFontsKit/Ionicons'
 ```
 
 ## License
