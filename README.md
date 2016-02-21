@@ -15,8 +15,9 @@
 | [GitHub Octicons](https://octicons.github.com)| 3.5.0 | [165](https://octicons.github.com) | 31 KB | [SIL OFL 1.1](https://github.com/github/octicons/blob/master/LICENSE.txt) |
 | [Foundation Icon Fonts 3](http://zurb.com/playground/foundation-icon-fonts-3)| 3.0 | [283](http://zurb.com/playground/foundation-icon-fonts-3#allicons) | 57 KB | ? |
 | [Ionicons](http://ionicons.com)| 2.0.1 | [733](http://ionicons.com) | 189 KB | [MIT](https://github.com/driftyco/ionicons/blob/master/LICENSE) |
-| [Material Design Icons](https://materialdesignicons.com) | 1.4.57 | 1457 | 208 KB | [SIL OFL 1.1](https://github.com/Templarian/MaterialDesign/blob/master/license.txt) |
+| [Material Design Icons](https://materialdesignicons.com) | 1.4.57 | [1457](https://materialdesignicons.com) | 208 KB | [SIL OFL 1.1](https://github.com/Templarian/MaterialDesign/blob/master/license.txt) |
 | [Elusive Icons](http://elusiveicons.com) | 2.0.0 | [304](http://elusiveicons.com/icons) | 80 KB | [SIL OFL 1.1](http://elusiveicons.com/license) |
+| [Material Icons](https://google.github.io/material-design-icons/) by Google | 2.2.0 | [932](https://design.google.com/icons/) | 128 KB | [CC-BY 4.0](https://github.com/google/material-design-icons/blob/master/LICENSE) |
 
 ## Installation
 
@@ -30,6 +31,8 @@ pod 'IconFontsKit/Octicons'
 pod 'IconFontsKit/FoundationIcons'
 pod 'IconFontsKit/Ionicons'
 pod 'IconFontsKit/MaterialDesignIcons'
+pod 'IconFontsKit/ElusiveIcons'
+pod 'IconFontsKit/MaterialIcons'
 ```
 ## Usage
 

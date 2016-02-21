@@ -67,6 +67,15 @@
       <FileRef
          location = "group:elusiveicons-webfont.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFMaterialIcons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFMaterialIcons.m">
+      </FileRef>
+      <FileRef
+         location = "group:MaterialIcons-Regular.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">

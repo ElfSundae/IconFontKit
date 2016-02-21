@@ -31,12 +31,13 @@ JTSImageViewControllerDismissalDelegate>
         self.title = @"Explorer";
         self.tabBarItem.image = [IFFontAwesome imageWithType:IFFASearch color:nil fontSize:26];
         self.icons = [NSMutableArray array];
-        self.iconGroups = @[ @{ @"FontAwesome": [IFFontAwesome class] },
-                             @{ @"Octicons": [IFOcticons class] },
-                             @{ @"FoundationIcons": [IFFoundationIcons class] },
-                             @{ @"Ionicons": [IFIonicons class] },
+        self.iconGroups = @[ @{ @"FA": [IFFontAwesome class] },
+                             @{ @"Oct": [IFOcticons class] },
+                             @{ @"FI": [IFFoundationIcons class] },
+                             @{ @"Ion": [IFIonicons class] },
                              @{ @"MDI": [IFMaterialDesignIcons class] },
-                             @{ @"ElusiveIcons": [IFElusiveIcons class] },
+                             @{ @"EI": [IFElusiveIcons class] },
+                             @{ @"MI": [IFMaterialIcons class] },
                              ];
     }
     return self;

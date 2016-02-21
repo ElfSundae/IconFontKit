@@ -12,3 +12,4 @@
 #import <IconFontsKit/IFIonicons.h>
 #import <IconFontsKit/IFMaterialDesignIcons.h>
 #import <IconFontsKit/IFElusiveIcons.h>
+#import <IconFontsKit/IFMaterialIcons.h>
