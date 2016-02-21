@@ -21,6 +21,8 @@
 		E7E724FC1C78EAC30049EE82 /* IFOcticons.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724FB1C78EAC30049EE82 /* IFOcticons.m */; };
 		E7E725001C78F4890049EE82 /* foundation-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7E724FD1C78F4890049EE82 /* foundation-icons.ttf */; };
 		E7E725011C78F4890049EE82 /* IFFoundationIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724FF1C78F4890049EE82 /* IFFoundationIcons.m */; };
+		E7E725051C7984300049EE82 /* IFIonicons.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E725031C7984300049EE82 /* IFIonicons.m */; };
+		E7E725061C7984300049EE82 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7E725041C7984300049EE82 /* ionicons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,9 @@
 		E7E724FD1C78F4890049EE82 /* foundation-icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "foundation-icons.ttf"; sourceTree = "<group>"; };
 		E7E724FE1C78F4890049EE82 /* IFFoundationIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFFoundationIcons.h; sourceTree = "<group>"; };
 		E7E724FF1C78F4890049EE82 /* IFFoundationIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFFoundationIcons.m; sourceTree = "<group>"; };
+		E7E725021C7984300049EE82 /* IFIonicons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFIonicons.h; sourceTree = "<group>"; };
+		E7E725031C7984300049EE82 /* IFIonicons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFIonicons.m; sourceTree = "<group>"; };
+		E7E725041C7984300049EE82 /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +128,9 @@
 				E7E724FE1C78F4890049EE82 /* IFFoundationIcons.h */,
 				E7E724FF1C78F4890049EE82 /* IFFoundationIcons.m */,
 				E7E724FD1C78F4890049EE82 /* foundation-icons.ttf */,
+				E7E725021C7984300049EE82 /* IFIonicons.h */,
+				E7E725031C7984300049EE82 /* IFIonicons.m */,
+				E7E725041C7984300049EE82 /* ionicons.ttf */,
 			);
 			name = IconFontsKit;
 			path = ../IconFontsKit;
@@ -185,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E725061C7984300049EE82 /* ionicons.ttf in Resources */,
 				E7E724DA1C73816B0049EE82 /* LaunchScreen.storyboard in Resources */,
 				E7E724D71C73816B0049EE82 /* Assets.xcassets in Resources */,
 				E7E724F91C78DEEB0049EE82 /* octicons.ttf in Resources */,
@@ -208,6 +217,7 @@
 				E7E724EF1C7384720049EE82 /* IFIcon.m in Sources */,
 				E7E724E81C7382BC0049EE82 /* SampleViewController.m in Sources */,
 				E7E724F71C787BD40049EE82 /* ExplorerIconCell.m in Sources */,
+				E7E725051C7984300049EE82 /* IFIonicons.m in Sources */,
 				E7E724EB1C7382D20049EE82 /* ExplorerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
