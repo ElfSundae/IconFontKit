@@ -32,7 +32,7 @@ function CodeGenerator()
             function($matches) {
                 return strtoupper(preg_replace("#[-_]#", '', $matches[0]));
             }, $name);
-        $type = sprintf("{$tab}IF%s%-27s = 0x%s,\n", $iconTypePrefix, $name, $iconCodes[$i]);
+        $type = sprintf("{$tab}IF%s%-35s = 0x%s,\n", $iconTypePrefix, $name, $iconCodes[$i]);
         $hContent .= $type;
     }
     $hContent .= "};\n\n";
@@ -54,7 +54,7 @@ function CodeGenerator()
     $mContent .= "{$tab}return @{\n";
     for ($i = 0; $i < count($iconIdentifiers); ++$i) {
         $idKey = "@\"$iconIdentifiers[$i]\": ";
-        $mContent .= sprintf("%13s%-32s@\"\\u%s\",\n", " ", $idKey, $iconCodes[$i]);
+        $mContent .= sprintf("%13s%-44s@\"\\u%s\",\n", " ", $idKey, $iconCodes[$i]);
     }
     $mContent .= sprintf("%13s};\n", " ");
     $mContent .= "}\n";
