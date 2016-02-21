@@ -13,7 +13,7 @@ $variables = file_get_contents('foundation-icons.css');
 $variables = preg_replace_callback("#^\\.fi-[^,\\n]+,[^{]+({[^\\n]+})#im", function($matches) {
     return str_replace(',', $matches[1], $matches[0]);
 }, $variables);
-preg_match_all("#^\\.fi-([^:]+):[^\"]*\"\\\\([0-9a-f]+)#im", $variables, $matches);
+preg_match_all("#^\\.fi-([^:]+):[^\"}]*\"\\\\([0-9a-f]+)#im", $variables, $matches);
 $iconNames = $matches[1];
 $iconCodes = $matches[2];
 foreach ($matches[1] as $str) {
