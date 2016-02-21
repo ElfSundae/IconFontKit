@@ -153,6 +153,12 @@
     }
 }
 
+- (void)setDrawingPaddingMultiplie:(UIOffset)multiplie
+{
+    _drawingPaddingMultiplie = UIOffsetMake(multiplie.horizontal > 0 ? multiplie.horizontal : 0,
+                                            multiplie.vertical > 0 ? multiplie.vertical : 0);
+}
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Private
@@ -216,16 +222,21 @@
     }
 }
 
+- (BOOL)_iconSize:(CGSize)iconSize isBiggerThanImageSize:(CGSize)imageSize
+{
+    return (iconSize.width * (1.0 + self.drawingPaddingMultiplie.horizontal) > imageSize.width ||
+            iconSize.height * (1.0 + self.drawingPaddingMultiplie.vertical) > imageSize.height);
+}
+
 - (void)_drawWithImageSize:(CGSize)imageSize
 {
     NSAttributedString *string = self.mutableAttributedString;
     CGSize iconSize = [string size];
     
-    if (self.adjustsFontSizeWhileDrawing && iconSize.width > imageSize.width) {
+    if (self.adjustsFontSizeWhileDrawing && [self _iconSize:iconSize isBiggerThanImageSize:imageSize]) {
         NSMutableDictionary *attrs = [self.attributes mutableCopy];
         CGFloat tmpFontSize = self.fontSize;
-        while (iconSize.width * (1.0 + self.drawingPaddingMultiplie.horizontal) > imageSize.width &&
-               tmpFontSize > 3.0/*minimumFontSize*/) {
+        while (tmpFontSize > 3.0/*minimumFontSize*/ && [self _iconSize:iconSize isBiggerThanImageSize:imageSize]) {
             tmpFontSize -= 1.5;
             attrs[NSFontAttributeName] = [[self class] fontWithSize:tmpFontSize];
             iconSize = [self.code sizeWithAttributes:attrs];
