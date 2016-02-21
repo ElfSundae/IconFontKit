@@ -28,6 +28,26 @@ pod 'IconFontsKit/Octicons'
 pod 'IconFontsKit/FoundationIcons'
 pod 'IconFontsKit/Ionicons'
 ```
+## Usage
+
++ An icon can be created by three ways: **code** like `@"\uf179"`, **type** like `IFFAApple`, **identifier** like `@"fa-apple"`.
+
+ The **code** and **type** way are ***recommended***.
+
+ ```objc
+ IFFontAwesome *faIcon = [IFFontAwesome iconWithCode:@"\uf17b" fontSize:20.0];
+ IFIonicons *ionIcon = [IFFontAwesome iconWithType:IFIonWifi fontSize:20.0];
+ IFOcticons *octIcon = [IFOcticons iconWithIdentifier:@"octicon-gift" fontSize:20.0];
+ ```
+
++ IFIcon are backend with `NSAttributedString`, and there are several attributes accessors methods, like:
+
+ ```objc
+ - (NSDictionary *)attributes;
+ - (void)addAttribute:(NSString *)name value:(id)value;
+ - (void)removeAttribute:(NSString *)name;
+ - (void)setAttributes:(NSDictionary *)attributes;
+ ```
 
 ## License
 
