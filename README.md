@@ -80,6 +80,14 @@ You can set the `drawingPositionAdjustment` property to adjust drawing offset fo
  UIImage *stackedImage = [UIImage if_imageWithStackedIcons:@[container, usbIcon, forbidden] imageSize:CGSizeMake(100, 100)];
  ```
 
+## Using custom Icon Fonts
+
++ To use your own icon fonts, just subclass `IFIcon` and implement `+ (NSURL *)fontFileURL` method.
++ If the font name is not the same as the filename of `fontFileURL`, you need to implement `+ (NSString *)fontName` method as well.
++ If you want to use **identifier** way, such as `+iconWithIdentifier:fontSize:` method, to create icons, you need to implement `+ (NSDictionary *)allIcons` method as well.
++ Icon types of your custom fonts are the icon's unicode hexadecimal value. e.g. icon code `\uf100`'s type is `0xf100`.
++ _FYI_: You can generate icon fonts using [Fontello](http://fontello.com), [Fontastic](http://fontastic.me) or other awesome services.
+
 ## License
 
 IconFontsKit is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
