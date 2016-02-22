@@ -326,8 +326,7 @@
 
 + (NSDictionary *)allIcons
 {
-    [self doesNotRecognizeSelector:_cmd];
-    return nil;
+    return @{};
 }
 
 + (UIOffset)defaultDrawingPaddingMultiplie
