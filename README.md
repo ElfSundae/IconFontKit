@@ -87,6 +87,60 @@ You can set the `drawingPositionAdjustment` property to adjust drawing offset fo
 + If you want to use **identifier** way, such as `+iconWithIdentifier:fontSize:` method, to create icons, you need to implement `+ (NSDictionary *)allIcons` method as well.
 + Icon types of your custom fonts are the icon's unicode hexadecimal value. e.g. icon code `\uf100`'s type is `0xf100`.
 + _FYI_: You can generate icon fonts using [Fontello](http://fontello.com), [Fontastic](http://fontastic.me) or other awesome services.
++ See "IconFontsKitExample/MyFontIcons" for demo.
+
+ ```objc
+ // MyFontIcons.h
+
+ #import <IconFontsKit/IFIcon.h>
+
+ typedef NS_ENUM(IFIconType, MyFontIconsType) {
+     MFFacebookSquared   = 0xa100,
+     MFChat              = 0xa101,
+     MFEmoHappy          = 0xa102,
+     MFThumbsUp          = 0xa103,
+     MFThumbsUpAlt       = 0xa104,
+     MFLinkExt           = 0xa105,
+     MFVolumeUp          = 0xa106,
+     MFCogAlt            = 0xa107,
+     MFCode              = 0xa108,
+ };
+
+ @interface MyFontIcons : IFIcon
+ @end
+ ```
+
+ ```objc
+ // MyFontIcons.m
+
+ #import "MyFontIcons.h"
+
+ @implementation MyFontIcons
+
+ + (NSURL *)fontFileURL {
+     return [[[NSBundle mainBundle] resourceURL] URLByAppendingPathComponent:@"myfonticons.ttf"];
+ }
+
+ // Optional becase the font name is the same as the filename of font.
+ //+ (NSString *)fontName {
+ //    return @"myfonticons";
+ //}
+
+ + (NSDictionary *)allIcons {
+     return @{
+              @"icon-facebook-squared":  @"\ua100",
+              @"icon-chat":              @"\ua101",
+              @"icon-emo-happy":         @"\ua102",
+              @"icon-thumbs-up":         @"\ua103",
+              @"icon-thumbs-up-alt":     @"\ua104",
+              @"icon-link-ext":          @"\ua105",
+              @"icon-volume-up":         @"\ua106",
+              @"icon-cog-alt":           @"\ua107",
+              @"icon-code":              @"\ua108",
+              };
+ }
+ @end
+ ```
 
 ## License
 

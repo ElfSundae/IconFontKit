@@ -10,6 +10,7 @@
 #import <IconFontsKit/IconFontsKit.h>
 #import "ExplorerIconCell.h"
 #import <JTSImageViewController/JTSImageViewController.h>
+#import "MyFontIcons.h"
 
 @interface ExplorerViewController ()
 <UICollectionViewDataSource, UICollectionViewDelegate, UISearchBarDelegate,
@@ -31,7 +32,8 @@ JTSImageViewControllerDismissalDelegate>
         self.title = @"Explorer";
         self.tabBarItem.image = [IFFontAwesome imageWithType:IFFASearch color:nil fontSize:26];
         self.icons = [NSMutableArray array];
-        self.iconGroups = @[ @{ @"FA": [IFFontAwesome class] },
+        self.iconGroups = @[ @{ @"My": [MyFontIcons class] },
+                             @{ @"FA": [IFFontAwesome class] },
                              @{ @"OI": [IFOcticons class] },
                              @{ @"FI": [IFFoundationIcons class] },
                              @{ @"II": [IFIonicons class] },

@@ -15,6 +15,8 @@
 		E7E724E81C7382BC0049EE82 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724E71C7382BC0049EE82 /* SampleViewController.m */; };
 		E7E724EB1C7382D20049EE82 /* ExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724EA1C7382D20049EE82 /* ExplorerViewController.m */; };
 		E7E724F71C787BD40049EE82 /* ExplorerIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724F61C787BD40049EE82 /* ExplorerIconCell.m */; };
+		E7FE9D621C7B709D00FCDE07 /* myfonticons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7FE9D611C7B709D00FCDE07 /* myfonticons.ttf */; };
+		E7FE9D651C7B72E700FCDE07 /* MyFontIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FE9D641C7B72E700FCDE07 /* MyFontIcons.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,9 @@
 		E7E724EA1C7382D20049EE82 /* ExplorerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplorerViewController.m; sourceTree = "<group>"; };
 		E7E724F51C787BD40049EE82 /* ExplorerIconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplorerIconCell.h; sourceTree = "<group>"; };
 		E7E724F61C787BD40049EE82 /* ExplorerIconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplorerIconCell.m; sourceTree = "<group>"; };
+		E7FE9D611C7B709D00FCDE07 /* myfonticons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = myfonticons.ttf; sourceTree = "<group>"; };
+		E7FE9D631C7B72E700FCDE07 /* MyFontIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFontIcons.h; sourceTree = "<group>"; };
+		E7FE9D641C7B72E700FCDE07 /* MyFontIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFontIcons.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +101,9 @@
 				E7E724EA1C7382D20049EE82 /* ExplorerViewController.m */,
 				E7E724F51C787BD40049EE82 /* ExplorerIconCell.h */,
 				E7E724F61C787BD40049EE82 /* ExplorerIconCell.m */,
+				E7FE9D631C7B72E700FCDE07 /* MyFontIcons.h */,
+				E7FE9D641C7B72E700FCDE07 /* MyFontIcons.m */,
+				E7FE9D611C7B709D00FCDE07 /* myfonticons.ttf */,
 				E7E724D61C73816B0049EE82 /* Assets.xcassets */,
 				E7E724D81C73816B0049EE82 /* LaunchScreen.storyboard */,
 				E7E724DB1C73816B0049EE82 /* Info.plist */,
@@ -174,6 +182,7 @@
 			files = (
 				E7E724DA1C73816B0049EE82 /* LaunchScreen.storyboard in Resources */,
 				E7E724D71C73816B0049EE82 /* Assets.xcassets in Resources */,
+				E7FE9D621C7B709D00FCDE07 /* myfonticons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +246,7 @@
 				E7E724E81C7382BC0049EE82 /* SampleViewController.m in Sources */,
 				E7E724F71C787BD40049EE82 /* ExplorerIconCell.m in Sources */,
 				E7E724EB1C7382D20049EE82 /* ExplorerViewController.m in Sources */,
+				E7FE9D651C7B72E700FCDE07 /* MyFontIcons.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

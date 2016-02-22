@@ -1,4 +1,4 @@
-+ Demonstrate using custom icon font.
++ ~~Demonstrate using custom icon font.~~
 
 + Add new fonts:
   + https://icomoon.io/#icons-icomoon
