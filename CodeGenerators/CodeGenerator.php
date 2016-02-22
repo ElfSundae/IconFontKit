@@ -31,9 +31,9 @@ function CodeGenerator()
     for ($i = 0; $i < count($iconIdentifiers); ++$i) {
         $name = $iconNames[$i];
         $name = ucfirst($name);
-        $name = preg_replace_callback("#[-_]+[0-9a-z]{1}#i",
+        $name = preg_replace_callback("#[-_.]+[0-9a-z]{1}#i",
             function($matches) {
-                return strtoupper(preg_replace("#[-_]#", '', $matches[0]));
+                return strtoupper(preg_replace("#[-_.]#", '', $matches[0]));
             }, $name);
         $type = sprintf("{$tab}IF%s%-35s = 0x%s,\n", $iconTypePrefix, $name, $iconCodes[$i]);
         $hContent .= $type;
@@ -92,20 +92,23 @@ function CodeGenerator()
  *
  *   .ion-android-add:before { content: "\f2c7"; }
  *
+ *   .zocial.aol:before { content: "\f104"; }
+ *
  */
 function parseCSS($cssFile, $iconPrefix)
 {
     global $iconNames, $iconCodes, $iconIdentifiers;
 
     $variables = file_get_contents($cssFile);
-    $variables = preg_replace_callback("#^\\.$iconPrefix-[^,\\n]+,[^{]+({[^}]+})#im", function($matches) {
+    $variables = preg_replace_callback("#^\\.{$iconPrefix}[-_.][^,\\n]+,[^{]+({[^}]+})#im", function($matches) {
         return str_replace(',', $matches[1], $matches[0]);
     }, $variables);
 
-    preg_match_all("#^\\.$iconPrefix-([^:]+):[^\"'}]*[\"']\\\\([0-9a-f]+)#im", $variables, $matches);
-    $iconNames = $matches[1];
-    $iconCodes = $matches[2];
-    foreach ($matches[1] as $str) {
-        $iconIdentifiers[] = $iconPrefix . '-' . $str;
+    if (preg_match_all("#^\\.{$iconPrefix}([-_.])([^:]+):[^\"'}]*[\"']\\\\([0-9a-f]+)#im", $variables, $matches)) {
+        $iconNames = $matches[2];
+        $iconCodes = $matches[3];
+        foreach ($matches[2] as $str) {
+            $iconIdentifiers[] = $iconPrefix . $matches[1][0] . $str;
+        }
     }
 }

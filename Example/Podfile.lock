@@ -1,27 +1,30 @@
 PODS:
-  - IconFontsKit (1.0.1):
-    - IconFontsKit/Core (= 1.0.1)
-    - IconFontsKit/ElusiveIcons (= 1.0.1)
-    - IconFontsKit/FontAwesome (= 1.0.1)
-    - IconFontsKit/FoundationIcons (= 1.0.1)
-    - IconFontsKit/Ionicons (= 1.0.1)
-    - IconFontsKit/MaterialDesignIcons (= 1.0.1)
-    - IconFontsKit/MaterialIcons (= 1.0.1)
-    - IconFontsKit/Octicons (= 1.0.1)
-  - IconFontsKit/Core (1.0.1)
-  - IconFontsKit/ElusiveIcons (1.0.1):
+  - IconFontsKit (1.0.2):
+    - IconFontsKit/Core (= 1.0.2)
+    - IconFontsKit/ElusiveIcons (= 1.0.2)
+    - IconFontsKit/FontAwesome (= 1.0.2)
+    - IconFontsKit/FoundationIcons (= 1.0.2)
+    - IconFontsKit/Ionicons (= 1.0.2)
+    - IconFontsKit/MaterialDesignIcons (= 1.0.2)
+    - IconFontsKit/MaterialIcons (= 1.0.2)
+    - IconFontsKit/Octicons (= 1.0.2)
+    - IconFontsKit/ZocialButtons (= 1.0.2)
+  - IconFontsKit/Core (1.0.2)
+  - IconFontsKit/ElusiveIcons (1.0.2):
     - IconFontsKit/Core
-  - IconFontsKit/FontAwesome (1.0.1):
+  - IconFontsKit/FontAwesome (1.0.2):
     - IconFontsKit/Core
-  - IconFontsKit/FoundationIcons (1.0.1):
+  - IconFontsKit/FoundationIcons (1.0.2):
     - IconFontsKit/Core
-  - IconFontsKit/Ionicons (1.0.1):
+  - IconFontsKit/Ionicons (1.0.2):
     - IconFontsKit/Core
-  - IconFontsKit/MaterialDesignIcons (1.0.1):
+  - IconFontsKit/MaterialDesignIcons (1.0.2):
     - IconFontsKit/Core
-  - IconFontsKit/MaterialIcons (1.0.1):
+  - IconFontsKit/MaterialIcons (1.0.2):
     - IconFontsKit/Core
-  - IconFontsKit/Octicons (1.0.1):
+  - IconFontsKit/Octicons (1.0.2):
+    - IconFontsKit/Core
+  - IconFontsKit/ZocialButtons (1.0.2):
     - IconFontsKit/Core
   - JTSImageViewController (1.5.1)
 
@@ -34,7 +37,7 @@ EXTERNAL SOURCES:
     :path: "../IconFontsKit.podspec"
 
 SPEC CHECKSUMS:
-  IconFontsKit: e5c7e4a26466f281dead14ced1d1825773908e63
+  IconFontsKit: 320b64468a925641f95c9f33451dea72a79c1197
   JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
 
 COCOAPODS: 0.39.0

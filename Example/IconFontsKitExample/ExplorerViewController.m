@@ -38,6 +38,7 @@ JTSImageViewControllerDismissalDelegate>
                              @{ @"MDI": [IFMaterialDesignIcons class] },
                              @{ @"EI": [IFElusiveIcons class] },
                              @{ @"MI": [IFMaterialIcons class] },
+                             @{ @"ZB": [IFZocialButtons class] },
                              ];
     }
     return self;

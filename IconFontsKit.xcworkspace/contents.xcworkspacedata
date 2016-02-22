@@ -76,6 +76,15 @@
       <FileRef
          location = "group:MaterialIcons-Regular.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFZocialButtons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFZocialButtons.m">
+      </FileRef>
+      <FileRef
+         location = "group:zocial.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">

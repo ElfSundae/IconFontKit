@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = "IconFontsKit"
-  s.version           = "1.0.1"
+  s.version           = "1.0.2"
   s.license           = "MIT"
   s.summary           = "Icon fonts for iOS."
   s.homepage          = "https://github.com/ElfSundae/IconFontsKit"
@@ -58,6 +58,12 @@ Pod::Spec.new do |s|
     ss.dependency           "IconFontsKit/Core"
     ss.source_files         = "IconFontsKit/IFMaterialIcons.{h,m}"
     ss.resource             = "IconFontsKit/MaterialIcons-Regular.ttf"
+  end
+
+  s.subspec "ZocialButtons" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFZocialButtons.{h,m}"
+    ss.resource             = "IconFontsKit/zocial.ttf"
   end
 
 end
