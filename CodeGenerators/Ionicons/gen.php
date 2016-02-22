@@ -9,5 +9,4 @@ $iconTypePrefix     = 'II';
 $fontFile           = 'ionicons.ttf';
 $fontName           = 'Ionicons';
 
-parseCSS('ionicons.css', 'ion');
-CodeGenerator();
+generatorFromCSS('ionicons.css', 'ion');

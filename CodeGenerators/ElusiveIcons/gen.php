@@ -9,5 +9,4 @@ $iconTypePrefix     = 'EL';
 $fontFile           = 'elusiveicons-webfont.ttf';
 $fontName           = 'elusiveicons';
 
-parseCSS('elusive-icons.css', 'el');
-CodeGenerator();
+generatorFromCSS('elusive-icons.css', 'el');

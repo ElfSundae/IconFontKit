@@ -17,4 +17,4 @@ foreach (file('codepoints') as $line) {
     }
 }
 
-CodeGenerator();
+generator();

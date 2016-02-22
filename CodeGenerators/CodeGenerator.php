@@ -10,11 +10,30 @@ $iconNames          = [];   // e.g. ['wifi-o']
 $iconCodes          = [];   // e.g. ['f01a']
 $moveToProject      = true; // determines move .h and .m files to Xcode project
 
-function CodeGenerator()
+$hContent           = '';
+$mContent           = '';
+
+function hFilename()
+{
+    global $fontIdentifier;
+    return 'IF' . $fontIdentifier . '.h';
+}
+
+function mFilename()
+{
+    global $fontIdentifier;
+    return 'IF' . $fontIdentifier . '.m';
+}
+
+/**
+ * Generate .h and .m code contents using $iconIdentifiers, $iconNames, and $iconCodes.
+ * And set them to $hContent and $mContent.
+ */
+function generateContents()
 {
     global $fontIdentifier, $fontDescription, $iconTypePrefix, $fontFile, $fontName;
     global $iconIdentifiers, $iconNames, $iconCodes;
-    global $moveToProject;
+    global $hContent, $mContent;
 
     date_default_timezone_set('Asia/Shanghai');
 
@@ -63,16 +82,43 @@ function CodeGenerator()
     $mContent .= "}\n";
 
     $mContent .= "\n@end\n";
+}
 
-    file_put_contents("$className.h", $hContent);
-    file_put_contents("$className.m", $mContent);
+/**
+ * Write code contents to files.
+ */
+function writeToFile()
+{
+    global $hContent, $mContent, $moveToProject;
+    global $fontIdentifier, $iconIdentifiers;
+
+    $hFile = hFilename();
+    $mFile = mFilename();
+
+    file_put_contents($hFile, $hContent);
+    file_put_contents($mFile, $mContent);
 
     if ($moveToProject) {
-        rename("$className.h", "../../IconFontsKit/$className.h");
-        rename("$className.m", "../../IconFontsKit/$className.m");
+        rename($hFile, "../../IconFontsKit/$hFile");
+        rename($mFile, "../../IconFontsKit/$mFile");
     }
 
     echo "$fontIdentifier contains " . count($iconIdentifiers) . " icons (including aliases).\n";
+}
+
+/**
+ * Generate code contents and write to files.
+ */
+function generator()
+{
+    generateContents();
+    writeToFile();
+}
+
+function generatorFromCSS($cssFile, $iconPrefix)
+{
+    parseCSS($cssFile, $iconPrefix);
+    generator();
 }
 
 /**

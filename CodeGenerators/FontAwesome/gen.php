@@ -8,5 +8,4 @@ $fontDescription    = 'Font Awesome v4.5.0 http://fontawesome.io/icons';
 $iconTypePrefix     = 'FA';
 $fontFile           = 'FontAwesome.otf';
 
-parseCSS('font-awesome.css', 'fa');
-CodeGenerator();
+generatorFromCSS('font-awesome.css', 'fa');

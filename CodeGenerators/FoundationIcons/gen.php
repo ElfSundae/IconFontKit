@@ -9,5 +9,4 @@ $iconTypePrefix     = 'FI';
 $fontFile           = 'foundation-icons.ttf';
 $fontName           = 'fontcustom';
 
-parseCSS('foundation-icons.css', 'fi');
-CodeGenerator();
+generatorFromCSS('foundation-icons.css', 'fi');

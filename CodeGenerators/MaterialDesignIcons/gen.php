@@ -9,5 +9,4 @@ $iconTypePrefix     = 'MDI';
 $fontFile           = 'materialdesignicons-webfont.ttf';
 $fontName           = 'Material Design Icons';
 
-parseCSS('materialdesignicons.css', 'mdi');
-CodeGenerator();
+generatorFromCSS('materialdesignicons.css', 'mdi');
