@@ -128,15 +128,15 @@ You can set the `drawingPositionAdjustment` property to adjust drawing offset fo
 
  + (NSDictionary *)allIcons {
      return @{
-              @"icon-facebook-squared":  @"\ua100",
-              @"icon-chat":              @"\ua101",
-              @"icon-emo-happy":         @"\ua102",
-              @"icon-thumbs-up":         @"\ua103",
-              @"icon-thumbs-up-alt":     @"\ua104",
-              @"icon-link-ext":          @"\ua105",
-              @"icon-volume-up":         @"\ua106",
-              @"icon-cog-alt":           @"\ua107",
-              @"icon-code":              @"\ua108",
+              @"facebook-squared":  @"\ua100",
+              @"chat":              @"\ua101",
+              @"emo-happy":         @"\ua102",
+              @"thumbs-up":         @"\ua103",
+              @"thumbs-up-alt":     @"\ua104",
+              @"link-ext":          @"\ua105",
+              @"volume-up":         @"\ua106",
+              @"cog-alt":           @"\ua107",
+              @"code":              @"\ua108",
               };
  }
  @end
