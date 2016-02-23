@@ -203,7 +203,7 @@ JTSImageViewControllerDismissalDelegate, UIActionSheetDelegate>
     icon.color = [UIColor colorWithRed:(CGFloat)arc4random()/UINT_MAX green:(CGFloat)arc4random()/UINT_MAX blue:(CGFloat)arc4random()/UINT_MAX alpha:1.f];
     
     JTSImageInfo *imageInfo = [[JTSImageInfo alloc] init];
-    imageInfo.image = [icon imageWithSize:CGSizeMake(icon.fontSize, icon.fontSize)];
+    imageInfo.image = [icon imageWithSize:icon.suggestionSize];
     imageInfo.referenceView = cell.iconLabel.superview;
     imageInfo.referenceRect = cell.iconLabel.frame;
     JTSImageViewController *imageViewController = [[JTSImageViewController alloc] initWithImageInfo:imageInfo
