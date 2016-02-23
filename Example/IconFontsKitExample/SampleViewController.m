@@ -44,7 +44,6 @@
                                                                               style:UIBarButtonItemStylePlain target:nil action:nil];
     
     IFFontAwesome *container = [IFFontAwesome iconWithType:IFFASquareO fontSize:100.0 color:[UIColor colorWithWhite:0.88 alpha:1.0]];
-    IFFontAwesome *forbidden = [IFFontAwesome iconWithType:IFFABan fontSize:70.0 color:[[UIColor redColor] colorWithAlphaComponent:0.6]];
     
     IFFontAwesome *twitterIcon = [IFFontAwesome iconWithType:IFFATwitter fontSize:60 color:[UIColor colorWithRed:0.25f green:0.60f blue:1.00f alpha:1.00f]];
     UIImage *twitter = [UIImage if_imageWithStackedIcons:@[container, twitterIcon] imageSize:CGSizeMake(100, 100)];
@@ -52,7 +51,8 @@
     [self.view addSubview:twitterImageView];
     _imageView1 = twitterImageView;
     
-    IFFontAwesome *usbIcon = [IFFontAwesome iconWithType:IFFAUsb fontSize:50];
+    IFFontAwesome *usbIcon = [IFFontAwesome iconWithType:IFFAUsb fontSize:40];
+    IFFontAwesome *forbidden = [IFFontAwesome iconWithType:IFFABan fontSize:60.0 color:[[UIColor redColor] colorWithAlphaComponent:0.6]];
     container.drawingPositionAdjustment = UIOffsetMake(0, 4);
     UIImage *usb = [UIImage if_imageWithStackedIcons:@[container, usbIcon, forbidden] imageSize:CGSizeMake(100, 100)];
     UIImageView *usbImageView = [[UIImageView alloc] initWithImage:usb];
