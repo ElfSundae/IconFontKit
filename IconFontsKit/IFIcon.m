@@ -132,7 +132,7 @@
     return [self.mutableAttributedString size];
 }
 
-- (CGSize)suggestionSize
+- (CGSize)suggestedSize
 {
     CGSize size = [self size];
     size.width *= (1.0 + self.drawingPaddingMultiplie.horizontal);
@@ -315,7 +315,7 @@
 
 + (UIImage *)imageWithType:(IFIconType)type color:(UIColor *)color imageSize:(CGSize)imageSize
 {
-    CGFloat fontSize = fminf(imageSize.width, imageSize.height);
+    CGFloat fontSize = fmin(imageSize.width, imageSize.height);
     return [self imageWithType:type color:color backgroundColor:nil positionAdjustment:UIOffsetZero attributes:nil fontSize:fontSize imageSize:imageSize];
 }
 

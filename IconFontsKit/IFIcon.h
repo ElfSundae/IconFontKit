@@ -105,9 +105,9 @@ typedef unichar IFIconType;
  */
 - (CGSize)size;
 /**
- * Returns the suggestion size to draw the icon, according `size` and `drawingPaddingMultiplie`.
+ * Returns the suggested size to draw the icon, according `size` and `drawingPaddingMultiplie`.
  */
-- (CGSize)suggestionSize;
+- (CGSize)suggestedSize;
 
 /**
  * Returns all attributes applied on this icon.
