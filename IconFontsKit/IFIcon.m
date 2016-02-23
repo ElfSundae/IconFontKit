@@ -175,7 +175,7 @@
 - (NSString *)description
 {
     NSMutableString *desc = [super description].mutableCopy;
-    [desc appendFormat:@"code: %@, type: 0x%x", self.code, self.type];
+    [desc appendFormat:@" code: %@, type: 0x%x", self.code, self.type];
     if (_identifier) {
         [desc appendFormat:@", identifier: %@", _identifier];
     }
