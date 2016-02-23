@@ -100,6 +100,14 @@ typedef unichar IFIconType;
  * Returns the font of this icon.
  */
 - (UIFont *)font;
+/**
+ * Returns the minimum size required to draw the icon.
+ */
+- (CGSize)size;
+/**
+ * Returns the suggestion size to draw the icon, according `size` and `drawingPaddingMultiplie`.
+ */
+- (CGSize)suggestionSize;
 
 /**
  * Returns all attributes applied on this icon.

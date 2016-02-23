@@ -127,6 +127,19 @@
     return [self attribute:NSFontAttributeName];
 }
 
+- (CGSize)size
+{
+    return [self.mutableAttributedString size];
+}
+
+- (CGSize)suggestionSize
+{
+    CGSize size = [self size];
+    size.width *= (1.0 + self.drawingPaddingMultiplie.horizontal);
+    size.height *= (1.0 + self.drawingPaddingMultiplie.vertical);
+    return size;
+}
+
 - (CGFloat)fontSize
 {
     return self.font.pointSize;
@@ -297,10 +310,7 @@
 {
     IFIcon *icon = [self iconWithType:type fontSize:fontSize];
     icon.color = color;
-    CGSize imageSize = [icon.mutableAttributedString size];
-    imageSize.width *= (1.0 + [self defaultDrawingPaddingMultiplie].horizontal);
-    imageSize.height *= (1.0 + [self defaultDrawingPaddingMultiplie].vertical);
-    return [icon imageWithSize:imageSize];
+    return [icon imageWithSize:icon.suggestionSize];
 }
 
 + (UIImage *)imageWithType:(IFIconType)type color:(UIColor *)color imageSize:(CGSize)imageSize
