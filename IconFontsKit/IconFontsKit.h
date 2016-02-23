@@ -15,3 +15,4 @@
 #import <IconFontsKit/IFMaterialIcons.h>
 #import <IconFontsKit/IFZocialButtons.h>
 #import <IconFontsKit/IFTypicons.h>
+#import <IconFontsKit/IFOpenIconic.h>

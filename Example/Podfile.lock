@@ -8,6 +8,7 @@ PODS:
     - IconFontsKit/MaterialDesignIcons (= 1.1.1)
     - IconFontsKit/MaterialIcons (= 1.1.1)
     - IconFontsKit/Octicons (= 1.1.1)
+    - IconFontsKit/OpenIconic (= 1.1.1)
     - IconFontsKit/Typicons (= 1.1.1)
     - IconFontsKit/ZocialButtons (= 1.1.1)
   - IconFontsKit/Core (1.1.1)
@@ -25,6 +26,8 @@ PODS:
     - IconFontsKit/Core
   - IconFontsKit/Octicons (1.1.1):
     - IconFontsKit/Core
+  - IconFontsKit/OpenIconic (1.1.1):
+    - IconFontsKit/Core
   - IconFontsKit/Typicons (1.1.1):
     - IconFontsKit/Core
   - IconFontsKit/ZocialButtons (1.1.1):
@@ -40,7 +43,7 @@ EXTERNAL SOURCES:
     :path: "../IconFontsKit.podspec"
 
 SPEC CHECKSUMS:
-  IconFontsKit: b2679e50ed0c5d6bada4b85bb8bfb5083819f30a
+  IconFontsKit: a389edda374003b6330ee2abe45ec8a7d9fd1320
   JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
 
 COCOAPODS: 0.39.0

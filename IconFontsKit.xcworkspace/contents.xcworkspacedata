@@ -94,6 +94,15 @@
       <FileRef
          location = "group:typicons.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFOpenIconic.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFOpenIconic.m">
+      </FileRef>
+      <FileRef
+         location = "group:open-iconic.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">
