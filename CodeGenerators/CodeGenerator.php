@@ -35,17 +35,11 @@ function generateContents()
     global $iconIdentifiers, $iconNames, $iconCodes;
     global $hContent, $mContent;
 
-    date_default_timezone_set('Asia/Shanghai');
-
-    $header = "//\n";
-    $header .= "// $fontDescription\n";
-    $header .= "// Generated on " . date('Y-m-d') . "\n";
-    $header .= "//\n\n";
     $className = "IF$fontIdentifier";
     $tab = "    ";
 
-    $hContent = $header;
-    $hContent .= "#import <IconFontsKit/IFIcon.h>\n\n";
+    $hContent = "#import <IconFontsKit/IFIcon.h>\n\n";
+    $hContent .= "/// {$fontIdentifier} icon types.\n";
     $hContent .= "typedef NS_ENUM(IFIconType, {$className}Type) {\n";
     for ($i = 0; $i < count($iconIdentifiers); ++$i) {
         $name = $iconNames[$i];
@@ -55,13 +49,15 @@ function generateContents()
                 return strtoupper(preg_replace("#[-_.]#", '', $matches[0]));
             }, $name);
         $type = sprintf("{$tab}IF%s%-35s = 0x%s,\n", $iconTypePrefix, $name, $iconCodes[$i]);
+        $hContent .= "{$tab}/// Identifier: \"$iconIdentifiers[$i]\"\n";
         $hContent .= $type;
     }
     $hContent .= "};\n\n";
+    $fontDesc = str_replace("\n", "\n *", $fontDescription);
+    $hContent .= "/*!\n * $fontDescription\n */\n";
     $hContent .= "@interface $className : IFIcon\n";
     $hContent .= "@end\n";
 
-    $mContent = $header;
     $mContent .= "#import \"$className.h\"\n\n";
     $mContent .= "@implementation $className\n";
     $mContent .= "\n+ (NSURL *)fontFileURL\n{\n";
