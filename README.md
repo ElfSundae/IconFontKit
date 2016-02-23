@@ -4,9 +4,9 @@
 
 **IconFontsKit** is inspired to [FontAwesomeKit](https://github.com/PrideChung/FontAwesomeKit).
 
-[![Sample](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/sample.png?2)](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/sample.png)
-[![Explorer](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/explorer.png?2)](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/explorer.png)
-[![Selector](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/selector.png?2)](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/selector.png)
+[![Sample](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/sample.png?3)](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/sample.png)
+[![Explorer](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/explorer.png?3)](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/explorer.png)
+[![Selector](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/selector.png?3)](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/selector.png)
 
 ## Supported Icon Fonts
 
