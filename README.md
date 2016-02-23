@@ -6,6 +6,7 @@
 
 [![Sample](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/sample.png)](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/sample.png)
 [![Explorer](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/explorer.png)](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/explorer.png)
+[![Selector](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/selector.png)](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/selector.png)
 
 ## Supported Icon Fonts
 
