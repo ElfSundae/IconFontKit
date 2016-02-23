@@ -1,34 +1,36 @@
 PODS:
-  - IconFontsKit (1.0.2):
-    - IconFontsKit/Core (= 1.0.2)
-    - IconFontsKit/ElusiveIcons (= 1.0.2)
-    - IconFontsKit/FontAwesome (= 1.0.2)
-    - IconFontsKit/FoundationIcons (= 1.0.2)
-    - IconFontsKit/Ionicons (= 1.0.2)
-    - IconFontsKit/MaterialDesignIcons (= 1.0.2)
-    - IconFontsKit/MaterialIcons (= 1.0.2)
-    - IconFontsKit/Octicons (= 1.0.2)
-    - IconFontsKit/ZocialButtons (= 1.0.2)
-  - IconFontsKit/Core (1.0.2)
-  - IconFontsKit/ElusiveIcons (1.0.2):
+  - CHTCollectionViewWaterfallLayout (0.9.2)
+  - IconFontsKit (1.0.3):
+    - IconFontsKit/Core (= 1.0.3)
+    - IconFontsKit/ElusiveIcons (= 1.0.3)
+    - IconFontsKit/FontAwesome (= 1.0.3)
+    - IconFontsKit/FoundationIcons (= 1.0.3)
+    - IconFontsKit/Ionicons (= 1.0.3)
+    - IconFontsKit/MaterialDesignIcons (= 1.0.3)
+    - IconFontsKit/MaterialIcons (= 1.0.3)
+    - IconFontsKit/Octicons (= 1.0.3)
+    - IconFontsKit/ZocialButtons (= 1.0.3)
+  - IconFontsKit/Core (1.0.3)
+  - IconFontsKit/ElusiveIcons (1.0.3):
     - IconFontsKit/Core
-  - IconFontsKit/FontAwesome (1.0.2):
+  - IconFontsKit/FontAwesome (1.0.3):
     - IconFontsKit/Core
-  - IconFontsKit/FoundationIcons (1.0.2):
+  - IconFontsKit/FoundationIcons (1.0.3):
     - IconFontsKit/Core
-  - IconFontsKit/Ionicons (1.0.2):
+  - IconFontsKit/Ionicons (1.0.3):
     - IconFontsKit/Core
-  - IconFontsKit/MaterialDesignIcons (1.0.2):
+  - IconFontsKit/MaterialDesignIcons (1.0.3):
     - IconFontsKit/Core
-  - IconFontsKit/MaterialIcons (1.0.2):
+  - IconFontsKit/MaterialIcons (1.0.3):
     - IconFontsKit/Core
-  - IconFontsKit/Octicons (1.0.2):
+  - IconFontsKit/Octicons (1.0.3):
     - IconFontsKit/Core
-  - IconFontsKit/ZocialButtons (1.0.2):
+  - IconFontsKit/ZocialButtons (1.0.3):
     - IconFontsKit/Core
   - JTSImageViewController (1.5.1)
 
 DEPENDENCIES:
+  - CHTCollectionViewWaterfallLayout
   - IconFontsKit (from `../IconFontsKit.podspec`)
   - JTSImageViewController
 
@@ -37,7 +39,8 @@ EXTERNAL SOURCES:
     :path: "../IconFontsKit.podspec"
 
 SPEC CHECKSUMS:
-  IconFontsKit: 320b64468a925641f95c9f33451dea72a79c1197
+  CHTCollectionViewWaterfallLayout: 43232febcb3e4d3985cd758718cbe499b21b822f
+  IconFontsKit: 40dfa0435e5eabf0050eabd6867524a99fd55429
   JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
 
 COCOAPODS: 0.39.0

@@ -13,7 +13,7 @@
 #import "MyFontIcons.h"
 
 @interface ExplorerViewController ()
-<UICollectionViewDataSource, UICollectionViewDelegate, UISearchBarDelegate,
+<UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UICollectionViewDelegate, UISearchBarDelegate,
 JTSImageViewControllerDismissalDelegate, UIActionSheetDelegate>
 @property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic, strong) UISearchBar *searchBar;
@@ -62,8 +62,7 @@ JTSImageViewControllerDismissalDelegate, UIActionSheetDelegate>
     self.navigationItem.titleView = button;
     
     UICollectionViewFlowLayout *collectionLayout = [[UICollectionViewFlowLayout alloc] init];
-    collectionLayout.sectionInset = UIEdgeInsetsMake(0, 5.0, 0, 5.0);
-    collectionLayout.itemSize = CGSizeMake(70, 90);
+    collectionLayout.sectionInset = UIEdgeInsetsMake(0, 10.0, 0, 10.0);
     self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:collectionLayout];
     self.collectionView.dataSource = self;
     self.collectionView.delegate = self;
@@ -190,6 +189,13 @@ JTSImageViewControllerDismissalDelegate, UIActionSheetDelegate>
     return cell;
 }
 
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    UICollectionViewFlowLayout *layout = (UICollectionViewFlowLayout *)collectionViewLayout;
+    CGFloat maxWidth = collectionView.frame.size.width - layout.sectionInset.left - layout.sectionInset.right;
+    return [ExplorerIconCell sizeForIcon:self.icons[indexPath.row] maxWidth:maxWidth];
+}
+
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
 {
     [self.searchBar resignFirstResponder];
@@ -199,11 +205,11 @@ JTSImageViewControllerDismissalDelegate, UIActionSheetDelegate>
 {
     ExplorerIconCell *cell = (ExplorerIconCell *)[collectionView cellForItemAtIndexPath:indexPath];
     IFIcon *icon = [self.icons[indexPath.row] copy];
-    icon.fontSize = fminf(self.view.frame.size.width, self.view.frame.size.height) * 0.75;
+    icon.fontSize = fmin(self.view.frame.size.width, self.view.frame.size.height) * 0.75;
     icon.color = [UIColor colorWithRed:(CGFloat)arc4random()/UINT_MAX green:(CGFloat)arc4random()/UINT_MAX blue:(CGFloat)arc4random()/UINT_MAX alpha:1.f];
     
     JTSImageInfo *imageInfo = [[JTSImageInfo alloc] init];
-    imageInfo.image = [icon imageWithSize:icon.suggestionSize];
+    imageInfo.image = [icon imageWithSize:icon.suggestedSize];
     imageInfo.referenceView = cell.iconLabel.superview;
     imageInfo.referenceRect = cell.iconLabel.frame;
     JTSImageViewController *imageViewController = [[JTSImageViewController alloc] initWithImageInfo:imageInfo

@@ -19,9 +19,6 @@
         
         self.iconIdentifierLabel = [[UILabel alloc] initWithFrame:CGRectZero];
         self.iconIdentifierLabel.numberOfLines = 0;
-        self.iconIdentifierLabel.font = [UIFont systemFontOfSize:15.0];
-        self.iconIdentifierLabel.lineBreakMode = NSLineBreakByCharWrapping;
-        self.iconIdentifierLabel.textAlignment = NSTextAlignmentCenter;
         [self.contentView addSubview:self.iconIdentifierLabel];
     }
     return self;
@@ -39,15 +36,44 @@
 {
     _icon = icon;
     self.iconLabel.attributedText = _icon.attributedString;
-    self.iconIdentifierLabel.text = _icon.identifier;
+    self.iconIdentifierLabel.attributedText = [[NSAttributedString alloc] initWithString:_icon.identifier attributes:[[self class] identifierAttributes]];
     [self setNeedsLayout];
 }
 
 - (void)layoutSubviews
 {
-    [self.iconIdentifierLabel sizeToFit];
-    self.iconIdentifierLabel.frame = CGRectMake(0, self.contentView.frame.size.height - self.iconIdentifierLabel.frame.size.height, self.contentView.frame.size.width, self.iconIdentifierLabel.frame.size.height);
-    self.iconLabel.frame = CGRectMake(0, 0, self.contentView.frame.size.width, self.contentView.frame.size.height - self.iconIdentifierLabel.frame.size.height);
+    [super layoutSubviews];
+    
+    CGRect iconFrame = CGRectZero;
+    iconFrame.size = self.icon.suggestedSize;
+    iconFrame.size.width = self.contentView.frame.size.width;
+    iconFrame.size.height = fmin(iconFrame.size.height, self.contentView.frame.size.height);
+    self.iconLabel.frame = iconFrame;
+    
+    self.iconIdentifierLabel.frame = CGRectMake(0, self.iconLabel.frame.size.height, self.contentView.frame.size.width, self.contentView.frame.size.height - self.iconLabel.frame.size.height);
+}
+
++ (NSDictionary *)identifierAttributes
+{
+    static NSDictionary *__identifierAttributes;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        NSMutableParagraphStyle *pStyle = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
+        pStyle.lineBreakMode = NSLineBreakByCharWrapping;
+        pStyle.alignment = NSTextAlignmentCenter;
+        __identifierAttributes = @{NSFontAttributeName: [UIFont systemFontOfSize:15.0],
+                                   NSParagraphStyleAttributeName: pStyle};
+        
+    });
+    return __identifierAttributes;
+}
+
++ (CGSize)sizeForIcon:(IFIcon *)icon maxWidth:(CGFloat)maxWidth
+{
+    CGSize iconSize = icon.suggestedSize;
+    CGFloat cellMaxWidth = fmin(maxWidth, fmax(iconSize.width, icon.fontSize + 8));
+    CGSize identifierSize = [icon.identifier boundingRectWithSize:CGSizeMake(cellMaxWidth, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading attributes:[self identifierAttributes] context:nil].size;
+    return CGSizeMake(fmax(iconSize.width, identifierSize.width), iconSize.height + identifierSize.height + 3.0);
 }
 
 @end

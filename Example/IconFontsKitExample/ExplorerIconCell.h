@@ -14,4 +14,7 @@
 @property (nonatomic, strong) UILabel *iconIdentifierLabel;
 
 @property (nonatomic, strong) IFIcon *icon;
+
++ (CGSize)sizeForIcon:(IFIcon *)icon maxWidth:(CGFloat)maxWidth;
+
 @end
