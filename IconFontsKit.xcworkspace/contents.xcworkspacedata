@@ -85,6 +85,15 @@
       <FileRef
          location = "group:zocial.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFTypicons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFTypicons.m">
+      </FileRef>
+      <FileRef
+         location = "group:typicons.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">

@@ -66,4 +66,10 @@ Pod::Spec.new do |s|
     ss.resource             = "IconFontsKit/zocial.ttf"
   end
 
+  s.subspec "Typicons" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFTypicons.{h,m}"
+    ss.resource             = "IconFontsKit/typicons.ttf"
+  end
+
 end
