@@ -14,13 +14,15 @@
 
 @interface ExplorerViewController ()
 <UICollectionViewDataSource, UICollectionViewDelegate, UISearchBarDelegate,
-JTSImageViewControllerDismissalDelegate>
+JTSImageViewControllerDismissalDelegate, UIActionSheetDelegate>
 @property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic, strong) UISearchBar *searchBar;
-@property (nonatomic, strong) UISegmentedControl *segmentedControl;
 @property (nonatomic, strong) NSMutableArray *icons;
-@property (nonatomic, strong) NSArray *fullIcons;
-@property (nonatomic, strong) NSArray *iconGroups;
+@property (nonatomic, strong) NSArray *allIcons;
+@property (nonatomic, strong) NSArray *fontClasses;
+@property (nonatomic) NSUInteger selectedFontIndex;
+
+- (UIButton *)titleButton;
 @end
 
 @implementation ExplorerViewController
@@ -32,16 +34,20 @@ JTSImageViewControllerDismissalDelegate>
         self.title = @"Explorer";
         self.tabBarItem.image = [IFFontAwesome imageWithType:IFFASearch color:nil fontSize:26];
         self.icons = [NSMutableArray array];
-        self.iconGroups = @[ @{ @"My": [MyFontIcons class] },
-                             @{ @"FA": [IFFontAwesome class] },
-                             @{ @"OI": [IFOcticons class] },
-                             @{ @"FI": [IFFoundationIcons class] },
-                             @{ @"II": [IFIonicons class] },
-                             @{ @"MDI": [IFMaterialDesignIcons class] },
-                             @{ @"EI": [IFElusiveIcons class] },
-                             @{ @"MI": [IFMaterialIcons class] },
-                             @{ @"ZB": [IFZocialButtons class] },
+        self.fontClasses = @[[IFFontAwesome class],
+                             [MyFontIcons class],
+                             [IFOcticons class],
+                             [IFFoundationIcons class],
+                             [IFIonicons class],
+                             [IFMaterialDesignIcons class],
+                             [IFElusiveIcons class],
+                             [IFMaterialIcons class],
+                             [IFZocialButtons class],
                              ];
+        NSMutableArray *classesNames = [[NSMutableArray alloc] initWithCapacity:self.fontClasses.count];
+        for (Class cls in self.fontClasses) {
+            [classesNames addObject:NSStringFromClass(cls)];
+        }
     }
     return self;
 }
@@ -50,14 +56,10 @@ JTSImageViewControllerDismissalDelegate>
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    
-    NSMutableArray *segItems = [NSMutableArray array];
-    for (NSDictionary *dict in self.iconGroups) {
-        [segItems addObject:[dict allKeys][0]];
-    }
-    self.segmentedControl = [[UISegmentedControl alloc] initWithItems:segItems];
-    [self.segmentedControl addTarget:self action:@selector(segmentedControlValueDidChange:) forControlEvents:UIControlEventValueChanged];
-    self.navigationItem.titleView = self.segmentedControl;
+
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button addTarget:self action:@selector(titleButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
+    self.navigationItem.titleView = button;
     
     UICollectionViewFlowLayout *collectionLayout = [[UICollectionViewFlowLayout alloc] init];
     collectionLayout.sectionInset = UIEdgeInsetsMake(0, 5.0, 0, 5.0);
@@ -75,8 +77,7 @@ JTSImageViewControllerDismissalDelegate>
     self.searchBar.delegate = self;
     [self.view addSubview:self.searchBar];
     
-    self.segmentedControl.selectedSegmentIndex = 0;
-    [self.segmentedControl sendActionsForControlEvents:UIControlEventValueChanged];
+    [self reloadIcons];
 }
 
 - (void)viewWillLayoutSubviews
@@ -85,10 +86,40 @@ JTSImageViewControllerDismissalDelegate>
     self.collectionView.frame = CGRectMake(0, self.view.bounds.origin.y + 44, self.view.bounds.size.width, self.view.bounds.size.height - 44);
 }
 
+- (UIButton *)titleButton
+{
+    return (UIButton *)self.navigationItem.titleView;
+}
+
+- (void)setSelectedFontIndex:(NSUInteger)index
+{
+    if (_selectedFontIndex != index && index < self.fontClasses.count) {
+        _selectedFontIndex = index;
+        
+        if (self.isViewLoaded) {
+            [self reloadIcons];
+            [self searchWithKeyword:self.searchBar.text];
+        }
+    }
+}
+
+- (void)titleButtonTapped:(UIButton *)button
+{
+    UIActionSheet *sheet = [[UIActionSheet alloc] initWithTitle:@"Select Icon Fonts" delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles: nil];
+    for (Class cls in self.fontClasses) {
+        [sheet addButtonWithTitle:NSStringFromClass(cls)];
+    }
+    [sheet addButtonWithTitle:@"Cancel"];
+    sheet.cancelButtonIndex = sheet.numberOfButtons - 1;
+    sheet.tag = 100;
+    [sheet showFromTabBar:self.tabBarController.tabBar];
+    
+    [self setNavigationTitleWithFontSelectorExpanded:YES];
+}
+
 - (void)reloadIcons
 {
-    NSInteger selectedIndex = self.segmentedControl.selectedSegmentIndex < self.iconGroups.count ? self.segmentedControl.selectedSegmentIndex : 0;
-    Class FontClass = [self.iconGroups[selectedIndex] allValues].firstObject;
+    Class FontClass = self.fontClasses[self.selectedFontIndex];
     
     [self.icons removeAllObjects];
     
@@ -105,7 +136,29 @@ JTSImageViewControllerDismissalDelegate>
             [self.icons addObject:icon];            
         }
     }
-    self.fullIcons = [self.icons copy];
+    self.allIcons = [self.icons copy];
+    
+    [self setNavigationTitleWithFontSelectorExpanded:NO];
+}
+
+- (void)setNavigationTitleWithFontSelectorExpanded:(BOOL)fontSelectorExpanded
+{
+    CGFloat fontSize = [UIFont buttonFontSize];
+    NSMutableAttributedString *title = [[NSMutableAttributedString alloc] initWithString:[NSStringFromClass(self.fontClasses[self.selectedFontIndex]) stringByAppendingString:@" "]
+                                                                              attributes:@{NSFontAttributeName: [UIFont boldSystemFontOfSize:fontSize],
+                                                                                           NSForegroundColorAttributeName: [UIColor blackColor]}];
+    IFFontAwesome *icon = [IFFontAwesome iconWithType:(fontSelectorExpanded ? IFFAArrowCircleUp : IFFAArrowCircleDown) fontSize:fontSize + 2 color:[UIColor purpleColor]];
+    [title appendAttributedString:icon.attributedString];
+    NSMutableAttributedString *highlightedTitle = [title mutableCopy];
+    [highlightedTitle addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithWhite:0.4 alpha:1.0] range:NSMakeRange(0, highlightedTitle.length)];
+    if (fontSelectorExpanded) {
+        [self.titleButton setAttributedTitle:highlightedTitle forState:UIControlStateNormal];
+    } else {
+        [self.titleButton setAttributedTitle:title forState:UIControlStateNormal];
+    }
+    [self.titleButton setAttributedTitle:highlightedTitle forState:UIControlStateSelected];
+    [self.titleButton setAttributedTitle:highlightedTitle forState:UIControlStateHighlighted];
+    [self.titleButton sizeToFit];
 }
 
 - (void)searchWithKeyword:(NSString *)keyword
@@ -115,16 +168,10 @@ JTSImageViewControllerDismissalDelegate>
     if (keyword.length == 0) {
         [self reloadIcons];
     } else {
-        self.icons = [self.fullIcons mutableCopy];
+        self.icons = [self.allIcons mutableCopy];
         [self.icons filterUsingPredicate:[NSPredicate predicateWithFormat:@"%K contains[cd] %@", @"identifier", keyword]];
     }
     [self.collectionView reloadData];
-}
-
-- (void)segmentedControlValueDidChange:(UISegmentedControl *)seg
-{
-    [self reloadIcons];
-    [self searchWithKeyword:self.searchBar.text];
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -204,6 +251,21 @@ JTSImageViewControllerDismissalDelegate>
     NSIndexPath *selectedIndexPath = [self.collectionView indexPathsForSelectedItems].firstObject;
     if (selectedIndexPath) {
         [self.collectionView deselectItemAtIndexPath:selectedIndexPath animated:YES];
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark - UIActionSheet Delegate
+
+- (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex
+{
+    if (100 == actionSheet.tag) {
+        if (buttonIndex < self.fontClasses.count && buttonIndex != self.selectedFontIndex) {
+            self.selectedFontIndex = buttonIndex;
+        } else {
+            [self setNavigationTitleWithFontSelectorExpanded:NO];
+        }
     }
 }
 
