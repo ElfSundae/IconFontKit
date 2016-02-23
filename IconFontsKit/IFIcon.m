@@ -172,6 +172,17 @@
                                             multiplie.vertical > 0 ? multiplie.vertical : 0);
 }
 
+- (NSString *)description
+{
+    NSMutableString *desc = [super description].mutableCopy;
+    [desc appendFormat:@"code: %@, type: 0x%x", self.code, self.type];
+    if (_identifier) {
+        [desc appendFormat:@", identifier: %@", _identifier];
+    }
+    [desc appendFormat:@"\nattributedString:%@", self.mutableAttributedString];
+    return desc;
+}
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Private
@@ -310,7 +321,7 @@
 {
     IFIcon *icon = [self iconWithType:type fontSize:fontSize];
     icon.color = color;
-    return [icon imageWithSize:icon.suggestionSize];
+    return [icon imageWithSize:icon.suggestedSize];
 }
 
 + (UIImage *)imageWithType:(IFIconType)type color:(UIColor *)color imageSize:(CGSize)imageSize
@@ -398,10 +409,5 @@ NSString *IFIconCodeForType(IFIconType type)
 
 IFIconType IFIconTypeForCode(NSString *code)
 {
-    static NSNumberFormatter *__gNumberFormatter = nil;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        __gNumberFormatter = [[NSNumberFormatter alloc] init];
-    });
-    return [[__gNumberFormatter numberFromString:code] unsignedShortValue];
+    return [code characterAtIndex:0];
 }
