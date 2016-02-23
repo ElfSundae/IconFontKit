@@ -37,6 +37,7 @@ pod 'IconFontsKit/MaterialDesignIcons'
 pod 'IconFontsKit/ElusiveIcons'
 pod 'IconFontsKit/MaterialIcons'
 pod 'IconFontsKit/ZocialButtons'
+pod 'IconFontsKit/Typicons'
 ```
 ## Usage
 
