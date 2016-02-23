@@ -78,7 +78,11 @@
 {
     UIFont *font = [UIFont fontWithName:[self fontName] size:fontSize];
     if (!font) {
-        IFRegisterFontWithURL([self fontFileURL], NULL);
+        NSError *error = nil;
+        if (!IFRegisterFontWithURL([self fontFileURL], &error)) {
+            [NSException raise:@"IFIconException" format:@"Could not find or register font \"%@\". %@", [self fontName], error.localizedDescription];
+        }
+
         font = [UIFont fontWithName:[self fontName] size:fontSize];
     }
     return font;
@@ -399,7 +403,7 @@ BOOL IFRegisterFontWithURL(NSURL *fontFileURL, NSError **error)
         *error = err;
     }
     
-    return !!err;
+    return !err;
 }
 
 NSString *IFIconCodeForType(IFIconType type)
