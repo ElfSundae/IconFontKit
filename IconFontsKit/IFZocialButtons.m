@@ -1,8 +1,3 @@
-//
-// ZocialButtons v1.2.0 http://zocial.smcllns.com
-// Generated on 2016-02-22
-//
-
 #import "IFZocialButtons.h"
 
 @implementation IFZocialButtons

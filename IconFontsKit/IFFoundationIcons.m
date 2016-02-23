@@ -1,8 +1,3 @@
-//
-// Foundation Icon Fonts 3 http://zurb.com/playground/foundation-icon-fonts-3
-// Generated on 2016-02-21
-//
-
 #import "IFFoundationIcons.h"
 
 @implementation IFFoundationIcons

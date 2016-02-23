@@ -1,8 +1,3 @@
-//
-// Font Awesome v4.5.0 http://fontawesome.io/icons
-// Generated on 2016-02-22
-//
-
 #import "IFFontAwesome.h"
 
 @implementation IFFontAwesome

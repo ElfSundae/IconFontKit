@@ -1,8 +1,3 @@
-//
-// Material Icons by Google, v2.2.0 https://design.google.com/icons
-// Generated on 2016-02-22
-//
-
 #import "IFMaterialIcons.h"
 
 @implementation IFMaterialIcons

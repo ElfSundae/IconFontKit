@@ -1,8 +1,3 @@
-//
-// Ionicons v2.0.1 http://ionicons.com
-// Generated on 2016-02-22
-//
-
 #import "IFIonicons.h"
 
 @implementation IFIonicons

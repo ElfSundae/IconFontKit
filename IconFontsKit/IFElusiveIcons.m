@@ -1,8 +1,3 @@
-//
-// Elusive Icons v2.0.0 http://elusiveicons.com
-// Generated on 2016-02-21
-//
-
 #import "IFElusiveIcons.h"
 
 @implementation IFElusiveIcons
