@@ -22,6 +22,8 @@
 | [ZocialButtons](http://zocial.smcllns.com) | 1.2.0 | [102](http://zocial.smcllns.com/sample.html) | 26 KB | [MIT](https://github.com/smcllns/css-social-buttons#license) |
 | [Typicons](http://www.typicons.com) | 2.0.7 | [336](http://www.typicons.com) | 100 KB | [SIL OFL 1.1](https://github.com/stephenhutchings/typicons.font/blob/master/src/font/LICENCE.md) |
 | [Open Iconic](https://useiconic.com/open/) | 1.1.1 | [223](https://useiconic.com/open/) | 28 KB | [SIL OFL 1.1](https://github.com/iconic/open-iconic/blob/master/FONT-LICENSE) |
+| [Metrize Icons](http://www.alessioatzeni.com/metrize-icons) | 1.0 | 300 | 63 KB | [Free to use](http://www.alessioatzeni.com/metrize-icons) |
+| [Meteocons](http://www.alessioatzeni.com/meteocons)<br>free weather icons | 1.0 | 47 | 18 KB | [Free to use](http://www.alessioatzeni.com/meteocons) |
 
 ## Installation
 
@@ -40,6 +42,8 @@ pod 'IconFontsKit/MaterialIcons'
 pod 'IconFontsKit/ZocialButtons'
 pod 'IconFontsKit/Typicons'
 pod 'IconFontsKit/OpenIconic'
+pod 'IconFontsKit/MetrizeIcons'
+pod 'IconFontsKit/Meteocons'
 ```
 ## Usage
 

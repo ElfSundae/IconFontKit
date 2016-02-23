@@ -45,6 +45,8 @@ JTSImageViewControllerDismissalDelegate, UIActionSheetDelegate>
                              [IFZocialButtons class],
                              [IFTypicons class],
                              [IFOpenIconic class],
+                             [IFMetrizeIcons class],
+                             [IFMeteocons class],
                              ];
         NSMutableArray *classesNames = [[NSMutableArray alloc] initWithCapacity:self.fontClasses.count];
         for (Class cls in self.fontClasses) {

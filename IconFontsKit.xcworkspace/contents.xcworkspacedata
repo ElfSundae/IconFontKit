@@ -103,6 +103,24 @@
       <FileRef
          location = "group:open-iconic.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFMetrizeIcons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFMetrizeIcons.m">
+      </FileRef>
+      <FileRef
+         location = "group:Metrize-Icons.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFMeteocons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFMeteocons.m">
+      </FileRef>
+      <FileRef
+         location = "group:meteocons.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">

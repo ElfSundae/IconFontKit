@@ -1,36 +1,42 @@
 PODS:
-  - IconFontsKit (1.1.1):
-    - IconFontsKit/Core (= 1.1.1)
-    - IconFontsKit/ElusiveIcons (= 1.1.1)
-    - IconFontsKit/FontAwesome (= 1.1.1)
-    - IconFontsKit/FoundationIcons (= 1.1.1)
-    - IconFontsKit/Ionicons (= 1.1.1)
-    - IconFontsKit/MaterialDesignIcons (= 1.1.1)
-    - IconFontsKit/MaterialIcons (= 1.1.1)
-    - IconFontsKit/Octicons (= 1.1.1)
-    - IconFontsKit/OpenIconic (= 1.1.1)
-    - IconFontsKit/Typicons (= 1.1.1)
-    - IconFontsKit/ZocialButtons (= 1.1.1)
-  - IconFontsKit/Core (1.1.1)
-  - IconFontsKit/ElusiveIcons (1.1.1):
+  - IconFontsKit (1.1.2):
+    - IconFontsKit/Core (= 1.1.2)
+    - IconFontsKit/ElusiveIcons (= 1.1.2)
+    - IconFontsKit/FontAwesome (= 1.1.2)
+    - IconFontsKit/FoundationIcons (= 1.1.2)
+    - IconFontsKit/Ionicons (= 1.1.2)
+    - IconFontsKit/MaterialDesignIcons (= 1.1.2)
+    - IconFontsKit/MaterialIcons (= 1.1.2)
+    - IconFontsKit/Meteocons (= 1.1.2)
+    - IconFontsKit/MetrizeIcons (= 1.1.2)
+    - IconFontsKit/Octicons (= 1.1.2)
+    - IconFontsKit/OpenIconic (= 1.1.2)
+    - IconFontsKit/Typicons (= 1.1.2)
+    - IconFontsKit/ZocialButtons (= 1.1.2)
+  - IconFontsKit/Core (1.1.2)
+  - IconFontsKit/ElusiveIcons (1.1.2):
     - IconFontsKit/Core
-  - IconFontsKit/FontAwesome (1.1.1):
+  - IconFontsKit/FontAwesome (1.1.2):
     - IconFontsKit/Core
-  - IconFontsKit/FoundationIcons (1.1.1):
+  - IconFontsKit/FoundationIcons (1.1.2):
     - IconFontsKit/Core
-  - IconFontsKit/Ionicons (1.1.1):
+  - IconFontsKit/Ionicons (1.1.2):
     - IconFontsKit/Core
-  - IconFontsKit/MaterialDesignIcons (1.1.1):
+  - IconFontsKit/MaterialDesignIcons (1.1.2):
     - IconFontsKit/Core
-  - IconFontsKit/MaterialIcons (1.1.1):
+  - IconFontsKit/MaterialIcons (1.1.2):
     - IconFontsKit/Core
-  - IconFontsKit/Octicons (1.1.1):
+  - IconFontsKit/Meteocons (1.1.2):
     - IconFontsKit/Core
-  - IconFontsKit/OpenIconic (1.1.1):
+  - IconFontsKit/MetrizeIcons (1.1.2):
     - IconFontsKit/Core
-  - IconFontsKit/Typicons (1.1.1):
+  - IconFontsKit/Octicons (1.1.2):
     - IconFontsKit/Core
-  - IconFontsKit/ZocialButtons (1.1.1):
+  - IconFontsKit/OpenIconic (1.1.2):
+    - IconFontsKit/Core
+  - IconFontsKit/Typicons (1.1.2):
+    - IconFontsKit/Core
+  - IconFontsKit/ZocialButtons (1.1.2):
     - IconFontsKit/Core
   - JTSImageViewController (1.5.1)
 
@@ -43,7 +49,7 @@ EXTERNAL SOURCES:
     :path: "../IconFontsKit.podspec"
 
 SPEC CHECKSUMS:
-  IconFontsKit: a389edda374003b6330ee2abe45ec8a7d9fd1320
+  IconFontsKit: 915b3af9126c115f89561d36be3c5825979b2d5b
   JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
 
 COCOAPODS: 0.39.0

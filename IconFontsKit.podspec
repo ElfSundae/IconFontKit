@@ -78,4 +78,16 @@ Pod::Spec.new do |s|
     ss.resource             = "IconFontsKit/open-iconic.ttf"
   end
 
+  s.subspec "MetrizeIcons" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFMetrizeIcons.{h,m}"
+    ss.resource             = "IconFontsKit/Metrize-Icons.ttf"
+  end
+
+  s.subspec "Meteocons" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFMeteocons.{h,m}"
+    ss.resource             = "IconFontsKit/meteocons.ttf"
+  end
+
 end

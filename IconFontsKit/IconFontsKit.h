@@ -16,3 +16,5 @@
 #import <IconFontsKit/IFZocialButtons.h>
 #import <IconFontsKit/IFTypicons.h>
 #import <IconFontsKit/IFOpenIconic.h>
+#import <IconFontsKit/IFMetrizeIcons.h>
+#import <IconFontsKit/IFMeteocons.h>
