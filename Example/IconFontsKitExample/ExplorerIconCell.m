@@ -73,7 +73,7 @@
     CGSize iconSize = icon.suggestedSize;
     CGFloat cellMaxWidth = fmin(maxWidth, fmax(iconSize.width, icon.fontSize + 8));
     CGSize identifierSize = [icon.identifier boundingRectWithSize:CGSizeMake(cellMaxWidth, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading attributes:[self identifierAttributes] context:nil].size;
-    return CGSizeMake(fmax(iconSize.width, identifierSize.width), iconSize.height + identifierSize.height + 3.0);
+    return CGSizeMake(ceil(fmax(iconSize.width, identifierSize.width)), ceil(iconSize.height + identifierSize.height));
 }
 
 @end
