@@ -90,4 +90,10 @@ Pod::Spec.new do |s|
     ss.resource             = "IconFontsKit/meteocons.ttf"
   end
 
+  s.subspec "MFGLabsIconset" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFMFGLabsIconset.{h,m}"
+    ss.resource             = "IconFontsKit/mfglabsiconset-webfont.ttf"
+  end
+
 end

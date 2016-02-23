@@ -121,6 +121,15 @@
       <FileRef
          location = "group:meteocons.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFMFGLabsIconset.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFMFGLabsIconset.m">
+      </FileRef>
+      <FileRef
+         location = "group:mfglabsiconset-webfont.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">

@@ -24,6 +24,7 @@
 | [Open Iconic](https://useiconic.com/open/) | 1.1.1 | [223](https://useiconic.com/open/) | 28 KB | [SIL OFL 1.1](https://github.com/iconic/open-iconic/blob/master/FONT-LICENSE) |
 | [Metrize Icons](http://www.alessioatzeni.com/metrize-icons) | 1.0 | 300 | 63 KB | [Free to use](http://www.alessioatzeni.com/metrize-icons) |
 | [Meteocons](http://www.alessioatzeni.com/meteocons)<br>free weather icons | 1.0 | 47 | 18 KB | [Free to use](http://www.alessioatzeni.com/meteocons) |
+| [MFG Labs iconset](http://mfglabs.github.io/mfglabs-iconset) | 1.0 | [186](http://mfglabs.github.io/mfglabs-iconset/) | 56 KB | [SIL OFL 1.1](https://github.com/MfgLabs/mfglabs-iconset/blob/master/licenses.txt) |
 
 ## Installation
 
@@ -44,6 +45,7 @@ pod 'IconFontsKit/Typicons'
 pod 'IconFontsKit/OpenIconic'
 pod 'IconFontsKit/MetrizeIcons'
 pod 'IconFontsKit/Meteocons'
+pod 'IconFontsKit/MFGLabsIconset'
 ```
 ## Usage
 

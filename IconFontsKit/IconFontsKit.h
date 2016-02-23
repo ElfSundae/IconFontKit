@@ -18,3 +18,4 @@
 #import <IconFontsKit/IFOpenIconic.h>
 #import <IconFontsKit/IFMetrizeIcons.h>
 #import <IconFontsKit/IFMeteocons.h>
+#import <IconFontsKit/IFMFGLabsIconset.h>
