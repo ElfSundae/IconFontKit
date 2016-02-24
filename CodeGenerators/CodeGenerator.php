@@ -12,17 +12,18 @@ $moveToProject      = true; // determines move .h and .m files to Xcode project
 
 $hContent           = '';
 $mContent           = '';
+$classPrefix        = 'IF';
 
 function hFilename()
 {
-    global $fontIdentifier;
-    return 'IF' . $fontIdentifier . '.h';
+    global $fontIdentifier, $classPrefix;
+    return $classPrefix . $fontIdentifier . '.h';
 }
 
 function mFilename()
 {
-    global $fontIdentifier;
-    return 'IF' . $fontIdentifier . '.m';
+    global $fontIdentifier, $classPrefix;
+    return $classPrefix . $fontIdentifier . '.m';
 }
 
 /**
@@ -33,9 +34,9 @@ function generateContents()
 {
     global $fontIdentifier, $fontDescription, $iconTypePrefix, $fontFile, $fontName;
     global $iconIdentifiers, $iconNames, $iconCodes;
-    global $hContent, $mContent;
+    global $hContent, $mContent, $classPrefix;
 
-    $className = "IF$fontIdentifier";
+    $className = "$classPrefix$fontIdentifier";
     $tab = "    ";
 
     $hContent = "#import <IconFontsKit/IFIcon.h>\n\n";
@@ -48,7 +49,7 @@ function generateContents()
             function($matches) {
                 return strtoupper(preg_replace("#[-_.]#", '', $matches[0]));
             }, $name);
-        $type = sprintf("{$tab}IF%s%-35s = 0x%s,\n", $iconTypePrefix, $name, $iconCodes[$i]);
+        $type = sprintf("{$tab}{$classPrefix}%s%-35s = 0x%s,\n", $iconTypePrefix, $name, $iconCodes[$i]);
         $hContent .= "{$tab}/// Identifier: \"$iconIdentifiers[$i]\"\n";
         $hContent .= $type;
     }

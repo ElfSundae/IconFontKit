@@ -1,27 +1,25 @@
-//
-//  MyFontIcons.h
-//  IconFontsKitExample
-//
-//  Created by Elf Sundae on 16/2/23.
-//  Copyright © 2016年 www.0x123.com. All rights reserved.
-//
-
 #import <IconFontsKit/IFIcon.h>
 
+/// MyFontIcons icon types.
 typedef NS_ENUM(IFIconType, MyFontIconsType) {
-    MFFacebookSquared                     = 0xa100,
-    MFChat                                = 0xa101,
-    MFEmoHappy                            = 0xa102,
-    MFThumbsUp                            = 0xa103,
-    MFThumbsUpAlt                         = 0xa104,
-    MFLinkExt                             = 0xa105,
-    MFVolumeUp                            = 0xa106,
-    MFCogAlt                              = 0xa107,
-    MFCode                                = 0xa108,
+    /// Identifier: "icon-camera"
+    MFCamera                              = 0xf100,
+    /// Identifier: "icon-thumbs-up"
+    MFThumbsUp                            = 0xf101,
+    /// Identifier: "icon-thumbs-up-alt"
+    MFThumbsUpAlt                         = 0xf102,
+    /// Identifier: "icon-smiley"
+    MFSmiley                              = 0xf103,
+    /// Identifier: "icon-verified"
+    MFVerified                            = 0xf104,
+    /// Identifier: "icon-logo-gist"
+    MFLogoGist                            = 0xf105,
+    /// Identifier: "icon-logo-github"
+    MFLogoGithub                          = 0xf106,
 };
 
 /*!
- * Demonstrator for using custom icon fonts.
+ * Demonstrator for using custom icon fonts. https://github.com/ElfSundae/IconFontsKit
  */
 @interface MyFontIcons : IFIcon
 @end

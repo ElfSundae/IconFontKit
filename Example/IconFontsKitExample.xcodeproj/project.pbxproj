@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		600AFB68D73295B3E4E4D37D /* libPods-IconFontsKitExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 536CF7578840DF38FFE38509 /* libPods-IconFontsKitExample.a */; };
+		E7C0C4321C7D7FDE00A8C0FF /* myfonticons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7C0C4311C7D7FDE00A8C0FF /* myfonticons.ttf */; };
 		E7E724CC1C73816B0049EE82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724CB1C73816B0049EE82 /* main.m */; };
 		E7E724CF1C73816B0049EE82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724CE1C73816B0049EE82 /* AppDelegate.m */; };
 		E7E724D71C73816B0049EE82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E724D61C73816B0049EE82 /* Assets.xcassets */; };
@@ -15,7 +16,6 @@
 		E7E724E81C7382BC0049EE82 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724E71C7382BC0049EE82 /* SampleViewController.m */; };
 		E7E724EB1C7382D20049EE82 /* ExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724EA1C7382D20049EE82 /* ExplorerViewController.m */; };
 		E7E724F71C787BD40049EE82 /* ExplorerIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724F61C787BD40049EE82 /* ExplorerIconCell.m */; };
-		E7FE9D621C7B709D00FCDE07 /* myfonticons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7FE9D611C7B709D00FCDE07 /* myfonticons.ttf */; };
 		E7FE9D651C7B72E700FCDE07 /* MyFontIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FE9D641C7B72E700FCDE07 /* MyFontIcons.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +23,7 @@
 		02987B2B828E10543AC768C9 /* Pods-IconFontsKitExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IconFontsKitExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-IconFontsKitExample/Pods-IconFontsKitExample.release.xcconfig"; sourceTree = "<group>"; };
 		536CF7578840DF38FFE38509 /* libPods-IconFontsKitExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IconFontsKitExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85189A6589C166DC99A23457 /* Pods-IconFontsKitExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IconFontsKitExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IconFontsKitExample/Pods-IconFontsKitExample.debug.xcconfig"; sourceTree = "<group>"; };
+		E7C0C4311C7D7FDE00A8C0FF /* myfonticons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = myfonticons.ttf; sourceTree = "<group>"; };
 		E7E724C71C73816B0049EE82 /* IconFontsKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconFontsKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E724CB1C73816B0049EE82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7E724CD1C73816B0049EE82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -36,7 +37,6 @@
 		E7E724EA1C7382D20049EE82 /* ExplorerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplorerViewController.m; sourceTree = "<group>"; };
 		E7E724F51C787BD40049EE82 /* ExplorerIconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplorerIconCell.h; sourceTree = "<group>"; };
 		E7E724F61C787BD40049EE82 /* ExplorerIconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplorerIconCell.m; sourceTree = "<group>"; };
-		E7FE9D611C7B709D00FCDE07 /* myfonticons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = myfonticons.ttf; sourceTree = "<group>"; };
 		E7FE9D631C7B72E700FCDE07 /* MyFontIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFontIcons.h; sourceTree = "<group>"; };
 		E7FE9D641C7B72E700FCDE07 /* MyFontIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFontIcons.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,7 @@
 				E7E724F61C787BD40049EE82 /* ExplorerIconCell.m */,
 				E7FE9D631C7B72E700FCDE07 /* MyFontIcons.h */,
 				E7FE9D641C7B72E700FCDE07 /* MyFontIcons.m */,
-				E7FE9D611C7B709D00FCDE07 /* myfonticons.ttf */,
+				E7C0C4311C7D7FDE00A8C0FF /* myfonticons.ttf */,
 				E7E724D61C73816B0049EE82 /* Assets.xcassets */,
 				E7E724D81C73816B0049EE82 /* LaunchScreen.storyboard */,
 				E7E724DB1C73816B0049EE82 /* Info.plist */,
@@ -182,7 +182,7 @@
 			files = (
 				E7E724DA1C73816B0049EE82 /* LaunchScreen.storyboard in Resources */,
 				E7E724D71C73816B0049EE82 /* Assets.xcassets in Resources */,
-				E7FE9D621C7B709D00FCDE07 /* myfonticons.ttf in Resources */,
+				E7C0C4321C7D7FDE00A8C0FF /* myfonticons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
