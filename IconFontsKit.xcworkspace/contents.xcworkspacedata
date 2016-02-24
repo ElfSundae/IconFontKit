@@ -139,6 +139,15 @@
       <FileRef
          location = "group:Linearicons-Free.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFIcoMoonFree.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFIcoMoonFree.m">
+      </FileRef>
+      <FileRef
+         location = "group:IcoMoon-Free.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">

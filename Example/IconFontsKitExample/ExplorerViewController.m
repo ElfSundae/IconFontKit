@@ -49,6 +49,7 @@ JTSImageViewControllerDismissalDelegate, UIActionSheetDelegate>
                              [IFMeteocons class],
                              [IFMFGLabsIconset class],
                              [IFLineariconsFree class],
+                             [IFIcoMoonFree class],
                              ];
     }
     return self;

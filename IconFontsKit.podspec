@@ -102,4 +102,10 @@ Pod::Spec.new do |s|
     ss.resource             = "IconFontsKit/Linearicons-Free.ttf"
   end
 
+  s.subspec "IcoMoonFree" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFIcoMoonFree.{h,m}"
+    ss.resource             = "IconFontsKit/IcoMoon-Free.ttf"
+  end
+
 end

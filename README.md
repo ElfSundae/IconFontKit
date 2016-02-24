@@ -26,6 +26,7 @@
 | [Meteocons](http://www.alessioatzeni.com/meteocons) | 1.0 | 47 | 18 KB | [Free to use](http://www.alessioatzeni.com/meteocons) | A set of weather icons |
 | [MFG Labs iconset](http://mfglabs.github.io/mfglabs-iconset) | 1.0 | [186](http://mfglabs.github.io/mfglabs-iconset/) | 56 KB | [SIL OFL 1.1](https://github.com/MfgLabs/mfglabs-iconset/blob/master/licenses.txt) ||
 | [Linearicons Free](https://linearicons.com/free) | 1.0.0 | [170](https://linearicons.com/free) | 56 KB | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Linearicons Free Version |
+| [IcoMoon Free](https://icomoon.io/#preview-free) | 1.0.0 | [491](https://icomoon.io/#preview-free) | 95 KB | [CC BY 4.0 or GPL](https://github.com/Keyamoon/IcoMoon-Free/blob/master/License.txt) | IcoMoon Free Pack |
 
 ## Installation
 
@@ -48,6 +49,7 @@ pod 'IconFontsKit/MetrizeIcons'
 pod 'IconFontsKit/Meteocons'
 pod 'IconFontsKit/MFGLabsIconset'
 pod 'IconFontsKit/LineariconsFree'
+pod 'IconFontsKit/IcoMoonFree'
 ```
 ## Usage
 
