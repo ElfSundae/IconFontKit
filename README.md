@@ -10,21 +10,21 @@
 
 ## Supported Icon Fonts
 
-| Font | Version | Number of Icons | Font file size | License |
+| Font | Version | Number of Icons | Font file size | License | Description |
 |---|---|---|---|---|
-| [Font Awesome](http://fontawesome.io)| 4.5.0 | [605](http://fontawesome.io/icons) | 110 KB | [SIL OFL 1.1](http://fontawesome.io/license) |
-| [GitHub Octicons](https://octicons.github.com)| 3.5.0 | [165](https://octicons.github.com) | 31 KB | [SIL OFL 1.1](https://github.com/github/octicons/blob/master/LICENSE.txt) |
-| [Foundation Icon Fonts 3](http://zurb.com/playground/foundation-icon-fonts-3)| 3.0 | [283](http://zurb.com/playground/foundation-icon-fonts-3#allicons) | 57 KB | ? |
-| [Ionicons](http://ionicons.com)| 2.0.1 | [733](http://ionicons.com) | 189 KB | [MIT](https://github.com/driftyco/ionicons/blob/master/LICENSE) |
-| [Material Design Icons](https://materialdesignicons.com) | 1.4.57 | [1457](https://materialdesignicons.com) | 208 KB | [SIL OFL 1.1](https://github.com/Templarian/MaterialDesign/blob/master/license.txt) |
-| [Elusive Icons](http://elusiveicons.com) | 2.0.0 | [304](http://elusiveicons.com/icons) | 80 KB | [SIL OFL 1.1](http://elusiveicons.com/license) |
-| [Material Icons](https://google.github.io/material-design-icons/) by Google | 2.2.0 | [932](https://design.google.com/icons/) | 128 KB | [CC-BY 4.0](https://github.com/google/material-design-icons/blob/master/LICENSE) |
-| [ZocialButtons](http://zocial.smcllns.com) | 1.2.0 | [102](http://zocial.smcllns.com/sample.html) | 26 KB | [MIT](https://github.com/smcllns/css-social-buttons#license) |
+| [Font Awesome](http://fontawesome.io)| 4.5.0 | [605](http://fontawesome.io/icons) | 110 KB | [SIL OFL 1.1](http://fontawesome.io/license) |  |
+| [Octicons](https://octicons.github.com)| 3.5.0 | [165](https://octicons.github.com) | 31 KB | [SIL OFL 1.1](https://github.com/github/octicons/blob/master/LICENSE.txt) | GitHub's icons |
+| [Foundation Icon Fonts 3](http://zurb.com/playground/foundation-icon-fonts-3)| 3.0 | [283](http://zurb.com/playground/foundation-icon-fonts-3#allicons) | 57 KB | ? |  |
+| [Ionicons](http://ionicons.com)| 2.0.1 | [733](http://ionicons.com) | 189 KB | [MIT](https://github.com/driftyco/ionicons/blob/master/LICENSE) | The premium icon font for Ionic Framework. |
+| [Material Design Icons](https://materialdesignicons.com) | 1.4.57 | [1457](https://materialdesignicons.com) | 208 KB | [SIL OFL 1.1](https://github.com/Templarian/MaterialDesign/blob/master/license.txt) |  |
+| [Elusive Icons](http://elusiveicons.com) | 2.0.0 | [304](http://elusiveicons.com/icons) | 80 KB | [SIL OFL 1.1](http://elusiveicons.com/license) |  |
+| [Material Icons](https://google.github.io/material-design-icons/) | 2.2.0 | [932](https://design.google.com/icons/) | 128 KB | [CC-BY 4.0](https://github.com/google/material-design-icons/blob/master/LICENSE) | Made by Google for Material design. |
+| [ZocialButtons](http://zocial.smcllns.com) | 1.2.0 | [102](http://zocial.smcllns.com/sample.html) | 26 KB | [MIT](https://github.com/smcllns/css-social-buttons#license) | Social buttons |
 | [Typicons](http://www.typicons.com) | 2.0.7 | [336](http://www.typicons.com) | 100 KB | [SIL OFL 1.1](https://github.com/stephenhutchings/typicons.font/blob/master/src/font/LICENCE.md) |
-| [Open Iconic](https://useiconic.com/open/) | 1.1.1 | [223](https://useiconic.com/open/) | 28 KB | [SIL OFL 1.1](https://github.com/iconic/open-iconic/blob/master/FONT-LICENSE) |
-| [Metrize Icons](http://www.alessioatzeni.com/metrize-icons) | 1.0 | 300 | 63 KB | [Free to use](http://www.alessioatzeni.com/metrize-icons) |
-| [Meteocons](http://www.alessioatzeni.com/meteocons)<br>free weather icons | 1.0 | 47 | 18 KB | [Free to use](http://www.alessioatzeni.com/meteocons) |
-| [MFG Labs iconset](http://mfglabs.github.io/mfglabs-iconset) | 1.0 | [186](http://mfglabs.github.io/mfglabs-iconset/) | 56 KB | [SIL OFL 1.1](https://github.com/MfgLabs/mfglabs-iconset/blob/master/licenses.txt) |
+| [Open Iconic](https://useiconic.com/open/) | 1.1.1 | [223](https://useiconic.com/open/) | 28 KB | [SIL OFL 1.1](https://github.com/iconic/open-iconic/blob/master/FONT-LICENSE) | The open source sibling of [Iconic](https://useiconic.com). |
+| [Metrize Icons](http://www.alessioatzeni.com/metrize-icons) | 1.0 | 300 | 63 KB | [Free to use](http://www.alessioatzeni.com/metrize-icons) | Metro-Style Icons |
+| [Meteocons](http://www.alessioatzeni.com/meteocons) | 1.0 | 47 | 18 KB | [Free to use](http://www.alessioatzeni.com/meteocons) | A set of weather icons |
+| [MFG Labs iconset](http://mfglabs.github.io/mfglabs-iconset) | 1.0 | [186](http://mfglabs.github.io/mfglabs-iconset/) | 56 KB | [SIL OFL 1.1](https://github.com/MfgLabs/mfglabs-iconset/blob/master/licenses.txt) |  |
 
 ## Installation
 
