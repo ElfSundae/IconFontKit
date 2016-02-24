@@ -49,10 +49,6 @@ JTSImageViewControllerDismissalDelegate, UIActionSheetDelegate>
                              [IFMeteocons class],
                              [IFMFGLabsIconset class],
                              ];
-        NSMutableArray *classesNames = [[NSMutableArray alloc] initWithCapacity:self.fontClasses.count];
-        for (Class cls in self.fontClasses) {
-            [classesNames addObject:NSStringFromClass(cls)];
-        }
     }
     return self;
 }
