@@ -10,7 +10,7 @@
 
 ## Supported Icon Fonts
 
-| Font | Version | Number | Size | License | Description |
+| Font | Version | Icons Number | Font Size | License | Description |
 |---|---|---|---|---|---|
 | [Font Awesome](http://fontawesome.io)| 4.5.0 | [605](http://fontawesome.io/icons) | 110 KB | [SIL OFL 1.1](http://fontawesome.io/license) ||
 | [Octicons](https://octicons.github.com)| 3.5.0 | [165](https://octicons.github.com) | 31 KB | [SIL OFL 1.1](https://github.com/github/octicons/blob/master/LICENSE.txt) | GitHub's icons |
