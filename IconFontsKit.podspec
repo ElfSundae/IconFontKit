@@ -96,4 +96,10 @@ Pod::Spec.new do |s|
     ss.resource             = "IconFontsKit/mfglabsiconset-webfont.ttf"
   end
 
+  s.subspec "LineariconsFree" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFLineariconsFree.{h,m}"
+    ss.resource             = "IconFontsKit/Linearicons-Free.ttf"
+  end
+
 end

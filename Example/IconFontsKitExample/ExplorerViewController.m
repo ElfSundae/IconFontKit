@@ -48,6 +48,7 @@ JTSImageViewControllerDismissalDelegate, UIActionSheetDelegate>
                              [IFMetrizeIcons class],
                              [IFMeteocons class],
                              [IFMFGLabsIconset class],
+                             [IFLineariconsFree class],
                              ];
     }
     return self;

@@ -19,3 +19,4 @@
 #import <IconFontsKit/IFMetrizeIcons.h>
 #import <IconFontsKit/IFMeteocons.h>
 #import <IconFontsKit/IFMFGLabsIconset.h>
+#import <IconFontsKit/IFLineariconsFree.h>

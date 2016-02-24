@@ -25,6 +25,7 @@
 | [Metrize Icons](http://www.alessioatzeni.com/metrize-icons) | 1.0 | 300 | 63 KB | [Free to use](http://www.alessioatzeni.com/metrize-icons) | Metro-Style Icons |
 | [Meteocons](http://www.alessioatzeni.com/meteocons) | 1.0 | 47 | 18 KB | [Free to use](http://www.alessioatzeni.com/meteocons) | A set of weather icons |
 | [MFG Labs iconset](http://mfglabs.github.io/mfglabs-iconset) | 1.0 | [186](http://mfglabs.github.io/mfglabs-iconset/) | 56 KB | [SIL OFL 1.1](https://github.com/MfgLabs/mfglabs-iconset/blob/master/licenses.txt) ||
+| [Linearicons Free](https://linearicons.com/free) | v1.0.0 | [170](https://linearicons.com/free) | 56 KB | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Linearicons Free Version |
 
 ## Installation
 
@@ -46,6 +47,7 @@ pod 'IconFontsKit/OpenIconic'
 pod 'IconFontsKit/MetrizeIcons'
 pod 'IconFontsKit/Meteocons'
 pod 'IconFontsKit/MFGLabsIconset'
+pod 'IconFontsKit/LineariconsFree'
 ```
 ## Usage
 

@@ -130,6 +130,15 @@
       <FileRef
          location = "group:mfglabsiconset-webfont.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFLineariconsFree.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFLineariconsFree.m">
+      </FileRef>
+      <FileRef
+         location = "group:Linearicons-Free.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">
