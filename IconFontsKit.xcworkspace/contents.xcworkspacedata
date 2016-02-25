@@ -166,6 +166,15 @@
       <FileRef
          location = "group:Hawcons-Stroke.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFDashicons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFDashicons.m">
+      </FileRef>
+      <FileRef
+         location = "group:dashicons.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">

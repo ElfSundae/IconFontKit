@@ -23,3 +23,4 @@
 #import <IconFontsKit/IFIcoMoonFree.h>
 #import <IconFontsKit/IFHawconsFilled.h>
 #import <IconFontsKit/IFHawconsStroke.h>
+#import <IconFontsKit/IFDashicons.h>

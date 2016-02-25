@@ -29,6 +29,7 @@
 | [IcoMoonFree](https://icomoon.io/#preview-free) | 1.0.0 | [491](https://icomoon.io/#preview-free) | 95 KB | [CC BY 4.0 or GPL](https://github.com/Keyamoon/IcoMoon-Free/blob/master/License.txt) | IcoMoon Free Pack |
 | [HawconsFilled](http://hawcons.com) | 1.0 | [517](http://hawcons.com/preview/) | 107 KB | [Free to use](http://hawcons.com/faq/) | Hawcons filled style, includes icons of Documents, Sports, Weather, Emoji, Gestures, Filetypes, etc. |
 | [HawconsStroke](http://hawcons.com) | 1.0 | [518](http://hawcons.com/preview/) | 138 KB | [Free to use](http://hawcons.com/faq/) | Hawcons stroke style, includes icons of Documents, Sports, Weather, Emoji, Gestures, Filetypes, etc. |
+| [Dashicons](https://developer.wordpress.org/resource/dashicons/) | 3.8 | [232](https://developer.wordpress.org/resource/dashicons/) | 42 KB | [GPLv2](https://github.com/WordPress/dashicons) | Dashicons is the official icon font of the WordPress admin. |
 
 ## Installation
 

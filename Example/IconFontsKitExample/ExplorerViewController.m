@@ -52,6 +52,7 @@ JTSImageViewControllerDismissalDelegate, UIActionSheetDelegate>
                              [IFIcoMoonFree class],
                              [IFHawconsFilled class],
                              [IFHawconsStroke class],
+                             [IFDashicons class],
                              ];
     }
     return self;

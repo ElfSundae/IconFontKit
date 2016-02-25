@@ -120,4 +120,10 @@ Pod::Spec.new do |s|
     ss.resource             = "IconFontsKit/Hawcons-Stroke.ttf"
   end
 
+  s.subspec "Dashicons" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFDashicons.{h,m}"
+    ss.resource             = "IconFontsKit/dashicons.ttf"
+  end
+
 end
