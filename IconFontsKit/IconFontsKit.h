@@ -21,3 +21,5 @@
 #import <IconFontsKit/IFMFGLabsIconset.h>
 #import <IconFontsKit/IFLineariconsFree.h>
 #import <IconFontsKit/IFIcoMoonFree.h>
+#import <IconFontsKit/IFHawconsFilled.h>
+#import <IconFontsKit/IFHawconsStroke.h>

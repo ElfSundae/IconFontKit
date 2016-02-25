@@ -10,47 +10,32 @@
 
 ## Supported Icon Fonts
 
-| Font | Version | Icons Number | Font Size | License | Description |
+| Font Identifier | Version | Icons Number | Font Size | License | Description |
 |---|---|---|---|---|---|
-| [Font Awesome](http://fontawesome.io)| 4.5.0 | [605](http://fontawesome.io/icons) | 110 KB | [SIL OFL 1.1](http://fontawesome.io/license) ||
+| [FontAwesome](http://fontawesome.io)| 4.5.0 | [605](http://fontawesome.io/icons) | 110 KB | [SIL OFL 1.1](http://fontawesome.io/license) | Font Awesome |
 | [Octicons](https://octicons.github.com)| 3.5.0 | [165](https://octicons.github.com) | 31 KB | [SIL OFL 1.1](https://github.com/github/octicons/blob/master/LICENSE.txt) | GitHub's icons |
-| [Foundation Icon Fonts 3](http://zurb.com/playground/foundation-icon-fonts-3)| 3.0 | [283](http://zurb.com/playground/foundation-icon-fonts-3#allicons) | 57 KB | ? ||
+| [FoundationIcons](http://zurb.com/playground/foundation-icon-fonts-3)| 3.0 | [283](http://zurb.com/playground/foundation-icon-fonts-3#allicons) | 57 KB | ? | Foundation Icon Fonts 3 |
 | [Ionicons](http://ionicons.com)| 2.0.1 | [733](http://ionicons.com) | 189 KB | [MIT](https://github.com/driftyco/ionicons/blob/master/LICENSE) | The premium icon font for Ionic Framework. |
-| [Material Design Icons](https://materialdesignicons.com) | 1.4.57 | [1457](https://materialdesignicons.com) | 208 KB | [SIL OFL 1.1](https://github.com/Templarian/MaterialDesign/blob/master/license.txt) ||
-| [Elusive Icons](http://elusiveicons.com) | 2.0.0 | [304](http://elusiveicons.com/icons) | 80 KB | [SIL OFL 1.1](http://elusiveicons.com/license) ||
-| [Material Icons](https://google.github.io/material-design-icons/) | 2.2.0 | [932](https://design.google.com/icons/) | 128 KB | [CC-BY 4.0](https://github.com/google/material-design-icons/blob/master/LICENSE) | Made by Google for Material design. |
+| [MaterialDesignIcons](https://materialdesignicons.com) | 1.4.57 | [1457](https://materialdesignicons.com) | 208 KB | [SIL OFL 1.1](https://github.com/Templarian/MaterialDesign/blob/master/license.txt) | Material Design Icons |
+| [ElusiveIcons](http://elusiveicons.com) | 2.0.0 | [304](http://elusiveicons.com/icons) | 80 KB | [SIL OFL 1.1](http://elusiveicons.com/license) | Elusive Icons |
+| [MaterialIcons](https://google.github.io/material-design-icons/) | 2.2.0 | [932](https://design.google.com/icons/) | 128 KB | [CC-BY 4.0](https://github.com/google/material-design-icons/blob/master/LICENSE) | Made by Google for Material design. |
 | [ZocialButtons](http://zocial.smcllns.com) | 1.2.0 | [102](http://zocial.smcllns.com/sample.html) | 26 KB | [MIT](https://github.com/smcllns/css-social-buttons#license) | Social buttons |
 | [Typicons](http://www.typicons.com) | 2.0.7 | [336](http://www.typicons.com) | 100 KB | [SIL OFL 1.1](https://github.com/stephenhutchings/typicons.font/blob/master/src/font/LICENCE.md) ||
-| [Open Iconic](https://useiconic.com/open/) | 1.1.1 | [223](https://useiconic.com/open/) | 28 KB | [SIL OFL 1.1](https://github.com/iconic/open-iconic/blob/master/FONT-LICENSE) | The open source sibling of [Iconic](https://useiconic.com). |
-| [Metrize Icons](http://www.alessioatzeni.com/metrize-icons) | 1.0 | 300 | 63 KB | [Free to use](http://www.alessioatzeni.com/metrize-icons) | Metro-Style Icons |
+| [OpenIconic](https://useiconic.com/open/) | 1.1.1 | [223](https://useiconic.com/open/) | 28 KB | [SIL OFL 1.1](https://github.com/iconic/open-iconic/blob/master/FONT-LICENSE) | The open source sibling of [Iconic](https://useiconic.com). |
+| [MetrizeIcons](http://www.alessioatzeni.com/metrize-icons) | 1.0 | 300 | 63 KB | [Free to use](http://www.alessioatzeni.com/metrize-icons) | Metro-Style Icons |
 | [Meteocons](http://www.alessioatzeni.com/meteocons) | 1.0 | 47 | 18 KB | [Free to use](http://www.alessioatzeni.com/meteocons) | A set of weather icons |
-| [MFG Labs iconset](http://mfglabs.github.io/mfglabs-iconset) | 1.0 | [186](http://mfglabs.github.io/mfglabs-iconset/) | 56 KB | [SIL OFL 1.1](https://github.com/MfgLabs/mfglabs-iconset/blob/master/licenses.txt) ||
-| [Linearicons Free](https://linearicons.com/free) | 1.0.0 | [170](https://linearicons.com/free) | 56 KB | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Linearicons Free Version |
-| [IcoMoon Free](https://icomoon.io/#preview-free) | 1.0.0 | [491](https://icomoon.io/#preview-free) | 95 KB | [CC BY 4.0 or GPL](https://github.com/Keyamoon/IcoMoon-Free/blob/master/License.txt) | IcoMoon Free Pack |
+| [MFGLabsIconset](http://mfglabs.github.io/mfglabs-iconset) | 1.0 | [186](http://mfglabs.github.io/mfglabs-iconset/) | 56 KB | [SIL OFL 1.1](https://github.com/MfgLabs/mfglabs-iconset/blob/master/licenses.txt) | MFG Labs iconset |
+| [LineariconsFree](https://linearicons.com/free) | 1.0.0 | [170](https://linearicons.com/free) | 56 KB | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Linearicons Free Version |
+| [IcoMoonFree](https://icomoon.io/#preview-free) | 1.0.0 | [491](https://icomoon.io/#preview-free) | 95 KB | [CC BY 4.0 or GPL](https://github.com/Keyamoon/IcoMoon-Free/blob/master/License.txt) | IcoMoon Free Pack |
+| [HawconsFilled](http://hawcons.com) | 1.0 | [517](http://hawcons.com/preview/) | 107 KB | [Free to use](http://hawcons.com/faq/) | Hawcons filled style, includes icons of Documents, Sports, Weather, Emoji, Gestures, Filetypes, etc. |
+| [HawconsStroke](http://hawcons.com) | 1.0 | [518](http://hawcons.com/preview/) | 138 KB | [Free to use](http://hawcons.com/faq/) | Hawcons stroke style, includes icons of Documents, Sports, Weather, Emoji, Gestures, Filetypes, etc. |
 
 ## Installation
 
 `pod 'IconFontsKit'` to install all icon fonts.
 
-***OR*** install certain of icon fonts like:
+`pod 'IconFontsKit/{Font Identifier}'` to install certain of icon fonts, e.g. `pod 'IconFontsKit/FontAwesome'`.
 
-```ruby
-pod 'IconFontsKit/FontAwesome'
-pod 'IconFontsKit/Octicons'
-pod 'IconFontsKit/FoundationIcons'
-pod 'IconFontsKit/Ionicons'
-pod 'IconFontsKit/MaterialDesignIcons'
-pod 'IconFontsKit/ElusiveIcons'
-pod 'IconFontsKit/MaterialIcons'
-pod 'IconFontsKit/ZocialButtons'
-pod 'IconFontsKit/Typicons'
-pod 'IconFontsKit/OpenIconic'
-pod 'IconFontsKit/MetrizeIcons'
-pod 'IconFontsKit/Meteocons'
-pod 'IconFontsKit/MFGLabsIconset'
-pod 'IconFontsKit/LineariconsFree'
-pod 'IconFontsKit/IcoMoonFree'
-```
 ## Usage
 
 + An icon can be created by three ways: **code** like `@"\uf179"`, **type** like `IFFAApple`, **identifier** like `@"fa-apple"`.

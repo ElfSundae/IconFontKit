@@ -50,6 +50,8 @@ JTSImageViewControllerDismissalDelegate, UIActionSheetDelegate>
                              [IFMFGLabsIconset class],
                              [IFLineariconsFree class],
                              [IFIcoMoonFree class],
+                             [IFHawconsFilled class],
+                             [IFHawconsStroke class],
                              ];
     }
     return self;

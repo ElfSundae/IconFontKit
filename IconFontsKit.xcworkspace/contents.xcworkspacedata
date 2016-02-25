@@ -148,6 +148,24 @@
       <FileRef
          location = "group:IcoMoon-Free.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFHawconsFilled.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFHawconsFilled.m">
+      </FileRef>
+      <FileRef
+         location = "group:Hawcons-Filled.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFHawconsStroke.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFHawconsStroke.m">
+      </FileRef>
+      <FileRef
+         location = "group:Hawcons-Stroke.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">

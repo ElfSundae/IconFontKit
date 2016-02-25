@@ -1,0 +1,1581 @@
+@font-face {
+    font-family: 'Hawcons-Stroke';
+    src:    url('fonts/Hawcons-Stroke.eot?pc2gfp');
+    src:    url('fonts/Hawcons-Stroke.eot?pc2gfp#iefix') format('embedded-opentype'),
+        url('fonts/Hawcons-Stroke.ttf?pc2gfp') format('truetype'),
+        url('fonts/Hawcons-Stroke.woff?pc2gfp') format('woff'),
+        url('fonts/Hawcons-Stroke.svg?pc2gfp#Hawcons-Stroke') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="hawcons-stroke-"], [class*=" hawcons-stroke-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'Hawcons-Stroke' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.hawcons-stroke-mail-envelope:before {
+    content: "\e600";
+}
+.hawcons-stroke-mail-envelope-open:before {
+    content: "\e601";
+}
+.hawcons-stroke-mail-envelope-closed:before {
+    content: "\e602";
+}
+.hawcons-stroke-mail-envelope-open2:before {
+    content: "\e603";
+}
+.hawcons-stroke-mail-envelope-open3:before {
+    content: "\e604";
+}
+.hawcons-stroke-mail-envelope-closed2:before {
+    content: "\e605";
+}
+.hawcons-stroke-mail-envelope-open4:before {
+    content: "\e606";
+}
+.hawcons-stroke-mail-error:before {
+    content: "\e607";
+}
+.hawcons-stroke-mail-checked:before {
+    content: "\e608";
+}
+.hawcons-stroke-mail-cancel:before {
+    content: "\e609";
+}
+.hawcons-stroke-mail--forbidden:before {
+    content: "\e60a";
+}
+.hawcons-stroke-mail-add:before {
+    content: "\e60b";
+}
+.hawcons-stroke-mail-remove:before {
+    content: "\e60c";
+}
+.hawcons-stroke-flag:before {
+    content: "\e60d";
+}
+.hawcons-stroke-flag2:before {
+    content: "\e60e";
+}
+.hawcons-stroke-flag3:before {
+    content: "\e60f";
+}
+.hawcons-stroke-flag4:before {
+    content: "\e610";
+}
+.hawcons-stroke-bookmark:before {
+    content: "\e611";
+}
+.hawcons-stroke-bookmark-add:before {
+    content: "\e612";
+}
+.hawcons-stroke-bookmark-remove:before {
+    content: "\e613";
+}
+.hawcons-stroke-eye-hidden:before {
+    content: "\e614";
+}
+.hawcons-stroke-eye:before {
+    content: "\e615";
+}
+.hawcons-stroke-star:before {
+    content: "\e616";
+}
+.hawcons-stroke-key:before {
+    content: "\e617";
+}
+.hawcons-stroke-key2:before {
+    content: "\e618";
+}
+.hawcons-stroke-trash-can:before {
+    content: "\e619";
+}
+.hawcons-stroke-trash-can2:before {
+    content: "\e61a";
+}
+.hawcons-stroke-information:before {
+    content: "\e61b";
+}
+.hawcons-stroke-information2:before {
+    content: "\e61c";
+}
+.hawcons-stroke-book:before {
+    content: "\e61d";
+}
+.hawcons-stroke-book-bookmark:before {
+    content: "\e61e";
+}
+.hawcons-stroke-clipboard-edit:before {
+    content: "\e61f";
+}
+.hawcons-stroke-clipboard-add:before {
+    content: "\e620";
+}
+.hawcons-stroke-clipboard-remove:before {
+    content: "\e621";
+}
+.hawcons-stroke-clipboard:before {
+    content: "\e622";
+}
+.hawcons-stroke-clipboard-download:before {
+    content: "\e623";
+}
+.hawcons-stroke-clipboard-upload:before {
+    content: "\e624";
+}
+.hawcons-stroke-clipboard-checked:before {
+    content: "\e625";
+}
+.hawcons-stroke-clipboard-text:before {
+    content: "\e626";
+}
+.hawcons-stroke-clipboard-list:before {
+    content: "\e627";
+}
+.hawcons-stroke-note:before {
+    content: "\e628";
+}
+.hawcons-stroke-note-add:before {
+    content: "\e629";
+}
+.hawcons-stroke-note-remove:before {
+    content: "\e62a";
+}
+.hawcons-stroke-note-text:before {
+    content: "\e62b";
+}
+.hawcons-stroke-note-list:before {
+    content: "\e62c";
+}
+.hawcons-stroke-note-checked:before {
+    content: "\e62d";
+}
+.hawcons-stroke-note-important:before {
+    content: "\e62e";
+}
+.hawcons-stroke-notebook:before {
+    content: "\e62f";
+}
+.hawcons-stroke-notebook2:before {
+    content: "\e630";
+}
+.hawcons-stroke-notebook3:before {
+    content: "\e631";
+}
+.hawcons-stroke-notebook4:before {
+    content: "\e632";
+}
+.hawcons-stroke-notebook-text:before {
+    content: "\e633";
+}
+.hawcons-stroke-notebook-list:before {
+    content: "\e634";
+}
+.hawcons-stroke-document:before {
+    content: "\e635";
+}
+.hawcons-stroke-document-text:before {
+    content: "\e636";
+}
+.hawcons-stroke-document-text2:before {
+    content: "\e637";
+}
+.hawcons-stroke-document-download:before {
+    content: "\e638";
+}
+.hawcons-stroke-document-upload:before {
+    content: "\e639";
+}
+.hawcons-stroke-document-bookmark:before {
+    content: "\e63a";
+}
+.hawcons-stroke-document-diagrams:before {
+    content: "\e63b";
+}
+.hawcons-stroke-document-recording:before {
+    content: "\e63c";
+}
+.hawcons-stroke-document-table:before {
+    content: "\e63d";
+}
+.hawcons-stroke-document-music:before {
+    content: "\e63e";
+}
+.hawcons-stroke-document-movie:before {
+    content: "\e63f";
+}
+.hawcons-stroke-document-play:before {
+    content: "\e640";
+}
+.hawcons-stroke-document-graph:before {
+    content: "\e641";
+}
+.hawcons-stroke-document-time:before {
+    content: "\e642";
+}
+.hawcons-stroke-document-text3:before {
+    content: "\e643";
+}
+.hawcons-stroke-document-code:before {
+    content: "\e644";
+}
+.hawcons-stroke-document-cloud:before {
+    content: "\e645";
+}
+.hawcons-stroke-documents:before {
+    content: "\e646";
+}
+.hawcons-stroke-documents2:before {
+    content: "\e647";
+}
+.hawcons-stroke-document-search:before {
+    content: "\e648";
+}
+.hawcons-stroke-document-star:before {
+    content: "\e649";
+}
+.hawcons-stroke-document-unlocked:before {
+    content: "\e64a";
+}
+.hawcons-stroke-document-locked:before {
+    content: "\e64b";
+}
+.hawcons-stroke-document-error:before {
+    content: "\e64c";
+}
+.hawcons-stroke-document-cancel:before {
+    content: "\e64d";
+}
+.hawcons-stroke-document-checked:before {
+    content: "\e64e";
+}
+.hawcons-stroke-document-add:before {
+    content: "\e64f";
+}
+.hawcons-stroke-document-remove:before {
+    content: "\e650";
+}
+.hawcons-stroke-document-forbidden:before {
+    content: "\e651";
+}
+.hawcons-stroke-document-information:before {
+    content: "\e652";
+}
+.hawcons-stroke-folder-information:before {
+    content: "\e653";
+}
+.hawcons-stroke-document-list:before {
+    content: "\e654";
+}
+.hawcons-stroke-document-font:before {
+    content: "\e655";
+}
+.hawcons-stroke-inbox:before {
+    content: "\e656";
+}
+.hawcons-stroke-inboxes:before {
+    content: "\e657";
+}
+.hawcons-stroke-inbox-document:before {
+    content: "\e658";
+}
+.hawcons-stroke-inbox-document-text:before {
+    content: "\e659";
+}
+.hawcons-stroke-inbox-download:before {
+    content: "\e65a";
+}
+.hawcons-stroke-inbox-upload:before {
+    content: "\e65b";
+}
+.hawcons-stroke-folder:before {
+    content: "\e65c";
+}
+.hawcons-stroke-folder2:before {
+    content: "\e65d";
+}
+.hawcons-stroke-folders:before {
+    content: "\e65e";
+}
+.hawcons-stroke-folder-download:before {
+    content: "\e65f";
+}
+.hawcons-stroke-folder-upload:before {
+    content: "\e660";
+}
+.hawcons-stroke-folder-unlocked:before {
+    content: "\e661";
+}
+.hawcons-stroke-folder-locked:before {
+    content: "\e662";
+}
+.hawcons-stroke-folder-search:before {
+    content: "\e663";
+}
+.hawcons-stroke-folder-error:before {
+    content: "\e664";
+}
+.hawcons-stroke-folder-cancel:before {
+    content: "\e665";
+}
+.hawcons-stroke-folder-checked:before {
+    content: "\e666";
+}
+.hawcons-stroke-folder-add:before {
+    content: "\e667";
+}
+.hawcons-stroke-folder-remove:before {
+    content: "\e668";
+}
+.hawcons-stroke-folder-forbidden:before {
+    content: "\e669";
+}
+.hawcons-stroke-folder-bookmark:before {
+    content: "\e66a";
+}
+.hawcons-stroke-document-zip:before {
+    content: "\e66b";
+}
+.hawcons-stroke-zip:before {
+    content: "\e66c";
+}
+.hawcons-stroke-search:before {
+    content: "\e66d";
+}
+.hawcons-stroke-search-plus:before {
+    content: "\e66e";
+}
+.hawcons-stroke-search-minus:before {
+    content: "\e66f";
+}
+.hawcons-stroke-lock:before {
+    content: "\e670";
+}
+.hawcons-stroke-lock-open:before {
+    content: "\e671";
+}
+.hawcons-stroke-lock-open2:before {
+    content: "\e672";
+}
+.hawcons-stroke-lock-stripes:before {
+    content: "\e673";
+}
+.hawcons-stroke-lock-rounded:before {
+    content: "\e674";
+}
+.hawcons-stroke-lock-rounded-open:before {
+    content: "\e675";
+}
+.hawcons-stroke-lock-rounded-open2:before {
+    content: "\e676";
+}
+.hawcons-stroke-combination-lock:before {
+    content: "\e677";
+}
+.hawcons-stroke-printer:before {
+    content: "\e678";
+}
+.hawcons-stroke-printer2:before {
+    content: "\e679";
+}
+.hawcons-stroke-printer-text:before {
+    content: "\e67a";
+}
+.hawcons-stroke-printer-text2:before {
+    content: "\e67b";
+}
+.hawcons-stroke-document-shred:before {
+    content: "\e67c";
+}
+.hawcons-stroke-shredder:before {
+    content: "\e67d";
+}
+.hawcons-stroke-document-scan:before {
+    content: "\e67e";
+}
+.hawcons-stroke-cloud-download:before {
+    content: "\e67f";
+}
+.hawcons-stroke-cloud-upload:before {
+    content: "\e680";
+}
+.hawcons-stroke-cloud-error:before {
+    content: "\e681";
+}
+.hawcons-stroke-cloud:before {
+    content: "\e682";
+}
+.hawcons-stroke-inbox-filled:before {
+    content: "\e683";
+}
+.hawcons-stroke-pen:before {
+    content: "\e684";
+}
+.hawcons-stroke-pen-angled:before {
+    content: "\e685";
+}
+.hawcons-stroke-document-edit:before {
+    content: "\e686";
+}
+.hawcons-stroke-document-certificate:before {
+    content: "\e687";
+}
+.hawcons-stroke-certificate:before {
+    content: "\e688";
+}
+.hawcons-stroke-package:before {
+    content: "\e689";
+}
+.hawcons-stroke-box:before {
+    content: "\e68a";
+}
+.hawcons-stroke-box-filled:before {
+    content: "\e68b";
+}
+.hawcons-stroke-box2:before {
+    content: "\e68c";
+}
+.hawcons-stroke-box3:before {
+    content: "\e68d";
+}
+.hawcons-stroke-box-bookmark:before {
+    content: "\e68e";
+}
+.hawcons-stroke-tag-cord:before {
+    content: "\e68f";
+}
+.hawcons-stroke-tag:before {
+    content: "\e690";
+}
+.hawcons-stroke-tags:before {
+    content: "\e691";
+}
+.hawcons-stroke-tag-add:before {
+    content: "\e692";
+}
+.hawcons-stroke-tag-remove:before {
+    content: "\e693";
+}
+.hawcons-stroke-tag-checked:before {
+    content: "\e694";
+}
+.hawcons-stroke-tag-cancel:before {
+    content: "\e695";
+}
+.hawcons-stroke-paperclip:before {
+    content: "\e696";
+}
+.hawcons-stroke-basketball:before {
+    content: "\e697";
+}
+.hawcons-stroke-baseball:before {
+    content: "\e698";
+}
+.hawcons-stroke-tennis-ball:before {
+    content: "\e699";
+}
+.hawcons-stroke-bowling-ball:before {
+    content: "\e69a";
+}
+.hawcons-stroke-billiard-ball:before {
+    content: "\e69b";
+}
+.hawcons-stroke-soccer-ball:before {
+    content: "\e69c";
+}
+.hawcons-stroke-soccer-court:before {
+    content: "\e69d";
+}
+.hawcons-stroke-football:before {
+    content: "\e69e";
+}
+.hawcons-stroke-football2:before {
+    content: "\e69f";
+}
+.hawcons-stroke-basketball2:before {
+    content: "\e6a0";
+}
+.hawcons-stroke-baseball-set:before {
+    content: "\e6a1";
+}
+.hawcons-stroke-tennis-ball2:before {
+    content: "\e6a2";
+}
+.hawcons-stroke-trophy:before {
+    content: "\e6a3";
+}
+.hawcons-stroke-trophy-one:before {
+    content: "\e6a4";
+}
+.hawcons-stroke-trophy2:before {
+    content: "\e6a5";
+}
+.hawcons-stroke-medal:before {
+    content: "\e6a6";
+}
+.hawcons-stroke-medal2:before {
+    content: "\e6a7";
+}
+.hawcons-stroke-weights:before {
+    content: "\e6a8";
+}
+.hawcons-stroke-tennis-racket:before {
+    content: "\e6a9";
+}
+.hawcons-stroke-basketball-hoop:before {
+    content: "\e6aa";
+}
+.hawcons-stroke-table-tennis:before {
+    content: "\e6ab";
+}
+.hawcons-stroke-volleyball:before {
+    content: "\e6ac";
+}
+.hawcons-stroke-stop-watch:before {
+    content: "\e6ad";
+}
+.hawcons-stroke-stop-watch2:before {
+    content: "\e6ae";
+}
+.hawcons-stroke-hockey-stick:before {
+    content: "\e6af";
+}
+.hawcons-stroke-hockey-sticks:before {
+    content: "\e6b0";
+}
+.hawcons-stroke-shuttlecock:before {
+    content: "\e6b1";
+}
+.hawcons-stroke-golf:before {
+    content: "\e6b2";
+}
+.hawcons-stroke-move:before {
+    content: "\e6b3";
+}
+.hawcons-stroke-clipboard-move:before {
+    content: "\e6b4";
+}
+.hawcons-stroke-award:before {
+    content: "\e6b5";
+}
+.hawcons-stroke-award2:before {
+    content: "\e6b6";
+}
+.hawcons-stroke-award3:before {
+    content: "\e6b7";
+}
+.hawcons-stroke-award4:before {
+    content: "\e6b8";
+}
+.hawcons-stroke-medal3:before {
+    content: "\e6b9";
+}
+.hawcons-stroke-medal4:before {
+    content: "\e6ba";
+}
+.hawcons-stroke-boxing-glove:before {
+    content: "\e6bb";
+}
+.hawcons-stroke-whistle:before {
+    content: "\e6bc";
+}
+.hawcons-stroke-volleyball-water:before {
+    content: "\e6bd";
+}
+.hawcons-stroke-checkered-flag:before {
+    content: "\e6be";
+}
+.hawcons-stroke-target-arrow:before {
+    content: "\e6bf";
+}
+.hawcons-stroke-target:before {
+    content: "\e6c0";
+}
+.hawcons-stroke-sailing-boat:before {
+    content: "\e6c1";
+}
+.hawcons-stroke-sailing-boat-water:before {
+    content: "\e6c2";
+}
+.hawcons-stroke-bowling-pins:before {
+    content: "\e6c3";
+}
+.hawcons-stroke-bowling-pin-ball:before {
+    content: "\e6c4";
+}
+.hawcons-stroke-diving-goggles:before {
+    content: "\e6c5";
+}
+.hawcons-stroke-sports-shoe:before {
+    content: "\e6c6";
+}
+.hawcons-stroke-soccer-shoe:before {
+    content: "\e6c7";
+}
+.hawcons-stroke-ice-skate:before {
+    content: "\e6c8";
+}
+.hawcons-stroke-cloud2:before {
+    content: "\e6c9";
+}
+.hawcons-stroke-cloud-sun:before {
+    content: "\e6ca";
+}
+.hawcons-stroke-cloud-moon:before {
+    content: "\e6cb";
+}
+.hawcons-stroke-cloud-rain:before {
+    content: "\e6cc";
+}
+.hawcons-stroke-cloud-sun-rain:before {
+    content: "\e6cd";
+}
+.hawcons-stroke-cloud-moon-rain:before {
+    content: "\e6ce";
+}
+.hawcons-stroke-cloud-snow:before {
+    content: "\e6cf";
+}
+.hawcons-stroke-cloud-sun-snow:before {
+    content: "\e6d0";
+}
+.hawcons-stroke-cloud-moon-snow:before {
+    content: "\e6d1";
+}
+.hawcons-stroke-cloud-lightning:before {
+    content: "\e6d2";
+}
+.hawcons-stroke-cloud-sun-lightning:before {
+    content: "\e6d3";
+}
+.hawcons-stroke-cloud-moon-lightning:before {
+    content: "\e6d4";
+}
+.hawcons-stroke-cloud-wind:before {
+    content: "\e6d5";
+}
+.hawcons-stroke-cloud-raindrops:before {
+    content: "\e6d6";
+}
+.hawcons-stroke-cloud-sun-raindrops:before {
+    content: "\e6d7";
+}
+.hawcons-stroke-cloud-moon-raindrops:before {
+    content: "\e6d8";
+}
+.hawcons-stroke-cloud-snowflakes:before {
+    content: "\e6d9";
+}
+.hawcons-stroke-cloud-sun-snowflakes:before {
+    content: "\e6da";
+}
+.hawcons-stroke-cloud-moon-snowflakes:before {
+    content: "\e6db";
+}
+.hawcons-stroke-clouds:before {
+    content: "\e6dc";
+}
+.hawcons-stroke-cloud-add:before {
+    content: "\e6dd";
+}
+.hawcons-stroke-cloud-remove:before {
+    content: "\e6de";
+}
+.hawcons-stroke-cloud-error2:before {
+    content: "\e6df";
+}
+.hawcons-stroke-cloud-fog:before {
+    content: "\e6e0";
+}
+.hawcons-stroke--cloud-sun-fog:before {
+    content: "\e6e1";
+}
+.hawcons-stroke-cloud-moon-fog:before {
+    content: "\e6e2";
+}
+.hawcons-stroke-moon-stars:before {
+    content: "\e6e3";
+}
+.hawcons-stroke-moon:before {
+    content: "\e6e4";
+}
+.hawcons-stroke-sun:before {
+    content: "\e6e5";
+}
+.hawcons-stroke-sunrise:before {
+    content: "\e6e6";
+}
+.hawcons-stroke-sunset:before {
+    content: "\e6e7";
+}
+.hawcons-stroke-sunset2:before {
+    content: "\e6e8";
+}
+.hawcons-stroke-sunset3:before {
+    content: "\e6e9";
+}
+.hawcons-stroke-rainbow:before {
+    content: "\e6ea";
+}
+.hawcons-stroke-umbrella:before {
+    content: "\e6eb";
+}
+.hawcons-stroke-raindrops:before {
+    content: "\e6ec";
+}
+.hawcons-stroke-raindrop:before {
+    content: "\e6ed";
+}
+.hawcons-stroke-sunglasses:before {
+    content: "\e6ee";
+}
+.hawcons-stroke-stars:before {
+    content: "\e6ef";
+}
+.hawcons-stroke-clouds2:before {
+    content: "\e6f0";
+}
+.hawcons-stroke-moonrise:before {
+    content: "\e6f1";
+}
+.hawcons-stroke-moonset:before {
+    content: "\e6f2";
+}
+.hawcons-stroke-wind:before {
+    content: "\e6f3";
+}
+.hawcons-stroke-full-moon:before {
+    content: "\e6f4";
+}
+.hawcons-stroke-crescent:before {
+    content: "\e6f5";
+}
+.hawcons-stroke-half-moon:before {
+    content: "\e6f6";
+}
+.hawcons-stroke-gibbous-moon:before {
+    content: "\e6f7";
+}
+.hawcons-stroke-moon2:before {
+    content: "\e6f8";
+}
+.hawcons-stroke-gibbous-moon2:before {
+    content: "\e6f9";
+}
+.hawcons-stroke-half-moon2:before {
+    content: "\e6fa";
+}
+.hawcons-stroke-crescent2:before {
+    content: "\e6fb";
+}
+.hawcons-stroke-barometer:before {
+    content: "\e6fc";
+}
+.hawcons-stroke-compass-north:before {
+    content: "\e6fd";
+}
+.hawcons-stroke-compass-west:before {
+    content: "\e6fe";
+}
+.hawcons-stroke-compass-east:before {
+    content: "\e6ff";
+}
+.hawcons-stroke-compass-south:before {
+    content: "\e700";
+}
+.hawcons-stroke-air-sock:before {
+    content: "\e701";
+}
+.hawcons-stroke-tornado:before {
+    content: "\e702";
+}
+.hawcons-stroke-degree-fahrenheit:before {
+    content: "\e703";
+}
+.hawcons-stroke-degree-celsius:before {
+    content: "\e704";
+}
+.hawcons-stroke-warning:before {
+    content: "\e705";
+}
+.hawcons-stroke-compass:before {
+    content: "\e706";
+}
+.hawcons-stroke-compass2:before {
+    content: "\e707";
+}
+.hawcons-stroke-compass3:before {
+    content: "\e708";
+}
+.hawcons-stroke-compass4:before {
+    content: "\e709";
+}
+.hawcons-stroke-thermometer:before {
+    content: "\e70a";
+}
+.hawcons-stroke-thermometer-low:before {
+    content: "\e70b";
+}
+.hawcons-stroke-thermometer-quarter:before {
+    content: "\e70c";
+}
+.hawcons-stroke-thermometer-half:before {
+    content: "\e70d";
+}
+.hawcons-stroke-thermometer-three-quarters:before {
+    content: "\e70e";
+}
+.hawcons-stroke-thermometer-full:before {
+    content: "\e70f";
+}
+.hawcons-stroke-lightning:before {
+    content: "\e710";
+}
+.hawcons-stroke-wind-turbine:before {
+    content: "\e711";
+}
+.hawcons-stroke-snowflake:before {
+    content: "\e712";
+}
+.hawcons-stroke-flashed-face:before {
+    content: "\e713";
+}
+.hawcons-stroke-flashed-face2:before {
+    content: "\e714";
+}
+.hawcons-stroke-flashed-face-glasses:before {
+    content: "\e715";
+}
+.hawcons-stroke-face-missing-moth:before {
+    content: "\e716";
+}
+.hawcons-stroke-neutral-face:before {
+    content: "\e717";
+}
+.hawcons-stroke-smiling-face:before {
+    content: "\e718";
+}
+.hawcons-stroke-sad-face:before {
+    content: "\e719";
+}
+.hawcons-stroke-face-open-mouth:before {
+    content: "\e71a";
+}
+.hawcons-stroke-face-open-mouth2:before {
+    content: "\e71b";
+}
+.hawcons-stroke-winking-face:before {
+    content: "\e71c";
+}
+.hawcons-stroke-laughing-face:before {
+    content: "\e71d";
+}
+.hawcons-stroke-laughing-face2:before {
+    content: "\e71e";
+}
+.hawcons-stroke-smirking-face:before {
+    content: "\e71f";
+}
+.hawcons-stroke-stubborn-face:before {
+    content: "\e720";
+}
+.hawcons-stroke-neutral-face2:before {
+    content: "\e721";
+}
+.hawcons-stroke-sad-face2:before {
+    content: "\e722";
+}
+.hawcons-stroke-smiling-face2:before {
+    content: "\e723";
+}
+.hawcons-stroke-smiling-face-eyebrows:before {
+    content: "\e724";
+}
+.hawcons-stroke-grinning-face-eyebrows:before {
+    content: "\e725";
+}
+.hawcons-stroke-sad-face-eyebrows:before {
+    content: "\e726";
+}
+.hawcons-stroke-neutral-face-eyebrows:before {
+    content: "\e727";
+}
+.hawcons-stroke-angry-face:before {
+    content: "\e728";
+}
+.hawcons-stroke-worried-face:before {
+    content: "\e729";
+}
+.hawcons-stroke-winking-face2:before {
+    content: "\e72a";
+}
+.hawcons-stroke-angry-face-eyebrows:before {
+    content: "\e72b";
+}
+.hawcons-stroke-grinning-face:before {
+    content: "\e72c";
+}
+.hawcons-stroke-sad-face3:before {
+    content: "\e72d";
+}
+.hawcons-stroke-grinning-face-eyebrows2:before {
+    content: "\e72e";
+}
+.hawcons-stroke-fake-grinning-face-eyebrows:before {
+    content: "\e72f";
+}
+.hawcons-stroke-worried-face-eyebrows:before {
+    content: "\e730";
+}
+.hawcons-stroke-face-stuck-out-tongue:before {
+    content: "\e731";
+}
+.hawcons-stroke-face-stuck-out-tongue2:before {
+    content: "\e732";
+}
+.hawcons-stroke-kissing-face:before {
+    content: "\e733";
+}
+.hawcons-stroke-grinning-face-teeth:before {
+    content: "\e734";
+}
+.hawcons-stroke-angry-face-teeth:before {
+    content: "\e735";
+}
+.hawcons-stroke-worried-face-teeth:before {
+    content: "\e736";
+}
+.hawcons-stroke-grinning-face-teeth2:before {
+    content: "\e737";
+}
+.hawcons-stroke-face-open-mouth-eyebrows:before {
+    content: "\e738";
+}
+.hawcons-stroke-face-open-mouth-eyebrows2:before {
+    content: "\e739";
+}
+.hawcons-stroke-angry-face-open-mouth-eyebrows:before {
+    content: "\e73a";
+}
+.hawcons-stroke-unamused-face-tightly-closed-eyes:before {
+    content: "\e73b";
+}
+.hawcons-stroke-sad-face--tightly-closed-eyes:before {
+    content: "\e73c";
+}
+.hawcons-stroke-kissing-face2:before {
+    content: "\e73d";
+}
+.hawcons-stroke-face-closed-meyes:before {
+    content: "\e73e";
+}
+.hawcons-stroke-amused-face:before {
+    content: "\e73f";
+}
+.hawcons-stroke-amused-face-closed-eyes:before {
+    content: "\e740";
+}
+.hawcons-stroke-amused-face-closed-eyes2:before {
+    content: "\e741";
+}
+.hawcons-stroke-face-closed-eyes-open-mouth:before {
+    content: "\e742";
+}
+.hawcons-stroke-face-closed-eyes-open-mouth2:before {
+    content: "\e743";
+}
+.hawcons-stroke-face-closed-eyes-open-mouth3:before {
+    content: "\e744";
+}
+.hawcons-stroke-laughing-face3:before {
+    content: "\e745";
+}
+.hawcons-stroke-smiling-face3:before {
+    content: "\e746";
+}
+.hawcons-stroke-grinning-face2:before {
+    content: "\e747";
+}
+.hawcons-stroke-sad-face4:before {
+    content: "\e748";
+}
+.hawcons-stroke-sad-face5:before {
+    content: "\e749";
+}
+.hawcons-stroke-sad-face-closed-eyes:before {
+    content: "\e74a";
+}
+.hawcons-stroke-sad-face6:before {
+    content: "\e74b";
+}
+.hawcons-stroke-smiling-face4:before {
+    content: "\e74c";
+}
+.hawcons-stroke-astonished-face:before {
+    content: "\e74d";
+}
+.hawcons-stroke-astonished-face2:before {
+    content: "\e74e";
+}
+.hawcons-stroke-face-moustache:before {
+    content: "\e74f";
+}
+.hawcons-stroke-face-moustache2:before {
+    content: "\e750";
+}
+.hawcons-stroke-face-glasses:before {
+    content: "\e751";
+}
+.hawcons-stroke-face-sunglasses:before {
+    content: "\e752";
+}
+.hawcons-stroke-smirking-face-sunglasses:before {
+    content: "\e753";
+}
+.hawcons-stroke-middle-finger:before {
+    content: "\e754";
+}
+.hawcons-stroke-rock-n-roll:before {
+    content: "\e755";
+}
+.hawcons-stroke-high-five:before {
+    content: "\e756";
+}
+.hawcons-stroke-thumb-up:before {
+    content: "\e757";
+}
+.hawcons-stroke-thumb-down:before {
+    content: "\e758";
+}
+.hawcons-stroke-thumb-up2:before {
+    content: "\e759";
+}
+.hawcons-stroke-thumb-down2:before {
+    content: "\e75a";
+}
+.hawcons-stroke-two-fingers-swipe-left:before {
+    content: "\e75b";
+}
+.hawcons-stroke-two-fingers-swipe-right:before {
+    content: "\e75c";
+}
+.hawcons-stroke-two-fingers-swipe-up:before {
+    content: "\e75d";
+}
+.hawcons-stroke-two-fingers-swipe-down:before {
+    content: "\e75e";
+}
+.hawcons-stroke-two-fingers:before {
+    content: "\e75f";
+}
+.hawcons-stroke-three-fingers-double-tap:before {
+    content: "\e760";
+}
+.hawcons-stroke-two-fingers-resize-out:before {
+    content: "\e761";
+}
+.hawcons-stroke-two-fingers-resize-in:before {
+    content: "\e762";
+}
+.hawcons-stroke-two-fingers-rotate:before {
+    content: "\e763";
+}
+.hawcons-stroke-one-finger-swipe-left:before {
+    content: "\e764";
+}
+.hawcons-stroke-one-finger-swipe-right:before {
+    content: "\e765";
+}
+.hawcons-stroke-one-finger-swipe-up:before {
+    content: "\e766";
+}
+.hawcons-stroke-one-finger-swipe-down:before {
+    content: "\e767";
+}
+.hawcons-stroke-one-finger:before {
+    content: "\e768";
+}
+.hawcons-stroke-one-finger-double-tap:before {
+    content: "\e769";
+}
+.hawcons-stroke-one-finger-tap:before {
+    content: "\e76a";
+}
+.hawcons-stroke-one-finger-tap-hold:before {
+    content: "\e76b";
+}
+.hawcons-stroke-thumb-finger-tap:before {
+    content: "\e76c";
+}
+.hawcons-stroke-one-finger-click:before {
+    content: "\e76d";
+}
+.hawcons-stroke-three-fingers-swipe-left:before {
+    content: "\e76e";
+}
+.hawcons-stroke-three-fingers-swipe-right:before {
+    content: "\e76f";
+}
+.hawcons-stroke-three-fingers-swipe-up:before {
+    content: "\e770";
+}
+.hawcons-stroke-three-fingers-swipe-down:before {
+    content: "\e771";
+}
+.hawcons-stroke-three-fingers:before {
+    content: "\e772";
+}
+.hawcons-stroke-three-fingers-double-tap2:before {
+    content: "\e773";
+}
+.hawcons-stroke-two-fingers-swipe-up2:before {
+    content: "\e774";
+}
+.hawcons-stroke-one-finger-double-tap2:before {
+    content: "\e775";
+}
+.hawcons-stroke-two-fingers-swipe-down2:before {
+    content: "\e776";
+}
+.hawcons-stroke-two-fingers-swipe-right2:before {
+    content: "\e777";
+}
+.hawcons-stroke-two-fingers-swipe-left2:before {
+    content: "\e778";
+}
+.hawcons-stroke-one-finger-tap2:before {
+    content: "\e779";
+}
+.hawcons-stroke-one-finger-tap-hold2:before {
+    content: "\e77a";
+}
+.hawcons-stroke-one-finger-click2:before {
+    content: "\e77b";
+}
+.hawcons-stroke-one-finger-swipe-horizontally:before {
+    content: "\e77c";
+}
+.hawcons-stroke-one-finger-swipe:before {
+    content: "\e77d";
+}
+.hawcons-stroke-two-fingers-double-tap:before {
+    content: "\e77e";
+}
+.hawcons-stroke-two-fingers-tap:before {
+    content: "\e77f";
+}
+.hawcons-stroke-one-finger-swipe-left2:before {
+    content: "\e780";
+}
+.hawcons-stroke-one-finger-swipe-right2:before {
+    content: "\e781";
+}
+.hawcons-stroke-one-finger-swipe-up2:before {
+    content: "\e782";
+}
+.hawcons-stroke-one-finger-swipe-down2:before {
+    content: "\e783";
+}
+.hawcons-stroke-file-numbers:before {
+    content: "\e784";
+}
+.hawcons-stroke-file-pages:before {
+    content: "\e785";
+}
+.hawcons-stroke-file-app:before {
+    content: "\e786";
+}
+.hawcons-stroke-file-png:before {
+    content: "\e787";
+}
+.hawcons-stroke-file-pdf:before {
+    content: "\e788";
+}
+.hawcons-stroke-file-mp3:before {
+    content: "\e789";
+}
+.hawcons-stroke-file-mp4:before {
+    content: "\e78a";
+}
+.hawcons-stroke-file-mov:before {
+    content: "\e78b";
+}
+.hawcons-stroke-file-jpg:before {
+    content: "\e78c";
+}
+.hawcons-stroke-file-key:before {
+    content: "\e78d";
+}
+.hawcons-stroke-file-html:before {
+    content: "\e78e";
+}
+.hawcons-stroke-file-css:before {
+    content: "\e78f";
+}
+.hawcons-stroke-file-java:before {
+    content: "\e790";
+}
+.hawcons-stroke-file-psd:before {
+    content: "\e791";
+}
+.hawcons-stroke-file-ai:before {
+    content: "\e792";
+}
+.hawcons-stroke-file-bmp:before {
+    content: "\e793";
+}
+.hawcons-stroke-file-dwg:before {
+    content: "\e794";
+}
+.hawcons-stroke-file-eps:before {
+    content: "\e795";
+}
+.hawcons-stroke-file-tiff:before {
+    content: "\e796";
+}
+.hawcons-stroke-file-ots:before {
+    content: "\e797";
+}
+.hawcons-stroke-file-php:before {
+    content: "\e798";
+}
+.hawcons-stroke-file-py:before {
+    content: "\e799";
+}
+.hawcons-stroke-file-c:before {
+    content: "\e79a";
+}
+.hawcons-stroke-file-sql:before {
+    content: "\e79b";
+}
+.hawcons-stroke-file-rb:before {
+    content: "\e79c";
+}
+.hawcons-stroke-file-cpp:before {
+    content: "\e79d";
+}
+.hawcons-stroke-file-tga:before {
+    content: "\e79e";
+}
+.hawcons-stroke-file-dxf:before {
+    content: "\e79f";
+}
+.hawcons-stroke-file-doc:before {
+    content: "\e7a0";
+}
+.hawcons-stroke-file-odt:before {
+    content: "\e7a1";
+}
+.hawcons-stroke-file-xls:before {
+    content: "\e7a2";
+}
+.hawcons-stroke-file-docx:before {
+    content: "\e7a3";
+}
+.hawcons-stroke-file-ppt:before {
+    content: "\e7a4";
+}
+.hawcons-stroke-file-asp:before {
+    content: "\e7a5";
+}
+.hawcons-stroke-file-ics:before {
+    content: "\e7a6";
+}
+.hawcons-stroke-file-dat:before {
+    content: "\e7a7";
+}
+.hawcons-stroke-file-xml:before {
+    content: "\e7a8";
+}
+.hawcons-stroke-file-yml:before {
+    content: "\e7a9";
+}
+.hawcons-stroke-file-h:before {
+    content: "\e7aa";
+}
+.hawcons-stroke-file-exe:before {
+    content: "\e7ab";
+}
+.hawcons-stroke-file-avi:before {
+    content: "\e7ac";
+}
+.hawcons-stroke-file-odp:before {
+    content: "\e7ad";
+}
+.hawcons-stroke-file-dotx:before {
+    content: "\e7ae";
+}
+.hawcons-stroke-file-xlsx:before {
+    content: "\e7af";
+}
+.hawcons-stroke-file-ods:before {
+    content: "\e7b0";
+}
+.hawcons-stroke-file-pps:before {
+    content: "\e7b1";
+}
+.hawcons-stroke-file-dot:before {
+    content: "\e7b2";
+}
+.hawcons-stroke-file-txt:before {
+    content: "\e7b3";
+}
+.hawcons-stroke-file-rtf:before {
+    content: "\e7b4";
+}
+.hawcons-stroke-file-m4v:before {
+    content: "\e7b5";
+}
+.hawcons-stroke-file-flv:before {
+    content: "\e7b6";
+}
+.hawcons-stroke-file-mpg:before {
+    content: "\e7b7";
+}
+.hawcons-stroke-file-quicktime:before {
+    content: "\e7b8";
+}
+.hawcons-stroke-file-mid:before {
+    content: "\e7b9";
+}
+.hawcons-stroke-file-3gp:before {
+    content: "\e7ba";
+}
+.hawcons-stroke-file-aiff:before {
+    content: "\e7bb";
+}
+.hawcons-stroke-file-aac:before {
+    content: "\e7bc";
+}
+.hawcons-stroke-file-wav:before {
+    content: "\e7bd";
+}
+.hawcons-stroke-file-zip:before {
+    content: "\e7be";
+}
+.hawcons-stroke-file-ott:before {
+    content: "\e7bf";
+}
+.hawcons-stroke-file-tgz:before {
+    content: "\e7c0";
+}
+.hawcons-stroke-file-dmg:before {
+    content: "\e7c1";
+}
+.hawcons-stroke-file-iso:before {
+    content: "\e7c2";
+}
+.hawcons-stroke-file-rar:before {
+    content: "\e7c3";
+}
+.hawcons-stroke-file-gif:before {
+    content: "\e7c4";
+}
+.hawcons-stroke-document-file-numbers:before {
+    content: "\e7c5";
+}
+.hawcons-stroke-document-file-pages:before {
+    content: "\e7c6";
+}
+.hawcons-stroke-document-file-app:before {
+    content: "\e7c7";
+}
+.hawcons-stroke-document-file-png:before {
+    content: "\e7c8";
+}
+.hawcons-stroke-document-file-pdf:before {
+    content: "\e7c9";
+}
+.hawcons-stroke-document-file-mp3:before {
+    content: "\e7ca";
+}
+.hawcons-stroke-document-file-mp4:before {
+    content: "\e7cb";
+}
+.hawcons-stroke-document-file-mov:before {
+    content: "\e7cc";
+}
+.hawcons-stroke-document-file-jpg:before {
+    content: "\e7cd";
+}
+.hawcons-stroke-document-file-key:before {
+    content: "\e7ce";
+}
+.hawcons-stroke-document-file-html:before {
+    content: "\e7cf";
+}
+.hawcons-stroke-document-file-css:before {
+    content: "\e7d0";
+}
+.hawcons-stroke-document-file-java:before {
+    content: "\e7d1";
+}
+.hawcons-stroke-document-file-psd:before {
+    content: "\e7d2";
+}
+.hawcons-stroke-document-file-ai:before {
+    content: "\e7d3";
+}
+.hawcons-stroke-document-file-bmp:before {
+    content: "\e7d4";
+}
+.hawcons-stroke-document-file-dwg:before {
+    content: "\e7d5";
+}
+.hawcons-stroke-document-file-eps:before {
+    content: "\e7d6";
+}
+.hawcons-stroke-document-file-tiff:before {
+    content: "\e7d7";
+}
+.hawcons-stroke-document-file-ots:before {
+    content: "\e7d8";
+}
+.hawcons-stroke-document-file-php:before {
+    content: "\e7d9";
+}
+.hawcons-stroke-document-file-py:before {
+    content: "\e7da";
+}
+.hawcons-stroke-document-file-c:before {
+    content: "\e7db";
+}
+.hawcons-stroke-document-file-sql:before {
+    content: "\e7dc";
+}
+.hawcons-stroke-document-file-rb:before {
+    content: "\e7dd";
+}
+.hawcons-stroke-document-file-cpp:before {
+    content: "\e7de";
+}
+.hawcons-stroke-document-file-tga:before {
+    content: "\e7df";
+}
+.hawcons-stroke-document-file-dxf:before {
+    content: "\e7e0";
+}
+.hawcons-stroke-document-file-doc:before {
+    content: "\e7e1";
+}
+.hawcons-stroke-document-file-odt:before {
+    content: "\e7e2";
+}
+.hawcons-stroke-document-file-xls:before {
+    content: "\e7e3";
+}
+.hawcons-stroke-document-file-docx:before {
+    content: "\e7e4";
+}
+.hawcons-stroke-document-file-ppt:before {
+    content: "\e7e5";
+}
+.hawcons-stroke-document-file-asp:before {
+    content: "\e7e6";
+}
+.hawcons-stroke-document-file-ics:before {
+    content: "\e7e7";
+}
+.hawcons-stroke-document-file-dat:before {
+    content: "\e7e8";
+}
+.hawcons-stroke-document-file-xml:before {
+    content: "\e7e9";
+}
+.hawcons-stroke-document-file-yml:before {
+    content: "\e7ea";
+}
+.hawcons-stroke-document-file-h:before {
+    content: "\e7eb";
+}
+.hawcons-stroke-document-file-exe:before {
+    content: "\e7ec";
+}
+.hawcons-stroke-document-file-avi:before {
+    content: "\e7ed";
+}
+.hawcons-stroke-document-file-odp:before {
+    content: "\e7ee";
+}
+.hawcons-stroke-document-file-dotx:before {
+    content: "\e7ef";
+}
+.hawcons-stroke-document-file-xlsx:before {
+    content: "\e7f0";
+}
+.hawcons-stroke-document-file-ods:before {
+    content: "\e7f1";
+}
+.hawcons-stroke-document-file-pps:before {
+    content: "\e7f2";
+}
+.hawcons-stroke-document-file-dot:before {
+    content: "\e7f3";
+}
+.hawcons-stroke-document-file-txt:before {
+    content: "\e7f4";
+}
+.hawcons-stroke-document-file-rtf:before {
+    content: "\e7f5";
+}
+.hawcons-stroke-document-file-m4v:before {
+    content: "\e7f6";
+}
+.hawcons-stroke-document-file-flv:before {
+    content: "\e7f7";
+}
+.hawcons-stroke-document-file-mpg:before {
+    content: "\e7f8";
+}
+.hawcons-stroke-document-file-qt:before {
+    content: "\e7f9";
+}
+.hawcons-stroke-document-file-mid:before {
+    content: "\e7fa";
+}
+.hawcons-stroke-document-file-3gp:before {
+    content: "\e7fb";
+}
+.hawcons-stroke-document-file-aiff:before {
+    content: "\e7fc";
+}
+.hawcons-stroke-document-file-aac:before {
+    content: "\e7fd";
+}
+.hawcons-stroke-document-file-wav:before {
+    content: "\e7fe";
+}
+.hawcons-stroke-document-file-zip:before {
+    content: "\e7ff";
+}
+.hawcons-stroke-document-file-ott:before {
+    content: "\e800";
+}
+.hawcons-stroke-document-file-tgz:before {
+    content: "\e801";
+}
+.hawcons-stroke-document-file-dmg:before {
+    content: "\e802";
+}
+.hawcons-stroke-document-file-iso:before {
+    content: "\e803";
+}
+.hawcons-stroke-document-file-rar:before {
+    content: "\e804";
+}
+.hawcons-stroke-document-file-gif:before {
+    content: "\e805";
+}
+

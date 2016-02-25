@@ -108,4 +108,16 @@ Pod::Spec.new do |s|
     ss.resource             = "IconFontsKit/IcoMoon-Free.ttf"
   end
 
+  s.subspec "HawconsFilled" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFHawconsFilled.{h,m}"
+    ss.resource             = "IconFontsKit/Hawcons-Filled.ttf"
+  end
+
+  s.subspec "HawconsStroke" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFHawconsStroke.{h,m}"
+    ss.resource             = "IconFontsKit/Hawcons-Stroke.ttf"
+  end
+
 end
