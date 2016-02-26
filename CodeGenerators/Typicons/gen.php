@@ -5,7 +5,7 @@ require "../CodeGenerator.php";
 
 $fontIdentifier     = 'Typicons';
 $fontDescription    = 'Typicons v2.0.7 http://www.typicons.com';
-$iconTypePrefix     = 'TYP';
+$iconTypePrefix     = 'Typicon';
 $fontFile           = 'typicons.ttf';
 $fontName           = 'Typicons';
 

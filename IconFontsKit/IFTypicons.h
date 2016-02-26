@@ -3,677 +3,677 @@
 /// Typicons icon types.
 typedef NS_ENUM(IFIconType, IFTypiconsType) {
     /// Identifier: "typcn-adjust-brightness"
-    IFTYPAdjustBrightness                    = 0xe000,
+    IFTypiconAdjustBrightness                    = 0xe000,
     /// Identifier: "typcn-adjust-contrast"
-    IFTYPAdjustContrast                      = 0xe001,
+    IFTypiconAdjustContrast                      = 0xe001,
     /// Identifier: "typcn-anchor-outline"
-    IFTYPAnchorOutline                       = 0xe002,
+    IFTypiconAnchorOutline                       = 0xe002,
     /// Identifier: "typcn-anchor"
-    IFTYPAnchor                              = 0xe003,
+    IFTypiconAnchor                              = 0xe003,
     /// Identifier: "typcn-archive"
-    IFTYPArchive                             = 0xe004,
+    IFTypiconArchive                             = 0xe004,
     /// Identifier: "typcn-arrow-back-outline"
-    IFTYPArrowBackOutline                    = 0xe005,
+    IFTypiconArrowBackOutline                    = 0xe005,
     /// Identifier: "typcn-arrow-back"
-    IFTYPArrowBack                           = 0xe006,
+    IFTypiconArrowBack                           = 0xe006,
     /// Identifier: "typcn-arrow-down-outline"
-    IFTYPArrowDownOutline                    = 0xe007,
+    IFTypiconArrowDownOutline                    = 0xe007,
     /// Identifier: "typcn-arrow-down-thick"
-    IFTYPArrowDownThick                      = 0xe008,
+    IFTypiconArrowDownThick                      = 0xe008,
     /// Identifier: "typcn-arrow-down"
-    IFTYPArrowDown                           = 0xe009,
+    IFTypiconArrowDown                           = 0xe009,
     /// Identifier: "typcn-arrow-forward-outline"
-    IFTYPArrowForwardOutline                 = 0xe00a,
+    IFTypiconArrowForwardOutline                 = 0xe00a,
     /// Identifier: "typcn-arrow-forward"
-    IFTYPArrowForward                        = 0xe00b,
+    IFTypiconArrowForward                        = 0xe00b,
     /// Identifier: "typcn-arrow-left-outline"
-    IFTYPArrowLeftOutline                    = 0xe00c,
+    IFTypiconArrowLeftOutline                    = 0xe00c,
     /// Identifier: "typcn-arrow-left-thick"
-    IFTYPArrowLeftThick                      = 0xe00d,
+    IFTypiconArrowLeftThick                      = 0xe00d,
     /// Identifier: "typcn-arrow-left"
-    IFTYPArrowLeft                           = 0xe00e,
+    IFTypiconArrowLeft                           = 0xe00e,
     /// Identifier: "typcn-arrow-loop-outline"
-    IFTYPArrowLoopOutline                    = 0xe00f,
+    IFTypiconArrowLoopOutline                    = 0xe00f,
     /// Identifier: "typcn-arrow-loop"
-    IFTYPArrowLoop                           = 0xe010,
+    IFTypiconArrowLoop                           = 0xe010,
     /// Identifier: "typcn-arrow-maximise-outline"
-    IFTYPArrowMaximiseOutline                = 0xe011,
+    IFTypiconArrowMaximiseOutline                = 0xe011,
     /// Identifier: "typcn-arrow-maximise"
-    IFTYPArrowMaximise                       = 0xe012,
+    IFTypiconArrowMaximise                       = 0xe012,
     /// Identifier: "typcn-arrow-minimise-outline"
-    IFTYPArrowMinimiseOutline                = 0xe013,
+    IFTypiconArrowMinimiseOutline                = 0xe013,
     /// Identifier: "typcn-arrow-minimise"
-    IFTYPArrowMinimise                       = 0xe014,
+    IFTypiconArrowMinimise                       = 0xe014,
     /// Identifier: "typcn-arrow-move-outline"
-    IFTYPArrowMoveOutline                    = 0xe015,
+    IFTypiconArrowMoveOutline                    = 0xe015,
     /// Identifier: "typcn-arrow-move"
-    IFTYPArrowMove                           = 0xe016,
+    IFTypiconArrowMove                           = 0xe016,
     /// Identifier: "typcn-arrow-repeat-outline"
-    IFTYPArrowRepeatOutline                  = 0xe017,
+    IFTypiconArrowRepeatOutline                  = 0xe017,
     /// Identifier: "typcn-arrow-repeat"
-    IFTYPArrowRepeat                         = 0xe018,
+    IFTypiconArrowRepeat                         = 0xe018,
     /// Identifier: "typcn-arrow-right-outline"
-    IFTYPArrowRightOutline                   = 0xe019,
+    IFTypiconArrowRightOutline                   = 0xe019,
     /// Identifier: "typcn-arrow-right-thick"
-    IFTYPArrowRightThick                     = 0xe01a,
+    IFTypiconArrowRightThick                     = 0xe01a,
     /// Identifier: "typcn-arrow-right"
-    IFTYPArrowRight                          = 0xe01b,
+    IFTypiconArrowRight                          = 0xe01b,
     /// Identifier: "typcn-arrow-shuffle"
-    IFTYPArrowShuffle                        = 0xe01c,
+    IFTypiconArrowShuffle                        = 0xe01c,
     /// Identifier: "typcn-arrow-sorted-down"
-    IFTYPArrowSortedDown                     = 0xe01d,
+    IFTypiconArrowSortedDown                     = 0xe01d,
     /// Identifier: "typcn-arrow-sorted-up"
-    IFTYPArrowSortedUp                       = 0xe01e,
+    IFTypiconArrowSortedUp                       = 0xe01e,
     /// Identifier: "typcn-arrow-sync-outline"
-    IFTYPArrowSyncOutline                    = 0xe01f,
+    IFTypiconArrowSyncOutline                    = 0xe01f,
     /// Identifier: "typcn-arrow-sync"
-    IFTYPArrowSync                           = 0xe020,
+    IFTypiconArrowSync                           = 0xe020,
     /// Identifier: "typcn-arrow-unsorted"
-    IFTYPArrowUnsorted                       = 0xe021,
+    IFTypiconArrowUnsorted                       = 0xe021,
     /// Identifier: "typcn-arrow-up-outline"
-    IFTYPArrowUpOutline                      = 0xe022,
+    IFTypiconArrowUpOutline                      = 0xe022,
     /// Identifier: "typcn-arrow-up-thick"
-    IFTYPArrowUpThick                        = 0xe023,
+    IFTypiconArrowUpThick                        = 0xe023,
     /// Identifier: "typcn-arrow-up"
-    IFTYPArrowUp                             = 0xe024,
+    IFTypiconArrowUp                             = 0xe024,
     /// Identifier: "typcn-at"
-    IFTYPAt                                  = 0xe025,
+    IFTypiconAt                                  = 0xe025,
     /// Identifier: "typcn-attachment-outline"
-    IFTYPAttachmentOutline                   = 0xe026,
+    IFTypiconAttachmentOutline                   = 0xe026,
     /// Identifier: "typcn-attachment"
-    IFTYPAttachment                          = 0xe027,
+    IFTypiconAttachment                          = 0xe027,
     /// Identifier: "typcn-backspace-outline"
-    IFTYPBackspaceOutline                    = 0xe028,
+    IFTypiconBackspaceOutline                    = 0xe028,
     /// Identifier: "typcn-backspace"
-    IFTYPBackspace                           = 0xe029,
+    IFTypiconBackspace                           = 0xe029,
     /// Identifier: "typcn-battery-charge"
-    IFTYPBatteryCharge                       = 0xe02a,
+    IFTypiconBatteryCharge                       = 0xe02a,
     /// Identifier: "typcn-battery-full"
-    IFTYPBatteryFull                         = 0xe02b,
+    IFTypiconBatteryFull                         = 0xe02b,
     /// Identifier: "typcn-battery-high"
-    IFTYPBatteryHigh                         = 0xe02c,
+    IFTypiconBatteryHigh                         = 0xe02c,
     /// Identifier: "typcn-battery-low"
-    IFTYPBatteryLow                          = 0xe02d,
+    IFTypiconBatteryLow                          = 0xe02d,
     /// Identifier: "typcn-battery-mid"
-    IFTYPBatteryMid                          = 0xe02e,
+    IFTypiconBatteryMid                          = 0xe02e,
     /// Identifier: "typcn-beaker"
-    IFTYPBeaker                              = 0xe02f,
+    IFTypiconBeaker                              = 0xe02f,
     /// Identifier: "typcn-beer"
-    IFTYPBeer                                = 0xe030,
+    IFTypiconBeer                                = 0xe030,
     /// Identifier: "typcn-bell"
-    IFTYPBell                                = 0xe031,
+    IFTypiconBell                                = 0xe031,
     /// Identifier: "typcn-book"
-    IFTYPBook                                = 0xe032,
+    IFTypiconBook                                = 0xe032,
     /// Identifier: "typcn-bookmark"
-    IFTYPBookmark                            = 0xe033,
+    IFTypiconBookmark                            = 0xe033,
     /// Identifier: "typcn-briefcase"
-    IFTYPBriefcase                           = 0xe034,
+    IFTypiconBriefcase                           = 0xe034,
     /// Identifier: "typcn-brush"
-    IFTYPBrush                               = 0xe035,
+    IFTypiconBrush                               = 0xe035,
     /// Identifier: "typcn-business-card"
-    IFTYPBusinessCard                        = 0xe036,
+    IFTypiconBusinessCard                        = 0xe036,
     /// Identifier: "typcn-calculator"
-    IFTYPCalculator                          = 0xe037,
+    IFTypiconCalculator                          = 0xe037,
     /// Identifier: "typcn-calendar-outline"
-    IFTYPCalendarOutline                     = 0xe038,
+    IFTypiconCalendarOutline                     = 0xe038,
     /// Identifier: "typcn-calendar"
-    IFTYPCalendar                            = 0xe039,
+    IFTypiconCalendar                            = 0xe039,
     /// Identifier: "typcn-camera-outline"
-    IFTYPCameraOutline                       = 0xe03a,
+    IFTypiconCameraOutline                       = 0xe03a,
     /// Identifier: "typcn-camera"
-    IFTYPCamera                              = 0xe03b,
+    IFTypiconCamera                              = 0xe03b,
     /// Identifier: "typcn-cancel-outline"
-    IFTYPCancelOutline                       = 0xe03c,
+    IFTypiconCancelOutline                       = 0xe03c,
     /// Identifier: "typcn-cancel"
-    IFTYPCancel                              = 0xe03d,
+    IFTypiconCancel                              = 0xe03d,
     /// Identifier: "typcn-chart-area-outline"
-    IFTYPChartAreaOutline                    = 0xe03e,
+    IFTypiconChartAreaOutline                    = 0xe03e,
     /// Identifier: "typcn-chart-area"
-    IFTYPChartArea                           = 0xe03f,
+    IFTypiconChartArea                           = 0xe03f,
     /// Identifier: "typcn-chart-bar-outline"
-    IFTYPChartBarOutline                     = 0xe040,
+    IFTypiconChartBarOutline                     = 0xe040,
     /// Identifier: "typcn-chart-bar"
-    IFTYPChartBar                            = 0xe041,
+    IFTypiconChartBar                            = 0xe041,
     /// Identifier: "typcn-chart-line-outline"
-    IFTYPChartLineOutline                    = 0xe042,
+    IFTypiconChartLineOutline                    = 0xe042,
     /// Identifier: "typcn-chart-line"
-    IFTYPChartLine                           = 0xe043,
+    IFTypiconChartLine                           = 0xe043,
     /// Identifier: "typcn-chart-pie-outline"
-    IFTYPChartPieOutline                     = 0xe044,
+    IFTypiconChartPieOutline                     = 0xe044,
     /// Identifier: "typcn-chart-pie"
-    IFTYPChartPie                            = 0xe045,
+    IFTypiconChartPie                            = 0xe045,
     /// Identifier: "typcn-chevron-left-outline"
-    IFTYPChevronLeftOutline                  = 0xe046,
+    IFTypiconChevronLeftOutline                  = 0xe046,
     /// Identifier: "typcn-chevron-left"
-    IFTYPChevronLeft                         = 0xe047,
+    IFTypiconChevronLeft                         = 0xe047,
     /// Identifier: "typcn-chevron-right-outline"
-    IFTYPChevronRightOutline                 = 0xe048,
+    IFTypiconChevronRightOutline                 = 0xe048,
     /// Identifier: "typcn-chevron-right"
-    IFTYPChevronRight                        = 0xe049,
+    IFTypiconChevronRight                        = 0xe049,
     /// Identifier: "typcn-clipboard"
-    IFTYPClipboard                           = 0xe04a,
+    IFTypiconClipboard                           = 0xe04a,
     /// Identifier: "typcn-cloud-storage"
-    IFTYPCloudStorage                        = 0xe04b,
+    IFTypiconCloudStorage                        = 0xe04b,
     /// Identifier: "typcn-cloud-storage-outline"
-    IFTYPCloudStorageOutline                 = 0xe054,
+    IFTypiconCloudStorageOutline                 = 0xe054,
     /// Identifier: "typcn-code-outline"
-    IFTYPCodeOutline                         = 0xe04c,
+    IFTypiconCodeOutline                         = 0xe04c,
     /// Identifier: "typcn-code"
-    IFTYPCode                                = 0xe04d,
+    IFTypiconCode                                = 0xe04d,
     /// Identifier: "typcn-coffee"
-    IFTYPCoffee                              = 0xe04e,
+    IFTypiconCoffee                              = 0xe04e,
     /// Identifier: "typcn-cog-outline"
-    IFTYPCogOutline                          = 0xe04f,
+    IFTypiconCogOutline                          = 0xe04f,
     /// Identifier: "typcn-cog"
-    IFTYPCog                                 = 0xe050,
+    IFTypiconCog                                 = 0xe050,
     /// Identifier: "typcn-compass"
-    IFTYPCompass                             = 0xe051,
+    IFTypiconCompass                             = 0xe051,
     /// Identifier: "typcn-contacts"
-    IFTYPContacts                            = 0xe052,
+    IFTypiconContacts                            = 0xe052,
     /// Identifier: "typcn-credit-card"
-    IFTYPCreditCard                          = 0xe053,
+    IFTypiconCreditCard                          = 0xe053,
     /// Identifier: "typcn-css3"
-    IFTYPCss3                                = 0xe055,
+    IFTypiconCss3                                = 0xe055,
     /// Identifier: "typcn-database"
-    IFTYPDatabase                            = 0xe056,
+    IFTypiconDatabase                            = 0xe056,
     /// Identifier: "typcn-delete-outline"
-    IFTYPDeleteOutline                       = 0xe057,
+    IFTypiconDeleteOutline                       = 0xe057,
     /// Identifier: "typcn-delete"
-    IFTYPDelete                              = 0xe058,
+    IFTypiconDelete                              = 0xe058,
     /// Identifier: "typcn-device-desktop"
-    IFTYPDeviceDesktop                       = 0xe059,
+    IFTypiconDeviceDesktop                       = 0xe059,
     /// Identifier: "typcn-device-laptop"
-    IFTYPDeviceLaptop                        = 0xe05a,
+    IFTypiconDeviceLaptop                        = 0xe05a,
     /// Identifier: "typcn-device-phone"
-    IFTYPDevicePhone                         = 0xe05b,
+    IFTypiconDevicePhone                         = 0xe05b,
     /// Identifier: "typcn-device-tablet"
-    IFTYPDeviceTablet                        = 0xe05c,
+    IFTypiconDeviceTablet                        = 0xe05c,
     /// Identifier: "typcn-directions"
-    IFTYPDirections                          = 0xe05d,
+    IFTypiconDirections                          = 0xe05d,
     /// Identifier: "typcn-divide-outline"
-    IFTYPDivideOutline                       = 0xe05e,
+    IFTypiconDivideOutline                       = 0xe05e,
     /// Identifier: "typcn-divide"
-    IFTYPDivide                              = 0xe05f,
+    IFTypiconDivide                              = 0xe05f,
     /// Identifier: "typcn-document-add"
-    IFTYPDocumentAdd                         = 0xe060,
+    IFTypiconDocumentAdd                         = 0xe060,
     /// Identifier: "typcn-document-delete"
-    IFTYPDocumentDelete                      = 0xe061,
+    IFTypiconDocumentDelete                      = 0xe061,
     /// Identifier: "typcn-document-text"
-    IFTYPDocumentText                        = 0xe062,
+    IFTypiconDocumentText                        = 0xe062,
     /// Identifier: "typcn-document"
-    IFTYPDocument                            = 0xe063,
+    IFTypiconDocument                            = 0xe063,
     /// Identifier: "typcn-download-outline"
-    IFTYPDownloadOutline                     = 0xe064,
+    IFTypiconDownloadOutline                     = 0xe064,
     /// Identifier: "typcn-download"
-    IFTYPDownload                            = 0xe065,
+    IFTypiconDownload                            = 0xe065,
     /// Identifier: "typcn-dropbox"
-    IFTYPDropbox                             = 0xe066,
+    IFTypiconDropbox                             = 0xe066,
     /// Identifier: "typcn-edit"
-    IFTYPEdit                                = 0xe067,
+    IFTypiconEdit                                = 0xe067,
     /// Identifier: "typcn-eject-outline"
-    IFTYPEjectOutline                        = 0xe068,
+    IFTypiconEjectOutline                        = 0xe068,
     /// Identifier: "typcn-eject"
-    IFTYPEject                               = 0xe069,
+    IFTypiconEject                               = 0xe069,
     /// Identifier: "typcn-equals-outline"
-    IFTYPEqualsOutline                       = 0xe06a,
+    IFTypiconEqualsOutline                       = 0xe06a,
     /// Identifier: "typcn-equals"
-    IFTYPEquals                              = 0xe06b,
+    IFTypiconEquals                              = 0xe06b,
     /// Identifier: "typcn-export-outline"
-    IFTYPExportOutline                       = 0xe06c,
+    IFTypiconExportOutline                       = 0xe06c,
     /// Identifier: "typcn-export"
-    IFTYPExport                              = 0xe06d,
+    IFTypiconExport                              = 0xe06d,
     /// Identifier: "typcn-eye-outline"
-    IFTYPEyeOutline                          = 0xe06e,
+    IFTypiconEyeOutline                          = 0xe06e,
     /// Identifier: "typcn-eye"
-    IFTYPEye                                 = 0xe06f,
+    IFTypiconEye                                 = 0xe06f,
     /// Identifier: "typcn-feather"
-    IFTYPFeather                             = 0xe070,
+    IFTypiconFeather                             = 0xe070,
     /// Identifier: "typcn-film"
-    IFTYPFilm                                = 0xe071,
+    IFTypiconFilm                                = 0xe071,
     /// Identifier: "typcn-filter"
-    IFTYPFilter                              = 0xe072,
+    IFTypiconFilter                              = 0xe072,
     /// Identifier: "typcn-flag-outline"
-    IFTYPFlagOutline                         = 0xe073,
+    IFTypiconFlagOutline                         = 0xe073,
     /// Identifier: "typcn-flag"
-    IFTYPFlag                                = 0xe074,
+    IFTypiconFlag                                = 0xe074,
     /// Identifier: "typcn-flash-outline"
-    IFTYPFlashOutline                        = 0xe075,
+    IFTypiconFlashOutline                        = 0xe075,
     /// Identifier: "typcn-flash"
-    IFTYPFlash                               = 0xe076,
+    IFTypiconFlash                               = 0xe076,
     /// Identifier: "typcn-flow-children"
-    IFTYPFlowChildren                        = 0xe077,
+    IFTypiconFlowChildren                        = 0xe077,
     /// Identifier: "typcn-flow-merge"
-    IFTYPFlowMerge                           = 0xe078,
+    IFTypiconFlowMerge                           = 0xe078,
     /// Identifier: "typcn-flow-parallel"
-    IFTYPFlowParallel                        = 0xe079,
+    IFTypiconFlowParallel                        = 0xe079,
     /// Identifier: "typcn-flow-switch"
-    IFTYPFlowSwitch                          = 0xe07a,
+    IFTypiconFlowSwitch                          = 0xe07a,
     /// Identifier: "typcn-folder-add"
-    IFTYPFolderAdd                           = 0xe07b,
+    IFTypiconFolderAdd                           = 0xe07b,
     /// Identifier: "typcn-folder-delete"
-    IFTYPFolderDelete                        = 0xe07c,
+    IFTypiconFolderDelete                        = 0xe07c,
     /// Identifier: "typcn-folder-open"
-    IFTYPFolderOpen                          = 0xe07d,
+    IFTypiconFolderOpen                          = 0xe07d,
     /// Identifier: "typcn-folder"
-    IFTYPFolder                              = 0xe07e,
+    IFTypiconFolder                              = 0xe07e,
     /// Identifier: "typcn-gift"
-    IFTYPGift                                = 0xe07f,
+    IFTypiconGift                                = 0xe07f,
     /// Identifier: "typcn-globe-outline"
-    IFTYPGlobeOutline                        = 0xe080,
+    IFTypiconGlobeOutline                        = 0xe080,
     /// Identifier: "typcn-globe"
-    IFTYPGlobe                               = 0xe081,
+    IFTypiconGlobe                               = 0xe081,
     /// Identifier: "typcn-group-outline"
-    IFTYPGroupOutline                        = 0xe082,
+    IFTypiconGroupOutline                        = 0xe082,
     /// Identifier: "typcn-group"
-    IFTYPGroup                               = 0xe083,
+    IFTypiconGroup                               = 0xe083,
     /// Identifier: "typcn-headphones"
-    IFTYPHeadphones                          = 0xe084,
+    IFTypiconHeadphones                          = 0xe084,
     /// Identifier: "typcn-heart-full-outline"
-    IFTYPHeartFullOutline                    = 0xe085,
+    IFTypiconHeartFullOutline                    = 0xe085,
     /// Identifier: "typcn-heart-half-outline"
-    IFTYPHeartHalfOutline                    = 0xe086,
+    IFTypiconHeartHalfOutline                    = 0xe086,
     /// Identifier: "typcn-heart-outline"
-    IFTYPHeartOutline                        = 0xe087,
+    IFTypiconHeartOutline                        = 0xe087,
     /// Identifier: "typcn-heart"
-    IFTYPHeart                               = 0xe088,
+    IFTypiconHeart                               = 0xe088,
     /// Identifier: "typcn-home-outline"
-    IFTYPHomeOutline                         = 0xe089,
+    IFTypiconHomeOutline                         = 0xe089,
     /// Identifier: "typcn-home"
-    IFTYPHome                                = 0xe08a,
+    IFTypiconHome                                = 0xe08a,
     /// Identifier: "typcn-html5"
-    IFTYPHtml5                               = 0xe08b,
+    IFTypiconHtml5                               = 0xe08b,
     /// Identifier: "typcn-image-outline"
-    IFTYPImageOutline                        = 0xe08c,
+    IFTypiconImageOutline                        = 0xe08c,
     /// Identifier: "typcn-image"
-    IFTYPImage                               = 0xe08d,
+    IFTypiconImage                               = 0xe08d,
     /// Identifier: "typcn-infinity-outline"
-    IFTYPInfinityOutline                     = 0xe08e,
+    IFTypiconInfinityOutline                     = 0xe08e,
     /// Identifier: "typcn-infinity"
-    IFTYPInfinity                            = 0xe08f,
+    IFTypiconInfinity                            = 0xe08f,
     /// Identifier: "typcn-info-large-outline"
-    IFTYPInfoLargeOutline                    = 0xe090,
+    IFTypiconInfoLargeOutline                    = 0xe090,
     /// Identifier: "typcn-info-large"
-    IFTYPInfoLarge                           = 0xe091,
+    IFTypiconInfoLarge                           = 0xe091,
     /// Identifier: "typcn-info-outline"
-    IFTYPInfoOutline                         = 0xe092,
+    IFTypiconInfoOutline                         = 0xe092,
     /// Identifier: "typcn-info"
-    IFTYPInfo                                = 0xe093,
+    IFTypiconInfo                                = 0xe093,
     /// Identifier: "typcn-input-checked-outline"
-    IFTYPInputCheckedOutline                 = 0xe094,
+    IFTypiconInputCheckedOutline                 = 0xe094,
     /// Identifier: "typcn-input-checked"
-    IFTYPInputChecked                        = 0xe095,
+    IFTypiconInputChecked                        = 0xe095,
     /// Identifier: "typcn-key-outline"
-    IFTYPKeyOutline                          = 0xe096,
+    IFTypiconKeyOutline                          = 0xe096,
     /// Identifier: "typcn-key"
-    IFTYPKey                                 = 0xe097,
+    IFTypiconKey                                 = 0xe097,
     /// Identifier: "typcn-keyboard"
-    IFTYPKeyboard                            = 0xe098,
+    IFTypiconKeyboard                            = 0xe098,
     /// Identifier: "typcn-leaf"
-    IFTYPLeaf                                = 0xe099,
+    IFTypiconLeaf                                = 0xe099,
     /// Identifier: "typcn-lightbulb"
-    IFTYPLightbulb                           = 0xe09a,
+    IFTypiconLightbulb                           = 0xe09a,
     /// Identifier: "typcn-link-outline"
-    IFTYPLinkOutline                         = 0xe09b,
+    IFTypiconLinkOutline                         = 0xe09b,
     /// Identifier: "typcn-link"
-    IFTYPLink                                = 0xe09c,
+    IFTypiconLink                                = 0xe09c,
     /// Identifier: "typcn-location-arrow-outline"
-    IFTYPLocationArrowOutline                = 0xe09d,
+    IFTypiconLocationArrowOutline                = 0xe09d,
     /// Identifier: "typcn-location-arrow"
-    IFTYPLocationArrow                       = 0xe09e,
+    IFTypiconLocationArrow                       = 0xe09e,
     /// Identifier: "typcn-location-outline"
-    IFTYPLocationOutline                     = 0xe09f,
+    IFTypiconLocationOutline                     = 0xe09f,
     /// Identifier: "typcn-location"
-    IFTYPLocation                            = 0xe0a0,
+    IFTypiconLocation                            = 0xe0a0,
     /// Identifier: "typcn-lock-closed-outline"
-    IFTYPLockClosedOutline                   = 0xe0a1,
+    IFTypiconLockClosedOutline                   = 0xe0a1,
     /// Identifier: "typcn-lock-closed"
-    IFTYPLockClosed                          = 0xe0a2,
+    IFTypiconLockClosed                          = 0xe0a2,
     /// Identifier: "typcn-lock-open-outline"
-    IFTYPLockOpenOutline                     = 0xe0a3,
+    IFTypiconLockOpenOutline                     = 0xe0a3,
     /// Identifier: "typcn-lock-open"
-    IFTYPLockOpen                            = 0xe0a4,
+    IFTypiconLockOpen                            = 0xe0a4,
     /// Identifier: "typcn-mail"
-    IFTYPMail                                = 0xe0a5,
+    IFTypiconMail                                = 0xe0a5,
     /// Identifier: "typcn-map"
-    IFTYPMap                                 = 0xe0a6,
+    IFTypiconMap                                 = 0xe0a6,
     /// Identifier: "typcn-media-eject-outline"
-    IFTYPMediaEjectOutline                   = 0xe0a7,
+    IFTypiconMediaEjectOutline                   = 0xe0a7,
     /// Identifier: "typcn-media-eject"
-    IFTYPMediaEject                          = 0xe0a8,
+    IFTypiconMediaEject                          = 0xe0a8,
     /// Identifier: "typcn-media-fast-forward-outline"
-    IFTYPMediaFastForwardOutline             = 0xe0a9,
+    IFTypiconMediaFastForwardOutline             = 0xe0a9,
     /// Identifier: "typcn-media-fast-forward"
-    IFTYPMediaFastForward                    = 0xe0aa,
+    IFTypiconMediaFastForward                    = 0xe0aa,
     /// Identifier: "typcn-media-pause-outline"
-    IFTYPMediaPauseOutline                   = 0xe0ab,
+    IFTypiconMediaPauseOutline                   = 0xe0ab,
     /// Identifier: "typcn-media-pause"
-    IFTYPMediaPause                          = 0xe0ac,
+    IFTypiconMediaPause                          = 0xe0ac,
     /// Identifier: "typcn-media-play-outline"
-    IFTYPMediaPlayOutline                    = 0xe0ad,
+    IFTypiconMediaPlayOutline                    = 0xe0ad,
     /// Identifier: "typcn-media-play-reverse-outline"
-    IFTYPMediaPlayReverseOutline             = 0xe0ae,
+    IFTypiconMediaPlayReverseOutline             = 0xe0ae,
     /// Identifier: "typcn-media-play-reverse"
-    IFTYPMediaPlayReverse                    = 0xe0af,
+    IFTypiconMediaPlayReverse                    = 0xe0af,
     /// Identifier: "typcn-media-play"
-    IFTYPMediaPlay                           = 0xe0b0,
+    IFTypiconMediaPlay                           = 0xe0b0,
     /// Identifier: "typcn-media-record-outline"
-    IFTYPMediaRecordOutline                  = 0xe0b1,
+    IFTypiconMediaRecordOutline                  = 0xe0b1,
     /// Identifier: "typcn-media-record"
-    IFTYPMediaRecord                         = 0xe0b2,
+    IFTypiconMediaRecord                         = 0xe0b2,
     /// Identifier: "typcn-media-rewind-outline"
-    IFTYPMediaRewindOutline                  = 0xe0b3,
+    IFTypiconMediaRewindOutline                  = 0xe0b3,
     /// Identifier: "typcn-media-rewind"
-    IFTYPMediaRewind                         = 0xe0b4,
+    IFTypiconMediaRewind                         = 0xe0b4,
     /// Identifier: "typcn-media-stop-outline"
-    IFTYPMediaStopOutline                    = 0xe0b5,
+    IFTypiconMediaStopOutline                    = 0xe0b5,
     /// Identifier: "typcn-media-stop"
-    IFTYPMediaStop                           = 0xe0b6,
+    IFTypiconMediaStop                           = 0xe0b6,
     /// Identifier: "typcn-message-typing"
-    IFTYPMessageTyping                       = 0xe0b7,
+    IFTypiconMessageTyping                       = 0xe0b7,
     /// Identifier: "typcn-message"
-    IFTYPMessage                             = 0xe0b8,
+    IFTypiconMessage                             = 0xe0b8,
     /// Identifier: "typcn-messages"
-    IFTYPMessages                            = 0xe0b9,
+    IFTypiconMessages                            = 0xe0b9,
     /// Identifier: "typcn-microphone-outline"
-    IFTYPMicrophoneOutline                   = 0xe0ba,
+    IFTypiconMicrophoneOutline                   = 0xe0ba,
     /// Identifier: "typcn-microphone"
-    IFTYPMicrophone                          = 0xe0bb,
+    IFTypiconMicrophone                          = 0xe0bb,
     /// Identifier: "typcn-minus-outline"
-    IFTYPMinusOutline                        = 0xe0bc,
+    IFTypiconMinusOutline                        = 0xe0bc,
     /// Identifier: "typcn-minus"
-    IFTYPMinus                               = 0xe0bd,
+    IFTypiconMinus                               = 0xe0bd,
     /// Identifier: "typcn-mortar-board"
-    IFTYPMortarBoard                         = 0xe0be,
+    IFTypiconMortarBoard                         = 0xe0be,
     /// Identifier: "typcn-news"
-    IFTYPNews                                = 0xe0bf,
+    IFTypiconNews                                = 0xe0bf,
     /// Identifier: "typcn-notes-outline"
-    IFTYPNotesOutline                        = 0xe0c0,
+    IFTypiconNotesOutline                        = 0xe0c0,
     /// Identifier: "typcn-notes"
-    IFTYPNotes                               = 0xe0c1,
+    IFTypiconNotes                               = 0xe0c1,
     /// Identifier: "typcn-pen"
-    IFTYPPen                                 = 0xe0c2,
+    IFTypiconPen                                 = 0xe0c2,
     /// Identifier: "typcn-pencil"
-    IFTYPPencil                              = 0xe0c3,
+    IFTypiconPencil                              = 0xe0c3,
     /// Identifier: "typcn-phone-outline"
-    IFTYPPhoneOutline                        = 0xe0c4,
+    IFTypiconPhoneOutline                        = 0xe0c4,
     /// Identifier: "typcn-phone"
-    IFTYPPhone                               = 0xe0c5,
+    IFTypiconPhone                               = 0xe0c5,
     /// Identifier: "typcn-pi-outline"
-    IFTYPPiOutline                           = 0xe0c6,
+    IFTypiconPiOutline                           = 0xe0c6,
     /// Identifier: "typcn-pi"
-    IFTYPPi                                  = 0xe0c7,
+    IFTypiconPi                                  = 0xe0c7,
     /// Identifier: "typcn-pin-outline"
-    IFTYPPinOutline                          = 0xe0c8,
+    IFTypiconPinOutline                          = 0xe0c8,
     /// Identifier: "typcn-pin"
-    IFTYPPin                                 = 0xe0c9,
+    IFTypiconPin                                 = 0xe0c9,
     /// Identifier: "typcn-pipette"
-    IFTYPPipette                             = 0xe0ca,
+    IFTypiconPipette                             = 0xe0ca,
     /// Identifier: "typcn-plane-outline"
-    IFTYPPlaneOutline                        = 0xe0cb,
+    IFTypiconPlaneOutline                        = 0xe0cb,
     /// Identifier: "typcn-plane"
-    IFTYPPlane                               = 0xe0cc,
+    IFTypiconPlane                               = 0xe0cc,
     /// Identifier: "typcn-plug"
-    IFTYPPlug                                = 0xe0cd,
+    IFTypiconPlug                                = 0xe0cd,
     /// Identifier: "typcn-plus-outline"
-    IFTYPPlusOutline                         = 0xe0ce,
+    IFTypiconPlusOutline                         = 0xe0ce,
     /// Identifier: "typcn-plus"
-    IFTYPPlus                                = 0xe0cf,
+    IFTypiconPlus                                = 0xe0cf,
     /// Identifier: "typcn-point-of-interest-outline"
-    IFTYPPointOfInterestOutline              = 0xe0d0,
+    IFTypiconPointOfInterestOutline              = 0xe0d0,
     /// Identifier: "typcn-point-of-interest"
-    IFTYPPointOfInterest                     = 0xe0d1,
+    IFTypiconPointOfInterest                     = 0xe0d1,
     /// Identifier: "typcn-power-outline"
-    IFTYPPowerOutline                        = 0xe0d2,
+    IFTypiconPowerOutline                        = 0xe0d2,
     /// Identifier: "typcn-power"
-    IFTYPPower                               = 0xe0d3,
+    IFTypiconPower                               = 0xe0d3,
     /// Identifier: "typcn-printer"
-    IFTYPPrinter                             = 0xe0d4,
+    IFTypiconPrinter                             = 0xe0d4,
     /// Identifier: "typcn-puzzle-outline"
-    IFTYPPuzzleOutline                       = 0xe0d5,
+    IFTypiconPuzzleOutline                       = 0xe0d5,
     /// Identifier: "typcn-puzzle"
-    IFTYPPuzzle                              = 0xe0d6,
+    IFTypiconPuzzle                              = 0xe0d6,
     /// Identifier: "typcn-radar-outline"
-    IFTYPRadarOutline                        = 0xe0d7,
+    IFTypiconRadarOutline                        = 0xe0d7,
     /// Identifier: "typcn-radar"
-    IFTYPRadar                               = 0xe0d8,
+    IFTypiconRadar                               = 0xe0d8,
     /// Identifier: "typcn-refresh-outline"
-    IFTYPRefreshOutline                      = 0xe0d9,
+    IFTypiconRefreshOutline                      = 0xe0d9,
     /// Identifier: "typcn-refresh"
-    IFTYPRefresh                             = 0xe0da,
+    IFTypiconRefresh                             = 0xe0da,
     /// Identifier: "typcn-rss-outline"
-    IFTYPRssOutline                          = 0xe0db,
+    IFTypiconRssOutline                          = 0xe0db,
     /// Identifier: "typcn-rss"
-    IFTYPRss                                 = 0xe0dc,
+    IFTypiconRss                                 = 0xe0dc,
     /// Identifier: "typcn-scissors-outline"
-    IFTYPScissorsOutline                     = 0xe0dd,
+    IFTypiconScissorsOutline                     = 0xe0dd,
     /// Identifier: "typcn-scissors"
-    IFTYPScissors                            = 0xe0de,
+    IFTypiconScissors                            = 0xe0de,
     /// Identifier: "typcn-shopping-bag"
-    IFTYPShoppingBag                         = 0xe0df,
+    IFTypiconShoppingBag                         = 0xe0df,
     /// Identifier: "typcn-shopping-cart"
-    IFTYPShoppingCart                        = 0xe0e0,
+    IFTypiconShoppingCart                        = 0xe0e0,
     /// Identifier: "typcn-social-at-circular"
-    IFTYPSocialAtCircular                    = 0xe0e1,
+    IFTypiconSocialAtCircular                    = 0xe0e1,
     /// Identifier: "typcn-social-dribbble-circular"
-    IFTYPSocialDribbbleCircular              = 0xe0e2,
+    IFTypiconSocialDribbbleCircular              = 0xe0e2,
     /// Identifier: "typcn-social-dribbble"
-    IFTYPSocialDribbble                      = 0xe0e3,
+    IFTypiconSocialDribbble                      = 0xe0e3,
     /// Identifier: "typcn-social-facebook-circular"
-    IFTYPSocialFacebookCircular              = 0xe0e4,
+    IFTypiconSocialFacebookCircular              = 0xe0e4,
     /// Identifier: "typcn-social-facebook"
-    IFTYPSocialFacebook                      = 0xe0e5,
+    IFTypiconSocialFacebook                      = 0xe0e5,
     /// Identifier: "typcn-social-flickr-circular"
-    IFTYPSocialFlickrCircular                = 0xe0e6,
+    IFTypiconSocialFlickrCircular                = 0xe0e6,
     /// Identifier: "typcn-social-flickr"
-    IFTYPSocialFlickr                        = 0xe0e7,
+    IFTypiconSocialFlickr                        = 0xe0e7,
     /// Identifier: "typcn-social-github-circular"
-    IFTYPSocialGithubCircular                = 0xe0e8,
+    IFTypiconSocialGithubCircular                = 0xe0e8,
     /// Identifier: "typcn-social-github"
-    IFTYPSocialGithub                        = 0xe0e9,
+    IFTypiconSocialGithub                        = 0xe0e9,
     /// Identifier: "typcn-social-google-plus-circular"
-    IFTYPSocialGooglePlusCircular            = 0xe0ea,
+    IFTypiconSocialGooglePlusCircular            = 0xe0ea,
     /// Identifier: "typcn-social-google-plus"
-    IFTYPSocialGooglePlus                    = 0xe0eb,
+    IFTypiconSocialGooglePlus                    = 0xe0eb,
     /// Identifier: "typcn-social-instagram-circular"
-    IFTYPSocialInstagramCircular             = 0xe0ec,
+    IFTypiconSocialInstagramCircular             = 0xe0ec,
     /// Identifier: "typcn-social-instagram"
-    IFTYPSocialInstagram                     = 0xe0ed,
+    IFTypiconSocialInstagram                     = 0xe0ed,
     /// Identifier: "typcn-social-last-fm-circular"
-    IFTYPSocialLastFmCircular                = 0xe0ee,
+    IFTypiconSocialLastFmCircular                = 0xe0ee,
     /// Identifier: "typcn-social-last-fm"
-    IFTYPSocialLastFm                        = 0xe0ef,
+    IFTypiconSocialLastFm                        = 0xe0ef,
     /// Identifier: "typcn-social-linkedin-circular"
-    IFTYPSocialLinkedinCircular              = 0xe0f0,
+    IFTypiconSocialLinkedinCircular              = 0xe0f0,
     /// Identifier: "typcn-social-linkedin"
-    IFTYPSocialLinkedin                      = 0xe0f1,
+    IFTypiconSocialLinkedin                      = 0xe0f1,
     /// Identifier: "typcn-social-pinterest-circular"
-    IFTYPSocialPinterestCircular             = 0xe0f2,
+    IFTypiconSocialPinterestCircular             = 0xe0f2,
     /// Identifier: "typcn-social-pinterest"
-    IFTYPSocialPinterest                     = 0xe0f3,
+    IFTypiconSocialPinterest                     = 0xe0f3,
     /// Identifier: "typcn-social-skype-outline"
-    IFTYPSocialSkypeOutline                  = 0xe0f4,
+    IFTypiconSocialSkypeOutline                  = 0xe0f4,
     /// Identifier: "typcn-social-skype"
-    IFTYPSocialSkype                         = 0xe0f5,
+    IFTypiconSocialSkype                         = 0xe0f5,
     /// Identifier: "typcn-social-tumbler-circular"
-    IFTYPSocialTumblerCircular               = 0xe0f6,
+    IFTypiconSocialTumblerCircular               = 0xe0f6,
     /// Identifier: "typcn-social-tumbler"
-    IFTYPSocialTumbler                       = 0xe0f7,
+    IFTypiconSocialTumbler                       = 0xe0f7,
     /// Identifier: "typcn-social-twitter-circular"
-    IFTYPSocialTwitterCircular               = 0xe0f8,
+    IFTypiconSocialTwitterCircular               = 0xe0f8,
     /// Identifier: "typcn-social-twitter"
-    IFTYPSocialTwitter                       = 0xe0f9,
+    IFTypiconSocialTwitter                       = 0xe0f9,
     /// Identifier: "typcn-social-vimeo-circular"
-    IFTYPSocialVimeoCircular                 = 0xe0fa,
+    IFTypiconSocialVimeoCircular                 = 0xe0fa,
     /// Identifier: "typcn-social-vimeo"
-    IFTYPSocialVimeo                         = 0xe0fb,
+    IFTypiconSocialVimeo                         = 0xe0fb,
     /// Identifier: "typcn-social-youtube-circular"
-    IFTYPSocialYoutubeCircular               = 0xe0fc,
+    IFTypiconSocialYoutubeCircular               = 0xe0fc,
     /// Identifier: "typcn-social-youtube"
-    IFTYPSocialYoutube                       = 0xe0fd,
+    IFTypiconSocialYoutube                       = 0xe0fd,
     /// Identifier: "typcn-sort-alphabetically-outline"
-    IFTYPSortAlphabeticallyOutline           = 0xe0fe,
+    IFTypiconSortAlphabeticallyOutline           = 0xe0fe,
     /// Identifier: "typcn-sort-alphabetically"
-    IFTYPSortAlphabetically                  = 0xe0ff,
+    IFTypiconSortAlphabetically                  = 0xe0ff,
     /// Identifier: "typcn-sort-numerically-outline"
-    IFTYPSortNumericallyOutline              = 0xe100,
+    IFTypiconSortNumericallyOutline              = 0xe100,
     /// Identifier: "typcn-sort-numerically"
-    IFTYPSortNumerically                     = 0xe101,
+    IFTypiconSortNumerically                     = 0xe101,
     /// Identifier: "typcn-spanner-outline"
-    IFTYPSpannerOutline                      = 0xe102,
+    IFTypiconSpannerOutline                      = 0xe102,
     /// Identifier: "typcn-spanner"
-    IFTYPSpanner                             = 0xe103,
+    IFTypiconSpanner                             = 0xe103,
     /// Identifier: "typcn-spiral"
-    IFTYPSpiral                              = 0xe104,
+    IFTypiconSpiral                              = 0xe104,
     /// Identifier: "typcn-star-full-outline"
-    IFTYPStarFullOutline                     = 0xe105,
+    IFTypiconStarFullOutline                     = 0xe105,
     /// Identifier: "typcn-star-half-outline"
-    IFTYPStarHalfOutline                     = 0xe106,
+    IFTypiconStarHalfOutline                     = 0xe106,
     /// Identifier: "typcn-star-half"
-    IFTYPStarHalf                            = 0xe107,
+    IFTypiconStarHalf                            = 0xe107,
     /// Identifier: "typcn-star-outline"
-    IFTYPStarOutline                         = 0xe108,
+    IFTypiconStarOutline                         = 0xe108,
     /// Identifier: "typcn-star"
-    IFTYPStar                                = 0xe109,
+    IFTypiconStar                                = 0xe109,
     /// Identifier: "typcn-starburst-outline"
-    IFTYPStarburstOutline                    = 0xe10a,
+    IFTypiconStarburstOutline                    = 0xe10a,
     /// Identifier: "typcn-starburst"
-    IFTYPStarburst                           = 0xe10b,
+    IFTypiconStarburst                           = 0xe10b,
     /// Identifier: "typcn-stopwatch"
-    IFTYPStopwatch                           = 0xe10c,
+    IFTypiconStopwatch                           = 0xe10c,
     /// Identifier: "typcn-support"
-    IFTYPSupport                             = 0xe10d,
+    IFTypiconSupport                             = 0xe10d,
     /// Identifier: "typcn-tabs-outline"
-    IFTYPTabsOutline                         = 0xe10e,
+    IFTypiconTabsOutline                         = 0xe10e,
     /// Identifier: "typcn-tag"
-    IFTYPTag                                 = 0xe10f,
+    IFTypiconTag                                 = 0xe10f,
     /// Identifier: "typcn-tags"
-    IFTYPTags                                = 0xe110,
+    IFTypiconTags                                = 0xe110,
     /// Identifier: "typcn-th-large-outline"
-    IFTYPThLargeOutline                      = 0xe111,
+    IFTypiconThLargeOutline                      = 0xe111,
     /// Identifier: "typcn-th-large"
-    IFTYPThLarge                             = 0xe112,
+    IFTypiconThLarge                             = 0xe112,
     /// Identifier: "typcn-th-list-outline"
-    IFTYPThListOutline                       = 0xe113,
+    IFTypiconThListOutline                       = 0xe113,
     /// Identifier: "typcn-th-list"
-    IFTYPThList                              = 0xe114,
+    IFTypiconThList                              = 0xe114,
     /// Identifier: "typcn-th-menu-outline"
-    IFTYPThMenuOutline                       = 0xe115,
+    IFTypiconThMenuOutline                       = 0xe115,
     /// Identifier: "typcn-th-menu"
-    IFTYPThMenu                              = 0xe116,
+    IFTypiconThMenu                              = 0xe116,
     /// Identifier: "typcn-th-small-outline"
-    IFTYPThSmallOutline                      = 0xe117,
+    IFTypiconThSmallOutline                      = 0xe117,
     /// Identifier: "typcn-th-small"
-    IFTYPThSmall                             = 0xe118,
+    IFTypiconThSmall                             = 0xe118,
     /// Identifier: "typcn-thermometer"
-    IFTYPThermometer                         = 0xe119,
+    IFTypiconThermometer                         = 0xe119,
     /// Identifier: "typcn-thumbs-down"
-    IFTYPThumbsDown                          = 0xe11a,
+    IFTypiconThumbsDown                          = 0xe11a,
     /// Identifier: "typcn-thumbs-ok"
-    IFTYPThumbsOk                            = 0xe11b,
+    IFTypiconThumbsOk                            = 0xe11b,
     /// Identifier: "typcn-thumbs-up"
-    IFTYPThumbsUp                            = 0xe11c,
+    IFTypiconThumbsUp                            = 0xe11c,
     /// Identifier: "typcn-tick-outline"
-    IFTYPTickOutline                         = 0xe11d,
+    IFTypiconTickOutline                         = 0xe11d,
     /// Identifier: "typcn-tick"
-    IFTYPTick                                = 0xe11e,
+    IFTypiconTick                                = 0xe11e,
     /// Identifier: "typcn-ticket"
-    IFTYPTicket                              = 0xe11f,
+    IFTypiconTicket                              = 0xe11f,
     /// Identifier: "typcn-time"
-    IFTYPTime                                = 0xe120,
+    IFTypiconTime                                = 0xe120,
     /// Identifier: "typcn-times-outline"
-    IFTYPTimesOutline                        = 0xe121,
+    IFTypiconTimesOutline                        = 0xe121,
     /// Identifier: "typcn-times"
-    IFTYPTimes                               = 0xe122,
+    IFTypiconTimes                               = 0xe122,
     /// Identifier: "typcn-trash"
-    IFTYPTrash                               = 0xe123,
+    IFTypiconTrash                               = 0xe123,
     /// Identifier: "typcn-tree"
-    IFTYPTree                                = 0xe124,
+    IFTypiconTree                                = 0xe124,
     /// Identifier: "typcn-upload-outline"
-    IFTYPUploadOutline                       = 0xe125,
+    IFTypiconUploadOutline                       = 0xe125,
     /// Identifier: "typcn-upload"
-    IFTYPUpload                              = 0xe126,
+    IFTypiconUpload                              = 0xe126,
     /// Identifier: "typcn-user-add-outline"
-    IFTYPUserAddOutline                      = 0xe127,
+    IFTypiconUserAddOutline                      = 0xe127,
     /// Identifier: "typcn-user-add"
-    IFTYPUserAdd                             = 0xe128,
+    IFTypiconUserAdd                             = 0xe128,
     /// Identifier: "typcn-user-delete-outline"
-    IFTYPUserDeleteOutline                   = 0xe129,
+    IFTypiconUserDeleteOutline                   = 0xe129,
     /// Identifier: "typcn-user-delete"
-    IFTYPUserDelete                          = 0xe12a,
+    IFTypiconUserDelete                          = 0xe12a,
     /// Identifier: "typcn-user-outline"
-    IFTYPUserOutline                         = 0xe12b,
+    IFTypiconUserOutline                         = 0xe12b,
     /// Identifier: "typcn-user"
-    IFTYPUser                                = 0xe12c,
+    IFTypiconUser                                = 0xe12c,
     /// Identifier: "typcn-vendor-android"
-    IFTYPVendorAndroid                       = 0xe12d,
+    IFTypiconVendorAndroid                       = 0xe12d,
     /// Identifier: "typcn-vendor-apple"
-    IFTYPVendorApple                         = 0xe12e,
+    IFTypiconVendorApple                         = 0xe12e,
     /// Identifier: "typcn-vendor-microsoft"
-    IFTYPVendorMicrosoft                     = 0xe12f,
+    IFTypiconVendorMicrosoft                     = 0xe12f,
     /// Identifier: "typcn-video-outline"
-    IFTYPVideoOutline                        = 0xe130,
+    IFTypiconVideoOutline                        = 0xe130,
     /// Identifier: "typcn-video"
-    IFTYPVideo                               = 0xe131,
+    IFTypiconVideo                               = 0xe131,
     /// Identifier: "typcn-volume-down"
-    IFTYPVolumeDown                          = 0xe132,
+    IFTypiconVolumeDown                          = 0xe132,
     /// Identifier: "typcn-volume-mute"
-    IFTYPVolumeMute                          = 0xe133,
+    IFTypiconVolumeMute                          = 0xe133,
     /// Identifier: "typcn-volume-up"
-    IFTYPVolumeUp                            = 0xe134,
+    IFTypiconVolumeUp                            = 0xe134,
     /// Identifier: "typcn-volume"
-    IFTYPVolume                              = 0xe135,
+    IFTypiconVolume                              = 0xe135,
     /// Identifier: "typcn-warning-outline"
-    IFTYPWarningOutline                      = 0xe136,
+    IFTypiconWarningOutline                      = 0xe136,
     /// Identifier: "typcn-warning"
-    IFTYPWarning                             = 0xe137,
+    IFTypiconWarning                             = 0xe137,
     /// Identifier: "typcn-watch"
-    IFTYPWatch                               = 0xe138,
+    IFTypiconWatch                               = 0xe138,
     /// Identifier: "typcn-waves-outline"
-    IFTYPWavesOutline                        = 0xe139,
+    IFTypiconWavesOutline                        = 0xe139,
     /// Identifier: "typcn-waves"
-    IFTYPWaves                               = 0xe13a,
+    IFTypiconWaves                               = 0xe13a,
     /// Identifier: "typcn-weather-cloudy"
-    IFTYPWeatherCloudy                       = 0xe13b,
+    IFTypiconWeatherCloudy                       = 0xe13b,
     /// Identifier: "typcn-weather-downpour"
-    IFTYPWeatherDownpour                     = 0xe13c,
+    IFTypiconWeatherDownpour                     = 0xe13c,
     /// Identifier: "typcn-weather-night"
-    IFTYPWeatherNight                        = 0xe13d,
+    IFTypiconWeatherNight                        = 0xe13d,
     /// Identifier: "typcn-weather-partly-sunny"
-    IFTYPWeatherPartlySunny                  = 0xe13e,
+    IFTypiconWeatherPartlySunny                  = 0xe13e,
     /// Identifier: "typcn-weather-shower"
-    IFTYPWeatherShower                       = 0xe13f,
+    IFTypiconWeatherShower                       = 0xe13f,
     /// Identifier: "typcn-weather-snow"
-    IFTYPWeatherSnow                         = 0xe140,
+    IFTypiconWeatherSnow                         = 0xe140,
     /// Identifier: "typcn-weather-stormy"
-    IFTYPWeatherStormy                       = 0xe141,
+    IFTypiconWeatherStormy                       = 0xe141,
     /// Identifier: "typcn-weather-sunny"
-    IFTYPWeatherSunny                        = 0xe142,
+    IFTypiconWeatherSunny                        = 0xe142,
     /// Identifier: "typcn-weather-windy-cloudy"
-    IFTYPWeatherWindyCloudy                  = 0xe143,
+    IFTypiconWeatherWindyCloudy                  = 0xe143,
     /// Identifier: "typcn-weather-windy"
-    IFTYPWeatherWindy                        = 0xe144,
+    IFTypiconWeatherWindy                        = 0xe144,
     /// Identifier: "typcn-wi-fi-outline"
-    IFTYPWiFiOutline                         = 0xe145,
+    IFTypiconWiFiOutline                         = 0xe145,
     /// Identifier: "typcn-wi-fi"
-    IFTYPWiFi                                = 0xe146,
+    IFTypiconWiFi                                = 0xe146,
     /// Identifier: "typcn-wine"
-    IFTYPWine                                = 0xe147,
+    IFTypiconWine                                = 0xe147,
     /// Identifier: "typcn-world-outline"
-    IFTYPWorldOutline                        = 0xe148,
+    IFTypiconWorldOutline                        = 0xe148,
     /// Identifier: "typcn-world"
-    IFTYPWorld                               = 0xe149,
+    IFTypiconWorld                               = 0xe149,
     /// Identifier: "typcn-zoom-in-outline"
-    IFTYPZoomInOutline                       = 0xe14a,
+    IFTypiconZoomInOutline                       = 0xe14a,
     /// Identifier: "typcn-zoom-in"
-    IFTYPZoomIn                              = 0xe14b,
+    IFTypiconZoomIn                              = 0xe14b,
     /// Identifier: "typcn-zoom-out-outline"
-    IFTYPZoomOutOutline                      = 0xe14c,
+    IFTypiconZoomOutOutline                      = 0xe14c,
     /// Identifier: "typcn-zoom-out"
-    IFTYPZoomOut                             = 0xe14d,
+    IFTypiconZoomOut                             = 0xe14d,
     /// Identifier: "typcn-zoom-outline"
-    IFTYPZoomOutline                         = 0xe14e,
+    IFTypiconZoomOutline                         = 0xe14e,
     /// Identifier: "typcn-zoom"
-    IFTYPZoom                                = 0xe14f,
+    IFTypiconZoom                                = 0xe14f,
 };
 
 /*!
