@@ -3,355 +3,355 @@
 /// MapIcons icon types.
 typedef NS_ENUM(IFIconType, IFMapIconsType) {
     /// Identifier: "map-icon-abseiling"
-    IFMapIconsAbseiling                           = 0xe800,
+    IFMapIconAbseiling                           = 0xe800,
     /// Identifier: "map-icon-accounting"
-    IFMapIconsAccounting                          = 0xe801,
+    IFMapIconAccounting                          = 0xe801,
     /// Identifier: "map-icon-airport"
-    IFMapIconsAirport                             = 0xe802,
+    IFMapIconAirport                             = 0xe802,
     /// Identifier: "map-icon-amusement-park"
-    IFMapIconsAmusementPark                       = 0xe803,
+    IFMapIconAmusementPark                       = 0xe803,
     /// Identifier: "map-icon-aquarium"
-    IFMapIconsAquarium                            = 0xe804,
+    IFMapIconAquarium                            = 0xe804,
     /// Identifier: "map-icon-archery"
-    IFMapIconsArchery                             = 0xe805,
+    IFMapIconArchery                             = 0xe805,
     /// Identifier: "map-icon-art-gallery"
-    IFMapIconsArtGallery                          = 0xe806,
+    IFMapIconArtGallery                          = 0xe806,
     /// Identifier: "map-icon-assistive-listening-system"
-    IFMapIconsAssistiveListeningSystem            = 0xe807,
+    IFMapIconAssistiveListeningSystem            = 0xe807,
     /// Identifier: "map-icon-atm"
-    IFMapIconsAtm                                 = 0xe808,
+    IFMapIconAtm                                 = 0xe808,
     /// Identifier: "map-icon-audio-description"
-    IFMapIconsAudioDescription                    = 0xe809,
+    IFMapIconAudioDescription                    = 0xe809,
     /// Identifier: "map-icon-bakery"
-    IFMapIconsBakery                              = 0xe80a,
+    IFMapIconBakery                              = 0xe80a,
     /// Identifier: "map-icon-bank"
-    IFMapIconsBank                                = 0xe80b,
+    IFMapIconBank                                = 0xe80b,
     /// Identifier: "map-icon-bar"
-    IFMapIconsBar                                 = 0xe80c,
+    IFMapIconBar                                 = 0xe80c,
     /// Identifier: "map-icon-baseball"
-    IFMapIconsBaseball                            = 0xe80d,
+    IFMapIconBaseball                            = 0xe80d,
     /// Identifier: "map-icon-beauty-salon"
-    IFMapIconsBeautySalon                         = 0xe80e,
+    IFMapIconBeautySalon                         = 0xe80e,
     /// Identifier: "map-icon-bicycle-store"
-    IFMapIconsBicycleStore                        = 0xe80f,
+    IFMapIconBicycleStore                        = 0xe80f,
     /// Identifier: "map-icon-bicycling"
-    IFMapIconsBicycling                           = 0xe810,
+    IFMapIconBicycling                           = 0xe810,
     /// Identifier: "map-icon-boat-ramp"
-    IFMapIconsBoatRamp                            = 0xe811,
+    IFMapIconBoatRamp                            = 0xe811,
     /// Identifier: "map-icon-boat-tour"
-    IFMapIconsBoatTour                            = 0xe812,
+    IFMapIconBoatTour                            = 0xe812,
     /// Identifier: "map-icon-boating"
-    IFMapIconsBoating                             = 0xe813,
+    IFMapIconBoating                             = 0xe813,
     /// Identifier: "map-icon-book-store"
-    IFMapIconsBookStore                           = 0xe814,
+    IFMapIconBookStore                           = 0xe814,
     /// Identifier: "map-icon-bowling-alley"
-    IFMapIconsBowlingAlley                        = 0xe815,
+    IFMapIconBowlingAlley                        = 0xe815,
     /// Identifier: "map-icon-braille"
-    IFMapIconsBraille                             = 0xe816,
+    IFMapIconBraille                             = 0xe816,
     /// Identifier: "map-icon-bus-station"
-    IFMapIconsBusStation                          = 0xe817,
+    IFMapIconBusStation                          = 0xe817,
     /// Identifier: "map-icon-cafe"
-    IFMapIconsCafe                                = 0xe818,
+    IFMapIconCafe                                = 0xe818,
     /// Identifier: "map-icon-campground"
-    IFMapIconsCampground                          = 0xe819,
+    IFMapIconCampground                          = 0xe819,
     /// Identifier: "map-icon-canoe"
-    IFMapIconsCanoe                               = 0xe81a,
+    IFMapIconCanoe                               = 0xe81a,
     /// Identifier: "map-icon-car-dealer"
-    IFMapIconsCarDealer                           = 0xe81b,
+    IFMapIconCarDealer                           = 0xe81b,
     /// Identifier: "map-icon-car-rental"
-    IFMapIconsCarRental                           = 0xe81c,
+    IFMapIconCarRental                           = 0xe81c,
     /// Identifier: "map-icon-car-repair"
-    IFMapIconsCarRepair                           = 0xe81d,
+    IFMapIconCarRepair                           = 0xe81d,
     /// Identifier: "map-icon-car-wash"
-    IFMapIconsCarWash                             = 0xe81e,
+    IFMapIconCarWash                             = 0xe81e,
     /// Identifier: "map-icon-casino"
-    IFMapIconsCasino                              = 0xe81f,
+    IFMapIconCasino                              = 0xe81f,
     /// Identifier: "map-icon-cemetery"
-    IFMapIconsCemetery                            = 0xe820,
+    IFMapIconCemetery                            = 0xe820,
     /// Identifier: "map-icon-chairlift"
-    IFMapIconsChairlift                           = 0xe821,
+    IFMapIconChairlift                           = 0xe821,
     /// Identifier: "map-icon-church"
-    IFMapIconsChurch                              = 0xe822,
+    IFMapIconChurch                              = 0xe822,
     /// Identifier: "map-icon-circle"
-    IFMapIconsCircle                              = 0xe823,
+    IFMapIconCircle                              = 0xe823,
     /// Identifier: "map-icon-city-hall"
-    IFMapIconsCityHall                            = 0xe824,
+    IFMapIconCityHall                            = 0xe824,
     /// Identifier: "map-icon-climbing"
-    IFMapIconsClimbing                            = 0xe825,
+    IFMapIconClimbing                            = 0xe825,
     /// Identifier: "map-icon-closed-captioning"
-    IFMapIconsClosedCaptioning                    = 0xe826,
+    IFMapIconClosedCaptioning                    = 0xe826,
     /// Identifier: "map-icon-clothing-store"
-    IFMapIconsClothingStore                       = 0xe827,
+    IFMapIconClothingStore                       = 0xe827,
     /// Identifier: "map-icon-compass"
-    IFMapIconsCompass                             = 0xe828,
+    IFMapIconCompass                             = 0xe828,
     /// Identifier: "map-icon-convenience-store"
-    IFMapIconsConvenienceStore                    = 0xe829,
+    IFMapIconConvenienceStore                    = 0xe829,
     /// Identifier: "map-icon-courthouse"
-    IFMapIconsCourthouse                          = 0xe82a,
+    IFMapIconCourthouse                          = 0xe82a,
     /// Identifier: "map-icon-cross-country-skiing"
-    IFMapIconsCrossCountrySkiing                  = 0xe82b,
+    IFMapIconCrossCountrySkiing                  = 0xe82b,
     /// Identifier: "map-icon-crosshairs"
-    IFMapIconsCrosshairs                          = 0xe82c,
+    IFMapIconCrosshairs                          = 0xe82c,
     /// Identifier: "map-icon-dentist"
-    IFMapIconsDentist                             = 0xe82d,
+    IFMapIconDentist                             = 0xe82d,
     /// Identifier: "map-icon-department-store"
-    IFMapIconsDepartmentStore                     = 0xe82e,
+    IFMapIconDepartmentStore                     = 0xe82e,
     /// Identifier: "map-icon-diving"
-    IFMapIconsDiving                              = 0xe82f,
+    IFMapIconDiving                              = 0xe82f,
     /// Identifier: "map-icon-doctor"
-    IFMapIconsDoctor                              = 0xe830,
+    IFMapIconDoctor                              = 0xe830,
     /// Identifier: "map-icon-electrician"
-    IFMapIconsElectrician                         = 0xe831,
+    IFMapIconElectrician                         = 0xe831,
     /// Identifier: "map-icon-electronics-store"
-    IFMapIconsElectronicsStore                    = 0xe832,
+    IFMapIconElectronicsStore                    = 0xe832,
     /// Identifier: "map-icon-embassy"
-    IFMapIconsEmbassy                             = 0xe833,
+    IFMapIconEmbassy                             = 0xe833,
     /// Identifier: "map-icon-expand"
-    IFMapIconsExpand                              = 0xe834,
+    IFMapIconExpand                              = 0xe834,
     /// Identifier: "map-icon-female"
-    IFMapIconsFemale                              = 0xe835,
+    IFMapIconFemale                              = 0xe835,
     /// Identifier: "map-icon-finance"
-    IFMapIconsFinance                             = 0xe836,
+    IFMapIconFinance                             = 0xe836,
     /// Identifier: "map-icon-fire-station"
-    IFMapIconsFireStation                         = 0xe837,
+    IFMapIconFireStation                         = 0xe837,
     /// Identifier: "map-icon-fish-cleaning"
-    IFMapIconsFishCleaning                        = 0xe838,
+    IFMapIconFishCleaning                        = 0xe838,
     /// Identifier: "map-icon-fishing-pier"
-    IFMapIconsFishingPier                         = 0xe839,
+    IFMapIconFishingPier                         = 0xe839,
     /// Identifier: "map-icon-fishing"
-    IFMapIconsFishing                             = 0xe83a,
+    IFMapIconFishing                             = 0xe83a,
     /// Identifier: "map-icon-florist"
-    IFMapIconsFlorist                             = 0xe83b,
+    IFMapIconFlorist                             = 0xe83b,
     /// Identifier: "map-icon-food"
-    IFMapIconsFood                                = 0xe83c,
+    IFMapIconFood                                = 0xe83c,
     /// Identifier: "map-icon-fullscreen"
-    IFMapIconsFullscreen                          = 0xe83d,
+    IFMapIconFullscreen                          = 0xe83d,
     /// Identifier: "map-icon-funeral-home"
-    IFMapIconsFuneralHome                         = 0xe83e,
+    IFMapIconFuneralHome                         = 0xe83e,
     /// Identifier: "map-icon-furniture-store"
-    IFMapIconsFurnitureStore                      = 0xe83f,
+    IFMapIconFurnitureStore                      = 0xe83f,
     /// Identifier: "map-icon-gas-station"
-    IFMapIconsGasStation                          = 0xe840,
+    IFMapIconGasStation                          = 0xe840,
     /// Identifier: "map-icon-general-contractor"
-    IFMapIconsGeneralContractor                   = 0xe841,
+    IFMapIconGeneralContractor                   = 0xe841,
     /// Identifier: "map-icon-golf"
-    IFMapIconsGolf                                = 0xe842,
+    IFMapIconGolf                                = 0xe842,
     /// Identifier: "map-icon-grocery-or-supermarket"
-    IFMapIconsGroceryOrSupermarket                = 0xe843,
+    IFMapIconGroceryOrSupermarket                = 0xe843,
     /// Identifier: "map-icon-gym"
-    IFMapIconsGym                                 = 0xe844,
+    IFMapIconGym                                 = 0xe844,
     /// Identifier: "map-icon-hair-care"
-    IFMapIconsHairCare                            = 0xe845,
+    IFMapIconHairCare                            = 0xe845,
     /// Identifier: "map-icon-hang-gliding"
-    IFMapIconsHangGliding                         = 0xe846,
+    IFMapIconHangGliding                         = 0xe846,
     /// Identifier: "map-icon-hardware-store"
-    IFMapIconsHardwareStore                       = 0xe847,
+    IFMapIconHardwareStore                       = 0xe847,
     /// Identifier: "map-icon-health"
-    IFMapIconsHealth                              = 0xe848,
+    IFMapIconHealth                              = 0xe848,
     /// Identifier: "map-icon-hindu-temple"
-    IFMapIconsHinduTemple                         = 0xe849,
+    IFMapIconHinduTemple                         = 0xe849,
     /// Identifier: "map-icon-horse-riding"
-    IFMapIconsHorseRiding                         = 0xe84a,
+    IFMapIconHorseRiding                         = 0xe84a,
     /// Identifier: "map-icon-hospital"
-    IFMapIconsHospital                            = 0xe84b,
+    IFMapIconHospital                            = 0xe84b,
     /// Identifier: "map-icon-ice-fishing"
-    IFMapIconsIceFishing                          = 0xe84c,
+    IFMapIconIceFishing                          = 0xe84c,
     /// Identifier: "map-icon-ice-skating"
-    IFMapIconsIceSkating                          = 0xe84d,
+    IFMapIconIceSkating                          = 0xe84d,
     /// Identifier: "map-icon-inline-skating"
-    IFMapIconsInlineSkating                       = 0xe84e,
+    IFMapIconInlineSkating                       = 0xe84e,
     /// Identifier: "map-icon-insurance-agency"
-    IFMapIconsInsuranceAgency                     = 0xe84f,
+    IFMapIconInsuranceAgency                     = 0xe84f,
     /// Identifier: "map-icon-jet-skiing"
-    IFMapIconsJetSkiing                           = 0xe850,
+    IFMapIconJetSkiing                           = 0xe850,
     /// Identifier: "map-icon-jewelry-store"
-    IFMapIconsJewelryStore                        = 0xe851,
+    IFMapIconJewelryStore                        = 0xe851,
     /// Identifier: "map-icon-kayaking"
-    IFMapIconsKayaking                            = 0xe852,
+    IFMapIconKayaking                            = 0xe852,
     /// Identifier: "map-icon-laundry"
-    IFMapIconsLaundry                             = 0xe853,
+    IFMapIconLaundry                             = 0xe853,
     /// Identifier: "map-icon-lawyer"
-    IFMapIconsLawyer                              = 0xe854,
+    IFMapIconLawyer                              = 0xe854,
     /// Identifier: "map-icon-library"
-    IFMapIconsLibrary                             = 0xe855,
+    IFMapIconLibrary                             = 0xe855,
     /// Identifier: "map-icon-liquor-store"
-    IFMapIconsLiquorStore                         = 0xe856,
+    IFMapIconLiquorStore                         = 0xe856,
     /// Identifier: "map-icon-local-government"
-    IFMapIconsLocalGovernment                     = 0xe857,
+    IFMapIconLocalGovernment                     = 0xe857,
     /// Identifier: "map-icon-location-arrow"
-    IFMapIconsLocationArrow                       = 0xe858,
+    IFMapIconLocationArrow                       = 0xe858,
     /// Identifier: "map-icon-locksmith"
-    IFMapIconsLocksmith                           = 0xe859,
+    IFMapIconLocksmith                           = 0xe859,
     /// Identifier: "map-icon-lodging"
-    IFMapIconsLodging                             = 0xe85a,
+    IFMapIconLodging                             = 0xe85a,
     /// Identifier: "map-icon-low-vision-access"
-    IFMapIconsLowVisionAccess                     = 0xe85b,
+    IFMapIconLowVisionAccess                     = 0xe85b,
     /// Identifier: "map-icon-male"
-    IFMapIconsMale                                = 0xe85c,
+    IFMapIconMale                                = 0xe85c,
     /// Identifier: "map-icon-map-pin"
-    IFMapIconsMapPin                              = 0xe85d,
+    IFMapIconMapPin                              = 0xe85d,
     /// Identifier: "map-icon-marina"
-    IFMapIconsMarina                              = 0xe85e,
+    IFMapIconMarina                              = 0xe85e,
     /// Identifier: "map-icon-mosque"
-    IFMapIconsMosque                              = 0xe85f,
+    IFMapIconMosque                              = 0xe85f,
     /// Identifier: "map-icon-motobike-trail"
-    IFMapIconsMotobikeTrail                       = 0xe860,
+    IFMapIconMotobikeTrail                       = 0xe860,
     /// Identifier: "map-icon-movie-rental"
-    IFMapIconsMovieRental                         = 0xe861,
+    IFMapIconMovieRental                         = 0xe861,
     /// Identifier: "map-icon-movie-theater"
-    IFMapIconsMovieTheater                        = 0xe862,
+    IFMapIconMovieTheater                        = 0xe862,
     /// Identifier: "map-icon-moving-company"
-    IFMapIconsMovingCompany                       = 0xe863,
+    IFMapIconMovingCompany                       = 0xe863,
     /// Identifier: "map-icon-museum"
-    IFMapIconsMuseum                              = 0xe864,
+    IFMapIconMuseum                              = 0xe864,
     /// Identifier: "map-icon-natural-feature"
-    IFMapIconsNaturalFeature                      = 0xe865,
+    IFMapIconNaturalFeature                      = 0xe865,
     /// Identifier: "map-icon-night-club"
-    IFMapIconsNightClub                           = 0xe866,
+    IFMapIconNightClub                           = 0xe866,
     /// Identifier: "map-icon-open-captioning"
-    IFMapIconsOpenCaptioning                      = 0xe867,
+    IFMapIconOpenCaptioning                      = 0xe867,
     /// Identifier: "map-icon-painter"
-    IFMapIconsPainter                             = 0xe868,
+    IFMapIconPainter                             = 0xe868,
     /// Identifier: "map-icon-park"
-    IFMapIconsPark                                = 0xe869,
+    IFMapIconPark                                = 0xe869,
     /// Identifier: "map-icon-parking"
-    IFMapIconsParking                             = 0xe86a,
+    IFMapIconParking                             = 0xe86a,
     /// Identifier: "map-icon-pet-store"
-    IFMapIconsPetStore                            = 0xe86b,
+    IFMapIconPetStore                            = 0xe86b,
     /// Identifier: "map-icon-pharmacy"
-    IFMapIconsPharmacy                            = 0xe86c,
+    IFMapIconPharmacy                            = 0xe86c,
     /// Identifier: "map-icon-physiotherapist"
-    IFMapIconsPhysiotherapist                     = 0xe86d,
+    IFMapIconPhysiotherapist                     = 0xe86d,
     /// Identifier: "map-icon-place-of-worship"
-    IFMapIconsPlaceOfWorship                      = 0xe86e,
+    IFMapIconPlaceOfWorship                      = 0xe86e,
     /// Identifier: "map-icon-playground"
-    IFMapIconsPlayground                          = 0xe86f,
+    IFMapIconPlayground                          = 0xe86f,
     /// Identifier: "map-icon-plumber"
-    IFMapIconsPlumber                             = 0xe870,
+    IFMapIconPlumber                             = 0xe870,
     /// Identifier: "map-icon-point-of-interest"
-    IFMapIconsPointOfInterest                     = 0xe871,
+    IFMapIconPointOfInterest                     = 0xe871,
     /// Identifier: "map-icon-police"
-    IFMapIconsPolice                              = 0xe872,
+    IFMapIconPolice                              = 0xe872,
     /// Identifier: "map-icon-political"
-    IFMapIconsPolitical                           = 0xe873,
+    IFMapIconPolitical                           = 0xe873,
     /// Identifier: "map-icon-post-box"
-    IFMapIconsPostBox                             = 0xe874,
+    IFMapIconPostBox                             = 0xe874,
     /// Identifier: "map-icon-post-office"
-    IFMapIconsPostOffice                          = 0xe875,
+    IFMapIconPostOffice                          = 0xe875,
     /// Identifier: "map-icon-postal-code-prefix"
-    IFMapIconsPostalCodePrefix                    = 0xe876,
+    IFMapIconPostalCodePrefix                    = 0xe876,
     /// Identifier: "map-icon-postal-code"
-    IFMapIconsPostalCode                          = 0xe877,
+    IFMapIconPostalCode                          = 0xe877,
     /// Identifier: "map-icon-rafting"
-    IFMapIconsRafting                             = 0xe878,
+    IFMapIconRafting                             = 0xe878,
     /// Identifier: "map-icon-real-estate-agency"
-    IFMapIconsRealEstateAgency                    = 0xe879,
+    IFMapIconRealEstateAgency                    = 0xe879,
     /// Identifier: "map-icon-restaurant"
-    IFMapIconsRestaurant                          = 0xe87a,
+    IFMapIconRestaurant                          = 0xe87a,
     /// Identifier: "map-icon-roofing-contractor"
-    IFMapIconsRoofingContractor                   = 0xe87b,
+    IFMapIconRoofingContractor                   = 0xe87b,
     /// Identifier: "map-icon-route-pin"
-    IFMapIconsRoutePin                            = 0xe87c,
+    IFMapIconRoutePin                            = 0xe87c,
     /// Identifier: "map-icon-route"
-    IFMapIconsRoute                               = 0xe87d,
+    IFMapIconRoute                               = 0xe87d,
     /// Identifier: "map-icon-rv-park"
-    IFMapIconsRvPark                              = 0xe87e,
+    IFMapIconRvPark                              = 0xe87e,
     /// Identifier: "map-icon-sailing"
-    IFMapIconsSailing                             = 0xe87f,
+    IFMapIconSailing                             = 0xe87f,
     /// Identifier: "map-icon-school"
-    IFMapIconsSchool                              = 0xe880,
+    IFMapIconSchool                              = 0xe880,
     /// Identifier: "map-icon-scuba-diving"
-    IFMapIconsScubaDiving                         = 0xe881,
+    IFMapIconScubaDiving                         = 0xe881,
     /// Identifier: "map-icon-search"
-    IFMapIconsSearch                              = 0xe882,
+    IFMapIconSearch                              = 0xe882,
     /// Identifier: "map-icon-shield"
-    IFMapIconsShield                              = 0xe883,
+    IFMapIconShield                              = 0xe883,
     /// Identifier: "map-icon-shopping-mall"
-    IFMapIconsShoppingMall                        = 0xe884,
+    IFMapIconShoppingMall                        = 0xe884,
     /// Identifier: "map-icon-sign-language"
-    IFMapIconsSignLanguage                        = 0xe885,
+    IFMapIconSignLanguage                        = 0xe885,
     /// Identifier: "map-icon-skateboarding"
-    IFMapIconsSkateboarding                       = 0xe886,
+    IFMapIconSkateboarding                       = 0xe886,
     /// Identifier: "map-icon-ski-jumping"
-    IFMapIconsSkiJumping                          = 0xe887,
+    IFMapIconSkiJumping                          = 0xe887,
     /// Identifier: "map-icon-skiing"
-    IFMapIconsSkiing                              = 0xe888,
+    IFMapIconSkiing                              = 0xe888,
     /// Identifier: "map-icon-sledding"
-    IFMapIconsSledding                            = 0xe889,
+    IFMapIconSledding                            = 0xe889,
     /// Identifier: "map-icon-snow-shoeing"
-    IFMapIconsSnowShoeing                         = 0xe88a,
+    IFMapIconSnowShoeing                         = 0xe88a,
     /// Identifier: "map-icon-snow"
-    IFMapIconsSnow                                = 0xe88b,
+    IFMapIconSnow                                = 0xe88b,
     /// Identifier: "map-icon-snowboarding"
-    IFMapIconsSnowboarding                        = 0xe88c,
+    IFMapIconSnowboarding                        = 0xe88c,
     /// Identifier: "map-icon-snowmobile"
-    IFMapIconsSnowmobile                          = 0xe88d,
+    IFMapIconSnowmobile                          = 0xe88d,
     /// Identifier: "map-icon-spa"
-    IFMapIconsSpa                                 = 0xe88e,
+    IFMapIconSpa                                 = 0xe88e,
     /// Identifier: "map-icon-square-pin"
-    IFMapIconsSquarePin                           = 0xe88f,
+    IFMapIconSquarePin                           = 0xe88f,
     /// Identifier: "map-icon-square-rounded"
-    IFMapIconsSquareRounded                       = 0xe890,
+    IFMapIconSquareRounded                       = 0xe890,
     /// Identifier: "map-icon-square"
-    IFMapIconsSquare                              = 0xe891,
+    IFMapIconSquare                              = 0xe891,
     /// Identifier: "map-icon-stadium"
-    IFMapIconsStadium                             = 0xe892,
+    IFMapIconStadium                             = 0xe892,
     /// Identifier: "map-icon-storage"
-    IFMapIconsStorage                             = 0xe893,
+    IFMapIconStorage                             = 0xe893,
     /// Identifier: "map-icon-store"
-    IFMapIconsStore                               = 0xe894,
+    IFMapIconStore                               = 0xe894,
     /// Identifier: "map-icon-subway-station"
-    IFMapIconsSubwayStation                       = 0xe895,
+    IFMapIconSubwayStation                       = 0xe895,
     /// Identifier: "map-icon-surfing"
-    IFMapIconsSurfing                             = 0xe896,
+    IFMapIconSurfing                             = 0xe896,
     /// Identifier: "map-icon-swimming"
-    IFMapIconsSwimming                            = 0xe897,
+    IFMapIconSwimming                            = 0xe897,
     /// Identifier: "map-icon-synagogue"
-    IFMapIconsSynagogue                           = 0xe898,
+    IFMapIconSynagogue                           = 0xe898,
     /// Identifier: "map-icon-taxi-stand"
-    IFMapIconsTaxiStand                           = 0xe899,
+    IFMapIconTaxiStand                           = 0xe899,
     /// Identifier: "map-icon-tennis"
-    IFMapIconsTennis                              = 0xe89a,
+    IFMapIconTennis                              = 0xe89a,
     /// Identifier: "map-icon-toilet"
-    IFMapIconsToilet                              = 0xe89b,
+    IFMapIconToilet                              = 0xe89b,
     /// Identifier: "map-icon-trail-walking"
-    IFMapIconsTrailWalking                        = 0xe89c,
+    IFMapIconTrailWalking                        = 0xe89c,
     /// Identifier: "map-icon-train-station"
-    IFMapIconsTrainStation                        = 0xe89d,
+    IFMapIconTrainStation                        = 0xe89d,
     /// Identifier: "map-icon-transit-station"
-    IFMapIconsTransitStation                      = 0xe89e,
+    IFMapIconTransitStation                      = 0xe89e,
     /// Identifier: "map-icon-travel-agency"
-    IFMapIconsTravelAgency                        = 0xe89f,
+    IFMapIconTravelAgency                        = 0xe89f,
     /// Identifier: "map-icon-unisex"
-    IFMapIconsUnisex                              = 0xe8a0,
+    IFMapIconUnisex                              = 0xe8a0,
     /// Identifier: "map-icon-university"
-    IFMapIconsUniversity                          = 0xe8a1,
+    IFMapIconUniversity                          = 0xe8a1,
     /// Identifier: "map-icon-veterinary-care"
-    IFMapIconsVeterinaryCare                      = 0xe8a2,
+    IFMapIconVeterinaryCare                      = 0xe8a2,
     /// Identifier: "map-icon-viewing"
-    IFMapIconsViewing                             = 0xe8a3,
+    IFMapIconViewing                             = 0xe8a3,
     /// Identifier: "map-icon-volume-control-telephone"
-    IFMapIconsVolumeControlTelephone              = 0xe8a4,
+    IFMapIconVolumeControlTelephone              = 0xe8a4,
     /// Identifier: "map-icon-walking"
-    IFMapIconsWalking                             = 0xe8a5,
+    IFMapIconWalking                             = 0xe8a5,
     /// Identifier: "map-icon-waterskiing"
-    IFMapIconsWaterskiing                         = 0xe8a6,
+    IFMapIconWaterskiing                         = 0xe8a6,
     /// Identifier: "map-icon-whale-watching"
-    IFMapIconsWhaleWatching                       = 0xe8a7,
+    IFMapIconWhaleWatching                       = 0xe8a7,
     /// Identifier: "map-icon-wheelchair"
-    IFMapIconsWheelchair                          = 0xe8a8,
+    IFMapIconWheelchair                          = 0xe8a8,
     /// Identifier: "map-icon-wind-surfing"
-    IFMapIconsWindSurfing                         = 0xe8a9,
+    IFMapIconWindSurfing                         = 0xe8a9,
     /// Identifier: "map-icon-zoo"
-    IFMapIconsZoo                                 = 0xe8aa,
+    IFMapIconZoo                                 = 0xe8aa,
     /// Identifier: "map-icon-zoom-in-alt"
-    IFMapIconsZoomInAlt                           = 0xe8ab,
+    IFMapIconZoomInAlt                           = 0xe8ab,
     /// Identifier: "map-icon-zoom-in"
-    IFMapIconsZoomIn                              = 0xe8ac,
+    IFMapIconZoomIn                              = 0xe8ac,
     /// Identifier: "map-icon-zoom-out-alt"
-    IFMapIconsZoomOutAlt                          = 0xe8ad,
+    IFMapIconZoomOutAlt                          = 0xe8ad,
     /// Identifier: "map-icon-zoom-out"
-    IFMapIconsZoomOut                             = 0xe8ae,
+    IFMapIconZoomOut                             = 0xe8ae,
 };
 
 /*!
