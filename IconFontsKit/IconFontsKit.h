@@ -31,3 +31,4 @@
 #import <IconFontsKit/IFStroke7Icons.h>
 #import <IconFontsKit/IFDevicons.h>
 #import <IconFontsKit/IFLigatureSymbols.h>
+#import <IconFontsKit/IFDripicons.h>

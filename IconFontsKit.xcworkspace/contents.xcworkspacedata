@@ -238,6 +238,15 @@
       <FileRef
          location = "group:LigatureSymbols.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFDripicons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFDripicons.m">
+      </FileRef>
+      <FileRef
+         location = "group:dripicons.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">

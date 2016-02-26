@@ -168,4 +168,10 @@ Pod::Spec.new do |s|
     ss.resource             = "IconFontsKit/LigatureSymbols.ttf"
   end
 
+  s.subspec "Dripicons" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFDripicons.{h,m}"
+    ss.resource             = "IconFontsKit/dripicons.ttf"
+  end
+
 end
