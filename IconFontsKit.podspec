@@ -174,4 +174,10 @@ Pod::Spec.new do |s|
     ss.resource             = "IconFontsKit/dripicons.ttf"
   end
 
+  s.subspec "OpenWebIcons" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFOpenWebIcons.{h,m}"
+    ss.resource             = "IconFontsKit/openwebicons.ttf"
+  end
+
 end

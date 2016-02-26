@@ -38,6 +38,7 @@
 | [Devicons](https://github.com/vorillaz/devicons) | 1.8.0 | [171](http://vorillaz.github.io/devicons/#/cheat) | 147 KB | MIT | An iconic font for developers. |
 | [LigatureSymbols](http://kudakurage.com/ligature_symbols/) | 2.11 | [239](http://kudakurage.com/ligature_symbols/) | 84 KB | SIL OFL 1.1 | Ligature Symbols by Kazuyuki Motoyama |
 | [Dripicons](http://demo.amitjakhu.com/dripicons/) | 1.0 | [95](http://demo.amitjakhu.com/dripicons/) | 21 KB | Free to use | A completely free, vector line-icon font by [Amit Jakhu](http://amitjakhu.com). |
+| [OpenWebIcons](http://pfefferle.github.io/openwebicons) | 1.4.0 | [104](http://pfefferle.github.io/openwebicons/icons/) | 40 KB | [SIL OFL 1.1](https://github.com/pfefferle/openwebicons/blob/master/License.txt) | OpenWeb Icons |
 
 ## Installation
 

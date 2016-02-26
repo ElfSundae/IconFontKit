@@ -61,6 +61,7 @@ JTSImageViewControllerDismissalDelegate, UIActionSheetDelegate>
                              [IFDevicons class],
                              [IFLigatureSymbols class],
                              [IFDripicons class],
+                             [IFOpenWebIcons class],
                              ];
     }
     return self;

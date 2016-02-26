@@ -247,6 +247,15 @@
       <FileRef
          location = "group:dripicons.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFOpenWebIcons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFOpenWebIcons.m">
+      </FileRef>
+      <FileRef
+         location = "group:openwebicons.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">

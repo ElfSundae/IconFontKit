@@ -32,3 +32,4 @@
 #import <IconFontsKit/IFDevicons.h>
 #import <IconFontsKit/IFLigatureSymbols.h>
 #import <IconFontsKit/IFDripicons.h>
+#import <IconFontsKit/IFOpenWebIcons.h>
