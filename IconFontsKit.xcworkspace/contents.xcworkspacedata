@@ -193,6 +193,15 @@
       <FileRef
          location = "group:Entypo.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFThemifyIcons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFThemifyIcons.m">
+      </FileRef>
+      <FileRef
+         location = "group:themify.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">

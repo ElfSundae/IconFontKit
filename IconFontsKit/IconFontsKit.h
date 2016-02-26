@@ -26,3 +26,4 @@
 #import <IconFontsKit/IFDashicons.h>
 #import <IconFontsKit/IFLinea.h>
 #import <IconFontsKit/IFEntypo.h>
+#import <IconFontsKit/IFThemifyIcons.h>

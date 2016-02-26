@@ -138,4 +138,10 @@ Pod::Spec.new do |s|
     ss.resource             = "IconFontsKit/Entypo.ttf"
   end
 
+  s.subspec "ThemifyIcons" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFThemifyIcons.{h,m}"
+    ss.resource             = "IconFontsKit/themify.ttf"
+  end
+
 end

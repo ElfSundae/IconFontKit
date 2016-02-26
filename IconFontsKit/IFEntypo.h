@@ -827,7 +827,7 @@ typedef NS_ENUM(IFIconType, IFEntypoType) {
 };
 
 /*!
- * Entypo+, carefully crafted premium pictograms by Daniel Bruce, v1.0 http://www.linea.io
+ * Entypo+, carefully crafted premium pictograms by Daniel Bruce, http://www.entypo.com
  */
 @interface IFEntypo : IFIcon
 @end

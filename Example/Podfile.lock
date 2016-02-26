@@ -19,6 +19,7 @@ PODS:
     - IconFontsKit/MFGLabsIconset (= 1.1.2)
     - IconFontsKit/Octicons (= 1.1.2)
     - IconFontsKit/OpenIconic (= 1.1.2)
+    - IconFontsKit/ThemifyIcons (= 1.1.2)
     - IconFontsKit/Typicons (= 1.1.2)
     - IconFontsKit/ZocialButtons (= 1.1.2)
   - IconFontsKit/Core (1.1.2)
@@ -58,6 +59,8 @@ PODS:
     - IconFontsKit/Core
   - IconFontsKit/OpenIconic (1.1.2):
     - IconFontsKit/Core
+  - IconFontsKit/ThemifyIcons (1.1.2):
+    - IconFontsKit/Core
   - IconFontsKit/Typicons (1.1.2):
     - IconFontsKit/Core
   - IconFontsKit/ZocialButtons (1.1.2):
@@ -73,7 +76,7 @@ EXTERNAL SOURCES:
     :path: "../IconFontsKit.podspec"
 
 SPEC CHECKSUMS:
-  IconFontsKit: a818ddd194b0e2151fb199b92c98108ed5b15d8c
+  IconFontsKit: cab421e7ddf323259d0c7c17eda73b49cbe79b1d
   JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
 
 COCOAPODS: 0.39.0
