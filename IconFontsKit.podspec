@@ -162,4 +162,10 @@ Pod::Spec.new do |s|
     ss.resource             = "IconFontsKit/devicons.ttf"
   end
 
+  s.subspec "LigatureSymbols" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFLigatureSymbols.{h,m}"
+    ss.resource             = "IconFontsKit/LigatureSymbols.ttf"
+  end
+
 end

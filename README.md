@@ -36,6 +36,7 @@
 | [StreamlineFree](http://streamlineicons.com/free-icons.html) | v2 | [100](http://www.streamlineicons.com/free-icons.html) | 38 KB | [License](http://streamlineicons.com/license.html) | Streamline Free Pack, free iOS 8 vector icons |
 | [Stroke7Icons](http://themes-pixeden.com/font-demos/7-stroke/index.html) | 1.2 | [202](http://themes-pixeden.com/font-demos/7-stroke/index.html) | 58 KB | Free to use | A series of iOS 7 inspired thin stroke icons from [Pixeden](http://www.pixeden.com) |
 | [Devicons](https://github.com/vorillaz/devicons) | 1.8.0 | [171](http://vorillaz.github.io/devicons/#/cheat) | 147 KB | MIT | An iconic font for developers. |
+| [LigatureSymbols](http://kudakurage.com/ligature_symbols/) | 2.11 | [239](http://kudakurage.com/ligature_symbols/) | 84 KB | SIL OFL 1.1 | Ligature Symbols by Kazuyuki Motoyama |
 
 ## Installation
 

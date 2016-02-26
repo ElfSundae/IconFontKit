@@ -229,6 +229,15 @@
       <FileRef
          location = "group:devicons.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFLigatureSymbols.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFLigatureSymbols.m">
+      </FileRef>
+      <FileRef
+         location = "group:LigatureSymbols.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">

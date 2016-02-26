@@ -153,7 +153,7 @@ function parseCSS($cssFile, $iconPrefix)
         return str_replace(',', $matches[1], $matches[0]);
     }, $variables);
 
-    if (preg_match_all("#^\\.{$iconPrefix}([-_.])([^:]+):[^\"'}]*[\"']\\\\([0-9a-f]+)#im", $variables, $matches)) {
+    if (preg_match_all("#^\\.{$iconPrefix}([-_.])([^: ]+)[: ][^\"'}]*[\"']\\\\([0-9a-f]+)#im", $variables, $matches)) {
         $iconNames = $matches[2];
         $iconCodes = $matches[3];
         foreach ($matches[2] as $str) {

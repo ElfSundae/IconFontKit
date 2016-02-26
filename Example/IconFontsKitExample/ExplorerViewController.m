@@ -59,6 +59,7 @@ JTSImageViewControllerDismissalDelegate, UIActionSheetDelegate>
                              [IFStreamlineFree class],
                              [IFStroke7Icons class],
                              [IFDevicons class],
+                             [IFLigatureSymbols class],
                              ];
     }
     return self;
