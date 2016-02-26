@@ -9,7 +9,7 @@
 
 + (NSString *)fontName
 {
-    return @"weathericons";
+    return @"Weather Icons";
 }
 
 + (NSDictionary *)allIcons

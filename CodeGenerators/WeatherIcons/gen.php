@@ -7,6 +7,6 @@ $fontIdentifier     = 'WeatherIcons';
 $fontDescription    = 'WeatherIcons v2.0.10 http://erikflowers.github.io/weather-icons';
 $iconTypePrefix     = 'WI';
 $fontFile           = 'weathericons-regular-webfont.ttf';
-$fontName           = 'weathericons';
+$fontName           = 'Weather Icons';
 
 generatorFromCSS('weather-icons.css', 'wi');
