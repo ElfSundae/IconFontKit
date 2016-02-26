@@ -211,6 +211,15 @@
       <FileRef
          location = "group:StreamlineFree.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFStroke7Icons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFStroke7Icons.m">
+      </FileRef>
+      <FileRef
+         location = "group:Pe-icon-7-stroke.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">

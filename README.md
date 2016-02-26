@@ -34,6 +34,7 @@
 | [Entypo](http://www.entypo.com) | 1.0 | [411](http://www.entypo.com) | 76 KB | [CC BY-SA 4.0](http://www.entypo.com/faq.php) | Entypo+ is the third version of a free suite of premium quality pictograms. |
 | [ThemifyIcons](http://themify.me/themify-icons) | 1.0 | [352](http://themify.me/themify-icons) | 79 KB | [Free to use](http://themify.me/themify-icons) | Handcrafted icons that draw inspiration from Apple iOS 7. |
 | [StreamlineFree](http://streamlineicons.com/free-icons.html) | v2 | [100](http://www.streamlineicons.com/free-icons.html) | 38 KB | [License](http://streamlineicons.com/license.html) | Streamline Free Pack, free iOS 8 vector icons |
+| [Stroke7Icons](http://themes-pixeden.com/font-demos/7-stroke/index.html) | 1.2 | [202](http://themes-pixeden.com/font-demos/7-stroke/index.html) | 58 KB | Free to use | A series of iOS 7 inspired thin stroke icons from [Pixeden](http://www.pixeden.com) |
 
 ## Installation
 

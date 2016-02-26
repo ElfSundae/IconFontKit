@@ -150,4 +150,10 @@ Pod::Spec.new do |s|
     ss.resource             = "IconFontsKit/StreamlineFree.ttf"
   end
 
+  s.subspec "Stroke7Icons" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFStroke7Icons.{h,m}"
+    ss.resource             = "IconFontsKit/Pe-icon-7-stroke.ttf"
+  end
+
 end

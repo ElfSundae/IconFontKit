@@ -57,6 +57,7 @@ JTSImageViewControllerDismissalDelegate, UIActionSheetDelegate>
                              [IFEntypo class],
                              [IFThemifyIcons class],
                              [IFStreamlineFree class],
+                             [IFStroke7Icons class],
                              ];
     }
     return self;
