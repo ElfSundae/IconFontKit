@@ -3,1185 +3,1185 @@
 /// WeatherIcons icon types.
 typedef NS_ENUM(IFIconType, IFWeatherIconsType) {
     /// Identifier: "wi-day-sunny"
-    IFWIDaySunny                            = 0xf00d,
+    IFWeatherIconDaySunny                            = 0xf00d,
     /// Identifier: "wi-day-cloudy"
-    IFWIDayCloudy                           = 0xf002,
+    IFWeatherIconDayCloudy                           = 0xf002,
     /// Identifier: "wi-day-cloudy-gusts"
-    IFWIDayCloudyGusts                      = 0xf000,
+    IFWeatherIconDayCloudyGusts                      = 0xf000,
     /// Identifier: "wi-day-cloudy-windy"
-    IFWIDayCloudyWindy                      = 0xf001,
+    IFWeatherIconDayCloudyWindy                      = 0xf001,
     /// Identifier: "wi-day-fog"
-    IFWIDayFog                              = 0xf003,
+    IFWeatherIconDayFog                              = 0xf003,
     /// Identifier: "wi-day-hail"
-    IFWIDayHail                             = 0xf004,
+    IFWeatherIconDayHail                             = 0xf004,
     /// Identifier: "wi-day-haze"
-    IFWIDayHaze                             = 0xf0b6,
+    IFWeatherIconDayHaze                             = 0xf0b6,
     /// Identifier: "wi-day-lightning"
-    IFWIDayLightning                        = 0xf005,
+    IFWeatherIconDayLightning                        = 0xf005,
     /// Identifier: "wi-day-rain"
-    IFWIDayRain                             = 0xf008,
+    IFWeatherIconDayRain                             = 0xf008,
     /// Identifier: "wi-day-rain-mix"
-    IFWIDayRainMix                          = 0xf006,
+    IFWeatherIconDayRainMix                          = 0xf006,
     /// Identifier: "wi-day-rain-wind"
-    IFWIDayRainWind                         = 0xf007,
+    IFWeatherIconDayRainWind                         = 0xf007,
     /// Identifier: "wi-day-showers"
-    IFWIDayShowers                          = 0xf009,
+    IFWeatherIconDayShowers                          = 0xf009,
     /// Identifier: "wi-day-sleet"
-    IFWIDaySleet                            = 0xf0b2,
+    IFWeatherIconDaySleet                            = 0xf0b2,
     /// Identifier: "wi-day-sleet-storm"
-    IFWIDaySleetStorm                       = 0xf068,
+    IFWeatherIconDaySleetStorm                       = 0xf068,
     /// Identifier: "wi-day-snow"
-    IFWIDaySnow                             = 0xf00a,
+    IFWeatherIconDaySnow                             = 0xf00a,
     /// Identifier: "wi-day-snow-thunderstorm"
-    IFWIDaySnowThunderstorm                 = 0xf06b,
+    IFWeatherIconDaySnowThunderstorm                 = 0xf06b,
     /// Identifier: "wi-day-snow-wind"
-    IFWIDaySnowWind                         = 0xf065,
+    IFWeatherIconDaySnowWind                         = 0xf065,
     /// Identifier: "wi-day-sprinkle"
-    IFWIDaySprinkle                         = 0xf00b,
+    IFWeatherIconDaySprinkle                         = 0xf00b,
     /// Identifier: "wi-day-storm-showers"
-    IFWIDayStormShowers                     = 0xf00e,
+    IFWeatherIconDayStormShowers                     = 0xf00e,
     /// Identifier: "wi-day-sunny-overcast"
-    IFWIDaySunnyOvercast                    = 0xf00c,
+    IFWeatherIconDaySunnyOvercast                    = 0xf00c,
     /// Identifier: "wi-day-thunderstorm"
-    IFWIDayThunderstorm                     = 0xf010,
+    IFWeatherIconDayThunderstorm                     = 0xf010,
     /// Identifier: "wi-day-windy"
-    IFWIDayWindy                            = 0xf085,
+    IFWeatherIconDayWindy                            = 0xf085,
     /// Identifier: "wi-solar-eclipse"
-    IFWISolarEclipse                        = 0xf06e,
+    IFWeatherIconSolarEclipse                        = 0xf06e,
     /// Identifier: "wi-hot"
-    IFWIHot                                 = 0xf072,
+    IFWeatherIconHot                                 = 0xf072,
     /// Identifier: "wi-day-cloudy-high"
-    IFWIDayCloudyHigh                       = 0xf07d,
+    IFWeatherIconDayCloudyHigh                       = 0xf07d,
     /// Identifier: "wi-day-light-wind"
-    IFWIDayLightWind                        = 0xf0c4,
+    IFWeatherIconDayLightWind                        = 0xf0c4,
     /// Identifier: "wi-night-clear"
-    IFWINightClear                          = 0xf02e,
+    IFWeatherIconNightClear                          = 0xf02e,
     /// Identifier: "wi-night-alt-cloudy"
-    IFWINightAltCloudy                      = 0xf086,
+    IFWeatherIconNightAltCloudy                      = 0xf086,
     /// Identifier: "wi-night-alt-cloudy-gusts"
-    IFWINightAltCloudyGusts                 = 0xf022,
+    IFWeatherIconNightAltCloudyGusts                 = 0xf022,
     /// Identifier: "wi-night-alt-cloudy-windy"
-    IFWINightAltCloudyWindy                 = 0xf023,
+    IFWeatherIconNightAltCloudyWindy                 = 0xf023,
     /// Identifier: "wi-night-alt-hail"
-    IFWINightAltHail                        = 0xf024,
+    IFWeatherIconNightAltHail                        = 0xf024,
     /// Identifier: "wi-night-alt-lightning"
-    IFWINightAltLightning                   = 0xf025,
+    IFWeatherIconNightAltLightning                   = 0xf025,
     /// Identifier: "wi-night-alt-rain"
-    IFWINightAltRain                        = 0xf028,
+    IFWeatherIconNightAltRain                        = 0xf028,
     /// Identifier: "wi-night-alt-rain-mix"
-    IFWINightAltRainMix                     = 0xf026,
+    IFWeatherIconNightAltRainMix                     = 0xf026,
     /// Identifier: "wi-night-alt-rain-wind"
-    IFWINightAltRainWind                    = 0xf027,
+    IFWeatherIconNightAltRainWind                    = 0xf027,
     /// Identifier: "wi-night-alt-showers"
-    IFWINightAltShowers                     = 0xf029,
+    IFWeatherIconNightAltShowers                     = 0xf029,
     /// Identifier: "wi-night-alt-sleet"
-    IFWINightAltSleet                       = 0xf0b4,
+    IFWeatherIconNightAltSleet                       = 0xf0b4,
     /// Identifier: "wi-night-alt-sleet-storm"
-    IFWINightAltSleetStorm                  = 0xf06a,
+    IFWeatherIconNightAltSleetStorm                  = 0xf06a,
     /// Identifier: "wi-night-alt-snow"
-    IFWINightAltSnow                        = 0xf02a,
+    IFWeatherIconNightAltSnow                        = 0xf02a,
     /// Identifier: "wi-night-alt-snow-thunderstorm"
-    IFWINightAltSnowThunderstorm            = 0xf06d,
+    IFWeatherIconNightAltSnowThunderstorm            = 0xf06d,
     /// Identifier: "wi-night-alt-snow-wind"
-    IFWINightAltSnowWind                    = 0xf067,
+    IFWeatherIconNightAltSnowWind                    = 0xf067,
     /// Identifier: "wi-night-alt-sprinkle"
-    IFWINightAltSprinkle                    = 0xf02b,
+    IFWeatherIconNightAltSprinkle                    = 0xf02b,
     /// Identifier: "wi-night-alt-storm-showers"
-    IFWINightAltStormShowers                = 0xf02c,
+    IFWeatherIconNightAltStormShowers                = 0xf02c,
     /// Identifier: "wi-night-alt-thunderstorm"
-    IFWINightAltThunderstorm                = 0xf02d,
+    IFWeatherIconNightAltThunderstorm                = 0xf02d,
     /// Identifier: "wi-night-cloudy"
-    IFWINightCloudy                         = 0xf031,
+    IFWeatherIconNightCloudy                         = 0xf031,
     /// Identifier: "wi-night-cloudy-gusts"
-    IFWINightCloudyGusts                    = 0xf02f,
+    IFWeatherIconNightCloudyGusts                    = 0xf02f,
     /// Identifier: "wi-night-cloudy-windy"
-    IFWINightCloudyWindy                    = 0xf030,
+    IFWeatherIconNightCloudyWindy                    = 0xf030,
     /// Identifier: "wi-night-fog"
-    IFWINightFog                            = 0xf04a,
+    IFWeatherIconNightFog                            = 0xf04a,
     /// Identifier: "wi-night-hail"
-    IFWINightHail                           = 0xf032,
+    IFWeatherIconNightHail                           = 0xf032,
     /// Identifier: "wi-night-lightning"
-    IFWINightLightning                      = 0xf033,
+    IFWeatherIconNightLightning                      = 0xf033,
     /// Identifier: "wi-night-partly-cloudy"
-    IFWINightPartlyCloudy                   = 0xf083,
+    IFWeatherIconNightPartlyCloudy                   = 0xf083,
     /// Identifier: "wi-night-rain"
-    IFWINightRain                           = 0xf036,
+    IFWeatherIconNightRain                           = 0xf036,
     /// Identifier: "wi-night-rain-mix"
-    IFWINightRainMix                        = 0xf034,
+    IFWeatherIconNightRainMix                        = 0xf034,
     /// Identifier: "wi-night-rain-wind"
-    IFWINightRainWind                       = 0xf035,
+    IFWeatherIconNightRainWind                       = 0xf035,
     /// Identifier: "wi-night-showers"
-    IFWINightShowers                        = 0xf037,
+    IFWeatherIconNightShowers                        = 0xf037,
     /// Identifier: "wi-night-sleet"
-    IFWINightSleet                          = 0xf0b3,
+    IFWeatherIconNightSleet                          = 0xf0b3,
     /// Identifier: "wi-night-sleet-storm"
-    IFWINightSleetStorm                     = 0xf069,
+    IFWeatherIconNightSleetStorm                     = 0xf069,
     /// Identifier: "wi-night-snow"
-    IFWINightSnow                           = 0xf038,
+    IFWeatherIconNightSnow                           = 0xf038,
     /// Identifier: "wi-night-snow-thunderstorm"
-    IFWINightSnowThunderstorm               = 0xf06c,
+    IFWeatherIconNightSnowThunderstorm               = 0xf06c,
     /// Identifier: "wi-night-snow-wind"
-    IFWINightSnowWind                       = 0xf066,
+    IFWeatherIconNightSnowWind                       = 0xf066,
     /// Identifier: "wi-night-sprinkle"
-    IFWINightSprinkle                       = 0xf039,
+    IFWeatherIconNightSprinkle                       = 0xf039,
     /// Identifier: "wi-night-storm-showers"
-    IFWINightStormShowers                   = 0xf03a,
+    IFWeatherIconNightStormShowers                   = 0xf03a,
     /// Identifier: "wi-night-thunderstorm"
-    IFWINightThunderstorm                   = 0xf03b,
+    IFWeatherIconNightThunderstorm                   = 0xf03b,
     /// Identifier: "wi-lunar-eclipse"
-    IFWILunarEclipse                        = 0xf070,
+    IFWeatherIconLunarEclipse                        = 0xf070,
     /// Identifier: "wi-stars"
-    IFWIStars                               = 0xf077,
+    IFWeatherIconStars                               = 0xf077,
     /// Identifier: "wi-storm-showers"
-    IFWIStormShowers                        = 0xf01d,
+    IFWeatherIconStormShowers                        = 0xf01d,
     /// Identifier: "wi-thunderstorm"
-    IFWIThunderstorm                        = 0xf01e,
+    IFWeatherIconThunderstorm                        = 0xf01e,
     /// Identifier: "wi-night-alt-cloudy-high"
-    IFWINightAltCloudyHigh                  = 0xf07e,
+    IFWeatherIconNightAltCloudyHigh                  = 0xf07e,
     /// Identifier: "wi-night-cloudy-high"
-    IFWINightCloudyHigh                     = 0xf080,
+    IFWeatherIconNightCloudyHigh                     = 0xf080,
     /// Identifier: "wi-night-alt-partly-cloudy"
-    IFWINightAltPartlyCloudy                = 0xf081,
+    IFWeatherIconNightAltPartlyCloudy                = 0xf081,
     /// Identifier: "wi-cloud"
-    IFWICloud                               = 0xf041,
+    IFWeatherIconCloud                               = 0xf041,
     /// Identifier: "wi-cloudy"
-    IFWICloudy                              = 0xf013,
+    IFWeatherIconCloudy                              = 0xf013,
     /// Identifier: "wi-cloudy-gusts"
-    IFWICloudyGusts                         = 0xf011,
+    IFWeatherIconCloudyGusts                         = 0xf011,
     /// Identifier: "wi-cloudy-windy"
-    IFWICloudyWindy                         = 0xf012,
+    IFWeatherIconCloudyWindy                         = 0xf012,
     /// Identifier: "wi-fog"
-    IFWIFog                                 = 0xf014,
+    IFWeatherIconFog                                 = 0xf014,
     /// Identifier: "wi-hail"
-    IFWIHail                                = 0xf015,
+    IFWeatherIconHail                                = 0xf015,
     /// Identifier: "wi-rain"
-    IFWIRain                                = 0xf019,
+    IFWeatherIconRain                                = 0xf019,
     /// Identifier: "wi-rain-mix"
-    IFWIRainMix                             = 0xf017,
+    IFWeatherIconRainMix                             = 0xf017,
     /// Identifier: "wi-rain-wind"
-    IFWIRainWind                            = 0xf018,
+    IFWeatherIconRainWind                            = 0xf018,
     /// Identifier: "wi-showers"
-    IFWIShowers                             = 0xf01a,
+    IFWeatherIconShowers                             = 0xf01a,
     /// Identifier: "wi-sleet"
-    IFWISleet                               = 0xf0b5,
+    IFWeatherIconSleet                               = 0xf0b5,
     /// Identifier: "wi-snow"
-    IFWISnow                                = 0xf01b,
+    IFWeatherIconSnow                                = 0xf01b,
     /// Identifier: "wi-sprinkle"
-    IFWISprinkle                            = 0xf01c,
+    IFWeatherIconSprinkle                            = 0xf01c,
     /// Identifier: "wi-snow-wind"
-    IFWISnowWind                            = 0xf064,
+    IFWeatherIconSnowWind                            = 0xf064,
     /// Identifier: "wi-smog"
-    IFWISmog                                = 0xf074,
+    IFWeatherIconSmog                                = 0xf074,
     /// Identifier: "wi-smoke"
-    IFWISmoke                               = 0xf062,
+    IFWeatherIconSmoke                               = 0xf062,
     /// Identifier: "wi-lightning"
-    IFWILightning                           = 0xf016,
+    IFWeatherIconLightning                           = 0xf016,
     /// Identifier: "wi-raindrops"
-    IFWIRaindrops                           = 0xf04e,
+    IFWeatherIconRaindrops                           = 0xf04e,
     /// Identifier: "wi-raindrop"
-    IFWIRaindrop                            = 0xf078,
+    IFWeatherIconRaindrop                            = 0xf078,
     /// Identifier: "wi-dust"
-    IFWIDust                                = 0xf063,
+    IFWeatherIconDust                                = 0xf063,
     /// Identifier: "wi-snowflake-cold"
-    IFWISnowflakeCold                       = 0xf076,
+    IFWeatherIconSnowflakeCold                       = 0xf076,
     /// Identifier: "wi-windy"
-    IFWIWindy                               = 0xf021,
+    IFWeatherIconWindy                               = 0xf021,
     /// Identifier: "wi-strong-wind"
-    IFWIStrongWind                          = 0xf050,
+    IFWeatherIconStrongWind                          = 0xf050,
     /// Identifier: "wi-sandstorm"
-    IFWISandstorm                           = 0xf082,
+    IFWeatherIconSandstorm                           = 0xf082,
     /// Identifier: "wi-earthquake"
-    IFWIEarthquake                          = 0xf0c6,
+    IFWeatherIconEarthquake                          = 0xf0c6,
     /// Identifier: "wi-fire"
-    IFWIFire                                = 0xf0c7,
+    IFWeatherIconFire                                = 0xf0c7,
     /// Identifier: "wi-flood"
-    IFWIFlood                               = 0xf07c,
+    IFWeatherIconFlood                               = 0xf07c,
     /// Identifier: "wi-meteor"
-    IFWIMeteor                              = 0xf071,
+    IFWeatherIconMeteor                              = 0xf071,
     /// Identifier: "wi-tsunami"
-    IFWITsunami                             = 0xf0c5,
+    IFWeatherIconTsunami                             = 0xf0c5,
     /// Identifier: "wi-volcano"
-    IFWIVolcano                             = 0xf0c8,
+    IFWeatherIconVolcano                             = 0xf0c8,
     /// Identifier: "wi-hurricane"
-    IFWIHurricane                           = 0xf073,
+    IFWeatherIconHurricane                           = 0xf073,
     /// Identifier: "wi-tornado"
-    IFWITornado                             = 0xf056,
+    IFWeatherIconTornado                             = 0xf056,
     /// Identifier: "wi-small-craft-advisory"
-    IFWISmallCraftAdvisory                  = 0xf0cc,
+    IFWeatherIconSmallCraftAdvisory                  = 0xf0cc,
     /// Identifier: "wi-gale-warning"
-    IFWIGaleWarning                         = 0xf0cd,
+    IFWeatherIconGaleWarning                         = 0xf0cd,
     /// Identifier: "wi-storm-warning"
-    IFWIStormWarning                        = 0xf0ce,
+    IFWeatherIconStormWarning                        = 0xf0ce,
     /// Identifier: "wi-hurricane-warning"
-    IFWIHurricaneWarning                    = 0xf0cf,
+    IFWeatherIconHurricaneWarning                    = 0xf0cf,
     /// Identifier: "wi-wind-direction"
-    IFWIWindDirection                       = 0xf0b1,
+    IFWeatherIconWindDirection                       = 0xf0b1,
     /// Identifier: "wi-alien"
-    IFWIAlien                               = 0xf075,
+    IFWeatherIconAlien                               = 0xf075,
     /// Identifier: "wi-celsius"
-    IFWICelsius                             = 0xf03c,
+    IFWeatherIconCelsius                             = 0xf03c,
     /// Identifier: "wi-fahrenheit"
-    IFWIFahrenheit                          = 0xf045,
+    IFWeatherIconFahrenheit                          = 0xf045,
     /// Identifier: "wi-degrees"
-    IFWIDegrees                             = 0xf042,
+    IFWeatherIconDegrees                             = 0xf042,
     /// Identifier: "wi-thermometer"
-    IFWIThermometer                         = 0xf055,
+    IFWeatherIconThermometer                         = 0xf055,
     /// Identifier: "wi-thermometer-exterior"
-    IFWIThermometerExterior                 = 0xf053,
+    IFWeatherIconThermometerExterior                 = 0xf053,
     /// Identifier: "wi-thermometer-internal"
-    IFWIThermometerInternal                 = 0xf054,
+    IFWeatherIconThermometerInternal                 = 0xf054,
     /// Identifier: "wi-cloud-down"
-    IFWICloudDown                           = 0xf03d,
+    IFWeatherIconCloudDown                           = 0xf03d,
     /// Identifier: "wi-cloud-up"
-    IFWICloudUp                             = 0xf040,
+    IFWeatherIconCloudUp                             = 0xf040,
     /// Identifier: "wi-cloud-refresh"
-    IFWICloudRefresh                        = 0xf03e,
+    IFWeatherIconCloudRefresh                        = 0xf03e,
     /// Identifier: "wi-horizon"
-    IFWIHorizon                             = 0xf047,
+    IFWeatherIconHorizon                             = 0xf047,
     /// Identifier: "wi-horizon-alt"
-    IFWIHorizonAlt                          = 0xf046,
+    IFWeatherIconHorizonAlt                          = 0xf046,
     /// Identifier: "wi-sunrise"
-    IFWISunrise                             = 0xf051,
+    IFWeatherIconSunrise                             = 0xf051,
     /// Identifier: "wi-sunset"
-    IFWISunset                              = 0xf052,
+    IFWeatherIconSunset                              = 0xf052,
     /// Identifier: "wi-moonrise"
-    IFWIMoonrise                            = 0xf0c9,
+    IFWeatherIconMoonrise                            = 0xf0c9,
     /// Identifier: "wi-moonset"
-    IFWIMoonset                             = 0xf0ca,
+    IFWeatherIconMoonset                             = 0xf0ca,
     /// Identifier: "wi-refresh"
-    IFWIRefresh                             = 0xf04c,
+    IFWeatherIconRefresh                             = 0xf04c,
     /// Identifier: "wi-refresh-alt"
-    IFWIRefreshAlt                          = 0xf04b,
+    IFWeatherIconRefreshAlt                          = 0xf04b,
     /// Identifier: "wi-umbrella"
-    IFWIUmbrella                            = 0xf084,
+    IFWeatherIconUmbrella                            = 0xf084,
     /// Identifier: "wi-barometer"
-    IFWIBarometer                           = 0xf079,
+    IFWeatherIconBarometer                           = 0xf079,
     /// Identifier: "wi-humidity"
-    IFWIHumidity                            = 0xf07a,
+    IFWeatherIconHumidity                            = 0xf07a,
     /// Identifier: "wi-na"
-    IFWINa                                  = 0xf07b,
+    IFWeatherIconNa                                  = 0xf07b,
     /// Identifier: "wi-train"
-    IFWITrain                               = 0xf0cb,
+    IFWeatherIconTrain                               = 0xf0cb,
     /// Identifier: "wi-moon-new"
-    IFWIMoonNew                             = 0xf095,
+    IFWeatherIconMoonNew                             = 0xf095,
     /// Identifier: "wi-moon-waxing-crescent-1"
-    IFWIMoonWaxingCrescent1                 = 0xf096,
+    IFWeatherIconMoonWaxingCrescent1                 = 0xf096,
     /// Identifier: "wi-moon-waxing-crescent-2"
-    IFWIMoonWaxingCrescent2                 = 0xf097,
+    IFWeatherIconMoonWaxingCrescent2                 = 0xf097,
     /// Identifier: "wi-moon-waxing-crescent-3"
-    IFWIMoonWaxingCrescent3                 = 0xf098,
+    IFWeatherIconMoonWaxingCrescent3                 = 0xf098,
     /// Identifier: "wi-moon-waxing-crescent-4"
-    IFWIMoonWaxingCrescent4                 = 0xf099,
+    IFWeatherIconMoonWaxingCrescent4                 = 0xf099,
     /// Identifier: "wi-moon-waxing-crescent-5"
-    IFWIMoonWaxingCrescent5                 = 0xf09a,
+    IFWeatherIconMoonWaxingCrescent5                 = 0xf09a,
     /// Identifier: "wi-moon-waxing-crescent-6"
-    IFWIMoonWaxingCrescent6                 = 0xf09b,
+    IFWeatherIconMoonWaxingCrescent6                 = 0xf09b,
     /// Identifier: "wi-moon-first-quarter"
-    IFWIMoonFirstQuarter                    = 0xf09c,
+    IFWeatherIconMoonFirstQuarter                    = 0xf09c,
     /// Identifier: "wi-moon-waxing-gibbous-1"
-    IFWIMoonWaxingGibbous1                  = 0xf09d,
+    IFWeatherIconMoonWaxingGibbous1                  = 0xf09d,
     /// Identifier: "wi-moon-waxing-gibbous-2"
-    IFWIMoonWaxingGibbous2                  = 0xf09e,
+    IFWeatherIconMoonWaxingGibbous2                  = 0xf09e,
     /// Identifier: "wi-moon-waxing-gibbous-3"
-    IFWIMoonWaxingGibbous3                  = 0xf09f,
+    IFWeatherIconMoonWaxingGibbous3                  = 0xf09f,
     /// Identifier: "wi-moon-waxing-gibbous-4"
-    IFWIMoonWaxingGibbous4                  = 0xf0a0,
+    IFWeatherIconMoonWaxingGibbous4                  = 0xf0a0,
     /// Identifier: "wi-moon-waxing-gibbous-5"
-    IFWIMoonWaxingGibbous5                  = 0xf0a1,
+    IFWeatherIconMoonWaxingGibbous5                  = 0xf0a1,
     /// Identifier: "wi-moon-waxing-gibbous-6"
-    IFWIMoonWaxingGibbous6                  = 0xf0a2,
+    IFWeatherIconMoonWaxingGibbous6                  = 0xf0a2,
     /// Identifier: "wi-moon-full"
-    IFWIMoonFull                            = 0xf0a3,
+    IFWeatherIconMoonFull                            = 0xf0a3,
     /// Identifier: "wi-moon-waning-gibbous-1"
-    IFWIMoonWaningGibbous1                  = 0xf0a4,
+    IFWeatherIconMoonWaningGibbous1                  = 0xf0a4,
     /// Identifier: "wi-moon-waning-gibbous-2"
-    IFWIMoonWaningGibbous2                  = 0xf0a5,
+    IFWeatherIconMoonWaningGibbous2                  = 0xf0a5,
     /// Identifier: "wi-moon-waning-gibbous-3"
-    IFWIMoonWaningGibbous3                  = 0xf0a6,
+    IFWeatherIconMoonWaningGibbous3                  = 0xf0a6,
     /// Identifier: "wi-moon-waning-gibbous-4"
-    IFWIMoonWaningGibbous4                  = 0xf0a7,
+    IFWeatherIconMoonWaningGibbous4                  = 0xf0a7,
     /// Identifier: "wi-moon-waning-gibbous-5"
-    IFWIMoonWaningGibbous5                  = 0xf0a8,
+    IFWeatherIconMoonWaningGibbous5                  = 0xf0a8,
     /// Identifier: "wi-moon-waning-gibbous-6"
-    IFWIMoonWaningGibbous6                  = 0xf0a9,
+    IFWeatherIconMoonWaningGibbous6                  = 0xf0a9,
     /// Identifier: "wi-moon-third-quarter"
-    IFWIMoonThirdQuarter                    = 0xf0aa,
+    IFWeatherIconMoonThirdQuarter                    = 0xf0aa,
     /// Identifier: "wi-moon-waning-crescent-1"
-    IFWIMoonWaningCrescent1                 = 0xf0ab,
+    IFWeatherIconMoonWaningCrescent1                 = 0xf0ab,
     /// Identifier: "wi-moon-waning-crescent-2"
-    IFWIMoonWaningCrescent2                 = 0xf0ac,
+    IFWeatherIconMoonWaningCrescent2                 = 0xf0ac,
     /// Identifier: "wi-moon-waning-crescent-3"
-    IFWIMoonWaningCrescent3                 = 0xf0ad,
+    IFWeatherIconMoonWaningCrescent3                 = 0xf0ad,
     /// Identifier: "wi-moon-waning-crescent-4"
-    IFWIMoonWaningCrescent4                 = 0xf0ae,
+    IFWeatherIconMoonWaningCrescent4                 = 0xf0ae,
     /// Identifier: "wi-moon-waning-crescent-5"
-    IFWIMoonWaningCrescent5                 = 0xf0af,
+    IFWeatherIconMoonWaningCrescent5                 = 0xf0af,
     /// Identifier: "wi-moon-waning-crescent-6"
-    IFWIMoonWaningCrescent6                 = 0xf0b0,
+    IFWeatherIconMoonWaningCrescent6                 = 0xf0b0,
     /// Identifier: "wi-moon-alt-new"
-    IFWIMoonAltNew                          = 0xf0eb,
+    IFWeatherIconMoonAltNew                          = 0xf0eb,
     /// Identifier: "wi-moon-alt-waxing-crescent-1"
-    IFWIMoonAltWaxingCrescent1              = 0xf0d0,
+    IFWeatherIconMoonAltWaxingCrescent1              = 0xf0d0,
     /// Identifier: "wi-moon-alt-waxing-crescent-2"
-    IFWIMoonAltWaxingCrescent2              = 0xf0d1,
+    IFWeatherIconMoonAltWaxingCrescent2              = 0xf0d1,
     /// Identifier: "wi-moon-alt-waxing-crescent-3"
-    IFWIMoonAltWaxingCrescent3              = 0xf0d2,
+    IFWeatherIconMoonAltWaxingCrescent3              = 0xf0d2,
     /// Identifier: "wi-moon-alt-waxing-crescent-4"
-    IFWIMoonAltWaxingCrescent4              = 0xf0d3,
+    IFWeatherIconMoonAltWaxingCrescent4              = 0xf0d3,
     /// Identifier: "wi-moon-alt-waxing-crescent-5"
-    IFWIMoonAltWaxingCrescent5              = 0xf0d4,
+    IFWeatherIconMoonAltWaxingCrescent5              = 0xf0d4,
     /// Identifier: "wi-moon-alt-waxing-crescent-6"
-    IFWIMoonAltWaxingCrescent6              = 0xf0d5,
+    IFWeatherIconMoonAltWaxingCrescent6              = 0xf0d5,
     /// Identifier: "wi-moon-alt-first-quarter"
-    IFWIMoonAltFirstQuarter                 = 0xf0d6,
+    IFWeatherIconMoonAltFirstQuarter                 = 0xf0d6,
     /// Identifier: "wi-moon-alt-waxing-gibbous-1"
-    IFWIMoonAltWaxingGibbous1               = 0xf0d7,
+    IFWeatherIconMoonAltWaxingGibbous1               = 0xf0d7,
     /// Identifier: "wi-moon-alt-waxing-gibbous-2"
-    IFWIMoonAltWaxingGibbous2               = 0xf0d8,
+    IFWeatherIconMoonAltWaxingGibbous2               = 0xf0d8,
     /// Identifier: "wi-moon-alt-waxing-gibbous-3"
-    IFWIMoonAltWaxingGibbous3               = 0xf0d9,
+    IFWeatherIconMoonAltWaxingGibbous3               = 0xf0d9,
     /// Identifier: "wi-moon-alt-waxing-gibbous-4"
-    IFWIMoonAltWaxingGibbous4               = 0xf0da,
+    IFWeatherIconMoonAltWaxingGibbous4               = 0xf0da,
     /// Identifier: "wi-moon-alt-waxing-gibbous-5"
-    IFWIMoonAltWaxingGibbous5               = 0xf0db,
+    IFWeatherIconMoonAltWaxingGibbous5               = 0xf0db,
     /// Identifier: "wi-moon-alt-waxing-gibbous-6"
-    IFWIMoonAltWaxingGibbous6               = 0xf0dc,
+    IFWeatherIconMoonAltWaxingGibbous6               = 0xf0dc,
     /// Identifier: "wi-moon-alt-full"
-    IFWIMoonAltFull                         = 0xf0dd,
+    IFWeatherIconMoonAltFull                         = 0xf0dd,
     /// Identifier: "wi-moon-alt-waning-gibbous-1"
-    IFWIMoonAltWaningGibbous1               = 0xf0de,
+    IFWeatherIconMoonAltWaningGibbous1               = 0xf0de,
     /// Identifier: "wi-moon-alt-waning-gibbous-2"
-    IFWIMoonAltWaningGibbous2               = 0xf0df,
+    IFWeatherIconMoonAltWaningGibbous2               = 0xf0df,
     /// Identifier: "wi-moon-alt-waning-gibbous-3"
-    IFWIMoonAltWaningGibbous3               = 0xf0e0,
+    IFWeatherIconMoonAltWaningGibbous3               = 0xf0e0,
     /// Identifier: "wi-moon-alt-waning-gibbous-4"
-    IFWIMoonAltWaningGibbous4               = 0xf0e1,
+    IFWeatherIconMoonAltWaningGibbous4               = 0xf0e1,
     /// Identifier: "wi-moon-alt-waning-gibbous-5"
-    IFWIMoonAltWaningGibbous5               = 0xf0e2,
+    IFWeatherIconMoonAltWaningGibbous5               = 0xf0e2,
     /// Identifier: "wi-moon-alt-waning-gibbous-6"
-    IFWIMoonAltWaningGibbous6               = 0xf0e3,
+    IFWeatherIconMoonAltWaningGibbous6               = 0xf0e3,
     /// Identifier: "wi-moon-alt-third-quarter"
-    IFWIMoonAltThirdQuarter                 = 0xf0e4,
+    IFWeatherIconMoonAltThirdQuarter                 = 0xf0e4,
     /// Identifier: "wi-moon-alt-waning-crescent-1"
-    IFWIMoonAltWaningCrescent1              = 0xf0e5,
+    IFWeatherIconMoonAltWaningCrescent1              = 0xf0e5,
     /// Identifier: "wi-moon-alt-waning-crescent-2"
-    IFWIMoonAltWaningCrescent2              = 0xf0e6,
+    IFWeatherIconMoonAltWaningCrescent2              = 0xf0e6,
     /// Identifier: "wi-moon-alt-waning-crescent-3"
-    IFWIMoonAltWaningCrescent3              = 0xf0e7,
+    IFWeatherIconMoonAltWaningCrescent3              = 0xf0e7,
     /// Identifier: "wi-moon-alt-waning-crescent-4"
-    IFWIMoonAltWaningCrescent4              = 0xf0e8,
+    IFWeatherIconMoonAltWaningCrescent4              = 0xf0e8,
     /// Identifier: "wi-moon-alt-waning-crescent-5"
-    IFWIMoonAltWaningCrescent5              = 0xf0e9,
+    IFWeatherIconMoonAltWaningCrescent5              = 0xf0e9,
     /// Identifier: "wi-moon-alt-waning-crescent-6"
-    IFWIMoonAltWaningCrescent6              = 0xf0ea,
+    IFWeatherIconMoonAltWaningCrescent6              = 0xf0ea,
     /// Identifier: "wi-moon-0"
-    IFWIMoon0                               = 0xf095,
+    IFWeatherIconMoon0                               = 0xf095,
     /// Identifier: "wi-moon-1"
-    IFWIMoon1                               = 0xf096,
+    IFWeatherIconMoon1                               = 0xf096,
     /// Identifier: "wi-moon-2"
-    IFWIMoon2                               = 0xf097,
+    IFWeatherIconMoon2                               = 0xf097,
     /// Identifier: "wi-moon-3"
-    IFWIMoon3                               = 0xf098,
+    IFWeatherIconMoon3                               = 0xf098,
     /// Identifier: "wi-moon-4"
-    IFWIMoon4                               = 0xf099,
+    IFWeatherIconMoon4                               = 0xf099,
     /// Identifier: "wi-moon-5"
-    IFWIMoon5                               = 0xf09a,
+    IFWeatherIconMoon5                               = 0xf09a,
     /// Identifier: "wi-moon-6"
-    IFWIMoon6                               = 0xf09b,
+    IFWeatherIconMoon6                               = 0xf09b,
     /// Identifier: "wi-moon-7"
-    IFWIMoon7                               = 0xf09c,
+    IFWeatherIconMoon7                               = 0xf09c,
     /// Identifier: "wi-moon-8"
-    IFWIMoon8                               = 0xf09d,
+    IFWeatherIconMoon8                               = 0xf09d,
     /// Identifier: "wi-moon-9"
-    IFWIMoon9                               = 0xf09e,
+    IFWeatherIconMoon9                               = 0xf09e,
     /// Identifier: "wi-moon-10"
-    IFWIMoon10                              = 0xf09f,
+    IFWeatherIconMoon10                              = 0xf09f,
     /// Identifier: "wi-moon-11"
-    IFWIMoon11                              = 0xf0a0,
+    IFWeatherIconMoon11                              = 0xf0a0,
     /// Identifier: "wi-moon-12"
-    IFWIMoon12                              = 0xf0a1,
+    IFWeatherIconMoon12                              = 0xf0a1,
     /// Identifier: "wi-moon-13"
-    IFWIMoon13                              = 0xf0a2,
+    IFWeatherIconMoon13                              = 0xf0a2,
     /// Identifier: "wi-moon-14"
-    IFWIMoon14                              = 0xf0a3,
+    IFWeatherIconMoon14                              = 0xf0a3,
     /// Identifier: "wi-moon-15"
-    IFWIMoon15                              = 0xf0a4,
+    IFWeatherIconMoon15                              = 0xf0a4,
     /// Identifier: "wi-moon-16"
-    IFWIMoon16                              = 0xf0a5,
+    IFWeatherIconMoon16                              = 0xf0a5,
     /// Identifier: "wi-moon-17"
-    IFWIMoon17                              = 0xf0a6,
+    IFWeatherIconMoon17                              = 0xf0a6,
     /// Identifier: "wi-moon-18"
-    IFWIMoon18                              = 0xf0a7,
+    IFWeatherIconMoon18                              = 0xf0a7,
     /// Identifier: "wi-moon-19"
-    IFWIMoon19                              = 0xf0a8,
+    IFWeatherIconMoon19                              = 0xf0a8,
     /// Identifier: "wi-moon-20"
-    IFWIMoon20                              = 0xf0a9,
+    IFWeatherIconMoon20                              = 0xf0a9,
     /// Identifier: "wi-moon-21"
-    IFWIMoon21                              = 0xf0aa,
+    IFWeatherIconMoon21                              = 0xf0aa,
     /// Identifier: "wi-moon-22"
-    IFWIMoon22                              = 0xf0ab,
+    IFWeatherIconMoon22                              = 0xf0ab,
     /// Identifier: "wi-moon-23"
-    IFWIMoon23                              = 0xf0ac,
+    IFWeatherIconMoon23                              = 0xf0ac,
     /// Identifier: "wi-moon-24"
-    IFWIMoon24                              = 0xf0ad,
+    IFWeatherIconMoon24                              = 0xf0ad,
     /// Identifier: "wi-moon-25"
-    IFWIMoon25                              = 0xf0ae,
+    IFWeatherIconMoon25                              = 0xf0ae,
     /// Identifier: "wi-moon-26"
-    IFWIMoon26                              = 0xf0af,
+    IFWeatherIconMoon26                              = 0xf0af,
     /// Identifier: "wi-moon-27"
-    IFWIMoon27                              = 0xf0b0,
+    IFWeatherIconMoon27                              = 0xf0b0,
     /// Identifier: "wi-time-1"
-    IFWITime1                               = 0xf08a,
+    IFWeatherIconTime1                               = 0xf08a,
     /// Identifier: "wi-time-2"
-    IFWITime2                               = 0xf08b,
+    IFWeatherIconTime2                               = 0xf08b,
     /// Identifier: "wi-time-3"
-    IFWITime3                               = 0xf08c,
+    IFWeatherIconTime3                               = 0xf08c,
     /// Identifier: "wi-time-4"
-    IFWITime4                               = 0xf08d,
+    IFWeatherIconTime4                               = 0xf08d,
     /// Identifier: "wi-time-5"
-    IFWITime5                               = 0xf08e,
+    IFWeatherIconTime5                               = 0xf08e,
     /// Identifier: "wi-time-6"
-    IFWITime6                               = 0xf08f,
+    IFWeatherIconTime6                               = 0xf08f,
     /// Identifier: "wi-time-7"
-    IFWITime7                               = 0xf090,
+    IFWeatherIconTime7                               = 0xf090,
     /// Identifier: "wi-time-8"
-    IFWITime8                               = 0xf091,
+    IFWeatherIconTime8                               = 0xf091,
     /// Identifier: "wi-time-9"
-    IFWITime9                               = 0xf092,
+    IFWeatherIconTime9                               = 0xf092,
     /// Identifier: "wi-time-10"
-    IFWITime10                              = 0xf093,
+    IFWeatherIconTime10                              = 0xf093,
     /// Identifier: "wi-time-11"
-    IFWITime11                              = 0xf094,
+    IFWeatherIconTime11                              = 0xf094,
     /// Identifier: "wi-time-12"
-    IFWITime12                              = 0xf089,
+    IFWeatherIconTime12                              = 0xf089,
     /// Identifier: "wi-direction-up"
-    IFWIDirectionUp                         = 0xf058,
+    IFWeatherIconDirectionUp                         = 0xf058,
     /// Identifier: "wi-direction-up-right"
-    IFWIDirectionUpRight                    = 0xf057,
+    IFWeatherIconDirectionUpRight                    = 0xf057,
     /// Identifier: "wi-direction-right"
-    IFWIDirectionRight                      = 0xf04d,
+    IFWeatherIconDirectionRight                      = 0xf04d,
     /// Identifier: "wi-direction-down-right"
-    IFWIDirectionDownRight                  = 0xf088,
+    IFWeatherIconDirectionDownRight                  = 0xf088,
     /// Identifier: "wi-direction-down"
-    IFWIDirectionDown                       = 0xf044,
+    IFWeatherIconDirectionDown                       = 0xf044,
     /// Identifier: "wi-direction-down-left"
-    IFWIDirectionDownLeft                   = 0xf043,
+    IFWeatherIconDirectionDownLeft                   = 0xf043,
     /// Identifier: "wi-direction-left"
-    IFWIDirectionLeft                       = 0xf048,
+    IFWeatherIconDirectionLeft                       = 0xf048,
     /// Identifier: "wi-direction-up-left"
-    IFWIDirectionUpLeft                     = 0xf087,
+    IFWeatherIconDirectionUpLeft                     = 0xf087,
     /// Identifier: "wi-wind-beaufort-0"
-    IFWIWindBeaufort0                       = 0xf0b7,
+    IFWeatherIconWindBeaufort0                       = 0xf0b7,
     /// Identifier: "wi-wind-beaufort-1"
-    IFWIWindBeaufort1                       = 0xf0b8,
+    IFWeatherIconWindBeaufort1                       = 0xf0b8,
     /// Identifier: "wi-wind-beaufort-2"
-    IFWIWindBeaufort2                       = 0xf0b9,
+    IFWeatherIconWindBeaufort2                       = 0xf0b9,
     /// Identifier: "wi-wind-beaufort-3"
-    IFWIWindBeaufort3                       = 0xf0ba,
+    IFWeatherIconWindBeaufort3                       = 0xf0ba,
     /// Identifier: "wi-wind-beaufort-4"
-    IFWIWindBeaufort4                       = 0xf0bb,
+    IFWeatherIconWindBeaufort4                       = 0xf0bb,
     /// Identifier: "wi-wind-beaufort-5"
-    IFWIWindBeaufort5                       = 0xf0bc,
+    IFWeatherIconWindBeaufort5                       = 0xf0bc,
     /// Identifier: "wi-wind-beaufort-6"
-    IFWIWindBeaufort6                       = 0xf0bd,
+    IFWeatherIconWindBeaufort6                       = 0xf0bd,
     /// Identifier: "wi-wind-beaufort-7"
-    IFWIWindBeaufort7                       = 0xf0be,
+    IFWeatherIconWindBeaufort7                       = 0xf0be,
     /// Identifier: "wi-wind-beaufort-8"
-    IFWIWindBeaufort8                       = 0xf0bf,
+    IFWeatherIconWindBeaufort8                       = 0xf0bf,
     /// Identifier: "wi-wind-beaufort-9"
-    IFWIWindBeaufort9                       = 0xf0c0,
+    IFWeatherIconWindBeaufort9                       = 0xf0c0,
     /// Identifier: "wi-wind-beaufort-10"
-    IFWIWindBeaufort10                      = 0xf0c1,
+    IFWeatherIconWindBeaufort10                      = 0xf0c1,
     /// Identifier: "wi-wind-beaufort-11"
-    IFWIWindBeaufort11                      = 0xf0c2,
+    IFWeatherIconWindBeaufort11                      = 0xf0c2,
     /// Identifier: "wi-wind-beaufort-12"
-    IFWIWindBeaufort12                      = 0xf0c3,
+    IFWeatherIconWindBeaufort12                      = 0xf0c3,
     /// Identifier: "wi-yahoo-0"
-    IFWIYahoo0                              = 0xf056,
+    IFWeatherIconYahoo0                              = 0xf056,
     /// Identifier: "wi-yahoo-1"
-    IFWIYahoo1                              = 0xf00e,
+    IFWeatherIconYahoo1                              = 0xf00e,
     /// Identifier: "wi-yahoo-2"
-    IFWIYahoo2                              = 0xf073,
+    IFWeatherIconYahoo2                              = 0xf073,
     /// Identifier: "wi-yahoo-3"
-    IFWIYahoo3                              = 0xf01e,
+    IFWeatherIconYahoo3                              = 0xf01e,
     /// Identifier: "wi-yahoo-4"
-    IFWIYahoo4                              = 0xf01e,
+    IFWeatherIconYahoo4                              = 0xf01e,
     /// Identifier: "wi-yahoo-5"
-    IFWIYahoo5                              = 0xf017,
+    IFWeatherIconYahoo5                              = 0xf017,
     /// Identifier: "wi-yahoo-6"
-    IFWIYahoo6                              = 0xf017,
+    IFWeatherIconYahoo6                              = 0xf017,
     /// Identifier: "wi-yahoo-7"
-    IFWIYahoo7                              = 0xf017,
+    IFWeatherIconYahoo7                              = 0xf017,
     /// Identifier: "wi-yahoo-8"
-    IFWIYahoo8                              = 0xf015,
+    IFWeatherIconYahoo8                              = 0xf015,
     /// Identifier: "wi-yahoo-9"
-    IFWIYahoo9                              = 0xf01a,
+    IFWeatherIconYahoo9                              = 0xf01a,
     /// Identifier: "wi-yahoo-10"
-    IFWIYahoo10                             = 0xf015,
+    IFWeatherIconYahoo10                             = 0xf015,
     /// Identifier: "wi-yahoo-11"
-    IFWIYahoo11                             = 0xf01a,
+    IFWeatherIconYahoo11                             = 0xf01a,
     /// Identifier: "wi-yahoo-12"
-    IFWIYahoo12                             = 0xf01a,
+    IFWeatherIconYahoo12                             = 0xf01a,
     /// Identifier: "wi-yahoo-13"
-    IFWIYahoo13                             = 0xf01b,
+    IFWeatherIconYahoo13                             = 0xf01b,
     /// Identifier: "wi-yahoo-14"
-    IFWIYahoo14                             = 0xf00a,
+    IFWeatherIconYahoo14                             = 0xf00a,
     /// Identifier: "wi-yahoo-15"
-    IFWIYahoo15                             = 0xf064,
+    IFWeatherIconYahoo15                             = 0xf064,
     /// Identifier: "wi-yahoo-16"
-    IFWIYahoo16                             = 0xf01b,
+    IFWeatherIconYahoo16                             = 0xf01b,
     /// Identifier: "wi-yahoo-17"
-    IFWIYahoo17                             = 0xf015,
+    IFWeatherIconYahoo17                             = 0xf015,
     /// Identifier: "wi-yahoo-18"
-    IFWIYahoo18                             = 0xf017,
+    IFWeatherIconYahoo18                             = 0xf017,
     /// Identifier: "wi-yahoo-19"
-    IFWIYahoo19                             = 0xf063,
+    IFWeatherIconYahoo19                             = 0xf063,
     /// Identifier: "wi-yahoo-20"
-    IFWIYahoo20                             = 0xf014,
+    IFWeatherIconYahoo20                             = 0xf014,
     /// Identifier: "wi-yahoo-21"
-    IFWIYahoo21                             = 0xf021,
+    IFWeatherIconYahoo21                             = 0xf021,
     /// Identifier: "wi-yahoo-22"
-    IFWIYahoo22                             = 0xf062,
+    IFWeatherIconYahoo22                             = 0xf062,
     /// Identifier: "wi-yahoo-23"
-    IFWIYahoo23                             = 0xf050,
+    IFWeatherIconYahoo23                             = 0xf050,
     /// Identifier: "wi-yahoo-24"
-    IFWIYahoo24                             = 0xf050,
+    IFWeatherIconYahoo24                             = 0xf050,
     /// Identifier: "wi-yahoo-25"
-    IFWIYahoo25                             = 0xf076,
+    IFWeatherIconYahoo25                             = 0xf076,
     /// Identifier: "wi-yahoo-26"
-    IFWIYahoo26                             = 0xf013,
+    IFWeatherIconYahoo26                             = 0xf013,
     /// Identifier: "wi-yahoo-27"
-    IFWIYahoo27                             = 0xf031,
+    IFWeatherIconYahoo27                             = 0xf031,
     /// Identifier: "wi-yahoo-28"
-    IFWIYahoo28                             = 0xf002,
+    IFWeatherIconYahoo28                             = 0xf002,
     /// Identifier: "wi-yahoo-29"
-    IFWIYahoo29                             = 0xf031,
+    IFWeatherIconYahoo29                             = 0xf031,
     /// Identifier: "wi-yahoo-30"
-    IFWIYahoo30                             = 0xf002,
+    IFWeatherIconYahoo30                             = 0xf002,
     /// Identifier: "wi-yahoo-31"
-    IFWIYahoo31                             = 0xf02e,
+    IFWeatherIconYahoo31                             = 0xf02e,
     /// Identifier: "wi-yahoo-32"
-    IFWIYahoo32                             = 0xf00d,
+    IFWeatherIconYahoo32                             = 0xf00d,
     /// Identifier: "wi-yahoo-33"
-    IFWIYahoo33                             = 0xf083,
+    IFWeatherIconYahoo33                             = 0xf083,
     /// Identifier: "wi-yahoo-34"
-    IFWIYahoo34                             = 0xf00c,
+    IFWeatherIconYahoo34                             = 0xf00c,
     /// Identifier: "wi-yahoo-35"
-    IFWIYahoo35                             = 0xf017,
+    IFWeatherIconYahoo35                             = 0xf017,
     /// Identifier: "wi-yahoo-36"
-    IFWIYahoo36                             = 0xf072,
+    IFWeatherIconYahoo36                             = 0xf072,
     /// Identifier: "wi-yahoo-37"
-    IFWIYahoo37                             = 0xf00e,
+    IFWeatherIconYahoo37                             = 0xf00e,
     /// Identifier: "wi-yahoo-38"
-    IFWIYahoo38                             = 0xf00e,
+    IFWeatherIconYahoo38                             = 0xf00e,
     /// Identifier: "wi-yahoo-39"
-    IFWIYahoo39                             = 0xf00e,
+    IFWeatherIconYahoo39                             = 0xf00e,
     /// Identifier: "wi-yahoo-40"
-    IFWIYahoo40                             = 0xf01a,
+    IFWeatherIconYahoo40                             = 0xf01a,
     /// Identifier: "wi-yahoo-41"
-    IFWIYahoo41                             = 0xf064,
+    IFWeatherIconYahoo41                             = 0xf064,
     /// Identifier: "wi-yahoo-42"
-    IFWIYahoo42                             = 0xf01b,
+    IFWeatherIconYahoo42                             = 0xf01b,
     /// Identifier: "wi-yahoo-43"
-    IFWIYahoo43                             = 0xf064,
+    IFWeatherIconYahoo43                             = 0xf064,
     /// Identifier: "wi-yahoo-44"
-    IFWIYahoo44                             = 0xf00c,
+    IFWeatherIconYahoo44                             = 0xf00c,
     /// Identifier: "wi-yahoo-45"
-    IFWIYahoo45                             = 0xf00e,
+    IFWeatherIconYahoo45                             = 0xf00e,
     /// Identifier: "wi-yahoo-46"
-    IFWIYahoo46                             = 0xf01b,
+    IFWeatherIconYahoo46                             = 0xf01b,
     /// Identifier: "wi-yahoo-47"
-    IFWIYahoo47                             = 0xf00e,
+    IFWeatherIconYahoo47                             = 0xf00e,
     /// Identifier: "wi-yahoo-3200"
-    IFWIYahoo3200                           = 0xf077,
+    IFWeatherIconYahoo3200                           = 0xf077,
     /// Identifier: "wi-forecast-io-clear-day"
-    IFWIForecastIoClearDay                  = 0xf00d,
+    IFWeatherIconForecastIoClearDay                  = 0xf00d,
     /// Identifier: "wi-forecast-io-clear-night"
-    IFWIForecastIoClearNight                = 0xf02e,
+    IFWeatherIconForecastIoClearNight                = 0xf02e,
     /// Identifier: "wi-forecast-io-rain"
-    IFWIForecastIoRain                      = 0xf019,
+    IFWeatherIconForecastIoRain                      = 0xf019,
     /// Identifier: "wi-forecast-io-snow"
-    IFWIForecastIoSnow                      = 0xf01b,
+    IFWeatherIconForecastIoSnow                      = 0xf01b,
     /// Identifier: "wi-forecast-io-sleet"
-    IFWIForecastIoSleet                     = 0xf0b5,
+    IFWeatherIconForecastIoSleet                     = 0xf0b5,
     /// Identifier: "wi-forecast-io-wind"
-    IFWIForecastIoWind                      = 0xf050,
+    IFWeatherIconForecastIoWind                      = 0xf050,
     /// Identifier: "wi-forecast-io-fog"
-    IFWIForecastIoFog                       = 0xf014,
+    IFWeatherIconForecastIoFog                       = 0xf014,
     /// Identifier: "wi-forecast-io-cloudy"
-    IFWIForecastIoCloudy                    = 0xf013,
+    IFWeatherIconForecastIoCloudy                    = 0xf013,
     /// Identifier: "wi-forecast-io-partly-cloudy-day"
-    IFWIForecastIoPartlyCloudyDay           = 0xf002,
+    IFWeatherIconForecastIoPartlyCloudyDay           = 0xf002,
     /// Identifier: "wi-forecast-io-partly-cloudy-night"
-    IFWIForecastIoPartlyCloudyNight         = 0xf031,
+    IFWeatherIconForecastIoPartlyCloudyNight         = 0xf031,
     /// Identifier: "wi-forecast-io-hail"
-    IFWIForecastIoHail                      = 0xf015,
+    IFWeatherIconForecastIoHail                      = 0xf015,
     /// Identifier: "wi-forecast-io-thunderstorm"
-    IFWIForecastIoThunderstorm              = 0xf01e,
+    IFWeatherIconForecastIoThunderstorm              = 0xf01e,
     /// Identifier: "wi-forecast-io-tornado"
-    IFWIForecastIoTornado                   = 0xf056,
+    IFWeatherIconForecastIoTornado                   = 0xf056,
     /// Identifier: "wi-wmo4680-0"
-    IFWIWmo46800                            = 0xf055,
+    IFWeatherIconWmo46800                            = 0xf055,
     /// Identifier: "wi-wmo4680-00"
-    IFWIWmo468000                           = 0xf055,
+    IFWeatherIconWmo468000                           = 0xf055,
     /// Identifier: "wi-wmo4680-1"
-    IFWIWmo46801                            = 0xf013,
+    IFWeatherIconWmo46801                            = 0xf013,
     /// Identifier: "wi-wmo4680-01"
-    IFWIWmo468001                           = 0xf013,
+    IFWeatherIconWmo468001                           = 0xf013,
     /// Identifier: "wi-wmo4680-2"
-    IFWIWmo46802                            = 0xf055,
+    IFWeatherIconWmo46802                            = 0xf055,
     /// Identifier: "wi-wmo4680-02"
-    IFWIWmo468002                           = 0xf055,
+    IFWeatherIconWmo468002                           = 0xf055,
     /// Identifier: "wi-wmo4680-3"
-    IFWIWmo46803                            = 0xf013,
+    IFWeatherIconWmo46803                            = 0xf013,
     /// Identifier: "wi-wmo4680-03"
-    IFWIWmo468003                           = 0xf013,
+    IFWeatherIconWmo468003                           = 0xf013,
     /// Identifier: "wi-wmo4680-4"
-    IFWIWmo46804                            = 0xf014,
+    IFWeatherIconWmo46804                            = 0xf014,
     /// Identifier: "wi-wmo4680-04"
-    IFWIWmo468004                           = 0xf014,
+    IFWeatherIconWmo468004                           = 0xf014,
     /// Identifier: "wi-wmo4680-5"
-    IFWIWmo46805                            = 0xf014,
+    IFWeatherIconWmo46805                            = 0xf014,
     /// Identifier: "wi-wmo4680-05"
-    IFWIWmo468005                           = 0xf014,
+    IFWeatherIconWmo468005                           = 0xf014,
     /// Identifier: "wi-wmo4680-10"
-    IFWIWmo468010                           = 0xf014,
+    IFWeatherIconWmo468010                           = 0xf014,
     /// Identifier: "wi-wmo4680-11"
-    IFWIWmo468011                           = 0xf014,
+    IFWeatherIconWmo468011                           = 0xf014,
     /// Identifier: "wi-wmo4680-12"
-    IFWIWmo468012                           = 0xf016,
+    IFWeatherIconWmo468012                           = 0xf016,
     /// Identifier: "wi-wmo4680-18"
-    IFWIWmo468018                           = 0xf050,
+    IFWeatherIconWmo468018                           = 0xf050,
     /// Identifier: "wi-wmo4680-20"
-    IFWIWmo468020                           = 0xf014,
+    IFWeatherIconWmo468020                           = 0xf014,
     /// Identifier: "wi-wmo4680-21"
-    IFWIWmo468021                           = 0xf017,
+    IFWeatherIconWmo468021                           = 0xf017,
     /// Identifier: "wi-wmo4680-22"
-    IFWIWmo468022                           = 0xf017,
+    IFWeatherIconWmo468022                           = 0xf017,
     /// Identifier: "wi-wmo4680-23"
-    IFWIWmo468023                           = 0xf019,
+    IFWeatherIconWmo468023                           = 0xf019,
     /// Identifier: "wi-wmo4680-24"
-    IFWIWmo468024                           = 0xf01b,
+    IFWeatherIconWmo468024                           = 0xf01b,
     /// Identifier: "wi-wmo4680-25"
-    IFWIWmo468025                           = 0xf015,
+    IFWeatherIconWmo468025                           = 0xf015,
     /// Identifier: "wi-wmo4680-26"
-    IFWIWmo468026                           = 0xf01e,
+    IFWeatherIconWmo468026                           = 0xf01e,
     /// Identifier: "wi-wmo4680-27"
-    IFWIWmo468027                           = 0xf063,
+    IFWeatherIconWmo468027                           = 0xf063,
     /// Identifier: "wi-wmo4680-28"
-    IFWIWmo468028                           = 0xf063,
+    IFWeatherIconWmo468028                           = 0xf063,
     /// Identifier: "wi-wmo4680-29"
-    IFWIWmo468029                           = 0xf063,
+    IFWeatherIconWmo468029                           = 0xf063,
     /// Identifier: "wi-wmo4680-30"
-    IFWIWmo468030                           = 0xf014,
+    IFWeatherIconWmo468030                           = 0xf014,
     /// Identifier: "wi-wmo4680-31"
-    IFWIWmo468031                           = 0xf014,
+    IFWeatherIconWmo468031                           = 0xf014,
     /// Identifier: "wi-wmo4680-32"
-    IFWIWmo468032                           = 0xf014,
+    IFWeatherIconWmo468032                           = 0xf014,
     /// Identifier: "wi-wmo4680-33"
-    IFWIWmo468033                           = 0xf014,
+    IFWeatherIconWmo468033                           = 0xf014,
     /// Identifier: "wi-wmo4680-34"
-    IFWIWmo468034                           = 0xf014,
+    IFWeatherIconWmo468034                           = 0xf014,
     /// Identifier: "wi-wmo4680-35"
-    IFWIWmo468035                           = 0xf014,
+    IFWeatherIconWmo468035                           = 0xf014,
     /// Identifier: "wi-wmo4680-40"
-    IFWIWmo468040                           = 0xf017,
+    IFWeatherIconWmo468040                           = 0xf017,
     /// Identifier: "wi-wmo4680-41"
-    IFWIWmo468041                           = 0xf01c,
+    IFWeatherIconWmo468041                           = 0xf01c,
     /// Identifier: "wi-wmo4680-42"
-    IFWIWmo468042                           = 0xf019,
+    IFWeatherIconWmo468042                           = 0xf019,
     /// Identifier: "wi-wmo4680-43"
-    IFWIWmo468043                           = 0xf01c,
+    IFWeatherIconWmo468043                           = 0xf01c,
     /// Identifier: "wi-wmo4680-44"
-    IFWIWmo468044                           = 0xf019,
+    IFWeatherIconWmo468044                           = 0xf019,
     /// Identifier: "wi-wmo4680-45"
-    IFWIWmo468045                           = 0xf015,
+    IFWeatherIconWmo468045                           = 0xf015,
     /// Identifier: "wi-wmo4680-46"
-    IFWIWmo468046                           = 0xf015,
+    IFWeatherIconWmo468046                           = 0xf015,
     /// Identifier: "wi-wmo4680-47"
-    IFWIWmo468047                           = 0xf01b,
+    IFWeatherIconWmo468047                           = 0xf01b,
     /// Identifier: "wi-wmo4680-48"
-    IFWIWmo468048                           = 0xf01b,
+    IFWeatherIconWmo468048                           = 0xf01b,
     /// Identifier: "wi-wmo4680-50"
-    IFWIWmo468050                           = 0xf01c,
+    IFWeatherIconWmo468050                           = 0xf01c,
     /// Identifier: "wi-wmo4680-51"
-    IFWIWmo468051                           = 0xf01c,
+    IFWeatherIconWmo468051                           = 0xf01c,
     /// Identifier: "wi-wmo4680-52"
-    IFWIWmo468052                           = 0xf019,
+    IFWeatherIconWmo468052                           = 0xf019,
     /// Identifier: "wi-wmo4680-53"
-    IFWIWmo468053                           = 0xf019,
+    IFWeatherIconWmo468053                           = 0xf019,
     /// Identifier: "wi-wmo4680-54"
-    IFWIWmo468054                           = 0xf076,
+    IFWeatherIconWmo468054                           = 0xf076,
     /// Identifier: "wi-wmo4680-55"
-    IFWIWmo468055                           = 0xf076,
+    IFWeatherIconWmo468055                           = 0xf076,
     /// Identifier: "wi-wmo4680-56"
-    IFWIWmo468056                           = 0xf076,
+    IFWeatherIconWmo468056                           = 0xf076,
     /// Identifier: "wi-wmo4680-57"
-    IFWIWmo468057                           = 0xf01c,
+    IFWeatherIconWmo468057                           = 0xf01c,
     /// Identifier: "wi-wmo4680-58"
-    IFWIWmo468058                           = 0xf019,
+    IFWeatherIconWmo468058                           = 0xf019,
     /// Identifier: "wi-wmo4680-60"
-    IFWIWmo468060                           = 0xf01c,
+    IFWeatherIconWmo468060                           = 0xf01c,
     /// Identifier: "wi-wmo4680-61"
-    IFWIWmo468061                           = 0xf01c,
+    IFWeatherIconWmo468061                           = 0xf01c,
     /// Identifier: "wi-wmo4680-62"
-    IFWIWmo468062                           = 0xf019,
+    IFWeatherIconWmo468062                           = 0xf019,
     /// Identifier: "wi-wmo4680-63"
-    IFWIWmo468063                           = 0xf019,
+    IFWeatherIconWmo468063                           = 0xf019,
     /// Identifier: "wi-wmo4680-64"
-    IFWIWmo468064                           = 0xf015,
+    IFWeatherIconWmo468064                           = 0xf015,
     /// Identifier: "wi-wmo4680-65"
-    IFWIWmo468065                           = 0xf015,
+    IFWeatherIconWmo468065                           = 0xf015,
     /// Identifier: "wi-wmo4680-66"
-    IFWIWmo468066                           = 0xf015,
+    IFWeatherIconWmo468066                           = 0xf015,
     /// Identifier: "wi-wmo4680-67"
-    IFWIWmo468067                           = 0xf017,
+    IFWeatherIconWmo468067                           = 0xf017,
     /// Identifier: "wi-wmo4680-68"
-    IFWIWmo468068                           = 0xf017,
+    IFWeatherIconWmo468068                           = 0xf017,
     /// Identifier: "wi-wmo4680-70"
-    IFWIWmo468070                           = 0xf01b,
+    IFWeatherIconWmo468070                           = 0xf01b,
     /// Identifier: "wi-wmo4680-71"
-    IFWIWmo468071                           = 0xf01b,
+    IFWeatherIconWmo468071                           = 0xf01b,
     /// Identifier: "wi-wmo4680-72"
-    IFWIWmo468072                           = 0xf01b,
+    IFWeatherIconWmo468072                           = 0xf01b,
     /// Identifier: "wi-wmo4680-73"
-    IFWIWmo468073                           = 0xf01b,
+    IFWeatherIconWmo468073                           = 0xf01b,
     /// Identifier: "wi-wmo4680-74"
-    IFWIWmo468074                           = 0xf076,
+    IFWeatherIconWmo468074                           = 0xf076,
     /// Identifier: "wi-wmo4680-75"
-    IFWIWmo468075                           = 0xf076,
+    IFWeatherIconWmo468075                           = 0xf076,
     /// Identifier: "wi-wmo4680-76"
-    IFWIWmo468076                           = 0xf076,
+    IFWeatherIconWmo468076                           = 0xf076,
     /// Identifier: "wi-wmo4680-77"
-    IFWIWmo468077                           = 0xf01b,
+    IFWeatherIconWmo468077                           = 0xf01b,
     /// Identifier: "wi-wmo4680-78"
-    IFWIWmo468078                           = 0xf076,
+    IFWeatherIconWmo468078                           = 0xf076,
     /// Identifier: "wi-wmo4680-80"
-    IFWIWmo468080                           = 0xf019,
+    IFWeatherIconWmo468080                           = 0xf019,
     /// Identifier: "wi-wmo4680-81"
-    IFWIWmo468081                           = 0xf01c,
+    IFWeatherIconWmo468081                           = 0xf01c,
     /// Identifier: "wi-wmo4680-82"
-    IFWIWmo468082                           = 0xf019,
+    IFWeatherIconWmo468082                           = 0xf019,
     /// Identifier: "wi-wmo4680-83"
-    IFWIWmo468083                           = 0xf019,
+    IFWeatherIconWmo468083                           = 0xf019,
     /// Identifier: "wi-wmo4680-84"
-    IFWIWmo468084                           = 0xf01d,
+    IFWeatherIconWmo468084                           = 0xf01d,
     /// Identifier: "wi-wmo4680-85"
-    IFWIWmo468085                           = 0xf017,
+    IFWeatherIconWmo468085                           = 0xf017,
     /// Identifier: "wi-wmo4680-86"
-    IFWIWmo468086                           = 0xf017,
+    IFWeatherIconWmo468086                           = 0xf017,
     /// Identifier: "wi-wmo4680-87"
-    IFWIWmo468087                           = 0xf017,
+    IFWeatherIconWmo468087                           = 0xf017,
     /// Identifier: "wi-wmo4680-89"
-    IFWIWmo468089                           = 0xf015,
+    IFWeatherIconWmo468089                           = 0xf015,
     /// Identifier: "wi-wmo4680-90"
-    IFWIWmo468090                           = 0xf016,
+    IFWeatherIconWmo468090                           = 0xf016,
     /// Identifier: "wi-wmo4680-91"
-    IFWIWmo468091                           = 0xf01d,
+    IFWeatherIconWmo468091                           = 0xf01d,
     /// Identifier: "wi-wmo4680-92"
-    IFWIWmo468092                           = 0xf01e,
+    IFWeatherIconWmo468092                           = 0xf01e,
     /// Identifier: "wi-wmo4680-93"
-    IFWIWmo468093                           = 0xf01e,
+    IFWeatherIconWmo468093                           = 0xf01e,
     /// Identifier: "wi-wmo4680-94"
-    IFWIWmo468094                           = 0xf016,
+    IFWeatherIconWmo468094                           = 0xf016,
     /// Identifier: "wi-wmo4680-95"
-    IFWIWmo468095                           = 0xf01e,
+    IFWeatherIconWmo468095                           = 0xf01e,
     /// Identifier: "wi-wmo4680-96"
-    IFWIWmo468096                           = 0xf01e,
+    IFWeatherIconWmo468096                           = 0xf01e,
     /// Identifier: "wi-wmo4680-99"
-    IFWIWmo468099                           = 0xf056,
+    IFWeatherIconWmo468099                           = 0xf056,
     /// Identifier: "wi-owm-200"
-    IFWIOwm200                              = 0xf01e,
+    IFWeatherIconOwm200                              = 0xf01e,
     /// Identifier: "wi-owm-201"
-    IFWIOwm201                              = 0xf01e,
+    IFWeatherIconOwm201                              = 0xf01e,
     /// Identifier: "wi-owm-202"
-    IFWIOwm202                              = 0xf01e,
+    IFWeatherIconOwm202                              = 0xf01e,
     /// Identifier: "wi-owm-210"
-    IFWIOwm210                              = 0xf016,
+    IFWeatherIconOwm210                              = 0xf016,
     /// Identifier: "wi-owm-211"
-    IFWIOwm211                              = 0xf016,
+    IFWeatherIconOwm211                              = 0xf016,
     /// Identifier: "wi-owm-212"
-    IFWIOwm212                              = 0xf016,
+    IFWeatherIconOwm212                              = 0xf016,
     /// Identifier: "wi-owm-221"
-    IFWIOwm221                              = 0xf016,
+    IFWeatherIconOwm221                              = 0xf016,
     /// Identifier: "wi-owm-230"
-    IFWIOwm230                              = 0xf01e,
+    IFWeatherIconOwm230                              = 0xf01e,
     /// Identifier: "wi-owm-231"
-    IFWIOwm231                              = 0xf01e,
+    IFWeatherIconOwm231                              = 0xf01e,
     /// Identifier: "wi-owm-232"
-    IFWIOwm232                              = 0xf01e,
+    IFWeatherIconOwm232                              = 0xf01e,
     /// Identifier: "wi-owm-300"
-    IFWIOwm300                              = 0xf01c,
+    IFWeatherIconOwm300                              = 0xf01c,
     /// Identifier: "wi-owm-301"
-    IFWIOwm301                              = 0xf01c,
+    IFWeatherIconOwm301                              = 0xf01c,
     /// Identifier: "wi-owm-302"
-    IFWIOwm302                              = 0xf019,
+    IFWeatherIconOwm302                              = 0xf019,
     /// Identifier: "wi-owm-310"
-    IFWIOwm310                              = 0xf017,
+    IFWeatherIconOwm310                              = 0xf017,
     /// Identifier: "wi-owm-311"
-    IFWIOwm311                              = 0xf019,
+    IFWeatherIconOwm311                              = 0xf019,
     /// Identifier: "wi-owm-312"
-    IFWIOwm312                              = 0xf019,
+    IFWeatherIconOwm312                              = 0xf019,
     /// Identifier: "wi-owm-313"
-    IFWIOwm313                              = 0xf01a,
+    IFWeatherIconOwm313                              = 0xf01a,
     /// Identifier: "wi-owm-314"
-    IFWIOwm314                              = 0xf019,
+    IFWeatherIconOwm314                              = 0xf019,
     /// Identifier: "wi-owm-321"
-    IFWIOwm321                              = 0xf01c,
+    IFWeatherIconOwm321                              = 0xf01c,
     /// Identifier: "wi-owm-500"
-    IFWIOwm500                              = 0xf01c,
+    IFWeatherIconOwm500                              = 0xf01c,
     /// Identifier: "wi-owm-501"
-    IFWIOwm501                              = 0xf019,
+    IFWeatherIconOwm501                              = 0xf019,
     /// Identifier: "wi-owm-502"
-    IFWIOwm502                              = 0xf019,
+    IFWeatherIconOwm502                              = 0xf019,
     /// Identifier: "wi-owm-503"
-    IFWIOwm503                              = 0xf019,
+    IFWeatherIconOwm503                              = 0xf019,
     /// Identifier: "wi-owm-504"
-    IFWIOwm504                              = 0xf019,
+    IFWeatherIconOwm504                              = 0xf019,
     /// Identifier: "wi-owm-511"
-    IFWIOwm511                              = 0xf017,
+    IFWeatherIconOwm511                              = 0xf017,
     /// Identifier: "wi-owm-520"
-    IFWIOwm520                              = 0xf01a,
+    IFWeatherIconOwm520                              = 0xf01a,
     /// Identifier: "wi-owm-521"
-    IFWIOwm521                              = 0xf01a,
+    IFWeatherIconOwm521                              = 0xf01a,
     /// Identifier: "wi-owm-522"
-    IFWIOwm522                              = 0xf01a,
+    IFWeatherIconOwm522                              = 0xf01a,
     /// Identifier: "wi-owm-531"
-    IFWIOwm531                              = 0xf01d,
+    IFWeatherIconOwm531                              = 0xf01d,
     /// Identifier: "wi-owm-600"
-    IFWIOwm600                              = 0xf01b,
+    IFWeatherIconOwm600                              = 0xf01b,
     /// Identifier: "wi-owm-601"
-    IFWIOwm601                              = 0xf01b,
+    IFWeatherIconOwm601                              = 0xf01b,
     /// Identifier: "wi-owm-602"
-    IFWIOwm602                              = 0xf0b5,
+    IFWeatherIconOwm602                              = 0xf0b5,
     /// Identifier: "wi-owm-611"
-    IFWIOwm611                              = 0xf017,
+    IFWeatherIconOwm611                              = 0xf017,
     /// Identifier: "wi-owm-612"
-    IFWIOwm612                              = 0xf017,
+    IFWeatherIconOwm612                              = 0xf017,
     /// Identifier: "wi-owm-615"
-    IFWIOwm615                              = 0xf017,
+    IFWeatherIconOwm615                              = 0xf017,
     /// Identifier: "wi-owm-616"
-    IFWIOwm616                              = 0xf017,
+    IFWeatherIconOwm616                              = 0xf017,
     /// Identifier: "wi-owm-620"
-    IFWIOwm620                              = 0xf017,
+    IFWeatherIconOwm620                              = 0xf017,
     /// Identifier: "wi-owm-621"
-    IFWIOwm621                              = 0xf01b,
+    IFWeatherIconOwm621                              = 0xf01b,
     /// Identifier: "wi-owm-622"
-    IFWIOwm622                              = 0xf01b,
+    IFWeatherIconOwm622                              = 0xf01b,
     /// Identifier: "wi-owm-701"
-    IFWIOwm701                              = 0xf01a,
+    IFWeatherIconOwm701                              = 0xf01a,
     /// Identifier: "wi-owm-711"
-    IFWIOwm711                              = 0xf062,
+    IFWeatherIconOwm711                              = 0xf062,
     /// Identifier: "wi-owm-721"
-    IFWIOwm721                              = 0xf0b6,
+    IFWeatherIconOwm721                              = 0xf0b6,
     /// Identifier: "wi-owm-731"
-    IFWIOwm731                              = 0xf063,
+    IFWeatherIconOwm731                              = 0xf063,
     /// Identifier: "wi-owm-741"
-    IFWIOwm741                              = 0xf014,
+    IFWeatherIconOwm741                              = 0xf014,
     /// Identifier: "wi-owm-761"
-    IFWIOwm761                              = 0xf063,
+    IFWeatherIconOwm761                              = 0xf063,
     /// Identifier: "wi-owm-762"
-    IFWIOwm762                              = 0xf063,
+    IFWeatherIconOwm762                              = 0xf063,
     /// Identifier: "wi-owm-771"
-    IFWIOwm771                              = 0xf011,
+    IFWeatherIconOwm771                              = 0xf011,
     /// Identifier: "wi-owm-781"
-    IFWIOwm781                              = 0xf056,
+    IFWeatherIconOwm781                              = 0xf056,
     /// Identifier: "wi-owm-800"
-    IFWIOwm800                              = 0xf00d,
+    IFWeatherIconOwm800                              = 0xf00d,
     /// Identifier: "wi-owm-801"
-    IFWIOwm801                              = 0xf011,
+    IFWeatherIconOwm801                              = 0xf011,
     /// Identifier: "wi-owm-802"
-    IFWIOwm802                              = 0xf011,
+    IFWeatherIconOwm802                              = 0xf011,
     /// Identifier: "wi-owm-803"
-    IFWIOwm803                              = 0xf012,
+    IFWeatherIconOwm803                              = 0xf012,
     /// Identifier: "wi-owm-804"
-    IFWIOwm804                              = 0xf013,
+    IFWeatherIconOwm804                              = 0xf013,
     /// Identifier: "wi-owm-900"
-    IFWIOwm900                              = 0xf056,
+    IFWeatherIconOwm900                              = 0xf056,
     /// Identifier: "wi-owm-901"
-    IFWIOwm901                              = 0xf01d,
+    IFWeatherIconOwm901                              = 0xf01d,
     /// Identifier: "wi-owm-902"
-    IFWIOwm902                              = 0xf073,
+    IFWeatherIconOwm902                              = 0xf073,
     /// Identifier: "wi-owm-903"
-    IFWIOwm903                              = 0xf076,
+    IFWeatherIconOwm903                              = 0xf076,
     /// Identifier: "wi-owm-904"
-    IFWIOwm904                              = 0xf072,
+    IFWeatherIconOwm904                              = 0xf072,
     /// Identifier: "wi-owm-905"
-    IFWIOwm905                              = 0xf021,
+    IFWeatherIconOwm905                              = 0xf021,
     /// Identifier: "wi-owm-906"
-    IFWIOwm906                              = 0xf015,
+    IFWeatherIconOwm906                              = 0xf015,
     /// Identifier: "wi-owm-957"
-    IFWIOwm957                              = 0xf050,
+    IFWeatherIconOwm957                              = 0xf050,
     /// Identifier: "wi-owm-day-200"
-    IFWIOwmDay200                           = 0xf010,
+    IFWeatherIconOwmDay200                           = 0xf010,
     /// Identifier: "wi-owm-day-201"
-    IFWIOwmDay201                           = 0xf010,
+    IFWeatherIconOwmDay201                           = 0xf010,
     /// Identifier: "wi-owm-day-202"
-    IFWIOwmDay202                           = 0xf010,
+    IFWeatherIconOwmDay202                           = 0xf010,
     /// Identifier: "wi-owm-day-210"
-    IFWIOwmDay210                           = 0xf005,
+    IFWeatherIconOwmDay210                           = 0xf005,
     /// Identifier: "wi-owm-day-211"
-    IFWIOwmDay211                           = 0xf005,
+    IFWeatherIconOwmDay211                           = 0xf005,
     /// Identifier: "wi-owm-day-212"
-    IFWIOwmDay212                           = 0xf005,
+    IFWeatherIconOwmDay212                           = 0xf005,
     /// Identifier: "wi-owm-day-221"
-    IFWIOwmDay221                           = 0xf005,
+    IFWeatherIconOwmDay221                           = 0xf005,
     /// Identifier: "wi-owm-day-230"
-    IFWIOwmDay230                           = 0xf010,
+    IFWeatherIconOwmDay230                           = 0xf010,
     /// Identifier: "wi-owm-day-231"
-    IFWIOwmDay231                           = 0xf010,
+    IFWeatherIconOwmDay231                           = 0xf010,
     /// Identifier: "wi-owm-day-232"
-    IFWIOwmDay232                           = 0xf010,
+    IFWeatherIconOwmDay232                           = 0xf010,
     /// Identifier: "wi-owm-day-300"
-    IFWIOwmDay300                           = 0xf00b,
+    IFWeatherIconOwmDay300                           = 0xf00b,
     /// Identifier: "wi-owm-day-301"
-    IFWIOwmDay301                           = 0xf00b,
+    IFWeatherIconOwmDay301                           = 0xf00b,
     /// Identifier: "wi-owm-day-302"
-    IFWIOwmDay302                           = 0xf008,
+    IFWeatherIconOwmDay302                           = 0xf008,
     /// Identifier: "wi-owm-day-310"
-    IFWIOwmDay310                           = 0xf008,
+    IFWeatherIconOwmDay310                           = 0xf008,
     /// Identifier: "wi-owm-day-311"
-    IFWIOwmDay311                           = 0xf008,
+    IFWeatherIconOwmDay311                           = 0xf008,
     /// Identifier: "wi-owm-day-312"
-    IFWIOwmDay312                           = 0xf008,
+    IFWeatherIconOwmDay312                           = 0xf008,
     /// Identifier: "wi-owm-day-313"
-    IFWIOwmDay313                           = 0xf008,
+    IFWeatherIconOwmDay313                           = 0xf008,
     /// Identifier: "wi-owm-day-314"
-    IFWIOwmDay314                           = 0xf008,
+    IFWeatherIconOwmDay314                           = 0xf008,
     /// Identifier: "wi-owm-day-321"
-    IFWIOwmDay321                           = 0xf00b,
+    IFWeatherIconOwmDay321                           = 0xf00b,
     /// Identifier: "wi-owm-day-500"
-    IFWIOwmDay500                           = 0xf00b,
+    IFWeatherIconOwmDay500                           = 0xf00b,
     /// Identifier: "wi-owm-day-501"
-    IFWIOwmDay501                           = 0xf008,
+    IFWeatherIconOwmDay501                           = 0xf008,
     /// Identifier: "wi-owm-day-502"
-    IFWIOwmDay502                           = 0xf008,
+    IFWeatherIconOwmDay502                           = 0xf008,
     /// Identifier: "wi-owm-day-503"
-    IFWIOwmDay503                           = 0xf008,
+    IFWeatherIconOwmDay503                           = 0xf008,
     /// Identifier: "wi-owm-day-504"
-    IFWIOwmDay504                           = 0xf008,
+    IFWeatherIconOwmDay504                           = 0xf008,
     /// Identifier: "wi-owm-day-511"
-    IFWIOwmDay511                           = 0xf006,
+    IFWeatherIconOwmDay511                           = 0xf006,
     /// Identifier: "wi-owm-day-520"
-    IFWIOwmDay520                           = 0xf009,
+    IFWeatherIconOwmDay520                           = 0xf009,
     /// Identifier: "wi-owm-day-521"
-    IFWIOwmDay521                           = 0xf009,
+    IFWeatherIconOwmDay521                           = 0xf009,
     /// Identifier: "wi-owm-day-522"
-    IFWIOwmDay522                           = 0xf009,
+    IFWeatherIconOwmDay522                           = 0xf009,
     /// Identifier: "wi-owm-day-531"
-    IFWIOwmDay531                           = 0xf00e,
+    IFWeatherIconOwmDay531                           = 0xf00e,
     /// Identifier: "wi-owm-day-600"
-    IFWIOwmDay600                           = 0xf00a,
+    IFWeatherIconOwmDay600                           = 0xf00a,
     /// Identifier: "wi-owm-day-601"
-    IFWIOwmDay601                           = 0xf0b2,
+    IFWeatherIconOwmDay601                           = 0xf0b2,
     /// Identifier: "wi-owm-day-602"
-    IFWIOwmDay602                           = 0xf00a,
+    IFWeatherIconOwmDay602                           = 0xf00a,
     /// Identifier: "wi-owm-day-611"
-    IFWIOwmDay611                           = 0xf006,
+    IFWeatherIconOwmDay611                           = 0xf006,
     /// Identifier: "wi-owm-day-612"
-    IFWIOwmDay612                           = 0xf006,
+    IFWeatherIconOwmDay612                           = 0xf006,
     /// Identifier: "wi-owm-day-615"
-    IFWIOwmDay615                           = 0xf006,
+    IFWeatherIconOwmDay615                           = 0xf006,
     /// Identifier: "wi-owm-day-616"
-    IFWIOwmDay616                           = 0xf006,
+    IFWeatherIconOwmDay616                           = 0xf006,
     /// Identifier: "wi-owm-day-620"
-    IFWIOwmDay620                           = 0xf006,
+    IFWeatherIconOwmDay620                           = 0xf006,
     /// Identifier: "wi-owm-day-621"
-    IFWIOwmDay621                           = 0xf00a,
+    IFWeatherIconOwmDay621                           = 0xf00a,
     /// Identifier: "wi-owm-day-622"
-    IFWIOwmDay622                           = 0xf00a,
+    IFWeatherIconOwmDay622                           = 0xf00a,
     /// Identifier: "wi-owm-day-701"
-    IFWIOwmDay701                           = 0xf009,
+    IFWeatherIconOwmDay701                           = 0xf009,
     /// Identifier: "wi-owm-day-711"
-    IFWIOwmDay711                           = 0xf062,
+    IFWeatherIconOwmDay711                           = 0xf062,
     /// Identifier: "wi-owm-day-721"
-    IFWIOwmDay721                           = 0xf0b6,
+    IFWeatherIconOwmDay721                           = 0xf0b6,
     /// Identifier: "wi-owm-day-731"
-    IFWIOwmDay731                           = 0xf063,
+    IFWeatherIconOwmDay731                           = 0xf063,
     /// Identifier: "wi-owm-day-741"
-    IFWIOwmDay741                           = 0xf003,
+    IFWeatherIconOwmDay741                           = 0xf003,
     /// Identifier: "wi-owm-day-761"
-    IFWIOwmDay761                           = 0xf063,
+    IFWeatherIconOwmDay761                           = 0xf063,
     /// Identifier: "wi-owm-day-762"
-    IFWIOwmDay762                           = 0xf063,
+    IFWeatherIconOwmDay762                           = 0xf063,
     /// Identifier: "wi-owm-day-781"
-    IFWIOwmDay781                           = 0xf056,
+    IFWeatherIconOwmDay781                           = 0xf056,
     /// Identifier: "wi-owm-day-800"
-    IFWIOwmDay800                           = 0xf00d,
+    IFWeatherIconOwmDay800                           = 0xf00d,
     /// Identifier: "wi-owm-day-801"
-    IFWIOwmDay801                           = 0xf000,
+    IFWeatherIconOwmDay801                           = 0xf000,
     /// Identifier: "wi-owm-day-802"
-    IFWIOwmDay802                           = 0xf000,
+    IFWeatherIconOwmDay802                           = 0xf000,
     /// Identifier: "wi-owm-day-803"
-    IFWIOwmDay803                           = 0xf000,
+    IFWeatherIconOwmDay803                           = 0xf000,
     /// Identifier: "wi-owm-day-804"
-    IFWIOwmDay804                           = 0xf00c,
+    IFWeatherIconOwmDay804                           = 0xf00c,
     /// Identifier: "wi-owm-day-900"
-    IFWIOwmDay900                           = 0xf056,
+    IFWeatherIconOwmDay900                           = 0xf056,
     /// Identifier: "wi-owm-day-902"
-    IFWIOwmDay902                           = 0xf073,
+    IFWeatherIconOwmDay902                           = 0xf073,
     /// Identifier: "wi-owm-day-903"
-    IFWIOwmDay903                           = 0xf076,
+    IFWeatherIconOwmDay903                           = 0xf076,
     /// Identifier: "wi-owm-day-904"
-    IFWIOwmDay904                           = 0xf072,
+    IFWeatherIconOwmDay904                           = 0xf072,
     /// Identifier: "wi-owm-day-906"
-    IFWIOwmDay906                           = 0xf004,
+    IFWeatherIconOwmDay906                           = 0xf004,
     /// Identifier: "wi-owm-day-957"
-    IFWIOwmDay957                           = 0xf050,
+    IFWeatherIconOwmDay957                           = 0xf050,
     /// Identifier: "wi-owm-night-200"
-    IFWIOwmNight200                         = 0xf02d,
+    IFWeatherIconOwmNight200                         = 0xf02d,
     /// Identifier: "wi-owm-night-201"
-    IFWIOwmNight201                         = 0xf02d,
+    IFWeatherIconOwmNight201                         = 0xf02d,
     /// Identifier: "wi-owm-night-202"
-    IFWIOwmNight202                         = 0xf02d,
+    IFWeatherIconOwmNight202                         = 0xf02d,
     /// Identifier: "wi-owm-night-210"
-    IFWIOwmNight210                         = 0xf025,
+    IFWeatherIconOwmNight210                         = 0xf025,
     /// Identifier: "wi-owm-night-211"
-    IFWIOwmNight211                         = 0xf025,
+    IFWeatherIconOwmNight211                         = 0xf025,
     /// Identifier: "wi-owm-night-212"
-    IFWIOwmNight212                         = 0xf025,
+    IFWeatherIconOwmNight212                         = 0xf025,
     /// Identifier: "wi-owm-night-221"
-    IFWIOwmNight221                         = 0xf025,
+    IFWeatherIconOwmNight221                         = 0xf025,
     /// Identifier: "wi-owm-night-230"
-    IFWIOwmNight230                         = 0xf02d,
+    IFWeatherIconOwmNight230                         = 0xf02d,
     /// Identifier: "wi-owm-night-231"
-    IFWIOwmNight231                         = 0xf02d,
+    IFWeatherIconOwmNight231                         = 0xf02d,
     /// Identifier: "wi-owm-night-232"
-    IFWIOwmNight232                         = 0xf02d,
+    IFWeatherIconOwmNight232                         = 0xf02d,
     /// Identifier: "wi-owm-night-300"
-    IFWIOwmNight300                         = 0xf02b,
+    IFWeatherIconOwmNight300                         = 0xf02b,
     /// Identifier: "wi-owm-night-301"
-    IFWIOwmNight301                         = 0xf02b,
+    IFWeatherIconOwmNight301                         = 0xf02b,
     /// Identifier: "wi-owm-night-302"
-    IFWIOwmNight302                         = 0xf028,
+    IFWeatherIconOwmNight302                         = 0xf028,
     /// Identifier: "wi-owm-night-310"
-    IFWIOwmNight310                         = 0xf028,
+    IFWeatherIconOwmNight310                         = 0xf028,
     /// Identifier: "wi-owm-night-311"
-    IFWIOwmNight311                         = 0xf028,
+    IFWeatherIconOwmNight311                         = 0xf028,
     /// Identifier: "wi-owm-night-312"
-    IFWIOwmNight312                         = 0xf028,
+    IFWeatherIconOwmNight312                         = 0xf028,
     /// Identifier: "wi-owm-night-313"
-    IFWIOwmNight313                         = 0xf028,
+    IFWeatherIconOwmNight313                         = 0xf028,
     /// Identifier: "wi-owm-night-314"
-    IFWIOwmNight314                         = 0xf028,
+    IFWeatherIconOwmNight314                         = 0xf028,
     /// Identifier: "wi-owm-night-321"
-    IFWIOwmNight321                         = 0xf02b,
+    IFWeatherIconOwmNight321                         = 0xf02b,
     /// Identifier: "wi-owm-night-500"
-    IFWIOwmNight500                         = 0xf02b,
+    IFWeatherIconOwmNight500                         = 0xf02b,
     /// Identifier: "wi-owm-night-501"
-    IFWIOwmNight501                         = 0xf028,
+    IFWeatherIconOwmNight501                         = 0xf028,
     /// Identifier: "wi-owm-night-502"
-    IFWIOwmNight502                         = 0xf028,
+    IFWeatherIconOwmNight502                         = 0xf028,
     /// Identifier: "wi-owm-night-503"
-    IFWIOwmNight503                         = 0xf028,
+    IFWeatherIconOwmNight503                         = 0xf028,
     /// Identifier: "wi-owm-night-504"
-    IFWIOwmNight504                         = 0xf028,
+    IFWeatherIconOwmNight504                         = 0xf028,
     /// Identifier: "wi-owm-night-511"
-    IFWIOwmNight511                         = 0xf026,
+    IFWeatherIconOwmNight511                         = 0xf026,
     /// Identifier: "wi-owm-night-520"
-    IFWIOwmNight520                         = 0xf029,
+    IFWeatherIconOwmNight520                         = 0xf029,
     /// Identifier: "wi-owm-night-521"
-    IFWIOwmNight521                         = 0xf029,
+    IFWeatherIconOwmNight521                         = 0xf029,
     /// Identifier: "wi-owm-night-522"
-    IFWIOwmNight522                         = 0xf029,
+    IFWeatherIconOwmNight522                         = 0xf029,
     /// Identifier: "wi-owm-night-531"
-    IFWIOwmNight531                         = 0xf02c,
+    IFWeatherIconOwmNight531                         = 0xf02c,
     /// Identifier: "wi-owm-night-600"
-    IFWIOwmNight600                         = 0xf02a,
+    IFWeatherIconOwmNight600                         = 0xf02a,
     /// Identifier: "wi-owm-night-601"
-    IFWIOwmNight601                         = 0xf0b4,
+    IFWeatherIconOwmNight601                         = 0xf0b4,
     /// Identifier: "wi-owm-night-602"
-    IFWIOwmNight602                         = 0xf02a,
+    IFWeatherIconOwmNight602                         = 0xf02a,
     /// Identifier: "wi-owm-night-611"
-    IFWIOwmNight611                         = 0xf026,
+    IFWeatherIconOwmNight611                         = 0xf026,
     /// Identifier: "wi-owm-night-612"
-    IFWIOwmNight612                         = 0xf026,
+    IFWeatherIconOwmNight612                         = 0xf026,
     /// Identifier: "wi-owm-night-615"
-    IFWIOwmNight615                         = 0xf026,
+    IFWeatherIconOwmNight615                         = 0xf026,
     /// Identifier: "wi-owm-night-616"
-    IFWIOwmNight616                         = 0xf026,
+    IFWeatherIconOwmNight616                         = 0xf026,
     /// Identifier: "wi-owm-night-620"
-    IFWIOwmNight620                         = 0xf026,
+    IFWeatherIconOwmNight620                         = 0xf026,
     /// Identifier: "wi-owm-night-621"
-    IFWIOwmNight621                         = 0xf02a,
+    IFWeatherIconOwmNight621                         = 0xf02a,
     /// Identifier: "wi-owm-night-622"
-    IFWIOwmNight622                         = 0xf02a,
+    IFWeatherIconOwmNight622                         = 0xf02a,
     /// Identifier: "wi-owm-night-701"
-    IFWIOwmNight701                         = 0xf029,
+    IFWeatherIconOwmNight701                         = 0xf029,
     /// Identifier: "wi-owm-night-711"
-    IFWIOwmNight711                         = 0xf062,
+    IFWeatherIconOwmNight711                         = 0xf062,
     /// Identifier: "wi-owm-night-721"
-    IFWIOwmNight721                         = 0xf0b6,
+    IFWeatherIconOwmNight721                         = 0xf0b6,
     /// Identifier: "wi-owm-night-731"
-    IFWIOwmNight731                         = 0xf063,
+    IFWeatherIconOwmNight731                         = 0xf063,
     /// Identifier: "wi-owm-night-741"
-    IFWIOwmNight741                         = 0xf04a,
+    IFWeatherIconOwmNight741                         = 0xf04a,
     /// Identifier: "wi-owm-night-761"
-    IFWIOwmNight761                         = 0xf063,
+    IFWeatherIconOwmNight761                         = 0xf063,
     /// Identifier: "wi-owm-night-762"
-    IFWIOwmNight762                         = 0xf063,
+    IFWeatherIconOwmNight762                         = 0xf063,
     /// Identifier: "wi-owm-night-781"
-    IFWIOwmNight781                         = 0xf056,
+    IFWeatherIconOwmNight781                         = 0xf056,
     /// Identifier: "wi-owm-night-800"
-    IFWIOwmNight800                         = 0xf02e,
+    IFWeatherIconOwmNight800                         = 0xf02e,
     /// Identifier: "wi-owm-night-801"
-    IFWIOwmNight801                         = 0xf022,
+    IFWeatherIconOwmNight801                         = 0xf022,
     /// Identifier: "wi-owm-night-802"
-    IFWIOwmNight802                         = 0xf022,
+    IFWeatherIconOwmNight802                         = 0xf022,
     /// Identifier: "wi-owm-night-803"
-    IFWIOwmNight803                         = 0xf022,
+    IFWeatherIconOwmNight803                         = 0xf022,
     /// Identifier: "wi-owm-night-804"
-    IFWIOwmNight804                         = 0xf086,
+    IFWeatherIconOwmNight804                         = 0xf086,
     /// Identifier: "wi-owm-night-900"
-    IFWIOwmNight900                         = 0xf056,
+    IFWeatherIconOwmNight900                         = 0xf056,
     /// Identifier: "wi-owm-night-902"
-    IFWIOwmNight902                         = 0xf073,
+    IFWeatherIconOwmNight902                         = 0xf073,
     /// Identifier: "wi-owm-night-903"
-    IFWIOwmNight903                         = 0xf076,
+    IFWeatherIconOwmNight903                         = 0xf076,
     /// Identifier: "wi-owm-night-904"
-    IFWIOwmNight904                         = 0xf072,
+    IFWeatherIconOwmNight904                         = 0xf072,
     /// Identifier: "wi-owm-night-906"
-    IFWIOwmNight906                         = 0xf024,
+    IFWeatherIconOwmNight906                         = 0xf024,
     /// Identifier: "wi-owm-night-957"
-    IFWIOwmNight957                         = 0xf050,
+    IFWeatherIconOwmNight957                         = 0xf050,
     /// Identifier: "wi-wu-chanceflurries"
-    IFWIWuChanceflurries                    = 0xf064,
+    IFWeatherIconWuChanceflurries                    = 0xf064,
     /// Identifier: "wi-wu-chancerain"
-    IFWIWuChancerain                        = 0xf019,
+    IFWeatherIconWuChancerain                        = 0xf019,
     /// Identifier: "wi-wu-chancesleat"
-    IFWIWuChancesleat                       = 0xf0b5,
+    IFWeatherIconWuChancesleat                       = 0xf0b5,
     /// Identifier: "wi-wu-chancesnow"
-    IFWIWuChancesnow                        = 0xf01b,
+    IFWeatherIconWuChancesnow                        = 0xf01b,
     /// Identifier: "wi-wu-chancetstorms"
-    IFWIWuChancetstorms                     = 0xf01e,
+    IFWeatherIconWuChancetstorms                     = 0xf01e,
     /// Identifier: "wi-wu-clear"
-    IFWIWuClear                             = 0xf00d,
+    IFWeatherIconWuClear                             = 0xf00d,
     /// Identifier: "wi-wu-cloudy"
-    IFWIWuCloudy                            = 0xf002,
+    IFWeatherIconWuCloudy                            = 0xf002,
     /// Identifier: "wi-wu-flurries"
-    IFWIWuFlurries                          = 0xf064,
+    IFWeatherIconWuFlurries                          = 0xf064,
     /// Identifier: "wi-wu-hazy"
-    IFWIWuHazy                              = 0xf0b6,
+    IFWeatherIconWuHazy                              = 0xf0b6,
     /// Identifier: "wi-wu-mostlycloudy"
-    IFWIWuMostlycloudy                      = 0xf002,
+    IFWeatherIconWuMostlycloudy                      = 0xf002,
     /// Identifier: "wi-wu-mostlysunny"
-    IFWIWuMostlysunny                       = 0xf00d,
+    IFWeatherIconWuMostlysunny                       = 0xf00d,
     /// Identifier: "wi-wu-partlycloudy"
-    IFWIWuPartlycloudy                      = 0xf002,
+    IFWeatherIconWuPartlycloudy                      = 0xf002,
     /// Identifier: "wi-wu-partlysunny"
-    IFWIWuPartlysunny                       = 0xf00d,
+    IFWeatherIconWuPartlysunny                       = 0xf00d,
     /// Identifier: "wi-wu-rain"
-    IFWIWuRain                              = 0xf01a,
+    IFWeatherIconWuRain                              = 0xf01a,
     /// Identifier: "wi-wu-sleat"
-    IFWIWuSleat                             = 0xf0b5,
+    IFWeatherIconWuSleat                             = 0xf0b5,
     /// Identifier: "wi-wu-snow"
-    IFWIWuSnow                              = 0xf01b,
+    IFWeatherIconWuSnow                              = 0xf01b,
     /// Identifier: "wi-wu-sunny"
-    IFWIWuSunny                             = 0xf00d,
+    IFWeatherIconWuSunny                             = 0xf00d,
     /// Identifier: "wi-wu-tstorms"
-    IFWIWuTstorms                           = 0xf01e,
+    IFWeatherIconWuTstorms                           = 0xf01e,
     /// Identifier: "wi-wu-unknown"
-    IFWIWuUnknown                           = 0xf00d,
+    IFWeatherIconWuUnknown                           = 0xf00d,
 };
 
 /*!

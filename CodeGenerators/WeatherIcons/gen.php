@@ -5,7 +5,7 @@ require "../CodeGenerator.php";
 
 $fontIdentifier     = 'WeatherIcons';
 $fontDescription    = 'WeatherIcons v2.0.10 http://erikflowers.github.io/weather-icons';
-$iconTypePrefix     = 'WI';
+$iconTypePrefix     = 'WeatherIcon';
 $fontFile           = 'weathericons-regular-webfont.ttf';
 $fontName           = 'Weather Icons';
 
