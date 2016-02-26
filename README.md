@@ -39,6 +39,7 @@
 | [LigatureSymbols](http://kudakurage.com/ligature_symbols/) | 2.11 | [239](http://kudakurage.com/ligature_symbols/) | 84 KB | SIL OFL 1.1 | Ligature Symbols by Kazuyuki Motoyama |
 | [Dripicons](http://demo.amitjakhu.com/dripicons/) | 1.0 | [95](http://demo.amitjakhu.com/dripicons/) | 21 KB | Free to use | A completely free, vector line-icon font by [Amit Jakhu](http://amitjakhu.com). |
 | [OpenWebIcons](http://pfefferle.github.io/openwebicons) | 1.4.0 | [104](http://pfefferle.github.io/openwebicons/icons/) | 40 KB | [SIL OFL 1.1](https://github.com/pfefferle/openwebicons/blob/master/License.txt) | OpenWeb Icons |
+| [Genericons](http://genericons.com) | 3.4.1 | [147](http://genericons.com) | 22 KB | GPLv2 | Designed to be clean and simple keeping with a generic aesthetic. |
 
 ## Installation
 

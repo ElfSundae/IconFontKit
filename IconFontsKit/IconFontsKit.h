@@ -33,3 +33,4 @@
 #import <IconFontsKit/IFLigatureSymbols.h>
 #import <IconFontsKit/IFDripicons.h>
 #import <IconFontsKit/IFOpenWebIcons.h>
+#import <IconFontsKit/IFGenericons.h>

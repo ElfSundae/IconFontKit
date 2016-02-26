@@ -256,6 +256,15 @@
       <FileRef
          location = "group:openwebicons.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFGenericons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFGenericons.m">
+      </FileRef>
+      <FileRef
+         location = "group:Genericons.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">
