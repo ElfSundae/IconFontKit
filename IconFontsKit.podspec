@@ -132,4 +132,10 @@ Pod::Spec.new do |s|
     ss.resource             = "IconFontsKit/Linea.ttf"
   end
 
+  s.subspec "Entypo" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFEntypo.{h,m}"
+    ss.resource             = "IconFontsKit/Entypo.ttf"
+  end
+
 end

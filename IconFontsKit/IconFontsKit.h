@@ -25,3 +25,4 @@
 #import <IconFontsKit/IFHawconsStroke.h>
 #import <IconFontsKit/IFDashicons.h>
 #import <IconFontsKit/IFLinea.h>
+#import <IconFontsKit/IFEntypo.h>

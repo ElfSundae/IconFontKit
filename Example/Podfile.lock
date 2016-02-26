@@ -3,6 +3,7 @@ PODS:
     - IconFontsKit/Core (= 1.1.2)
     - IconFontsKit/Dashicons (= 1.1.2)
     - IconFontsKit/ElusiveIcons (= 1.1.2)
+    - IconFontsKit/Entypo (= 1.1.2)
     - IconFontsKit/FontAwesome (= 1.1.2)
     - IconFontsKit/FoundationIcons (= 1.1.2)
     - IconFontsKit/HawconsFilled (= 1.1.2)
@@ -24,6 +25,8 @@ PODS:
   - IconFontsKit/Dashicons (1.1.2):
     - IconFontsKit/Core
   - IconFontsKit/ElusiveIcons (1.1.2):
+    - IconFontsKit/Core
+  - IconFontsKit/Entypo (1.1.2):
     - IconFontsKit/Core
   - IconFontsKit/FontAwesome (1.1.2):
     - IconFontsKit/Core
@@ -70,7 +73,7 @@ EXTERNAL SOURCES:
     :path: "../IconFontsKit.podspec"
 
 SPEC CHECKSUMS:
-  IconFontsKit: 535d512bb75d023c47fad29f06dbe827079cdda0
+  IconFontsKit: a818ddd194b0e2151fb199b92c98108ed5b15d8c
   JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
 
 COCOAPODS: 0.39.0

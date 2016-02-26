@@ -184,6 +184,15 @@
       <FileRef
          location = "group:Linea.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFEntypo.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFEntypo.m">
+      </FileRef>
+      <FileRef
+         location = "group:Entypo.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">

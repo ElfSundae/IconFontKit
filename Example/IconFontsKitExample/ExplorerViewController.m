@@ -54,6 +54,7 @@ JTSImageViewControllerDismissalDelegate, UIActionSheetDelegate>
                              [IFHawconsStroke class],
                              [IFDashicons class],
                              [IFLinea class],
+                             [IFEntypo class],
                              ];
     }
     return self;
