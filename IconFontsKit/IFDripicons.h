@@ -3,195 +3,195 @@
 /// Dripicons icon types.
 typedef NS_ENUM(IFIconType, IFDripiconsType) {
     /// Identifier: "icon-align-center"
-    IFDripiconsAlignCenter                         = 0xe000,
+    IFDripiconAlignCenter                         = 0xe000,
     /// Identifier: "icon-align-justify"
-    IFDripiconsAlignJustify                        = 0xe001,
+    IFDripiconAlignJustify                        = 0xe001,
     /// Identifier: "icon-align-left"
-    IFDripiconsAlignLeft                           = 0xe002,
+    IFDripiconAlignLeft                           = 0xe002,
     /// Identifier: "icon-align-right"
-    IFDripiconsAlignRight                          = 0xe003,
+    IFDripiconAlignRight                          = 0xe003,
     /// Identifier: "icon-arrow-down"
-    IFDripiconsArrowDown                           = 0xe004,
+    IFDripiconArrowDown                           = 0xe004,
     /// Identifier: "icon-arrow-left"
-    IFDripiconsArrowLeft                           = 0xe005,
+    IFDripiconArrowLeft                           = 0xe005,
     /// Identifier: "icon-arrow-thin-down"
-    IFDripiconsArrowThinDown                       = 0xe006,
+    IFDripiconArrowThinDown                       = 0xe006,
     /// Identifier: "icon-arrow-right"
-    IFDripiconsArrowRight                          = 0xe007,
+    IFDripiconArrowRight                          = 0xe007,
     /// Identifier: "icon-arrow-thin-left"
-    IFDripiconsArrowThinLeft                       = 0xe008,
+    IFDripiconArrowThinLeft                       = 0xe008,
     /// Identifier: "icon-arrow-thin-up"
-    IFDripiconsArrowThinUp                         = 0xe009,
+    IFDripiconArrowThinUp                         = 0xe009,
     /// Identifier: "icon-arrow-up"
-    IFDripiconsArrowUp                             = 0xe010,
+    IFDripiconArrowUp                             = 0xe010,
     /// Identifier: "icon-attachment"
-    IFDripiconsAttachment                          = 0xe011,
+    IFDripiconAttachment                          = 0xe011,
     /// Identifier: "icon-arrow-thin-right"
-    IFDripiconsArrowThinRight                      = 0xe012,
+    IFDripiconArrowThinRight                      = 0xe012,
     /// Identifier: "icon-code"
-    IFDripiconsCode                                = 0xe013,
+    IFDripiconCode                                = 0xe013,
     /// Identifier: "icon-cloud"
-    IFDripiconsCloud                               = 0xe014,
+    IFDripiconCloud                               = 0xe014,
     /// Identifier: "icon-chevron-right"
-    IFDripiconsChevronRight                        = 0xe015,
+    IFDripiconChevronRight                        = 0xe015,
     /// Identifier: "icon-chevron-up"
-    IFDripiconsChevronUp                           = 0xe016,
+    IFDripiconChevronUp                           = 0xe016,
     /// Identifier: "icon-chevron-down"
-    IFDripiconsChevronDown                         = 0xe017,
+    IFDripiconChevronDown                         = 0xe017,
     /// Identifier: "icon-chevron-left"
-    IFDripiconsChevronLeft                         = 0xe018,
+    IFDripiconChevronLeft                         = 0xe018,
     /// Identifier: "icon-camera"
-    IFDripiconsCamera                              = 0xe019,
+    IFDripiconCamera                              = 0xe019,
     /// Identifier: "icon-checkmark"
-    IFDripiconsCheckmark                           = 0xe020,
+    IFDripiconCheckmark                           = 0xe020,
     /// Identifier: "icon-calendar"
-    IFDripiconsCalendar                            = 0xe021,
+    IFDripiconCalendar                            = 0xe021,
     /// Identifier: "icon-clockwise"
-    IFDripiconsClockwise                           = 0xe022,
+    IFDripiconClockwise                           = 0xe022,
     /// Identifier: "icon-conversation"
-    IFDripiconsConversation                        = 0xe023,
+    IFDripiconConversation                        = 0xe023,
     /// Identifier: "icon-direction"
-    IFDripiconsDirection                           = 0xe024,
+    IFDripiconDirection                           = 0xe024,
     /// Identifier: "icon-cross"
-    IFDripiconsCross                               = 0xe025,
+    IFDripiconCross                               = 0xe025,
     /// Identifier: "icon-graph-line"
-    IFDripiconsGraphLine                           = 0xe026,
+    IFDripiconGraphLine                           = 0xe026,
     /// Identifier: "icon-gear"
-    IFDripiconsGear                                = 0xe027,
+    IFDripiconGear                                = 0xe027,
     /// Identifier: "icon-graph-bar"
-    IFDripiconsGraphBar                            = 0xe028,
+    IFDripiconGraphBar                            = 0xe028,
     /// Identifier: "icon-export"
-    IFDripiconsExport                              = 0xe029,
+    IFDripiconExport                              = 0xe029,
     /// Identifier: "icon-feed"
-    IFDripiconsFeed                                = 0xe030,
+    IFDripiconFeed                                = 0xe030,
     /// Identifier: "icon-folder"
-    IFDripiconsFolder                              = 0xe031,
+    IFDripiconFolder                              = 0xe031,
     /// Identifier: "icon-forward"
-    IFDripiconsForward                             = 0xe032,
+    IFDripiconForward                             = 0xe032,
     /// Identifier: "icon-folder-open"
-    IFDripiconsFolderOpen                          = 0xe033,
+    IFDripiconFolderOpen                          = 0xe033,
     /// Identifier: "icon-download"
-    IFDripiconsDownload                            = 0xe034,
+    IFDripiconDownload                            = 0xe034,
     /// Identifier: "icon-document-new"
-    IFDripiconsDocumentNew                         = 0xe035,
+    IFDripiconDocumentNew                         = 0xe035,
     /// Identifier: "icon-document-edit"
-    IFDripiconsDocumentEdit                        = 0xe036,
+    IFDripiconDocumentEdit                        = 0xe036,
     /// Identifier: "icon-document"
-    IFDripiconsDocument                            = 0xe037,
+    IFDripiconDocument                            = 0xe037,
     /// Identifier: "icon-gaming"
-    IFDripiconsGaming                              = 0xe038,
+    IFDripiconGaming                              = 0xe038,
     /// Identifier: "icon-graph-pie"
-    IFDripiconsGraphPie                            = 0xe039,
+    IFDripiconGraphPie                            = 0xe039,
     /// Identifier: "icon-heart"
-    IFDripiconsHeart                               = 0xe040,
+    IFDripiconHeart                               = 0xe040,
     /// Identifier: "icon-headset"
-    IFDripiconsHeadset                             = 0xe041,
+    IFDripiconHeadset                             = 0xe041,
     /// Identifier: "icon-help"
-    IFDripiconsHelp                                = 0xe042,
+    IFDripiconHelp                                = 0xe042,
     /// Identifier: "icon-information"
-    IFDripiconsInformation                         = 0xe043,
+    IFDripiconInformation                         = 0xe043,
     /// Identifier: "icon-loading"
-    IFDripiconsLoading                             = 0xe044,
+    IFDripiconLoading                             = 0xe044,
     /// Identifier: "icon-lock"
-    IFDripiconsLock                                = 0xe045,
+    IFDripiconLock                                = 0xe045,
     /// Identifier: "icon-location"
-    IFDripiconsLocation                            = 0xe046,
+    IFDripiconLocation                            = 0xe046,
     /// Identifier: "icon-lock-open"
-    IFDripiconsLockOpen                            = 0xe047,
+    IFDripiconLockOpen                            = 0xe047,
     /// Identifier: "icon-mail"
-    IFDripiconsMail                                = 0xe048,
+    IFDripiconMail                                = 0xe048,
     /// Identifier: "icon-map"
-    IFDripiconsMap                                 = 0xe049,
+    IFDripiconMap                                 = 0xe049,
     /// Identifier: "icon-media-loop"
-    IFDripiconsMediaLoop                           = 0xe050,
+    IFDripiconMediaLoop                           = 0xe050,
     /// Identifier: "icon-mobile-portrait"
-    IFDripiconsMobilePortrait                      = 0xe051,
+    IFDripiconMobilePortrait                      = 0xe051,
     /// Identifier: "icon-mobile-landscape"
-    IFDripiconsMobileLandscape                     = 0xe052,
+    IFDripiconMobileLandscape                     = 0xe052,
     /// Identifier: "icon-microphone"
-    IFDripiconsMicrophone                          = 0xe053,
+    IFDripiconMicrophone                          = 0xe053,
     /// Identifier: "icon-minus"
-    IFDripiconsMinus                               = 0xe054,
+    IFDripiconMinus                               = 0xe054,
     /// Identifier: "icon-message"
-    IFDripiconsMessage                             = 0xe055,
+    IFDripiconMessage                             = 0xe055,
     /// Identifier: "icon-menu"
-    IFDripiconsMenu                                = 0xe056,
+    IFDripiconMenu                                = 0xe056,
     /// Identifier: "icon-media-stop"
-    IFDripiconsMediaStop                           = 0xe057,
+    IFDripiconMediaStop                           = 0xe057,
     /// Identifier: "icon-media-shuffle"
-    IFDripiconsMediaShuffle                        = 0xe058,
+    IFDripiconMediaShuffle                        = 0xe058,
     /// Identifier: "icon-media-previous"
-    IFDripiconsMediaPrevious                       = 0xe059,
+    IFDripiconMediaPrevious                       = 0xe059,
     /// Identifier: "icon-media-play"
-    IFDripiconsMediaPlay                           = 0xe060,
+    IFDripiconMediaPlay                           = 0xe060,
     /// Identifier: "icon-media-next"
-    IFDripiconsMediaNext                           = 0xe061,
+    IFDripiconMediaNext                           = 0xe061,
     /// Identifier: "icon-media-pause"
-    IFDripiconsMediaPause                          = 0xe062,
+    IFDripiconMediaPause                          = 0xe062,
     /// Identifier: "icon-monitor"
-    IFDripiconsMonitor                             = 0xe063,
+    IFDripiconMonitor                             = 0xe063,
     /// Identifier: "icon-move"
-    IFDripiconsMove                                = 0xe064,
+    IFDripiconMove                                = 0xe064,
     /// Identifier: "icon-plus"
-    IFDripiconsPlus                                = 0xe065,
+    IFDripiconPlus                                = 0xe065,
     /// Identifier: "icon-phone"
-    IFDripiconsPhone                               = 0xe066,
+    IFDripiconPhone                               = 0xe066,
     /// Identifier: "icon-preview"
-    IFDripiconsPreview                             = 0xe067,
+    IFDripiconPreview                             = 0xe067,
     /// Identifier: "icon-print"
-    IFDripiconsPrint                               = 0xe068,
+    IFDripiconPrint                               = 0xe068,
     /// Identifier: "icon-media-record"
-    IFDripiconsMediaRecord                         = 0xe069,
+    IFDripiconMediaRecord                         = 0xe069,
     /// Identifier: "icon-music"
-    IFDripiconsMusic                               = 0xe070,
+    IFDripiconMusic                               = 0xe070,
     /// Identifier: "icon-home"
-    IFDripiconsHome                                = 0xe071,
+    IFDripiconHome                                = 0xe071,
     /// Identifier: "icon-question"
-    IFDripiconsQuestion                            = 0xe072,
+    IFDripiconQuestion                            = 0xe072,
     /// Identifier: "icon-reply"
-    IFDripiconsReply                               = 0xe073,
+    IFDripiconReply                               = 0xe073,
     /// Identifier: "icon-reply-all"
-    IFDripiconsReplyAll                            = 0xe074,
+    IFDripiconReplyAll                            = 0xe074,
     /// Identifier: "icon-return"
-    IFDripiconsReturn                              = 0xe075,
+    IFDripiconReturn                              = 0xe075,
     /// Identifier: "icon-retweet"
-    IFDripiconsRetweet                             = 0xe076,
+    IFDripiconRetweet                             = 0xe076,
     /// Identifier: "icon-search"
-    IFDripiconsSearch                              = 0xe077,
+    IFDripiconSearch                              = 0xe077,
     /// Identifier: "icon-view-thumb"
-    IFDripiconsViewThumb                           = 0xe078,
+    IFDripiconViewThumb                           = 0xe078,
     /// Identifier: "icon-view-list-large"
-    IFDripiconsViewListLarge                       = 0xe079,
+    IFDripiconViewListLarge                       = 0xe079,
     /// Identifier: "icon-view-list"
-    IFDripiconsViewList                            = 0xe080,
+    IFDripiconViewList                            = 0xe080,
     /// Identifier: "icon-upload"
-    IFDripiconsUpload                              = 0xe081,
+    IFDripiconUpload                              = 0xe081,
     /// Identifier: "icon-user-group"
-    IFDripiconsUserGroup                           = 0xe082,
+    IFDripiconUserGroup                           = 0xe082,
     /// Identifier: "icon-trash"
-    IFDripiconsTrash                               = 0xe083,
+    IFDripiconTrash                               = 0xe083,
     /// Identifier: "icon-user"
-    IFDripiconsUser                                = 0xe084,
+    IFDripiconUser                                = 0xe084,
     /// Identifier: "icon-thumbs-up"
-    IFDripiconsThumbsUp                            = 0xe085,
+    IFDripiconThumbsUp                            = 0xe085,
     /// Identifier: "icon-thumbs-down"
-    IFDripiconsThumbsDown                          = 0xe086,
+    IFDripiconThumbsDown                          = 0xe086,
     /// Identifier: "icon-tablet-portrait"
-    IFDripiconsTabletPortrait                      = 0xe087,
+    IFDripiconTabletPortrait                      = 0xe087,
     /// Identifier: "icon-tablet-landscape"
-    IFDripiconsTabletLandscape                     = 0xe088,
+    IFDripiconTabletLandscape                     = 0xe088,
     /// Identifier: "icon-tag"
-    IFDripiconsTag                                 = 0xe089,
+    IFDripiconTag                                 = 0xe089,
     /// Identifier: "icon-star"
-    IFDripiconsStar                                = 0xe090,
+    IFDripiconStar                                = 0xe090,
     /// Identifier: "icon-volume-full"
-    IFDripiconsVolumeFull                          = 0xe091,
+    IFDripiconVolumeFull                          = 0xe091,
     /// Identifier: "icon-volume-off"
-    IFDripiconsVolumeOff                           = 0xe092,
+    IFDripiconVolumeOff                           = 0xe092,
     /// Identifier: "icon-warning"
-    IFDripiconsWarning                             = 0xe093,
+    IFDripiconWarning                             = 0xe093,
     /// Identifier: "icon-window"
-    IFDripiconsWindow                              = 0xe094,
+    IFDripiconWindow                              = 0xe094,
 };
 
 /*!

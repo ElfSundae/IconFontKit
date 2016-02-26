@@ -5,7 +5,7 @@ require "../CodeGenerator.php";
 
 $fontIdentifier     = 'Dripicons';
 $fontDescription    = 'Dripicons v1.0 http://demo.amitjakhu.com/dripicons';
-$iconTypePrefix     = 'Dripicons';
+$iconTypePrefix     = 'Dripicon';
 $fontFile           = 'dripicons.ttf';
 
 generatorFromCSS('webfont.css', 'icon');
