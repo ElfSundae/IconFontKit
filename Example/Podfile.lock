@@ -16,6 +16,7 @@ PODS:
     - IconFontsKit/LigatureSymbols (= 1.1.3)
     - IconFontsKit/Linea (= 1.1.3)
     - IconFontsKit/LineariconsFree (= 1.1.3)
+    - IconFontsKit/MapIcons (= 1.1.3)
     - IconFontsKit/MaterialDesignIcons (= 1.1.3)
     - IconFontsKit/MaterialIcons (= 1.1.3)
     - IconFontsKit/Meteocons (= 1.1.3)
@@ -60,6 +61,8 @@ PODS:
     - IconFontsKit/Core
   - IconFontsKit/LineariconsFree (1.1.3):
     - IconFontsKit/Core
+  - IconFontsKit/MapIcons (1.1.3):
+    - IconFontsKit/Core
   - IconFontsKit/MaterialDesignIcons (1.1.3):
     - IconFontsKit/Core
   - IconFontsKit/MaterialIcons (1.1.3):
@@ -97,7 +100,7 @@ EXTERNAL SOURCES:
     :path: "../IconFontsKit.podspec"
 
 SPEC CHECKSUMS:
-  IconFontsKit: 2b92ee28d1c3c5387899d7e676e8c30ac7e1797f
+  IconFontsKit: e28d2fec75f1f1fa74c493619ed075570f775c25
   JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
 
 COCOAPODS: 0.39.0

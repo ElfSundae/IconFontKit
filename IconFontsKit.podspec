@@ -186,4 +186,10 @@ Pod::Spec.new do |s|
     ss.resource             = "IconFontsKit/Genericons.ttf"
   end
 
+  s.subspec "MapIcons" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFMapIcons.{h,m}"
+    ss.resource             = "IconFontsKit/map-icons.ttf"
+  end
+
 end

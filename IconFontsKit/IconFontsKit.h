@@ -34,3 +34,4 @@
 #import <IconFontsKit/IFDripicons.h>
 #import <IconFontsKit/IFOpenWebIcons.h>
 #import <IconFontsKit/IFGenericons.h>
+#import <IconFontsKit/IFMapIcons.h>

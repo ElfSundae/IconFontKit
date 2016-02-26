@@ -265,6 +265,15 @@
       <FileRef
          location = "group:Genericons.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFMapIcons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFMapIcons.m">
+      </FileRef>
+      <FileRef
+         location = "group:map-icons.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">
