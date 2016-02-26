@@ -3,205 +3,205 @@
 /// StreamlineFree icon types.
 typedef NS_ENUM(IFIconType, IFStreamlineFreeType) {
     /// Identifier: "sf-backpack"
-    IFSFBackpack                            = 0xe900,
+    IFStreamlineBackpack                            = 0xe900,
     /// Identifier: "sf-bomb"
-    IFSFBomb                                = 0xe901,
+    IFStreamlineBomb                                = 0xe901,
     /// Identifier: "sf-book"
-    IFSFBook                                = 0xe902,
+    IFStreamlineBook                                = 0xe902,
     /// Identifier: "sf-briefcase"
-    IFSFBriefcase                           = 0xe903,
+    IFStreamlineBriefcase                           = 0xe903,
     /// Identifier: "sf-bubble-chat"
-    IFSFBubbleChat                          = 0xe904,
+    IFStreamlineBubbleChat                          = 0xe904,
     /// Identifier: "sf-bubble-heart"
-    IFSFBubbleHeart                         = 0xe905,
+    IFStreamlineBubbleHeart                         = 0xe905,
     /// Identifier: "sf-camera-photo"
-    IFSFCameraPhoto                         = 0xe906,
+    IFStreamlineCameraPhoto                         = 0xe906,
     /// Identifier: "sf-camera-polaroid"
-    IFSFCameraPolaroid                      = 0xe907,
+    IFStreamlineCameraPolaroid                      = 0xe907,
     /// Identifier: "sf-camera-video"
-    IFSFCameraVideo                         = 0xe908,
+    IFStreamlineCameraVideo                         = 0xe908,
     /// Identifier: "sf-cassette-player"
-    IFSFCassettePlayer                      = 0xe909,
+    IFStreamlineCassettePlayer                      = 0xe909,
     /// Identifier: "sf-charlie-chaplin"
-    IFSFCharlieChaplin                      = 0xe90a,
+    IFStreamlineCharlieChaplin                      = 0xe90a,
     /// Identifier: "sf-chef-hat"
-    IFSFChefHat                             = 0xe90b,
+    IFStreamlineChefHat                             = 0xe90b,
     /// Identifier: "sf-clock"
-    IFSFClock                               = 0xe90c,
+    IFStreamlineClock                               = 0xe90c,
     /// Identifier: "sf-coffee-machine"
-    IFSFCoffeeMachine                       = 0xe90d,
+    IFStreamlineCoffeeMachine                       = 0xe90d,
     /// Identifier: "sf-cog"
-    IFSFCog                                 = 0xe90e,
+    IFStreamlineCog                                 = 0xe90e,
     /// Identifier: "sf-computer-imac"
-    IFSFComputerImac                        = 0xe90f,
+    IFStreamlineComputerImac                        = 0xe90f,
     /// Identifier: "sf-computer-network"
-    IFSFComputerNetwork                     = 0xe910,
+    IFStreamlineComputerNetwork                     = 0xe910,
     /// Identifier: "sf-computer-pc"
-    IFSFComputerPc                          = 0xe911,
+    IFStreamlineComputerPc                          = 0xe911,
     /// Identifier: "sf-computer-screen-1"
-    IFSFComputerScreen1                     = 0xe912,
+    IFStreamlineComputerScreen1                     = 0xe912,
     /// Identifier: "sf-computer-screen-2"
-    IFSFComputerScreen2                     = 0xe913,
+    IFStreamlineComputerScreen2                     = 0xe913,
     /// Identifier: "sf-contact-book"
-    IFSFContactBook                         = 0xe914,
+    IFStreamlineContactBook                         = 0xe914,
     /// Identifier: "sf-content-download"
-    IFSFContentDownload                     = 0xe915,
+    IFStreamlineContentDownload                     = 0xe915,
     /// Identifier: "sf-cooking-pot"
-    IFSFCookingPot                          = 0xe916,
+    IFStreamlineCookingPot                          = 0xe916,
     /// Identifier: "sf-crop"
-    IFSFCrop                                = 0xe917,
+    IFStreamlineCrop                                = 0xe917,
     /// Identifier: "sf-crown"
-    IFSFCrown                               = 0xe918,
+    IFStreamlineCrown                               = 0xe918,
     /// Identifier: "sf-designer-cup"
-    IFSFDesignerCup                         = 0xe919,
+    IFStreamlineDesignerCup                         = 0xe919,
     /// Identifier: "sf-diving-gear"
-    IFSFDivingGear                          = 0xe91a,
+    IFStreamlineDivingGear                          = 0xe91a,
     /// Identifier: "sf-drink-cocktail"
-    IFSFDrinkCocktail                       = 0xe91b,
+    IFStreamlineDrinkCocktail                       = 0xe91b,
     /// Identifier: "sf-drink-coffee"
-    IFSFDrinkCoffee                         = 0xe91c,
+    IFStreamlineDrinkCoffee                         = 0xe91c,
     /// Identifier: "sf-e-mail"
-    IFSFEMail                               = 0xe91d,
+    IFStreamlineEMail                               = 0xe91d,
     /// Identifier: "sf-envelope"
-    IFSFEnvelope                            = 0xe91e,
+    IFStreamlineEnvelope                            = 0xe91e,
     /// Identifier: "sf-eyedropper"
-    IFSFEyedropper                          = 0xe91f,
+    IFStreamlineEyedropper                          = 0xe91f,
     /// Identifier: "sf-fork-knife"
-    IFSFForkKnife                           = 0xe920,
+    IFStreamlineForkKnife                           = 0xe920,
     /// Identifier: "sf-forklift"
-    IFSFForklift                            = 0xe921,
+    IFStreamlineForklift                            = 0xe921,
     /// Identifier: "sf-fountain-pen-head-1"
-    IFSFFountainPenHead1                    = 0xe922,
+    IFStreamlineFountainPenHead1                    = 0xe922,
     /// Identifier: "sf-fountain-pen-head-2"
-    IFSFFountainPenHead2                    = 0xe923,
+    IFStreamlineFountainPenHead2                    = 0xe923,
     /// Identifier: "sf-gauge"
-    IFSFGauge                               = 0xe924,
+    IFStreamlineGauge                               = 0xe924,
     /// Identifier: "sf-globe"
-    IFSFGlobe                               = 0xe925,
+    IFStreamlineGlobe                               = 0xe925,
     /// Identifier: "sf-grid"
-    IFSFGrid                                = 0xe926,
+    IFStreamlineGrid                                = 0xe926,
     /// Identifier: "sf-griller"
-    IFSFGriller                             = 0xe927,
+    IFStreamlineGriller                             = 0xe927,
     /// Identifier: "sf-handbag"
-    IFSFHandbag                             = 0xe928,
+    IFStreamlineHandbag                             = 0xe928,
     /// Identifier: "sf-headphone"
-    IFSFHeadphone                           = 0xe929,
+    IFStreamlineHeadphone                           = 0xe929,
     /// Identifier: "sf-heart"
-    IFSFHeart                               = 0xe92a,
+    IFStreamlineHeart                               = 0xe92a,
     /// Identifier: "sf-home"
-    IFSFHome                                = 0xe92b,
+    IFStreamlineHome                                = 0xe92b,
     /// Identifier: "sf-hotdog"
-    IFSFHotdog                              = 0xe92c,
+    IFStreamlineHotdog                              = 0xe92c,
     /// Identifier: "sf-icecream"
-    IFSFIcecream                            = 0xe92d,
+    IFStreamlineIcecream                            = 0xe92d,
     /// Identifier: "sf-image"
-    IFSFImage                               = 0xe92e,
+    IFStreamlineImage                               = 0xe92e,
     /// Identifier: "sf-iphone"
-    IFSFIphone                              = 0xe92f,
+    IFStreamlineIphone                              = 0xe92f,
     /// Identifier: "sf-ipod"
-    IFSFIpod                                = 0xe930,
+    IFStreamlineIpod                                = 0xe930,
     /// Identifier: "sf-layers-image"
-    IFSFLayersImage                         = 0xe931,
+    IFStreamlineLayersImage                         = 0xe931,
     /// Identifier: "sf-layers"
-    IFSFLayers                              = 0xe932,
+    IFStreamlineLayers                              = 0xe932,
     /// Identifier: "sf-link"
-    IFSFLink                                = 0xe933,
+    IFStreamlineLink                                = 0xe933,
     /// Identifier: "sf-location-pin"
-    IFSFLocationPin                         = 0xe934,
+    IFStreamlineLocationPin                         = 0xe934,
     /// Identifier: "sf-location-user"
-    IFSFLocationUser                        = 0xe935,
+    IFStreamlineLocationUser                        = 0xe935,
     /// Identifier: "sf-lock-locked"
-    IFSFLockLocked                          = 0xe936,
+    IFStreamlineLockLocked                          = 0xe936,
     /// Identifier: "sf-lock-unlocked"
-    IFSFLockUnlocked                        = 0xe937,
+    IFStreamlineLockUnlocked                        = 0xe937,
     /// Identifier: "sf-magic-wand"
-    IFSFMagicWand                           = 0xe938,
+    IFStreamlineMagicWand                           = 0xe938,
     /// Identifier: "sf-magnet"
-    IFSFMagnet                              = 0xe939,
+    IFStreamlineMagnet                              = 0xe939,
     /// Identifier: "sf-microphone"
-    IFSFMicrophone                          = 0xe93a,
+    IFStreamlineMicrophone                          = 0xe93a,
     /// Identifier: "sf-monocle"
-    IFSFMonocle                             = 0xe93b,
+    IFStreamlineMonocle                             = 0xe93b,
     /// Identifier: "sf-mp3-player"
-    IFSFMp3Player                           = 0xe93c,
+    IFStreamlineMp3Player                           = 0xe93c,
     /// Identifier: "sf-music-note"
-    IFSFMusicNote                           = 0xe93d,
+    IFStreamlineMusicNote                           = 0xe93d,
     /// Identifier: "sf-notebook-1"
-    IFSFNotebook1                           = 0xe93e,
+    IFStreamlineNotebook1                           = 0xe93e,
     /// Identifier: "sf-notebook-2"
-    IFSFNotebook2                           = 0xe93f,
+    IFStreamlineNotebook2                           = 0xe93f,
     /// Identifier: "sf-paint-brush"
-    IFSFPaintBrush                          = 0xe940,
+    IFStreamlinePaintBrush                          = 0xe940,
     /// Identifier: "sf-paint-bucket"
-    IFSFPaintBucket                         = 0xe941,
+    IFStreamlinePaintBucket                         = 0xe941,
     /// Identifier: "sf-paint-palette"
-    IFSFPaintPalette                        = 0xe942,
+    IFStreamlinePaintPalette                        = 0xe942,
     /// Identifier: "sf-paint-roller"
-    IFSFPaintRoller                         = 0xe943,
+    IFStreamlinePaintRoller                         = 0xe943,
     /// Identifier: "sf-pen-fountain"
-    IFSFPenFountain                         = 0xe944,
+    IFStreamlinePenFountain                         = 0xe944,
     /// Identifier: "sf-pen-point-tip"
-    IFSFPenPointTip                         = 0xe945,
+    IFStreamlinePenPointTip                         = 0xe945,
     /// Identifier: "sf-pencil-ruler"
-    IFSFPencilRuler                         = 0xe946,
+    IFStreamlinePencilRuler                         = 0xe946,
     /// Identifier: "sf-picture-frame"
-    IFSFPictureFrame                        = 0xe947,
+    IFStreamlinePictureFrame                        = 0xe947,
     /// Identifier: "sf-quill-ink"
-    IFSFQuillInk                            = 0xe948,
+    IFStreamlineQuillInk                            = 0xe948,
     /// Identifier: "sf-refresh"
-    IFSFRefresh                             = 0xe949,
+    IFStreamlineRefresh                             = 0xe949,
     /// Identifier: "sf-remote-control-hand"
-    IFSFRemoteControlHand                   = 0xe94a,
+    IFStreamlineRemoteControlHand                   = 0xe94a,
     /// Identifier: "sf-remote-control-screen"
-    IFSFRemoteControlScreen                 = 0xe94b,
+    IFStreamlineRemoteControlScreen                 = 0xe94b,
     /// Identifier: "sf-script"
-    IFSFScript                              = 0xe94c,
+    IFStreamlineScript                              = 0xe94c,
     /// Identifier: "sf-server"
-    IFSFServer                              = 0xe94d,
+    IFStreamlineServer                              = 0xe94d,
     /// Identifier: "sf-settings"
-    IFSFSettings                            = 0xe94e,
+    IFStreamlineSettings                            = 0xe94e,
     /// Identifier: "sf-shield-cross"
-    IFSFShieldCross                         = 0xe94f,
+    IFStreamlineShieldCross                         = 0xe94f,
     /// Identifier: "sf-shopping-cart-add"
-    IFSFShoppingCartAdd                     = 0xe950,
+    IFStreamlineShoppingCartAdd                     = 0xe950,
     /// Identifier: "sf-shopping-cart-remove"
-    IFSFShoppingCartRemove                  = 0xe951,
+    IFStreamlineShoppingCartRemove                  = 0xe951,
     /// Identifier: "sf-skull"
-    IFSFSkull                               = 0xe952,
+    IFStreamlineSkull                               = 0xe952,
     /// Identifier: "sf-smart-device"
-    IFSFSmartDevice                         = 0xe953,
+    IFStreamlineSmartDevice                         = 0xe953,
     /// Identifier: "sf-smiley"
-    IFSFSmiley                              = 0xe954,
+    IFStreamlineSmiley                              = 0xe954,
     /// Identifier: "sf-sneakers"
-    IFSFSneakers                            = 0xe955,
+    IFStreamlineSneakers                            = 0xe955,
     /// Identifier: "sf-sofa"
-    IFSFSofa                                = 0xe956,
+    IFStreamlineSofa                                = 0xe956,
     /// Identifier: "sf-stamp"
-    IFSFStamp                               = 0xe957,
+    IFStreamlineStamp                               = 0xe957,
     /// Identifier: "sf-sub-woofer"
-    IFSFSubWoofer                           = 0xe958,
+    IFStreamlineSubWoofer                           = 0xe958,
     /// Identifier: "sf-syringe"
-    IFSFSyringe                             = 0xe959,
+    IFStreamlineSyringe                             = 0xe959,
     /// Identifier: "sf-target"
-    IFSFTarget                              = 0xe95a,
+    IFStreamlineTarget                              = 0xe95a,
     /// Identifier: "sf-teapot"
-    IFSFTeapot                              = 0xe95b,
+    IFStreamlineTeapot                              = 0xe95b,
     /// Identifier: "sf-trash-can"
-    IFSFTrashCan                            = 0xe95c,
+    IFStreamlineTrashCan                            = 0xe95c,
     /// Identifier: "sf-umbrella"
-    IFSFUmbrella                            = 0xe95d,
+    IFStreamlineUmbrella                            = 0xe95d,
     /// Identifier: "sf-user-chat"
-    IFSFUserChat                            = 0xe95e,
+    IFStreamlineUserChat                            = 0xe95e,
     /// Identifier: "sf-user"
-    IFSFUser                                = 0xe95f,
+    IFStreamlineUser                                = 0xe95f,
     /// Identifier: "sf-vector"
-    IFSFVector                              = 0xe960,
+    IFStreamlineVector                              = 0xe960,
     /// Identifier: "sf-windows"
-    IFSFWindows                             = 0xe961,
+    IFStreamlineWindows                             = 0xe961,
     /// Identifier: "sf-wrenches"
-    IFSFWrenches                            = 0xe962,
+    IFStreamlineWrenches                            = 0xe962,
     /// Identifier: "sf-write"
-    IFSFWrite                               = 0xe963,
+    IFStreamlineWrite                               = 0xe963,
 };
 
 /*!
