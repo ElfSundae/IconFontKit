@@ -126,4 +126,10 @@ Pod::Spec.new do |s|
     ss.resource             = "IconFontsKit/dashicons.ttf"
   end
 
+  s.subspec "Linea" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFLinea.{h,m}"
+    ss.resource             = "IconFontsKit/Linea.ttf"
+  end
+
 end

@@ -175,6 +175,15 @@
       <FileRef
          location = "group:dashicons.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFLinea.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFLinea.m">
+      </FileRef>
+      <FileRef
+         location = "group:Linea.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">
