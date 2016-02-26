@@ -274,6 +274,15 @@
       <FileRef
          location = "group:map-icons.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFWeatherIcons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFWeatherIcons.m">
+      </FileRef>
+      <FileRef
+         location = "group:weathericons-regular-webfont.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">

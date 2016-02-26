@@ -35,3 +35,4 @@
 #import <IconFontsKit/IFOpenWebIcons.h>
 #import <IconFontsKit/IFGenericons.h>
 #import <IconFontsKit/IFMapIcons.h>
+#import <IconFontsKit/IFWeatherIcons.h>

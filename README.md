@@ -41,6 +41,7 @@
 | [OpenWebIcons](http://pfefferle.github.io/openwebicons) | 1.4.0 | [104](http://pfefferle.github.io/openwebicons/icons/) | 40 KB | [SIL OFL 1.1](https://github.com/pfefferle/openwebicons/blob/master/License.txt) | OpenWeb Icons |
 | [Genericons](http://genericons.com) | 3.4.1 | [147](http://genericons.com) | 22 KB | GPLv2 | Designed to be clean and simple keeping with a generic aesthetic. |
 | [MapIcons](http://map-icons.com) | 3.0.0 | [175](http://map-icons.com/#icons) | 48 KB | [SIL OFL 1.1](https://github.com/scottdejonge/map-icons#license) | An icon font for use with Google Maps. |
+| [WeatherIcons](http://erikflowers.github.io/weather-icons) | 2.0.10 | [590](http://erikflowers.github.io/weather-icons) | 100 KB | [SIL OFL 1.1](https://github.com/erikflowers/weather-icons#licensing) | weather, maritime, and meteorological based icons |
 
 ## Installation
 

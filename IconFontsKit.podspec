@@ -192,4 +192,10 @@ Pod::Spec.new do |s|
     ss.resource             = "IconFontsKit/map-icons.ttf"
   end
 
+  s.subspec "WeatherIcons" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFWeatherIcons.{h,m}"
+    ss.resource             = "IconFontsKit/weathericons-regular-webfont.ttf"
+  end
+
 end

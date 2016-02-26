@@ -64,6 +64,7 @@ JTSImageViewControllerDismissalDelegate, UIActionSheetDelegate>
                              [IFOpenWebIcons class],
                              [IFGenericons class],
                              [IFMapIcons class],
+                             [IFWeatherIcons class],
                              ];
     }
     return self;
