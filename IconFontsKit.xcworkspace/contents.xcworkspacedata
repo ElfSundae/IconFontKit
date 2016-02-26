@@ -220,6 +220,15 @@
       <FileRef
          location = "group:Pe-icon-7-stroke.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFDevicons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFDevicons.m">
+      </FileRef>
+      <FileRef
+         location = "group:devicons.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">

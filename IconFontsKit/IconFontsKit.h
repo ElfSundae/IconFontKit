@@ -29,3 +29,4 @@
 #import <IconFontsKit/IFThemifyIcons.h>
 #import <IconFontsKit/IFStreamlineFree.h>
 #import <IconFontsKit/IFStroke7Icons.h>
+#import <IconFontsKit/IFDevicons.h>

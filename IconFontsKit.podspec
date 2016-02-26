@@ -156,4 +156,10 @@ Pod::Spec.new do |s|
     ss.resource             = "IconFontsKit/Pe-icon-7-stroke.ttf"
   end
 
+  s.subspec "Devicons" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFDevicons.{h,m}"
+    ss.resource             = "IconFontsKit/devicons.ttf"
+  end
+
 end
