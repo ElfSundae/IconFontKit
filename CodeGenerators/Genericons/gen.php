@@ -5,7 +5,7 @@ require "../CodeGenerator.php";
 
 $fontIdentifier     = 'Genericons';
 $fontDescription    = 'Genericons v3.4.1 http://genericons.com';
-$iconTypePrefix     = 'Genericons';
+$iconTypePrefix     = 'Genericon';
 $fontFile           = 'Genericons.ttf';
 
 generatorFromCSS('genericons.css', 'genericon');
