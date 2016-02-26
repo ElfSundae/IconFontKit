@@ -144,4 +144,10 @@ Pod::Spec.new do |s|
     ss.resource             = "IconFontsKit/themify.ttf"
   end
 
+  s.subspec "StreamlineFree" do |ss|
+    ss.dependency           "IconFontsKit/Core"
+    ss.source_files         = "IconFontsKit/IFStreamlineFree.{h,m}"
+    ss.resource             = "IconFontsKit/StreamlineFree.ttf"
+  end
+
 end

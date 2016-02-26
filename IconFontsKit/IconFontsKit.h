@@ -27,3 +27,4 @@
 #import <IconFontsKit/IFLinea.h>
 #import <IconFontsKit/IFEntypo.h>
 #import <IconFontsKit/IFThemifyIcons.h>
+#import <IconFontsKit/IFStreamlineFree.h>

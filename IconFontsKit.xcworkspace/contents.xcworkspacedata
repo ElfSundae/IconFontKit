@@ -202,6 +202,15 @@
       <FileRef
          location = "group:themify.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFStreamlineFree.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFStreamlineFree.m">
+      </FileRef>
+      <FileRef
+         location = "group:StreamlineFree.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontsKitExample.xcodeproj">
