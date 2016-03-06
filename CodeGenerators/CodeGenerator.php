@@ -39,7 +39,7 @@ function generateContents()
     $className = "$classPrefix$fontIdentifier";
     $tab = "    ";
 
-    $hContent = "#import <IconFontsKit/IFIcon.h>\n\n";
+    $hContent = "#import <IconFontKit/IFIcon.h>\n\n";
     $hContent .= "/// {$fontIdentifier} icon types.\n";
     $hContent .= "typedef NS_ENUM(IFIconType, {$className}Type) {\n";
     for ($i = 0; $i < count($iconIdentifiers); ++$i) {
@@ -102,8 +102,8 @@ function writeToFile()
     file_put_contents($mFile, $mContent);
 
     if ($moveToProject) {
-        rename($hFile, "../../IconFontsKit/$hFile");
-        rename($mFile, "../../IconFontsKit/$mFile");
+        rename($hFile, "../../IconFontKit/$hFile");
+        rename($mFile, "../../IconFontKit/$mFile");
     }
 
     echo "$fontIdentifier contains " . count($iconIdentifiers) . " icons (including aliases).\n";

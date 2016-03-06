@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:IconFontKit"
+      name = "IconFontKit">
+      <FileRef
+         location = "group:IconFontKit.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFIcon.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFIcon.m">
+      </FileRef>
+      <FileRef
+         location = "group:IFFontAwesome.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFFontAwesome.m">
+      </FileRef>
+      <FileRef
+         location = "group:FontAwesome.otf">
+      </FileRef>
+      <FileRef
+         location = "group:IFOcticons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFOcticons.m">
+      </FileRef>
+      <FileRef
+         location = "group:octicons.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFFoundationIcons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFFoundationIcons.m">
+      </FileRef>
+      <FileRef
+         location = "group:foundation-icons.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFIonicons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFIonicons.m">
+      </FileRef>
+      <FileRef
+         location = "group:ionicons.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFMaterialDesignIcons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFMaterialDesignIcons.m">
+      </FileRef>
+      <FileRef
+         location = "group:materialdesignicons-webfont.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFElusiveIcons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFElusiveIcons.m">
+      </FileRef>
+      <FileRef
+         location = "group:elusiveicons-webfont.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFMaterialIcons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFMaterialIcons.m">
+      </FileRef>
+      <FileRef
+         location = "group:MaterialIcons-Regular.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFZocialButtons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFZocialButtons.m">
+      </FileRef>
+      <FileRef
+         location = "group:zocial.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFTypicons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFTypicons.m">
+      </FileRef>
+      <FileRef
+         location = "group:typicons.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFOpenIconic.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFOpenIconic.m">
+      </FileRef>
+      <FileRef
+         location = "group:open-iconic.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFMetrizeIcons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFMetrizeIcons.m">
+      </FileRef>
+      <FileRef
+         location = "group:Metrize-Icons.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFMeteocons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFMeteocons.m">
+      </FileRef>
+      <FileRef
+         location = "group:meteocons.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFMFGLabsIconset.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFMFGLabsIconset.m">
+      </FileRef>
+      <FileRef
+         location = "group:mfglabsiconset-webfont.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFLineariconsFree.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFLineariconsFree.m">
+      </FileRef>
+      <FileRef
+         location = "group:Linearicons-Free.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFIcoMoonFree.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFIcoMoonFree.m">
+      </FileRef>
+      <FileRef
+         location = "group:IcoMoon-Free.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFHawconsFilled.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFHawconsFilled.m">
+      </FileRef>
+      <FileRef
+         location = "group:Hawcons-Filled.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFHawconsStroke.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFHawconsStroke.m">
+      </FileRef>
+      <FileRef
+         location = "group:Hawcons-Stroke.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFDashicons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFDashicons.m">
+      </FileRef>
+      <FileRef
+         location = "group:dashicons.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFLinea.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFLinea.m">
+      </FileRef>
+      <FileRef
+         location = "group:Linea.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFEntypo.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFEntypo.m">
+      </FileRef>
+      <FileRef
+         location = "group:Entypo.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFThemifyIcons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFThemifyIcons.m">
+      </FileRef>
+      <FileRef
+         location = "group:themify.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFStreamlineFree.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFStreamlineFree.m">
+      </FileRef>
+      <FileRef
+         location = "group:StreamlineFree.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFStroke7Icons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFStroke7Icons.m">
+      </FileRef>
+      <FileRef
+         location = "group:Pe-icon-7-stroke.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFDevicons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFDevicons.m">
+      </FileRef>
+      <FileRef
+         location = "group:devicons.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFLigatureSymbols.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFLigatureSymbols.m">
+      </FileRef>
+      <FileRef
+         location = "group:LigatureSymbols.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFDripicons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFDripicons.m">
+      </FileRef>
+      <FileRef
+         location = "group:dripicons.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFOpenWebIcons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFOpenWebIcons.m">
+      </FileRef>
+      <FileRef
+         location = "group:openwebicons.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFGenericons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFGenericons.m">
+      </FileRef>
+      <FileRef
+         location = "group:Genericons.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFMapIcons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFMapIcons.m">
+      </FileRef>
+      <FileRef
+         location = "group:map-icons.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:IFWeatherIcons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFWeatherIcons.m">
+      </FileRef>
+      <FileRef
+         location = "group:weathericons-regular-webfont.ttf">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Example/IconFontKitExample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Example/Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

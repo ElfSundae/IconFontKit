@@ -1,12 +1,12 @@
 ## Summary
 
-[![Pod Version](http://img.shields.io/cocoapods/v/IconFontsKit.svg)](http://cocoadocs.org/docsets/IconFontsKit)
+[![Pod Version](http://img.shields.io/cocoapods/v/IconFontKit.svg)](http://cocoadocs.org/docsets/IconFontKit)
 
-**IconFontsKit** is inspired to [FontAwesomeKit](https://github.com/PrideChung/FontAwesomeKit).
+**IconFontKit** is inspired to [FontAwesomeKit](https://github.com/PrideChung/FontAwesomeKit).
 
-[![Sample](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/sample.png?3)](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/sample.png)
-[![Explorer](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/explorer.png?3)](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/explorer.png)
-[![Selector](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/selector.png?3)](https://raw.githubusercontent.com/ElfSundae/IconFontsKit/master/screenshots/selector.png)
+[![Sample](https://raw.githubusercontent.com/ElfSundae/IconFontKit/master/screenshots/sample.png?3)](https://raw.githubusercontent.com/ElfSundae/IconFontKit/master/screenshots/sample.png)
+[![Explorer](https://raw.githubusercontent.com/ElfSundae/IconFontKit/master/screenshots/explorer.png?3)](https://raw.githubusercontent.com/ElfSundae/IconFontKit/master/screenshots/explorer.png)
+[![Selector](https://raw.githubusercontent.com/ElfSundae/IconFontKit/master/screenshots/selector.png?3)](https://raw.githubusercontent.com/ElfSundae/IconFontKit/master/screenshots/selector.png)
 
 ## Supported Icon Fonts
 
@@ -45,9 +45,9 @@
 
 ## Installation
 
-`pod 'IconFontsKit'` to install all icon fonts.
+`pod 'IconFontKit'` to install all icon fonts.
 
-`pod 'IconFontsKit/{Font Identifier}'` to install certain of icon fonts, e.g. `pod 'IconFontsKit/FontAwesome'`.
+`pod 'IconFontKit/{Font Identifier}'` to install certain of icon fonts, e.g. `pod 'IconFontKit/FontAwesome'`.
 
 ## Usage
 
@@ -100,12 +100,12 @@ You can set the `drawingPositionAdjustment` property to adjust drawing offset fo
 + If you want to use **identifier** way, such as `+iconWithIdentifier:fontSize:` method, to create icons, you need to implement `+ (NSDictionary *)allIcons` method as well.
 + Icon types of your custom fonts are the icon's unicode hexadecimal value. e.g. icon code `\uf100`'s type is `0xf100`.
 + _FYI_: You can generate icon fonts using [Fontello](http://fontello.com), [Fontastic](http://fontastic.me), [IcoMoon app](https://icomoon.io/app) or other awesome services.
-+ See "IconFontsKitExample/MyFontIcons" for demo.
++ See "IconFontKitExample/MyFontIcons" for demo.
 
  ```objc
  // MyFontIcons.h
 
- #import <IconFontsKit/IFIcon.h>
+ #import <IconFontKit/IFIcon.h>
 
  typedef NS_ENUM(IFIconType, MyFontIconsType) {
      MFFacebookSquared   = 0xa100,
@@ -157,6 +157,6 @@ You can set the `drawingPositionAdjustment` property to adjust drawing offset fo
 
 ## License
 
-IconFontsKit is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
+IconFontKit is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
 
 **NOTICE:** each icon font has it's own license agreement.
