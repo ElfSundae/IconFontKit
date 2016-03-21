@@ -36,3 +36,4 @@
 #import <IconFontKit/IFGenericons.h>
 #import <IconFontKit/IFMapIcons.h>
 #import <IconFontKit/IFWeatherIcons.h>
+#import <IconFontKit/IFEvilIcons.h>

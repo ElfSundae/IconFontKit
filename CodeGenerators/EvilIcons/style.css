@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'EvilIcons';
+    src:    url('fonts/EvilIcons.eot?5o7py3');
+    src:    url('fonts/EvilIcons.eot?5o7py3#iefix') format('embedded-opentype'),
+        url('fonts/EvilIcons.ttf?5o7py3') format('truetype'),
+        url('fonts/EvilIcons.woff?5o7py3') format('woff'),
+        url('fonts/EvilIcons.svg?5o7py3#EvilIcons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="ei-"], [class*=" ei-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'EvilIcons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ei-archive:before {
+    content: "\e900";
+}
+.ei-arrow-down:before {
+    content: "\e901";
+}
+.ei-arrow-left:before {
+    content: "\e902";
+}
+.ei-arrow-right:before {
+    content: "\e903";
+}
+.ei-arrow-up:before {
+    content: "\e904";
+}
+.ei-bell:before {
+    content: "\e905";
+}
+.ei-calendar:before {
+    content: "\e906";
+}
+.ei-camera:before {
+    content: "\e907";
+}
+.ei-cart:before {
+    content: "\e908";
+}
+.ei-chart:before {
+    content: "\e909";
+}
+.ei-check:before {
+    content: "\e90a";
+}
+.ei-chevron-down:before {
+    content: "\e90b";
+}
+.ei-chevron-left:before {
+    content: "\e90c";
+}
+.ei-chevron-right:before {
+    content: "\e90d";
+}
+.ei-chevron-up:before {
+    content: "\e90e";
+}
+.ei-clock:before {
+    content: "\e90f";
+}
+.ei-close-o:before {
+    content: "\e910";
+}
+.ei-close:before {
+    content: "\e911";
+}
+.ei-comment:before {
+    content: "\e912";
+}
+.ei-credit-card:before {
+    content: "\e913";
+}
+.ei-envelope:before {
+    content: "\e914";
+}
+.ei-exclamation:before {
+    content: "\e915";
+}
+.ei-external-link:before {
+    content: "\e916";
+}
+.ei-eye:before {
+    content: "\e917";
+}
+.ei-gear:before {
+    content: "\e918";
+}
+.ei-heart:before {
+    content: "\e919";
+}
+.ei-image:before {
+    content: "\e91a";
+}
+.ei-like:before {
+    content: "\e91b";
+}
+.ei-link:before {
+    content: "\e91c";
+}
+.ei-location:before {
+    content: "\e91d";
+}
+.ei-lock:before {
+    content: "\e91e";
+}
+.ei-minus:before {
+    content: "\e91f";
+}
+.ei-navicon:before {
+    content: "\e920";
+}
+.ei-paperclip:before {
+    content: "\e921";
+}
+.ei-pencil:before {
+    content: "\e922";
+}
+.ei-play:before {
+    content: "\e923";
+}
+.ei-plus:before {
+    content: "\e924";
+}
+.ei-pointer:before {
+    content: "\e925";
+}
+.ei-question:before {
+    content: "\e926";
+}
+.ei-redo:before {
+    content: "\e927";
+}
+.ei-refresh:before {
+    content: "\e928";
+}
+.ei-retweet:before {
+    content: "\e929";
+}
+.ei-sc-facebook:before {
+    content: "\e92a";
+}
+.ei-sc-github:before {
+    content: "\e92b";
+}
+.ei-sc-google-plus:before {
+    content: "\e92c";
+}
+.ei-sc-instagram:before {
+    content: "\e92d";
+}
+.ei-sc-linkedin:before {
+    content: "\e92e";
+}
+.ei-sc-odnoklassniki:before {
+    content: "\e92f";
+}
+.ei-sc-pinterest:before {
+    content: "\e930";
+}
+.ei-sc-skype:before {
+    content: "\e931";
+}
+.ei-sc-soundcloud:before {
+    content: "\e932";
+}
+.ei-sc-telegram:before {
+    content: "\e933";
+}
+.ei-sc-tumblr:before {
+    content: "\e934";
+}
+.ei-sc-twitter:before {
+    content: "\e935";
+}
+.ei-sc-vimeo:before {
+    content: "\e936";
+}
+.ei-sc-vk:before {
+    content: "\e937";
+}
+.ei-sc-youtube:before {
+    content: "\e938";
+}
+.ei-search:before {
+    content: "\e939";
+}
+.ei-share-apple:before {
+    content: "\e93a";
+}
+.ei-share-google:before {
+    content: "\e93b";
+}
+.ei-spinner-2:before {
+    content: "\e93c";
+}
+.ei-spinner-3:before {
+    content: "\e948";
+}
+.ei-spinner:before {
+    content: "\e949";
+}
+.ei-star:before {
+    content: "\e955";
+}
+.ei-tag:before {
+    content: "\e956";
+}
+.ei-trash:before {
+    content: "\e957";
+}
+.ei-trophy:before {
+    content: "\e958";
+}
+.ei-undo:before {
+    content: "\e959";
+}
+.ei-unlock:before {
+    content: "\e95a";
+}
+.ei-user:before {
+    content: "\e95b";
+}
+

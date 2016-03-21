@@ -283,6 +283,15 @@
       <FileRef
          location = "group:weathericons-regular-webfont.ttf">
       </FileRef>
+      <FileRef
+         location = "group:IFEvilIcons.h">
+      </FileRef>
+      <FileRef
+         location = "group:IFEvilIcons.m">
+      </FileRef>
+      <FileRef
+         location = "group:EvilIcons.ttf">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Example/IconFontKitExample.xcodeproj">
