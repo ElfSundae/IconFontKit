@@ -45,53 +45,50 @@
 
 ## Installation
 
-`pod 'IconFontKit'` to install all icon fonts.
-
+`pod 'IconFontKit'` to install all icon fonts.  
 `pod 'IconFontKit/{Font Identifier}'` to install certain of icon fonts, e.g. `pod 'IconFontKit/FontAwesome'`.
 
 ## Usage
 
-+ An icon can be created by three ways: **code** like `@"\uf179"`, **type** like `IFFAApple`, **identifier** like `@"fa-apple"`.
++ An icon can be created by three ways: **code** like `@"\uf179"`, **type** like `IFFAApple`, **identifier** like `@"fa-apple"`.  
+  The **code** and **type** way are ***recommended***.
 
- The **code** and **type** way are ***recommended***.
-
- ```objc
- IFFontAwesome *faIcon = [IFFontAwesome iconWithCode:@"\uf17b" fontSize:20.0];
- IFIonicons *ionIcon = [IFFontAwesome iconWithType:IFIIWifi fontSize:20.0];
- IFOcticons *octIcon = [IFOcticons iconWithIdentifier:@"octicon-gift" fontSize:20.0];
- ```
+  ```objc
+  IFFontAwesome *faIcon = [IFFontAwesome iconWithCode:@"\uf17b" fontSize:20.0];
+  IFIonicons *ionIcon = [IFFontAwesome iconWithType:IFIIWifi fontSize:20.0];
+  IFOcticons *octIcon = [IFOcticons iconWithIdentifier:@"octicon-gift" fontSize:20.0];
+  ```
 
 + IFIcon are backend with `NSAttributedString`, and there are several attributes accessors methods, like:
 
- ```objc
- - (NSDictionary *)attributes;
- - (void)addAttribute:(NSString *)name value:(id)value;
- - (void)removeAttribute:(NSString *)name;
- - (void)setAttributes:(NSDictionary *)attributes;
- ```
+  ```objc
+  - (NSDictionary *)attributes;
+  - (void)addAttribute:(NSString *)name value:(id)value;
+  - (void)removeAttribute:(NSString *)name;
+  - (void)setAttributes:(NSDictionary *)attributes;
+  ```
 
 + You can get an icon image using `-[IFxxxIcon imageWithSize:]`, or `+[IFxxxIcon imageWithType:color: xxx]`.
 
- ```objc
- UIImage *image = [IFFontAwesome imageWithType:IFOIArrowRight color:nil imageSize:CGSizeMake(30, 30)];
- ```
+  ```objc
+  UIImage *image = [IFFontAwesome imageWithType:IFOIArrowRight color:nil imageSize:CGSizeMake(30, 30)];
+  ```
 
 + Use `+[IFxxxIcon fontWithSize:]` to get the icon font instance.
 
 + To stack multiple icons to one image, use `+[UIImage if_imageWithStackedIcons:(NSArray <IFIcon *>*)icons imageSize:(CGSize)imageSize]`.
-These icons will be centered horizontally and vertically by default.
-You can set the `drawingPositionAdjustment` property to adjust drawing offset for each icon.
+  These icons will be centered horizontally and vertically by default.
+  You can set the `drawingPositionAdjustment` property to adjust drawing offset for each icon.  
+  The first icon will be drawn on the bottom and the last icon will be drawn on the top.
 
- The first icon will be drawn on the bottom and the last icon will be drawn on the top.
-
- ```objc
- IFFontAwesome *container = [IFFontAwesome iconWithType:IFFASquareO fontSize:100.0 color:[UIColor colorWithWhite:0.88 alpha:1.0]];
- container.drawingPositionAdjustment = UIOffsetMake(0, 4);
- IFFontAwesome *forbidden = [IFFontAwesome iconWithType:IFFABan fontSize:70.0 color:[[UIColor redColor] colorWithAlphaComponent:0.6]];
- IFFontAwesome *usbIcon = [IFFontAwesome iconWithType:IFFAUsb fontSize:50];
-
- UIImage *stackedImage = [UIImage if_imageWithStackedIcons:@[container, usbIcon, forbidden] imageSize:CGSizeMake(100, 100)];
- ```
+  ```objc
+  IFFontAwesome *container = [IFFontAwesome iconWithType:IFFASquareO fontSize:100.0 color:[UIColor colorWithWhite:0.88 alpha:1.0]];
+  container.drawingPositionAdjustment = UIOffsetMake(0, 4);
+  IFFontAwesome *forbidden = [IFFontAwesome iconWithType:IFFABan fontSize:70.0 color:[[UIColor redColor] colorWithAlphaComponent:0.6]];
+  IFFontAwesome *usbIcon = [IFFontAwesome iconWithType:IFFAUsb fontSize:50];
+  
+  UIImage *stackedImage = [UIImage if_imageWithStackedIcons:@[container, usbIcon, forbidden] imageSize:CGSizeMake(100, 100)];
+  ```
 
 ## Using custom Icon Fonts
 
@@ -99,61 +96,61 @@ You can set the `drawingPositionAdjustment` property to adjust drawing offset fo
 + If the font name is not the same as the filename of `fontFileURL`, you need to implement `+ (NSString *)fontName` method as well.
 + If you want to use **identifier** way, such as `+iconWithIdentifier:fontSize:` method, to create icons, you need to implement `+ (NSDictionary *)allIcons` method as well.
 + Icon types of your custom fonts are the icon's unicode hexadecimal value. e.g. icon code `\uf100`'s type is `0xf100`.
-+ _FYI_: You can generate icon fonts using [Fontello](http://fontello.com), [Fontastic](http://fontastic.me), [IcoMoon app](https://icomoon.io/app) or other awesome services.
++ _FYI_: You can generate icon fonts using [IcoMoon app](https://icomoon.io/app), [Fontello](http://fontello.com), [Fontastic](http://fontastic.me) or other awesome services.
 + See "IconFontKitExample/MyFontIcons" for demo.
 
- ```objc
- // MyFontIcons.h
+  ```objc
+  // MyFontIcons.h
+ 
+  #import <IconFontKit/IFIcon.h>
+ 
+  typedef NS_ENUM(IFIconType, MyFontIconsType) {
+      MFFacebookSquared   = 0xa100,
+      MFChat              = 0xa101,
+      MFEmoHappy          = 0xa102,
+      MFThumbsUp          = 0xa103,
+      MFThumbsUpAlt       = 0xa104,
+      MFLinkExt           = 0xa105,
+      MFVolumeUp          = 0xa106,
+      MFCogAlt            = 0xa107,
+      MFCode              = 0xa108,
+  };
+ 
+  @interface MyFontIcons : IFIcon
+  @end
+  ```
 
- #import <IconFontKit/IFIcon.h>
-
- typedef NS_ENUM(IFIconType, MyFontIconsType) {
-     MFFacebookSquared   = 0xa100,
-     MFChat              = 0xa101,
-     MFEmoHappy          = 0xa102,
-     MFThumbsUp          = 0xa103,
-     MFThumbsUpAlt       = 0xa104,
-     MFLinkExt           = 0xa105,
-     MFVolumeUp          = 0xa106,
-     MFCogAlt            = 0xa107,
-     MFCode              = 0xa108,
- };
-
- @interface MyFontIcons : IFIcon
- @end
- ```
-
- ```objc
- // MyFontIcons.m
-
- #import "MyFontIcons.h"
-
- @implementation MyFontIcons
-
- + (NSURL *)fontFileURL {
-     return [[[NSBundle mainBundle] resourceURL] URLByAppendingPathComponent:@"myfonticons.ttf"];
- }
-
- // Optional becase the font name is the same as the filename of font.
- //+ (NSString *)fontName {
- //    return @"myfonticons";
- //}
-
- + (NSDictionary *)allIcons {
-     return @{
-              @"facebook-squared":  @"\ua100",
-              @"chat":              @"\ua101",
-              @"emo-happy":         @"\ua102",
-              @"thumbs-up":         @"\ua103",
-              @"thumbs-up-alt":     @"\ua104",
-              @"link-ext":          @"\ua105",
-              @"volume-up":         @"\ua106",
-              @"cog-alt":           @"\ua107",
-              @"code":              @"\ua108",
-              };
- }
- @end
- ```
+  ```objc
+  // MyFontIcons.m
+ 
+  #import "MyFontIcons.h"
+ 
+  @implementation MyFontIcons
+ 
+  + (NSURL *)fontFileURL {
+      return [[[NSBundle mainBundle] resourceURL] URLByAppendingPathComponent:@"myfonticons.ttf"];
+  }
+ 
+  // Optional becase the font name is the same as the filename of font.
+  //+ (NSString *)fontName {
+  //    return @"myfonticons";
+  //}
+ 
+  + (NSDictionary *)allIcons {
+      return @{
+               @"facebook-squared":  @"\ua100",
+               @"chat":              @"\ua101",
+               @"emo-happy":         @"\ua102",
+               @"thumbs-up":         @"\ua103",
+               @"thumbs-up-alt":     @"\ua104",
+               @"link-ext":          @"\ua105",
+               @"volume-up":         @"\ua106",
+               @"cog-alt":           @"\ua107",
+               @"code":              @"\ua108",
+               };
+  }
+  @end
+  ```
 
 ## License
 
