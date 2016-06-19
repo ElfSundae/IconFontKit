@@ -151,6 +151,9 @@ class CodeGenerator
         $className = $this->getClassName();
         $typePrefix = $this->getTypePrefix();
 
+        $allNames = [];
+        $duplicatedIndexes = [];
+
         // $hContent = "#import <IconFontKit/IFIcon.h>\n\n";
         $hContent = '#import "IFIcon.h"' . "\n\n";
         $hContent .= "/**\n";
@@ -164,6 +167,14 @@ class CodeGenerator
                 function($matches) {
                     return strtoupper(preg_replace("#[-_.]#", '', $matches[0]));
                 }, $name);
+
+            if (in_array($name, $allNames)) {
+                $duplicatedIndexes[] = $i;
+                continue;
+            } else {
+                $allNames[] = $name;
+            }
+
             $type = sprintf("{$tab}{$typePrefix}%-35s = 0x%s,\n", $name, $this->iconCodes[$i]);
 
             $hContent .= "{$tab}/// Identifier: \"". $this->iconIdentifiers[$i] ."\"\n";
@@ -192,6 +203,10 @@ class CodeGenerator
         $mContent .= "\n+ (NSDictionary *)allIcons\n{\n";
         $mContent .= "{$tab}return @{\n";
         for ($i = 0; $i < count($this->iconIdentifiers); ++$i) {
+            if (in_array($i, $duplicatedIndexes)) {
+                continue;
+            }
+
             $idKey = "@\"{$this->iconIdentifiers[$i]}\": ";
             $code = $this->iconCodes[$i];
             if (hexdec($code) <= 0xff) {
