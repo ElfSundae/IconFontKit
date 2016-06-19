@@ -16,7 +16,7 @@
 | [Octicons](https://octicons.github.com)| 4.2.0 | [172](https://octicons.github.com) | 45 KB | [SIL OFL 1.1](https://github.com/github/octicons/blob/master/LICENSE.txt) | GitHub's icons |
 | [FoundationIcons](http://zurb.com/playground/foundation-icon-fonts-3)| 3.0 | [283](http://zurb.com/playground/foundation-icon-fonts-3#allicons) | 57 KB | ? | Foundation Icon Fonts 3 |
 | [Ionicons](http://ionicons.com)| 2.0.1 | [733](http://ionicons.com) | 189 KB | [MIT](https://github.com/driftyco/ionicons/blob/master/LICENSE) | The premium icon font for Ionic Framework. |
-| [MaterialDesignIcons](https://materialdesignicons.com) | 1.4.57 | [1457](https://materialdesignicons.com) | 208 KB | [SIL OFL 1.1](https://github.com/Templarian/MaterialDesign/blob/master/license.txt) | Material Design Icons |
+| [MaterialDesignIcons](https://materialdesignicons.com) | 1.6.50 | [1650](https://materialdesignicons.com) | 236 KB | [SIL OFL 1.1](https://github.com/Templarian/MaterialDesign/blob/master/license.txt) | Material Design Icons |
 | [ElusiveIcons](http://elusiveicons.com) | 2.0.0 | [304](http://elusiveicons.com/icons) | 80 KB | [SIL OFL 1.1](http://elusiveicons.com/license) | Elusive Icons |
 | [MaterialIcons](https://google.github.io/material-design-icons/) | 2.2.0 | [932](https://design.google.com/icons/) | 128 KB | [CC-BY 4.0](https://github.com/google/material-design-icons/blob/master/LICENSE) | Made by Google for Material design. |
 | [ZocialButtons](http://zocial.smcllns.com) | 1.2.0 | [102](http://zocial.smcllns.com/sample.html) | 26 KB | [MIT](https://github.com/smcllns/css-social-buttons#license) | Social buttons |
