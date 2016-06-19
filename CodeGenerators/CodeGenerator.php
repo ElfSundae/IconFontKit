@@ -38,23 +38,20 @@ class CodeGenerator
     protected $xcodeProjectRoot;
 
     public function __construct($fontIdentifier,
-                                $iconTypePrefix,
                                 $fontFile,
+                                $iconTypePrefix = null,
                                 $fontDescription = null,
                                 $fontName = null,
                                 $moveToXcodeProject = true)
     {
         $this->fontIdentifier = ucfirst($fontIdentifier);
-        $this->iconTypePrefix = ucfirst($iconTypePrefix);
         $this->fontFile = $fontFile;
+        $this->iconTypePrefix = $iconTypePrefix ? ucfirst($iconTypePrefix) : $this->fontIdentifier;
         $this->fontDescription = $fontDescription ?: $fontIdentifier;
         $this->fontName = $fontName;
         $this->moveToXcodeProject = (bool)$moveToXcodeProject;
 
         $this->xcodeProjectRoot = realpath(dirname(__FILE__) . '/../IconFontKit');
-
-        // Change working directory to the directory of the current gen.php
-        chdir(dirname($_SERVER['PHP_SELF']));
     }
 
     /**
@@ -103,12 +100,22 @@ class CodeGenerator
         return count(array_unique($this->iconCodes));
     }
 
+    public function getClassPrefix()
+    {
+        return $this->classPrefix;
+    }
+
+    public function setClassPrefix($prefix)
+    {
+        $this->classPrefix = empty($prefix) ? '' : $prefix;
+    }
+
     /**
      * Get generated ObjC class name.
      */
     protected function getClassName()
     {
-        return $this->classPrefix . $this->fontIdentifier;
+        return $this->getClassPrefix() . $this->fontIdentifier;
     }
 
     /**
@@ -116,7 +123,7 @@ class CodeGenerator
      */
     protected function getTypePrefix()
     {
-        return $this->classPrefix . $this->iconTypePrefix;
+        return $this->getClassPrefix() . $this->iconTypePrefix;
     }
 
     /**
