@@ -20,8 +20,6 @@ typedef NS_ENUM(IFIconType, IFOcticonsType) {
     IFOcticonArrowSmallUp                        = 0xf09f,
     /// Identifier: "octicon-arrow-up"
     IFOcticonArrowUp                             = 0xf03d,
-    /// Identifier: "octicon-microscope"
-    IFOcticonMicroscope                          = 0xf0dd,
     /// Identifier: "octicon-beaker"
     IFOcticonBeaker                              = 0xf0dd,
     /// Identifier: "octicon-bell"
@@ -68,12 +66,10 @@ typedef NS_ENUM(IFIconType, IFOcticonsType) {
     IFOcticonCloudUpload                         = 0xf00c,
     /// Identifier: "octicon-code"
     IFOcticonCode                                = 0xf05f,
-    /// Identifier: "octicon-comment-add"
-    IFOcticonCommentAdd                          = 0xf02b,
-    /// Identifier: "octicon-comment"
-    IFOcticonComment                             = 0xf02b,
     /// Identifier: "octicon-comment-discussion"
     IFOcticonCommentDiscussion                   = 0xf04f,
+    /// Identifier: "octicon-comment"
+    IFOcticonComment                             = 0xf02b,
     /// Identifier: "octicon-credit-card"
     IFOcticonCreditCard                          = 0xf045,
     /// Identifier: "octicon-dash"
@@ -82,20 +78,16 @@ typedef NS_ENUM(IFIconType, IFOcticonsType) {
     IFOcticonDashboard                           = 0xf07d,
     /// Identifier: "octicon-database"
     IFOcticonDatabase                            = 0xf096,
-    /// Identifier: "octicon-clone"
-    IFOcticonClone                               = 0xf0dc,
     /// Identifier: "octicon-desktop-download"
     IFOcticonDesktopDownload                     = 0xf0dc,
-    /// Identifier: "octicon-device-camera"
-    IFOcticonDeviceCamera                        = 0xf056,
     /// Identifier: "octicon-device-camera-video"
     IFOcticonDeviceCameraVideo                   = 0xf057,
+    /// Identifier: "octicon-device-camera"
+    IFOcticonDeviceCamera                        = 0xf056,
     /// Identifier: "octicon-device-desktop"
     IFOcticonDeviceDesktop                       = 0xf27c,
     /// Identifier: "octicon-device-mobile"
     IFOcticonDeviceMobile                        = 0xf038,
-    /// Identifier: "octicon-diff"
-    IFOcticonDiff                                = 0xf04d,
     /// Identifier: "octicon-diff-added"
     IFOcticonDiffAdded                           = 0xf06b,
     /// Identifier: "octicon-diff-ignored"
@@ -106,12 +98,12 @@ typedef NS_ENUM(IFIconType, IFOcticonsType) {
     IFOcticonDiffRemoved                         = 0xf06c,
     /// Identifier: "octicon-diff-renamed"
     IFOcticonDiffRenamed                         = 0xf06e,
+    /// Identifier: "octicon-diff"
+    IFOcticonDiff                                = 0xf04d,
+    /// Identifier: "octicon-ellipses"
+    IFOcticonEllipses                            = 0xf101,
     /// Identifier: "octicon-ellipsis"
     IFOcticonEllipsis                            = 0xf09a,
-    /// Identifier: "octicon-eye-unwatch"
-    IFOcticonEyeUnwatch                          = 0xf04e,
-    /// Identifier: "octicon-eye-watch"
-    IFOcticonEyeWatch                            = 0xf04e,
     /// Identifier: "octicon-eye"
     IFOcticonEye                                 = 0xf04e,
     /// Identifier: "octicon-file-binary"
@@ -134,6 +126,8 @@ typedef NS_ENUM(IFIconType, IFOcticonsType) {
     IFOcticonFileText                            = 0xf011,
     /// Identifier: "octicon-file-zip"
     IFOcticonFileZip                             = 0xf013,
+    /// Identifier: "octicon-file"
+    IFOcticonFile                                = 0xf102,
     /// Identifier: "octicon-flame"
     IFOcticonFlame                               = 0xf0d2,
     /// Identifier: "octicon-fold"
@@ -142,14 +136,10 @@ typedef NS_ENUM(IFIconType, IFOcticonsType) {
     IFOcticonGear                                = 0xf02f,
     /// Identifier: "octicon-gift"
     IFOcticonGift                                = 0xf042,
-    /// Identifier: "octicon-gist"
-    IFOcticonGist                                = 0xf00e,
     /// Identifier: "octicon-gist-secret"
     IFOcticonGistSecret                          = 0xf08c,
-    /// Identifier: "octicon-git-branch-create"
-    IFOcticonGitBranchCreate                     = 0xf020,
-    /// Identifier: "octicon-git-branch-delete"
-    IFOcticonGitBranchDelete                     = 0xf020,
+    /// Identifier: "octicon-gist"
+    IFOcticonGist                                = 0xf00e,
     /// Identifier: "octicon-git-branch"
     IFOcticonGitBranch                           = 0xf020,
     /// Identifier: "octicon-git-commit"
@@ -158,12 +148,12 @@ typedef NS_ENUM(IFIconType, IFOcticonsType) {
     IFOcticonGitCompare                          = 0xf0ac,
     /// Identifier: "octicon-git-merge"
     IFOcticonGitMerge                            = 0xf023,
-    /// Identifier: "octicon-git-pull-request-abandoned"
-    IFOcticonGitPullRequestAbandoned             = 0xf009,
     /// Identifier: "octicon-git-pull-request"
     IFOcticonGitPullRequest                      = 0xf009,
     /// Identifier: "octicon-globe"
     IFOcticonGlobe                               = 0xf0b6,
+    /// Identifier: "octicon-grabber"
+    IFOcticonGrabber                             = 0xf103,
     /// Identifier: "octicon-graph"
     IFOcticonGraph                               = 0xf043,
     /// Identifier: "octicon-heart"
@@ -198,34 +188,28 @@ typedef NS_ENUM(IFIconType, IFOcticonsType) {
     IFOcticonLaw                                 = 0xf0d8,
     /// Identifier: "octicon-light-bulb"
     IFOcticonLightBulb                           = 0xf000,
-    /// Identifier: "octicon-link"
-    IFOcticonLink                                = 0xf05c,
     /// Identifier: "octicon-link-external"
     IFOcticonLinkExternal                        = 0xf07f,
+    /// Identifier: "octicon-link"
+    IFOcticonLink                                = 0xf05c,
     /// Identifier: "octicon-list-ordered"
     IFOcticonListOrdered                         = 0xf062,
     /// Identifier: "octicon-list-unordered"
     IFOcticonListUnordered                       = 0xf061,
     /// Identifier: "octicon-location"
     IFOcticonLocation                            = 0xf060,
-    /// Identifier: "octicon-gist-private"
-    IFOcticonGistPrivate                         = 0xf06a,
-    /// Identifier: "octicon-mirror-private"
-    IFOcticonMirrorPrivate                       = 0xf06a,
-    /// Identifier: "octicon-git-fork-private"
-    IFOcticonGitForkPrivate                      = 0xf06a,
     /// Identifier: "octicon-lock"
     IFOcticonLock                                = 0xf06a,
     /// Identifier: "octicon-logo-gist"
     IFOcticonLogoGist                            = 0xf0ad,
     /// Identifier: "octicon-logo-github"
     IFOcticonLogoGithub                          = 0xf092,
-    /// Identifier: "octicon-mail"
-    IFOcticonMail                                = 0xf03b,
     /// Identifier: "octicon-mail-read"
     IFOcticonMailRead                            = 0xf03c,
     /// Identifier: "octicon-mail-reply"
     IFOcticonMailReply                           = 0xf051,
+    /// Identifier: "octicon-mail"
+    IFOcticonMail                                = 0xf03b,
     /// Identifier: "octicon-mark-github"
     IFOcticonMarkGithub                          = 0xf00a,
     /// Identifier: "octicon-markdown"
@@ -236,8 +220,6 @@ typedef NS_ENUM(IFIconType, IFOcticonsType) {
     IFOcticonMention                             = 0xf0be,
     /// Identifier: "octicon-milestone"
     IFOcticonMilestone                           = 0xf075,
-    /// Identifier: "octicon-mirror-public"
-    IFOcticonMirrorPublic                        = 0xf024,
     /// Identifier: "octicon-mirror"
     IFOcticonMirror                              = 0xf024,
     /// Identifier: "octicon-mortar-board"
@@ -256,24 +238,14 @@ typedef NS_ENUM(IFIconType, IFOcticonsType) {
     IFOcticonPaintcan                            = 0xf0d1,
     /// Identifier: "octicon-pencil"
     IFOcticonPencil                              = 0xf058,
-    /// Identifier: "octicon-person-add"
-    IFOcticonPersonAdd                           = 0xf018,
-    /// Identifier: "octicon-person-follow"
-    IFOcticonPersonFollow                        = 0xf018,
     /// Identifier: "octicon-person"
     IFOcticonPerson                              = 0xf018,
     /// Identifier: "octicon-pin"
     IFOcticonPin                                 = 0xf041,
     /// Identifier: "octicon-plug"
     IFOcticonPlug                                = 0xf0d4,
-    /// Identifier: "octicon-repo-create"
-    IFOcticonRepoCreate                          = 0xf05d,
-    /// Identifier: "octicon-gist-new"
-    IFOcticonGistNew                             = 0xf05d,
-    /// Identifier: "octicon-file-directory-create"
-    IFOcticonFileDirectoryCreate                 = 0xf05d,
-    /// Identifier: "octicon-file-add"
-    IFOcticonFileAdd                             = 0xf05d,
+    /// Identifier: "octicon-plus-small"
+    IFOcticonPlusSmall                           = 0xf104,
     /// Identifier: "octicon-plus"
     IFOcticonPlus                                = 0xf05d,
     /// Identifier: "octicon-primitive-dot"
@@ -288,30 +260,26 @@ typedef NS_ENUM(IFIconType, IFOcticonsType) {
     IFOcticonQuote                               = 0xf063,
     /// Identifier: "octicon-radio-tower"
     IFOcticonRadioTower                          = 0xf030,
-    /// Identifier: "octicon-repo-delete"
-    IFOcticonRepoDelete                          = 0xf001,
-    /// Identifier: "octicon-repo"
-    IFOcticonRepo                                = 0xf001,
+    /// Identifier: "octicon-reply"
+    IFOcticonReply                               = 0xf105,
     /// Identifier: "octicon-repo-clone"
     IFOcticonRepoClone                           = 0xf04c,
     /// Identifier: "octicon-repo-force-push"
     IFOcticonRepoForcePush                       = 0xf04a,
-    /// Identifier: "octicon-gist-fork"
-    IFOcticonGistFork                            = 0xf002,
     /// Identifier: "octicon-repo-forked"
     IFOcticonRepoForked                          = 0xf002,
     /// Identifier: "octicon-repo-pull"
     IFOcticonRepoPull                            = 0xf006,
     /// Identifier: "octicon-repo-push"
     IFOcticonRepoPush                            = 0xf005,
+    /// Identifier: "octicon-repo"
+    IFOcticonRepo                                = 0xf001,
     /// Identifier: "octicon-rocket"
     IFOcticonRocket                              = 0xf033,
     /// Identifier: "octicon-rss"
     IFOcticonRss                                 = 0xf034,
     /// Identifier: "octicon-ruby"
     IFOcticonRuby                                = 0xf047,
-    /// Identifier: "octicon-search-save"
-    IFOcticonSearchSave                          = 0xf02e,
     /// Identifier: "octicon-search"
     IFOcticonSearch                              = 0xf02e,
     /// Identifier: "octicon-server"
@@ -320,34 +288,20 @@ typedef NS_ENUM(IFIconType, IFOcticonsType) {
     IFOcticonSettings                            = 0xf07c,
     /// Identifier: "octicon-shield"
     IFOcticonShield                              = 0xf0e1,
-    /// Identifier: "octicon-log-in"
-    IFOcticonLogIn                               = 0xf036,
     /// Identifier: "octicon-sign-in"
     IFOcticonSignIn                              = 0xf036,
-    /// Identifier: "octicon-log-out"
-    IFOcticonLogOut                              = 0xf032,
     /// Identifier: "octicon-sign-out"
     IFOcticonSignOut                             = 0xf032,
     /// Identifier: "octicon-smiley"
     IFOcticonSmiley                              = 0xf0e7,
     /// Identifier: "octicon-squirrel"
     IFOcticonSquirrel                            = 0xf0b2,
-    /// Identifier: "octicon-star-add"
-    IFOcticonStarAdd                             = 0xf02a,
-    /// Identifier: "octicon-star-delete"
-    IFOcticonStarDelete                          = 0xf02a,
     /// Identifier: "octicon-star"
     IFOcticonStar                                = 0xf02a,
     /// Identifier: "octicon-stop"
     IFOcticonStop                                = 0xf08f,
-    /// Identifier: "octicon-repo-sync"
-    IFOcticonRepoSync                            = 0xf087,
     /// Identifier: "octicon-sync"
     IFOcticonSync                                = 0xf087,
-    /// Identifier: "octicon-tag-remove"
-    IFOcticonTagRemove                           = 0xf015,
-    /// Identifier: "octicon-tag-add"
-    IFOcticonTagAdd                              = 0xf015,
     /// Identifier: "octicon-tag"
     IFOcticonTag                                 = 0xf015,
     /// Identifier: "octicon-tasklist"
@@ -388,16 +342,14 @@ typedef NS_ENUM(IFIconType, IFOcticonsType) {
     IFOcticonVersions                            = 0xf064,
     /// Identifier: "octicon-watch"
     IFOcticonWatch                               = 0xf0e0,
-    /// Identifier: "octicon-remove-close"
-    IFOcticonRemoveClose                         = 0xf081,
     /// Identifier: "octicon-x"
     IFOcticonX                                   = 0xf081,
     /// Identifier: "octicon-zap"
-    IFOcticonZap                                 = 0x26A1,
+    IFOcticonZap                                 = 0x26a1,
 };
 
 /*!
- * GitHub Octicons v3.5.0 https://octicons.github.com
+ * GitHub Octicons v4.2.0 https://octicons.github.com
  */
 @interface IFOcticons : IFIcon
 @end
