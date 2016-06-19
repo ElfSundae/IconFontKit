@@ -18,7 +18,7 @@
 | [Ionicons](http://ionicons.com)| 2.0.1 | [733](http://ionicons.com) | 189 KB | [MIT](https://github.com/driftyco/ionicons/blob/master/LICENSE) | The premium icon font for Ionic Framework. |
 | [MaterialDesignIcons](https://materialdesignicons.com) | 1.6.50 | [1650](https://materialdesignicons.com) | 236 KB | [SIL OFL 1.1](https://github.com/Templarian/MaterialDesign/blob/master/license.txt) | Material Design Icons |
 | [ElusiveIcons](http://elusiveicons.com) | 2.0.0 | [304](http://elusiveicons.com/icons) | 80 KB | [SIL OFL 1.1](http://elusiveicons.com/license) | Elusive Icons |
-| [MaterialIcons](https://google.github.io/material-design-icons/) | 2.2.0 | [932](https://design.google.com/icons/) | 128 KB | [CC-BY 4.0](https://github.com/google/material-design-icons/blob/master/LICENSE) | Made by Google for Material design. |
+| [MaterialIcons](https://google.github.io/material-design-icons/) | 2.2.3 | [932](https://design.google.com/icons/) | 128 KB | [CC-BY 4.0](https://github.com/google/material-design-icons/blob/master/LICENSE) | Made by Google for Material design. |
 | [ZocialButtons](http://zocial.smcllns.com) | 1.2.0 | [102](http://zocial.smcllns.com/sample.html) | 26 KB | [MIT](https://github.com/smcllns/css-social-buttons#license) | Social buttons |
 | [Typicons](http://www.typicons.com) | 2.0.7 | [336](http://www.typicons.com) | 100 KB | [SIL OFL 1.1](https://github.com/stephenhutchings/typicons.font/blob/master/src/font/LICENCE.md) ||
 | [OpenIconic](https://useiconic.com/open/) | 1.1.1 | [223](https://useiconic.com/open/) | 28 KB | [SIL OFL 1.1](https://github.com/iconic/open-iconic/blob/master/FONT-LICENSE) | The open source sibling of [Iconic](https://useiconic.com). |
