@@ -29,7 +29,7 @@
 | [IcoMoonFree](https://icomoon.io/#preview-free) | 1.0.0 | [491](https://icomoon.io/#preview-free) | 95 KB | [CC BY 4.0 or GPL](https://github.com/Keyamoon/IcoMoon-Free/blob/master/License.txt) | IcoMoon Free Pack |
 | [HawconsFilled](http://hawcons.com) | 1.0 | [517](http://hawcons.com/preview/) | 107 KB | [Free to use](http://hawcons.com/faq/) | Hawcons filled style, includes icons of Documents, Sports, Weather, Emoji, Gestures, Filetypes, etc. |
 | [HawconsStroke](http://hawcons.com) | 1.0 | [518](http://hawcons.com/preview/) | 138 KB | [Free to use](http://hawcons.com/faq/) | Hawcons stroke style, includes icons of Documents, Sports, Weather, Emoji, Gestures, Filetypes, etc. |
-| [Dashicons](https://developer.wordpress.org/resource/dashicons/) | 3.8 | [241](https://developer.wordpress.org/resource/dashicons/) | 42 KB | [GPLv2](https://github.com/WordPress/dashicons) | Dashicons is the official icon font of the WordPress admin. |
+| [Dashicons](https://developer.wordpress.org/resource/dashicons/) | 3.8 | [234](https://developer.wordpress.org/resource/dashicons/) | 42 KB | [GPLv2](https://github.com/WordPress/dashicons) | Dashicons is the official icon font of the WordPress admin. |
 | [Linea](http://www.linea.io) | 1.0 | [716](http://www.linea.io) | 125 KB | [CCBY](http://creativecommons.org/licenses/by/4.0/) | A free outline iconset designed by Dario Ferrando. |
 | [Entypo](http://www.entypo.com) | 1.0 | [411](http://www.entypo.com) | 76 KB | [CC BY-SA 4.0](http://www.entypo.com/faq.php) | Entypo+ is the third version of a free suite of premium quality pictograms. |
 | [ThemifyIcons](http://themify.me/themify-icons) | 1.0 | [352](http://themify.me/themify-icons) | 79 KB | [Free to use](http://themify.me/themify-icons) | Handcrafted icons that draw inspiration from Apple iOS 7. |
@@ -38,11 +38,11 @@
 | [Devicons](https://github.com/vorillaz/devicons) | 1.8.0 | [171](http://vorillaz.github.io/devicons/#/cheat) | 147 KB | MIT | An iconic font for developers. |
 | [LigatureSymbols](http://kudakurage.com/ligature_symbols/) | 2.11 | [239](http://kudakurage.com/ligature_symbols/) | 84 KB | SIL OFL 1.1 | Ligature Symbols by Kazuyuki Motoyama |
 | [Dripicons](http://demo.amitjakhu.com/dripicons/) | 1.0 | [95](http://demo.amitjakhu.com/dripicons/) | 21 KB | Free to use | A completely free, vector line-icon font by [Amit Jakhu](http://amitjakhu.com). |
-| [OpenWebIcons](http://pfefferle.github.io/openwebicons) | 1.4.0 | [104](http://pfefferle.github.io/openwebicons/icons/) | 40 KB | [SIL OFL 1.1](https://github.com/pfefferle/openwebicons/blob/master/License.txt) | OpenWeb Icons |
+| [OpenWebIcons](http://pfefferle.github.io/openwebicons) | 1.4.0 | [97](http://pfefferle.github.io/openwebicons/icons/) | 40 KB | [SIL OFL 1.1](https://github.com/pfefferle/openwebicons/blob/master/License.txt) | OpenWeb Icons |
 | [Genericons](http://genericons.com) | 3.4.1 | [147](http://genericons.com) | 22 KB | GPLv2 | Designed to be clean and simple keeping with a generic aesthetic. |
 | [MapIcons](http://map-icons.com) | 3.0.0 | [175](http://map-icons.com/#icons) | 48 KB | [SIL OFL 1.1](https://github.com/scottdejonge/map-icons#license) | An icon font for use with Google Maps. |
-| [WeatherIcons](http://erikflowers.github.io/weather-icons) | 2.0.10 | [590](http://erikflowers.github.io/weather-icons) | 100 KB | [SIL OFL 1.1](https://github.com/erikflowers/weather-icons#licensing) | weather, maritime, and meteorological based icons |
-| [Evil Icons](http://evil-icons.io) | 1.8.0  | [70](http://evil-icons.io) | 15 KB | [MIT](https://github.com/outpunk/evil-icons/blob/master/LICENSE.txt) | Simple and clean SVG icon pack with the code to support Rails, Sprockets, Node.js, Gulp, Grunt and CDN. |
+| [WeatherIcons](http://erikflowers.github.io/weather-icons) | 2.0.10 | [219](http://erikflowers.github.io/weather-icons) | 100 KB | [SIL OFL 1.1](https://github.com/erikflowers/weather-icons#licensing) | weather, maritime, and meteorological based icons |
+| [EvilIcons](http://evil-icons.io) | 1.8.0  | [70](http://evil-icons.io) | 15 KB | [MIT](https://github.com/outpunk/evil-icons/blob/master/LICENSE.txt) | Simple and clean SVG icon pack with the code to support Rails, Sprockets, Node.js, Gulp, Grunt and CDN. |
 
 ## Installation
 
