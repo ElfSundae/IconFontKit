@@ -1,13 +1,16 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'MyFontIcons';
-$fontDescription    = 'Demonstrator for using custom icon fonts. https://github.com/ElfSundae/IconFontKit';
-$iconTypePrefix     = 'MF';
-$fontFile           = 'myfonticons.ttf';
-$moveToProject      = false;
-$classPrefix        = '';
+$generator = new CodeGenerator(
+    'MyFontIcons',
+    'myfonticons.ttf',
+    'MF',
+    'Demonstrator for using custom icon fonts. https://github.com/ElfSundae/IconFontKit',
+    null,
+    false
+);
 
-generatorFromCSS('myfonticons.css', 'icon');
+$generator->setClassPrefix(null);
+$generator->generateFromCssFile('myfonticons.css', 'icon');

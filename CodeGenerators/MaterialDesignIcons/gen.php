@@ -1,12 +1,14 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'MaterialDesignIcons';
-$fontDescription    = 'Material Design Icons v1.6.50 https://materialdesignicons.com';
-$iconTypePrefix     = 'MDI';
-$fontFile           = 'materialdesignicons-webfont.ttf';
-$fontName           = 'Material Design Icons';
+$generator = new CodeGenerator(
+    'MaterialDesignIcons',
+    'materialdesignicons-webfont.ttf',
+    'MDI',
+    'Material Design Icons v1.6.50 https://materialdesignicons.com',
+    'Material Design Icons'
+);
 
-generatorFromCSS('materialdesignicons.css', 'mdi');
+$generator->generateFromCssFile('materialdesignicons.css', 'mdi');

@@ -1,11 +1,13 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'LigatureSymbols';
-$fontDescription    = 'LigatureSymbols v2.11 http://kudakurage.com/ligature_symbols';
-$iconTypePrefix     = 'LS';
-$fontFile           = 'LigatureSymbols.ttf';
+$generator = new CodeGenerator(
+    'LigatureSymbols',
+    'LigatureSymbols.ttf',
+    'LS',
+    'LigatureSymbols v2.11 http://kudakurage.com/ligature_symbols'
+);
 
-generatorFromCSS('style.css', 'ls');
+$generator->generateFromCssFile('style.css', 'ls');

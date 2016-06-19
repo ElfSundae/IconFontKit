@@ -1,12 +1,14 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'Ionicons';
-$fontDescription    = 'Ionicons v2.0.1 http://ionicons.com';
-$iconTypePrefix     = 'II';
-$fontFile           = 'ionicons.ttf';
-$fontName           = 'Ionicons';
+$generator = new CodeGenerator(
+    'Ionicons',
+    'ionicons.ttf',
+    'II',
+    'Ionicons v2.0.1 http://ionicons.com',
+    'Ionicons'
+);
 
-generatorFromCSS('ionicons.css', 'ion');
+$generator->generateFromCssFile('ionicons.css', 'ion');

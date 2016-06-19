@@ -1,11 +1,13 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'HawconsStroke';
-$fontDescription    = 'Hawcons, stroke style, v1.0 http://hawcons.com';
-$iconTypePrefix     = 'HawconsStroke';
-$fontFile           = 'Hawcons-Stroke.ttf';
+$generator = new CodeGenerator(
+    'HawconsStroke',
+    'Hawcons-Stroke.ttf',
+    'HawconsStroke',
+    'Hawcons, stroke style, v1.0 http://hawcons.com'
+);
 
-generatorFromCSS('style.css', 'hawcons-stroke');
+$generator->generateFromCssFile('style.css', 'hawcons-stroke');

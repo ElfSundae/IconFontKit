@@ -1,11 +1,13 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'Genericons';
-$fontDescription    = 'Genericons v3.4.1 http://genericons.com';
-$iconTypePrefix     = 'Genericon';
-$fontFile           = 'Genericons.ttf';
+$generator = new CodeGenerator(
+    'Genericons',
+    'Genericons.ttf',
+    'Genericon',
+    'Genericons v3.4.1 http://genericons.com'
+);
 
-generatorFromCSS('genericons.css', 'genericon');
+$generator->generateFromCssFile('genericons.css', 'genericon');

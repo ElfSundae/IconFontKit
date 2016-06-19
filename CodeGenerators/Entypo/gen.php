@@ -1,11 +1,13 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'Entypo';
-$fontDescription    = 'Entypo+, carefully crafted premium pictograms by Daniel Bruce, http://www.entypo.com';
-$iconTypePrefix     = 'Entypo';
-$fontFile           = 'Entypo.ttf';
+$generator = new CodeGenerator(
+    'Entypo',
+    'Entypo.ttf',
+    'Entypo',
+    'Entypo+, carefully crafted premium pictograms by Daniel Bruce, http://www.entypo.com'
+);
 
-generatorFromCSS('style.css', 'entypo');
+$generator->generateFromCssFile('style.css', 'entypo');

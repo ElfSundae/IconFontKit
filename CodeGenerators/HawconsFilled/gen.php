@@ -1,11 +1,13 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'HawconsFilled';
-$fontDescription    = 'Hawcons, filled style, v1.0 http://hawcons.com';
-$iconTypePrefix     = 'HawconsFilled';
-$fontFile           = 'Hawcons-Filled.ttf';
+$generator = new CodeGenerator(
+    'HawconsFilled',
+    'Hawcons-Filled.ttf',
+    'HawconsFilled',
+    'Hawcons, filled style, v1.0 http://hawcons.com'
+);
 
-generatorFromCSS('style.css', 'hawcons-filled');
+$generator->generateFromCssFile('style.css', 'hawcons-filled');

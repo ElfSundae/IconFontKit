@@ -1,12 +1,14 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'Typicons';
-$fontDescription    = 'Typicons v2.0.7 http://www.typicons.com';
-$iconTypePrefix     = 'Typicon';
-$fontFile           = 'typicons.ttf';
-$fontName           = 'Typicons';
+$generator = new CodeGenerator(
+    'Typicons',
+    'typicons.ttf',
+    'Typicon',
+    'Typicons v2.0.7 http://www.typicons.com',
+    'Typicons'
+);
 
-generatorFromCSS('typicons.css', 'typcn');
+$generator->generateFromCssFile('typicons.css', 'typcn');

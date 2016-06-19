@@ -1,12 +1,14 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'OpenWebIcons';
-$fontDescription    = 'OpenWebIcons v1.4.0 http://pfefferle.github.io/openwebicons';
-$iconTypePrefix     = 'OpenWeb';
-$fontFile           = 'openwebicons.ttf';
-$fontName           = 'OpenWeb Icons';
+$generator = new CodeGenerator(
+    'OpenWebIcons',
+    'openwebicons.ttf',
+    'OpenWeb',
+    'OpenWebIcons v1.4.0 http://pfefferle.github.io/openwebicons',
+    'OpenWeb Icons'
+);
 
-generatorFromCSS('style.css', 'openwebicons');
+$generator->generateFromCssFile('style.css', 'openwebicons');

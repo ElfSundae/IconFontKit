@@ -1,11 +1,13 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'Dashicons';
-$fontDescription    = 'Dashicons v3.8 https://developer.wordpress.org/resource/dashicons/';
-$iconTypePrefix     = 'Dash';
-$fontFile           = 'dashicons.ttf';
+$generator = new CodeGenerator(
+    'Dashicons',
+    'dashicons.ttf',
+    'Dash',
+    "Dashicons v3.8 https://developer.wordpress.org/resource/dashicons"
+);
 
-generatorFromCSS('dashicons.css', 'dashicons');
+$generator->generateFromCssFile('dashicons.css', 'dashicons');

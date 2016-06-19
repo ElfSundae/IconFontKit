@@ -1,13 +1,19 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'MaterialIcons';
-$fontDescription    = 'Material Icons by Google, v2.2.3 https://design.google.com/icons';
-$iconTypePrefix     = 'MI';
-$fontFile           = 'MaterialIcons-Regular.ttf';
-$fontName           = 'Material Icons';
+$generator = new CodeGenerator(
+    'MaterialIcons',
+    'MaterialIcons-Regular.ttf',
+    'MI',
+    'Material Icons by Google, v2.2.3 https://design.google.com/icons',
+    'Material Icons'
+);
+
+$iconIdentifiers = [];
+$iconNames = [];
+$iconCodes = [];
 
 foreach (file('codepoints') as $line) {
     if (preg_match("#^([^ ]+) ([0-9a-f]+)#", $line, $matches)) {
@@ -17,4 +23,5 @@ foreach (file('codepoints') as $line) {
     }
 }
 
-generator();
+$generator->setIcons($iconIdentifiers, $iconNames, $iconCodes);
+$generator->generate();

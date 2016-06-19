@@ -1,11 +1,13 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'ZocialButtons';
-$fontDescription    = 'ZocialButtons v1.2.0 http://zocial.smcllns.com';
-$iconTypePrefix     = 'ZB';
-$fontFile           = 'zocial.ttf';
+$generator = new CodeGenerator(
+    'ZocialButtons',
+    'zocial.ttf',
+    'ZB',
+    'ZocialButtons v1.2.0 http://zocial.smcllns.com'
+);
 
-generatorFromCSS('zocial.css', 'zocial');
+$generator->generateFromCssFile('zocial.css', 'zocial');

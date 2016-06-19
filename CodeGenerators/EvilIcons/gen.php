@@ -1,11 +1,13 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'EvilIcons';
-$fontDescription    = 'Evil Icons, v1.8.0, http://evil-icons.io';
-$iconTypePrefix     = 'Evil';
-$fontFile           = 'EvilIcons.ttf';
+$generator = new CodeGenerator(
+    'EvilIcons',
+    'EvilIcons.ttf',
+    'Evil',
+    'Evil Icons, v1.8.0, http://evil-icons.io'
+);
 
-generatorFromCSS('style.css', 'ei');
+$generator->generateFromCssFile('style.css', 'ei');

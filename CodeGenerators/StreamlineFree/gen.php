@@ -1,11 +1,13 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'StreamlineFree';
-$fontDescription    = 'Streamline Free Pack, v2, free iOS 8 vector icons, http://streamlineicons.com/free-icons.html';
-$iconTypePrefix     = 'Streamline';
-$fontFile           = 'StreamlineFree.ttf';
+$generator = new CodeGenerator(
+    'StreamlineFree',
+    'StreamlineFree.ttf',
+    'Streamline',
+    'Streamline Free Pack, v2, free iOS 8 vector icons, http://streamlineicons.com/free-icons.html'
+);
 
-generatorFromCSS('style.css', 'sf');
+$generator->generateFromCssFile('style.css', 'sf');

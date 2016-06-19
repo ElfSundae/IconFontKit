@@ -1,11 +1,13 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'Dripicons';
-$fontDescription    = 'Dripicons v1.0 http://demo.amitjakhu.com/dripicons';
-$iconTypePrefix     = 'Dripicon';
-$fontFile           = 'dripicons.ttf';
+$generator = new CodeGenerator(
+    'Dripicons',
+    'dripicons.ttf',
+    'Dripicon',
+    "Dripicons v1.0 http://demo.amitjakhu.com/dripicons"
+);
 
-generatorFromCSS('webfont.css', 'icon');
+$generator->generateFromCssFile('webfont.css', 'icon');

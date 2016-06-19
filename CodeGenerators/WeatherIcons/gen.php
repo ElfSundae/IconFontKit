@@ -1,12 +1,14 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'WeatherIcons';
-$fontDescription    = 'WeatherIcons v2.0.10 http://erikflowers.github.io/weather-icons';
-$iconTypePrefix     = 'WeatherIcon';
-$fontFile           = 'weathericons-regular-webfont.ttf';
-$fontName           = 'Weather Icons';
+$generator = new CodeGenerator(
+    'WeatherIcons',
+    'weathericons-regular-webfont.ttf',
+    'WeatherIcon',
+    'WeatherIcons v2.0.10 http://erikflowers.github.io/weather-icons',
+    'Weather Icons'
+);
 
-generatorFromCSS('weather-icons.css', 'wi');
+$generator->generateFromCssFile('weather-icons.css', 'wi');

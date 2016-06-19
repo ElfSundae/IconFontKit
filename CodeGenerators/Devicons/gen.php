@@ -1,11 +1,13 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'Devicons';
-$fontDescription    = 'Devicons, v1.8.0, https://github.com/vorillaz/devicons';
-$iconTypePrefix     = 'DEV';
-$fontFile           = 'devicons.ttf';
+$generator = new CodeGenerator(
+    'Devicons',
+    'devicons.ttf',
+    'DEV',
+    "Devicons, v1.8.0, https://github.com/vorillaz/devicons"
+);
 
-generatorFromCSS('devicons.css', 'devicons');
+$generator->generateFromCssFile('devicons.css', 'devicons');

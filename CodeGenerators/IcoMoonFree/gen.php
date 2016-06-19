@@ -1,11 +1,13 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'IcoMoonFree';
-$fontDescription    = 'IcoMoon Free Pack, v1.0.0 https://icomoon.io/#preview-free';
-$iconTypePrefix     = 'IMF';
-$fontFile           = 'IcoMoon-Free.ttf';
+$generator = new CodeGenerator(
+    'IcoMoonFree',
+    'IcoMoon-Free.ttf',
+    'IMF',
+    'IcoMoon Free Pack, v1.0.0 https://icomoon.io/#preview-free'
+);
 
-generatorFromCSS('style.css', 'imf');
+$generator->generateFromCssFile('style.css', 'imf');

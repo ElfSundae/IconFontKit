@@ -1,11 +1,13 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'Linea';
-$fontDescription    = 'Linea, a free outline iconset designed by Dario Ferrando, v1.0 http://www.linea.io';
-$iconTypePrefix     = 'Linea';
-$fontFile           = 'Linea.ttf';
+$generator = new CodeGenerator(
+    'Linea',
+    'Linea.ttf',
+    'Linea',
+    'Linea, a free outline iconset designed by Dario Ferrando, v1.0 http://www.linea.io'
+);
 
-generatorFromCSS('style.css', 'linea');
+$generator->generateFromCssFile('style.css', 'linea');

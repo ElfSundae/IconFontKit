@@ -1,12 +1,14 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'FoundationIcons';
-$fontDescription    = 'Foundation Icon Fonts 3 http://zurb.com/playground/foundation-icon-fonts-3';
-$iconTypePrefix     = 'FI';
-$fontFile           = 'foundation-icons.ttf';
-$fontName           = 'fontcustom';
+$generator = new CodeGenerator(
+    'FoundationIcons',
+    'foundation-icons.ttf',
+    'FI',
+    'Foundation Icon Fonts 3 http://zurb.com/playground/foundation-icon-fonts-3',
+    'fontcustom'
+);
 
-generatorFromCSS('foundation-icons.css', 'fi');
+$generator->generateFromCssFile('foundation-icons.css', 'fi');

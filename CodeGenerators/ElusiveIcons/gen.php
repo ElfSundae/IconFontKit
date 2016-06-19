@@ -1,12 +1,14 @@
 <?php
 
 chdir(dirname(__FILE__));
-require "../CodeGenerator.php";
+require '../CodeGenerator.php';
 
-$fontIdentifier     = 'ElusiveIcons';
-$fontDescription    = 'Elusive Icons v2.0.0 http://elusiveicons.com';
-$iconTypePrefix     = 'EL';
-$fontFile           = 'elusiveicons-webfont.ttf';
-$fontName           = 'elusiveicons';
+$generator = new CodeGenerator(
+    'ElusiveIcons',
+    'elusiveicons-webfont.ttf',
+    'EL',
+    'Elusive Icons v2.0.0 http://elusiveicons.com',
+    'elusiveicons'
+);
 
-generatorFromCSS('elusive-icons.css', 'el');
+$generator->generateFromCssFile('elusive-icons.css', 'el');
