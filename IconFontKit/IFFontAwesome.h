@@ -876,8 +876,8 @@ typedef NS_ENUM(IFIconType, IFFontAwesomeType) {
     IFFADelicious                           = 0xf1a5,
     /// Identifier: "fa-digg"
     IFFADigg                                = 0xf1a6,
-    /// Identifier: "fa-pied-piper"
-    IFFAPiedPiper                           = 0xf1a7,
+    /// Identifier: "fa-pied-piper-pp"
+    IFFAPiedPiperPp                         = 0xf1a7,
     /// Identifier: "fa-pied-piper-alt"
     IFFAPiedPiperAlt                        = 0xf1a8,
     /// Identifier: "fa-drupal"
@@ -976,6 +976,8 @@ typedef NS_ENUM(IFIconType, IFFontAwesomeType) {
     IFFACircleONotch                        = 0xf1ce,
     /// Identifier: "fa-ra"
     IFFARa                                  = 0xf1d0,
+    /// Identifier: "fa-resistance"
+    IFFAResistance                          = 0xf1d0,
     /// Identifier: "fa-rebel"
     IFFARebel                               = 0xf1d0,
     /// Identifier: "fa-ge"
@@ -1390,10 +1392,80 @@ typedef NS_ENUM(IFIconType, IFFontAwesomeType) {
     IFFABluetoothB                          = 0xf294,
     /// Identifier: "fa-percent"
     IFFAPercent                             = 0xf295,
+    /// Identifier: "fa-gitlab"
+    IFFAGitlab                              = 0xf296,
+    /// Identifier: "fa-wpbeginner"
+    IFFAWpbeginner                          = 0xf297,
+    /// Identifier: "fa-wpforms"
+    IFFAWpforms                             = 0xf298,
+    /// Identifier: "fa-envira"
+    IFFAEnvira                              = 0xf299,
+    /// Identifier: "fa-universal-access"
+    IFFAUniversalAccess                     = 0xf29a,
+    /// Identifier: "fa-wheelchair-alt"
+    IFFAWheelchairAlt                       = 0xf29b,
+    /// Identifier: "fa-question-circle-o"
+    IFFAQuestionCircleO                     = 0xf29c,
+    /// Identifier: "fa-blind"
+    IFFABlind                               = 0xf29d,
+    /// Identifier: "fa-audio-description"
+    IFFAAudioDescription                    = 0xf29e,
+    /// Identifier: "fa-volume-control-phone"
+    IFFAVolumeControlPhone                  = 0xf2a0,
+    /// Identifier: "fa-braille"
+    IFFABraille                             = 0xf2a1,
+    /// Identifier: "fa-assistive-listening-systems"
+    IFFAAssistiveListeningSystems           = 0xf2a2,
+    /// Identifier: "fa-asl-interpreting"
+    IFFAAslInterpreting                     = 0xf2a3,
+    /// Identifier: "fa-american-sign-language-interpreting"
+    IFFAAmericanSignLanguageInterpreting    = 0xf2a3,
+    /// Identifier: "fa-deafness"
+    IFFADeafness                            = 0xf2a4,
+    /// Identifier: "fa-hard-of-hearing"
+    IFFAHardOfHearing                       = 0xf2a4,
+    /// Identifier: "fa-deaf"
+    IFFADeaf                                = 0xf2a4,
+    /// Identifier: "fa-glide"
+    IFFAGlide                               = 0xf2a5,
+    /// Identifier: "fa-glide-g"
+    IFFAGlideG                              = 0xf2a6,
+    /// Identifier: "fa-signing"
+    IFFASigning                             = 0xf2a7,
+    /// Identifier: "fa-sign-language"
+    IFFASignLanguage                        = 0xf2a7,
+    /// Identifier: "fa-low-vision"
+    IFFALowVision                           = 0xf2a8,
+    /// Identifier: "fa-viadeo"
+    IFFAViadeo                              = 0xf2a9,
+    /// Identifier: "fa-viadeo-square"
+    IFFAViadeoSquare                        = 0xf2aa,
+    /// Identifier: "fa-snapchat"
+    IFFASnapchat                            = 0xf2ab,
+    /// Identifier: "fa-snapchat-ghost"
+    IFFASnapchatGhost                       = 0xf2ac,
+    /// Identifier: "fa-snapchat-square"
+    IFFASnapchatSquare                      = 0xf2ad,
+    /// Identifier: "fa-pied-piper"
+    IFFAPiedPiper                           = 0xf2ae,
+    /// Identifier: "fa-first-order"
+    IFFAFirstOrder                          = 0xf2b0,
+    /// Identifier: "fa-yoast"
+    IFFAYoast                               = 0xf2b1,
+    /// Identifier: "fa-themeisle"
+    IFFAThemeisle                           = 0xf2b2,
+    /// Identifier: "fa-google-plus-circle"
+    IFFAGooglePlusCircle                    = 0xf2b3,
+    /// Identifier: "fa-google-plus-official"
+    IFFAGooglePlusOfficial                  = 0xf2b3,
+    /// Identifier: "fa-fa"
+    IFFAFa                                  = 0xf2b4,
+    /// Identifier: "fa-font-awesome"
+    IFFAFontAwesome                         = 0xf2b4,
 };
 
 /*!
- * Font Awesome v4.5.0 http://fontawesome.io/icons
+ * Font Awesome v4.6.3 http://fontawesome.io/icons
  */
 @interface IFFontAwesome : IFIcon
 @end
