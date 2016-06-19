@@ -318,18 +318,18 @@
 .wi-sprinkle:before {
   content: "\f01c";
 }
-// .wi-storm-showers:before {
-//   content: "\f01d";
-// }
-// .wi-thunderstorm:before {
-//   content: "\f01e";
-// }
+.wi-storm-showers:before {
+  content: "\f01d";
+}
+.wi-thunderstorm:before {
+  content: "\f01e";
+}
 .wi-snow-wind:before {
   content: "\f064";
 }
-// .wi-snow:before {
-//   content: "\f01b";
-// }
+.wi-snow:before {
+  content: "\f01b";
+}
 .wi-smog:before {
   content: "\f074";
 }
