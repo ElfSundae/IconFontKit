@@ -52,6 +52,9 @@ class CodeGenerator
         $this->moveToXcodeProject = (bool)$moveToXcodeProject;
 
         $this->xcodeProjectRoot = realpath(dirname(__FILE__) . '/../IconFontKit');
+
+        // Change working directory to the directory of the current gen.php
+        chdir(dirname($_SERVER['PHP_SELF']));
     }
 
     /**
@@ -207,16 +210,13 @@ class CodeGenerator
         $hFilename = $this->getClassName() . '.h';
         $mFilename = $this->getClassName() . '.m';
 
-        $hFile = getcwd().'/'.$hFilename;
-        $mFile = getcwd().'/'.$mFilename;
-
         if (
-            file_put_contents($hFile, $this->getHContent()) &&
-            file_put_contents($mFile, $this->getMContent())
+            file_put_contents($hFilename, $this->getHContent()) &&
+            file_put_contents($mFilename, $this->getMContent())
         ) {
             if ($this->moveToXcodeProject) {
-                rename($hFile, $this->xcodeProjectRoot.'/'.$hFilename);
-                rename($mFile, $this->xcodeProjectRoot.'/'.$mFilename);
+                rename($hFilename, $this->xcodeProjectRoot.'/'.$hFilename);
+                rename($mFilename, $this->xcodeProjectRoot.'/'.$mFilename);
             }
 
             echo "$this->fontIdentifier contains " .
