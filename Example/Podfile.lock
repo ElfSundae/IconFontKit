@@ -1,99 +1,99 @@
 PODS:
-  - IconFontKit (2.0.1):
-    - IconFontKit/Core (= 2.0.1)
-    - IconFontKit/Dashicons (= 2.0.1)
-    - IconFontKit/Devicons (= 2.0.1)
-    - IconFontKit/Dripicons (= 2.0.1)
-    - IconFontKit/ElusiveIcons (= 2.0.1)
-    - IconFontKit/Entypo (= 2.0.1)
-    - IconFontKit/EvilIcons (= 2.0.1)
-    - IconFontKit/FontAwesome (= 2.0.1)
-    - IconFontKit/FoundationIcons (= 2.0.1)
-    - IconFontKit/Genericons (= 2.0.1)
-    - IconFontKit/HawconsFilled (= 2.0.1)
-    - IconFontKit/HawconsStroke (= 2.0.1)
-    - IconFontKit/IcoMoonFree (= 2.0.1)
-    - IconFontKit/Ionicons (= 2.0.1)
-    - IconFontKit/LigatureSymbols (= 2.0.1)
-    - IconFontKit/Linea (= 2.0.1)
-    - IconFontKit/LineariconsFree (= 2.0.1)
-    - IconFontKit/MapIcons (= 2.0.1)
-    - IconFontKit/MaterialDesignIcons (= 2.0.1)
-    - IconFontKit/MaterialIcons (= 2.0.1)
-    - IconFontKit/Meteocons (= 2.0.1)
-    - IconFontKit/MetrizeIcons (= 2.0.1)
-    - IconFontKit/MFGLabsIconset (= 2.0.1)
-    - IconFontKit/Octicons (= 2.0.1)
-    - IconFontKit/OpenIconic (= 2.0.1)
-    - IconFontKit/OpenWebIcons (= 2.0.1)
-    - IconFontKit/StreamlineFree (= 2.0.1)
-    - IconFontKit/Stroke7Icons (= 2.0.1)
-    - IconFontKit/ThemifyIcons (= 2.0.1)
-    - IconFontKit/Typicons (= 2.0.1)
-    - IconFontKit/WeatherIcons (= 2.0.1)
-    - IconFontKit/ZocialButtons (= 2.0.1)
-  - IconFontKit/Core (2.0.1)
-  - IconFontKit/Dashicons (2.0.1):
+  - IconFontKit (2.1.0):
+    - IconFontKit/Core (= 2.1.0)
+    - IconFontKit/Dashicons (= 2.1.0)
+    - IconFontKit/Devicons (= 2.1.0)
+    - IconFontKit/Dripicons (= 2.1.0)
+    - IconFontKit/ElusiveIcons (= 2.1.0)
+    - IconFontKit/Entypo (= 2.1.0)
+    - IconFontKit/EvilIcons (= 2.1.0)
+    - IconFontKit/FontAwesome (= 2.1.0)
+    - IconFontKit/FoundationIcons (= 2.1.0)
+    - IconFontKit/Genericons (= 2.1.0)
+    - IconFontKit/HawconsFilled (= 2.1.0)
+    - IconFontKit/HawconsStroke (= 2.1.0)
+    - IconFontKit/IcoMoonFree (= 2.1.0)
+    - IconFontKit/Ionicons (= 2.1.0)
+    - IconFontKit/LigatureSymbols (= 2.1.0)
+    - IconFontKit/Linea (= 2.1.0)
+    - IconFontKit/LineariconsFree (= 2.1.0)
+    - IconFontKit/MapIcons (= 2.1.0)
+    - IconFontKit/MaterialDesignIcons (= 2.1.0)
+    - IconFontKit/MaterialIcons (= 2.1.0)
+    - IconFontKit/Meteocons (= 2.1.0)
+    - IconFontKit/MetrizeIcons (= 2.1.0)
+    - IconFontKit/MFGLabsIconset (= 2.1.0)
+    - IconFontKit/Octicons (= 2.1.0)
+    - IconFontKit/OpenIconic (= 2.1.0)
+    - IconFontKit/OpenWebIcons (= 2.1.0)
+    - IconFontKit/StreamlineFree (= 2.1.0)
+    - IconFontKit/Stroke7Icons (= 2.1.0)
+    - IconFontKit/ThemifyIcons (= 2.1.0)
+    - IconFontKit/Typicons (= 2.1.0)
+    - IconFontKit/WeatherIcons (= 2.1.0)
+    - IconFontKit/ZocialButtons (= 2.1.0)
+  - IconFontKit/Core (2.1.0)
+  - IconFontKit/Dashicons (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/Devicons (2.0.1):
+  - IconFontKit/Devicons (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/Dripicons (2.0.1):
+  - IconFontKit/Dripicons (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/ElusiveIcons (2.0.1):
+  - IconFontKit/ElusiveIcons (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/Entypo (2.0.1):
+  - IconFontKit/Entypo (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/EvilIcons (2.0.1):
+  - IconFontKit/EvilIcons (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/FontAwesome (2.0.1):
+  - IconFontKit/FontAwesome (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/FoundationIcons (2.0.1):
+  - IconFontKit/FoundationIcons (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/Genericons (2.0.1):
+  - IconFontKit/Genericons (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/HawconsFilled (2.0.1):
+  - IconFontKit/HawconsFilled (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/HawconsStroke (2.0.1):
+  - IconFontKit/HawconsStroke (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/IcoMoonFree (2.0.1):
+  - IconFontKit/IcoMoonFree (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/Ionicons (2.0.1):
+  - IconFontKit/Ionicons (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/LigatureSymbols (2.0.1):
+  - IconFontKit/LigatureSymbols (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/Linea (2.0.1):
+  - IconFontKit/Linea (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/LineariconsFree (2.0.1):
+  - IconFontKit/LineariconsFree (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/MapIcons (2.0.1):
+  - IconFontKit/MapIcons (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/MaterialDesignIcons (2.0.1):
+  - IconFontKit/MaterialDesignIcons (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/MaterialIcons (2.0.1):
+  - IconFontKit/MaterialIcons (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/Meteocons (2.0.1):
+  - IconFontKit/Meteocons (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/MetrizeIcons (2.0.1):
+  - IconFontKit/MetrizeIcons (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/MFGLabsIconset (2.0.1):
+  - IconFontKit/MFGLabsIconset (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/Octicons (2.0.1):
+  - IconFontKit/Octicons (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/OpenIconic (2.0.1):
+  - IconFontKit/OpenIconic (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/OpenWebIcons (2.0.1):
+  - IconFontKit/OpenWebIcons (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/StreamlineFree (2.0.1):
+  - IconFontKit/StreamlineFree (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/Stroke7Icons (2.0.1):
+  - IconFontKit/Stroke7Icons (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/ThemifyIcons (2.0.1):
+  - IconFontKit/ThemifyIcons (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/Typicons (2.0.1):
+  - IconFontKit/Typicons (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/WeatherIcons (2.0.1):
+  - IconFontKit/WeatherIcons (2.1.0):
     - IconFontKit/Core
-  - IconFontKit/ZocialButtons (2.0.1):
+  - IconFontKit/ZocialButtons (2.1.0):
     - IconFontKit/Core
   - JTSImageViewController (1.5.1)
 
@@ -106,7 +106,7 @@ EXTERNAL SOURCES:
     :path: "../IconFontKit.podspec"
 
 SPEC CHECKSUMS:
-  IconFontKit: 51ed907f31faa21ee17da4d5fcb3a902c855d4ae
+  IconFontKit: 027ad730cdf066ae4262cecd11384602bdfb34f6
   JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
 
 COCOAPODS: 0.39.0
