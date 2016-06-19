@@ -7,7 +7,7 @@ $generator = new CodeGenerator(
     'MyFontIcons',
     'myfonticons.ttf',
     'MF',
-    'Demonstrator for using custom icon fonts. https://github.com/ElfSundae/IconFontKit',
+    "Demonstrator for using custom icon fonts.  \nhttps://github.com/ElfSundae/IconFontKit",
     null,
     false
 );
