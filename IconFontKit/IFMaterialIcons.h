@@ -1869,7 +1869,7 @@ typedef NS_ENUM(IFIconType, IFMaterialIconsType) {
 };
 
 /*!
- * Material Icons by Google, v2.2.0 https://design.google.com/icons
+ * Material Icons by Google, v2.2.3 https://design.google.com/icons
  */
 @interface IFMaterialIcons : IFIcon
 @end

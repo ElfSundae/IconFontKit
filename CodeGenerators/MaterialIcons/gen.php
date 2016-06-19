@@ -4,7 +4,7 @@ chdir(dirname(__FILE__));
 require "../CodeGenerator.php";
 
 $fontIdentifier     = 'MaterialIcons';
-$fontDescription    = 'Material Icons by Google, v2.2.0 https://design.google.com/icons';
+$fontDescription    = 'Material Icons by Google, v2.2.3 https://design.google.com/icons';
 $iconTypePrefix     = 'MI';
 $fontFile           = 'MaterialIcons-Regular.ttf';
 $fontName           = 'Material Icons';
