@@ -123,6 +123,7 @@
              @"dashicons-exerpt-view":                   @"\uf164",
              @"dashicons-excerpt-view":                  @"\uf164",
              @"dashicons-grid-view":                     @"\uf509",
+             @"dashicons-move":                          @"\uf545",
              @"dashicons-hammer":                        @"\uf308",
              @"dashicons-art":                           @"\uf309",
              @"dashicons-migrate":                       @"\uf310",
@@ -233,6 +234,7 @@
              @"dashicons-lightbulb":                     @"\uf339",
              @"dashicons-microphone":                    @"\uf482",
              @"dashicons-desktop":                       @"\uf472",
+             @"dashicons-laptop":                        @"\uf547",
              @"dashicons-tablet":                        @"\uf471",
              @"dashicons-smartphone":                    @"\uf470",
              @"dashicons-phone":                         @"\uf525",
@@ -248,6 +250,7 @@
              @"dashicons-thumbs-up":                     @"\uf529",
              @"dashicons-thumbs-down":                   @"\uf542",
              @"dashicons-layout":                        @"\uf538",
+             @"dashicons-paperclip":                     @"\uf546",
              };
 }
 

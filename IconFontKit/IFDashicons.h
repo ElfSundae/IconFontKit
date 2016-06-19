@@ -228,6 +228,8 @@ typedef NS_ENUM(IFIconType, IFDashiconsType) {
     IFDashExcerptView                         = 0xf164,
     /// Identifier: "dashicons-grid-view"
     IFDashGridView                            = 0xf509,
+    /// Identifier: "dashicons-move"
+    IFDashMove                                = 0xf545,
     /// Identifier: "dashicons-hammer"
     IFDashHammer                              = 0xf308,
     /// Identifier: "dashicons-art"
@@ -448,6 +450,8 @@ typedef NS_ENUM(IFIconType, IFDashiconsType) {
     IFDashMicrophone                          = 0xf482,
     /// Identifier: "dashicons-desktop"
     IFDashDesktop                             = 0xf472,
+    /// Identifier: "dashicons-laptop"
+    IFDashLaptop                              = 0xf547,
     /// Identifier: "dashicons-tablet"
     IFDashTablet                              = 0xf471,
     /// Identifier: "dashicons-smartphone"
@@ -478,6 +482,8 @@ typedef NS_ENUM(IFIconType, IFDashiconsType) {
     IFDashThumbsDown                          = 0xf542,
     /// Identifier: "dashicons-layout"
     IFDashLayout                              = 0xf538,
+    /// Identifier: "dashicons-paperclip"
+    IFDashPaperclip                           = 0xf546,
 };
 
 /*!
