@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = "IconFontKit"
-  s.version           = "2.1.0"
+  s.version           = "2.1.1"
   s.license           = "MIT"
   s.summary           = "Icon fonts for iOS."
   s.homepage          = "https://github.com/ElfSundae/IconFontKit"
