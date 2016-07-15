@@ -13,7 +13,7 @@
 | Font Identifier | Version | Icons Number | Font Size | License | Description |
 |---|---|---|---|---|---|
 | [FontAwesome](http://fontawesome.io)| 4.6.3 | [634](http://fontawesome.io/icons) | 125 KB | [SIL OFL 1.1](http://fontawesome.io/license) | Font Awesome |
-| [Octicons](https://octicons.github.com)| 4.2.0 | [172](https://octicons.github.com) | 45 KB | [SIL OFL 1.1](https://github.com/github/octicons/blob/master/LICENSE.txt) | GitHub's icons |
+| [Octicons](https://octicons.github.com)| 4.3.0 | [172](https://octicons.github.com) | 45 KB | [SIL OFL 1.1](https://github.com/github/octicons/blob/master/LICENSE.txt) | GitHub's icons |
 | [FoundationIcons](http://zurb.com/playground/foundation-icon-fonts-3)| 3.0 | [283](http://zurb.com/playground/foundation-icon-fonts-3#allicons) | 57 KB | ? | Foundation Icon Fonts 3 |
 | [Ionicons](http://ionicons.com)| 2.0.1 | [733](http://ionicons.com) | 189 KB | [MIT](https://github.com/driftyco/ionicons/blob/master/LICENSE) | The premium icon font for Ionic Framework. |
 | [MaterialDesignIcons](https://materialdesignicons.com) | 1.6.50 | [1650](https://materialdesignicons.com) | 236 KB | [SIL OFL 1.1](https://github.com/Templarian/MaterialDesign/blob/master/license.txt) | Material Design Icons |
