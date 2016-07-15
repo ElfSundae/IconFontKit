@@ -7,7 +7,7 @@ $generator = new CodeGenerator(
     'Octicons',
     'octicons.ttf',
     'Octicon',
-    'GitHub Octicons v4.2.0 https://octicons.github.com'
+    'GitHub Octicons v4.3.0 https://octicons.github.com'
 );
 
 $generator->generateFromCssFile('octicons.css', 'octicon');

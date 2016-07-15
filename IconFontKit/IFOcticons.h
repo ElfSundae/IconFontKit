@@ -524,7 +524,7 @@ typedef NS_ENUM(IFIconType, IFOcticonsType) {
 };
 
 /**
- * GitHub Octicons v4.2.0 https://octicons.github.com
+ * GitHub Octicons v4.3.0 https://octicons.github.com
  */
 @interface IFOcticons : IFIcon
 @end
