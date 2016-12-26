@@ -98,15 +98,17 @@ PODS:
   - JTSImageViewController (1.5.1)
 
 DEPENDENCIES:
-  - IconFontKit (from `../IconFontKit.podspec`)
+  - IconFontKit (from `../`)
   - JTSImageViewController
 
 EXTERNAL SOURCES:
   IconFontKit:
-    :path: "../IconFontKit.podspec"
+    :path: "../"
 
 SPEC CHECKSUMS:
   IconFontKit: 10d365534a9f9f92f87651a225b8f90e41054bb8
   JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: cfb0a1009eaa675f1f5efb289ce3a71bc40cca22
+
+COCOAPODS: 1.1.1

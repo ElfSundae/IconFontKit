@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		600AFB68D73295B3E4E4D37D /* libPods-IconFontKitExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 536CF7578840DF38FFE38509 /* libPods-IconFontKitExample.a */; };
+		70FDAC299761ACE9C8B8B573 /* libPods-IconFontKitExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 015F0F2AA2FA7E5CDADE0BC1 /* libPods-IconFontKitExample.a */; };
 		E7C0C4321C7D7FDE00A8C0FF /* myfonticons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7C0C4311C7D7FDE00A8C0FF /* myfonticons.ttf */; };
 		E7E724CC1C73816B0049EE82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724CB1C73816B0049EE82 /* main.m */; };
 		E7E724CF1C73816B0049EE82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E724CE1C73816B0049EE82 /* AppDelegate.m */; };
@@ -20,9 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		02987B2B828E10543AC768C9 /* Pods-IconFontKitExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IconFontKitExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-IconFontKitExample/Pods-IconFontKitExample.release.xcconfig"; sourceTree = "<group>"; };
-		536CF7578840DF38FFE38509 /* libPods-IconFontKitExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IconFontKitExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		85189A6589C166DC99A23457 /* Pods-IconFontKitExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IconFontKitExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IconFontKitExample/Pods-IconFontKitExample.debug.xcconfig"; sourceTree = "<group>"; };
+		015F0F2AA2FA7E5CDADE0BC1 /* libPods-IconFontKitExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IconFontKitExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D3F539E9744363A3B65B02 /* Pods-IconFontKitExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IconFontKitExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-IconFontKitExample/Pods-IconFontKitExample.release.xcconfig"; sourceTree = "<group>"; };
+		E53BF222E2810F91EBB88982 /* Pods-IconFontKitExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IconFontKitExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IconFontKitExample/Pods-IconFontKitExample.debug.xcconfig"; sourceTree = "<group>"; };
 		E7C0C4311C7D7FDE00A8C0FF /* myfonticons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = myfonticons.ttf; sourceTree = "<group>"; };
 		E7E724C71C73816B0049EE82 /* IconFontKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconFontKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E724CB1C73816B0049EE82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,26 +46,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				600AFB68D73295B3E4E4D37D /* libPods-IconFontKitExample.a in Frameworks */,
+				70FDAC299761ACE9C8B8B573 /* libPods-IconFontKitExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		891544214BDD41105F62F557 /* Frameworks */ = {
+		1D3127C2877F3B84B6557507 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				536CF7578840DF38FFE38509 /* libPods-IconFontKitExample.a */,
+				015F0F2AA2FA7E5CDADE0BC1 /* libPods-IconFontKitExample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A2EF78665E3E4F3210AF838C /* Pods */ = {
+		AAEEAF6D742660A1A06FE71F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				85189A6589C166DC99A23457 /* Pods-IconFontKitExample.debug.xcconfig */,
-				02987B2B828E10543AC768C9 /* Pods-IconFontKitExample.release.xcconfig */,
+				E53BF222E2810F91EBB88982 /* Pods-IconFontKitExample.debug.xcconfig */,
+				B4D3F539E9744363A3B65B02 /* Pods-IconFontKitExample.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -75,8 +75,8 @@
 			children = (
 				E7E724C91C73816B0049EE82 /* IconFontKitExample */,
 				E7E724C81C73816B0049EE82 /* Products */,
-				A2EF78665E3E4F3210AF838C /* Pods */,
-				891544214BDD41105F62F557 /* Frameworks */,
+				AAEEAF6D742660A1A06FE71F /* Pods */,
+				1D3127C2877F3B84B6557507 /* Frameworks */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -127,12 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7E724DE1C73816B0049EE82 /* Build configuration list for PBXNativeTarget "IconFontKitExample" */;
 			buildPhases = (
-				24BF6675F6AB777F6F4103B6 /* Check Pods Manifest.lock */,
+				B0417B9444DF98F26A151012 /* [CP] Check Pods Manifest.lock */,
 				E7E724C31C73816B0049EE82 /* Sources */,
 				E7E724C41C73816B0049EE82 /* Frameworks */,
 				E7E724C51C73816B0049EE82 /* Resources */,
-				E324D50C1717977AE6D65B6D /* Embed Pods Frameworks */,
-				3C8355010F32B5B8AD8BB4BA /* Copy Pods Resources */,
+				102A4BE76BA75D00C7D30FC8 /* [CP] Embed Pods Frameworks */,
+				BE02F77BB870AC1A20BEF13A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,11 +149,12 @@
 		E7E724BF1C73816B0049EE82 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = www.0x123.com;
 				TargetAttributes = {
 					E7E724C61C73816B0049EE82 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 93FB82XYEK;
 					};
 				};
 			};
@@ -189,49 +190,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		24BF6675F6AB777F6F4103B6 /* Check Pods Manifest.lock */ = {
+		102A4BE76BA75D00C7D30FC8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		3C8355010F32B5B8AD8BB4BA /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IconFontKitExample/Pods-IconFontKitExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E324D50C1717977AE6D65B6D /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IconFontKitExample/Pods-IconFontKitExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0417B9444DF98F26A151012 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE02F77BB870AC1A20BEF13A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IconFontKitExample/Pods-IconFontKitExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -277,8 +278,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -320,8 +323,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -346,9 +351,10 @@
 		};
 		E7E724DF1C73816B0049EE82 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85189A6589C166DC99A23457 /* Pods-IconFontKitExample.debug.xcconfig */;
+			baseConfigurationReference = E53BF222E2810F91EBB88982 /* Pods-IconFontKitExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 93FB82XYEK;
 				INFOPLIST_FILE = IconFontKitExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -359,9 +365,10 @@
 		};
 		E7E724E01C73816B0049EE82 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02987B2B828E10543AC768C9 /* Pods-IconFontKitExample.release.xcconfig */;
+			baseConfigurationReference = B4D3F539E9744363A3B65B02 /* Pods-IconFontKitExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 93FB82XYEK;
 				INFOPLIST_FILE = IconFontKitExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
