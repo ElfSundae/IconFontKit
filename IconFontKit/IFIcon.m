@@ -11,7 +11,7 @@
 #import <CoreText/CoreText.h>
 
 @interface IFIcon ()
-@property (nonatomic, copy) NSMutableAttributedString *mutableAttributedString;
+@property (nonatomic, strong) NSMutableAttributedString *mutableAttributedString;
 @property (nonatomic) IFIconType type;
 @property (nonatomic, copy) NSString *identifier;
 @end
