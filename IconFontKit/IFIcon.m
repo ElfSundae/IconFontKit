@@ -33,7 +33,7 @@
 {
     IFIcon *icon = [[[self class] allocWithZone:zone] init];
 
-    icon.mutableAttributedString = self.mutableAttributedString;
+    icon.mutableAttributedString = [self.mutableAttributedString mutableCopy];
     icon.type = _type;
     icon.identifier = _identifier;
     icon.drawingPositionAdjustment = self.drawingPositionAdjustment;
