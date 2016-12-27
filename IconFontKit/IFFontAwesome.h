@@ -1817,6 +1817,9 @@ typedef NS_ENUM(IFIconType, IFFontAwesomeType) {
     /// Identifier: "fa-battery-4"
     IFFABattery4                            = 0xf240,
 
+    /// Identifier: "fa-battery"
+    IFFABattery                             = 0xf240,
+
     /// Identifier: "fa-battery-full"
     IFFABatteryFull                         = 0xf240,
 
@@ -2194,6 +2197,171 @@ typedef NS_ENUM(IFIconType, IFFontAwesomeType) {
 
     /// Identifier: "fa-font-awesome"
     IFFAFontAwesome                         = 0xf2b4,
+
+    /// Identifier: "fa-handshake-o"
+    IFFAHandshakeO                          = 0xf2b5,
+
+    /// Identifier: "fa-envelope-open"
+    IFFAEnvelopeOpen                        = 0xf2b6,
+
+    /// Identifier: "fa-envelope-open-o"
+    IFFAEnvelopeOpenO                       = 0xf2b7,
+
+    /// Identifier: "fa-linode"
+    IFFALinode                              = 0xf2b8,
+
+    /// Identifier: "fa-address-book"
+    IFFAAddressBook                         = 0xf2b9,
+
+    /// Identifier: "fa-address-book-o"
+    IFFAAddressBookO                        = 0xf2ba,
+
+    /// Identifier: "fa-vcard"
+    IFFAVcard                               = 0xf2bb,
+
+    /// Identifier: "fa-address-card"
+    IFFAAddressCard                         = 0xf2bb,
+
+    /// Identifier: "fa-vcard-o"
+    IFFAVcardO                              = 0xf2bc,
+
+    /// Identifier: "fa-address-card-o"
+    IFFAAddressCardO                        = 0xf2bc,
+
+    /// Identifier: "fa-user-circle"
+    IFFAUserCircle                          = 0xf2bd,
+
+    /// Identifier: "fa-user-circle-o"
+    IFFAUserCircleO                         = 0xf2be,
+
+    /// Identifier: "fa-user-o"
+    IFFAUserO                               = 0xf2c0,
+
+    /// Identifier: "fa-id-badge"
+    IFFAIdBadge                             = 0xf2c1,
+
+    /// Identifier: "fa-drivers-license"
+    IFFADriversLicense                      = 0xf2c2,
+
+    /// Identifier: "fa-id-card"
+    IFFAIdCard                              = 0xf2c2,
+
+    /// Identifier: "fa-drivers-license-o"
+    IFFADriversLicenseO                     = 0xf2c3,
+
+    /// Identifier: "fa-id-card-o"
+    IFFAIdCardO                             = 0xf2c3,
+
+    /// Identifier: "fa-quora"
+    IFFAQuora                               = 0xf2c4,
+
+    /// Identifier: "fa-free-code-camp"
+    IFFAFreeCodeCamp                        = 0xf2c5,
+
+    /// Identifier: "fa-telegram"
+    IFFATelegram                            = 0xf2c6,
+
+    /// Identifier: "fa-thermometer-4"
+    IFFAThermometer4                        = 0xf2c7,
+
+    /// Identifier: "fa-thermometer"
+    IFFAThermometer                         = 0xf2c7,
+
+    /// Identifier: "fa-thermometer-full"
+    IFFAThermometerFull                     = 0xf2c7,
+
+    /// Identifier: "fa-thermometer-3"
+    IFFAThermometer3                        = 0xf2c8,
+
+    /// Identifier: "fa-thermometer-three-quarters"
+    IFFAThermometerThreeQuarters            = 0xf2c8,
+
+    /// Identifier: "fa-thermometer-2"
+    IFFAThermometer2                        = 0xf2c9,
+
+    /// Identifier: "fa-thermometer-half"
+    IFFAThermometerHalf                     = 0xf2c9,
+
+    /// Identifier: "fa-thermometer-1"
+    IFFAThermometer1                        = 0xf2ca,
+
+    /// Identifier: "fa-thermometer-quarter"
+    IFFAThermometerQuarter                  = 0xf2ca,
+
+    /// Identifier: "fa-thermometer-0"
+    IFFAThermometer0                        = 0xf2cb,
+
+    /// Identifier: "fa-thermometer-empty"
+    IFFAThermometerEmpty                    = 0xf2cb,
+
+    /// Identifier: "fa-shower"
+    IFFAShower                              = 0xf2cc,
+
+    /// Identifier: "fa-bathtub"
+    IFFABathtub                             = 0xf2cd,
+
+    /// Identifier: "fa-s15"
+    IFFAS15                                 = 0xf2cd,
+
+    /// Identifier: "fa-bath"
+    IFFABath                                = 0xf2cd,
+
+    /// Identifier: "fa-podcast"
+    IFFAPodcast                             = 0xf2ce,
+
+    /// Identifier: "fa-window-maximize"
+    IFFAWindowMaximize                      = 0xf2d0,
+
+    /// Identifier: "fa-window-minimize"
+    IFFAWindowMinimize                      = 0xf2d1,
+
+    /// Identifier: "fa-window-restore"
+    IFFAWindowRestore                       = 0xf2d2,
+
+    /// Identifier: "fa-times-rectangle"
+    IFFATimesRectangle                      = 0xf2d3,
+
+    /// Identifier: "fa-window-close"
+    IFFAWindowClose                         = 0xf2d3,
+
+    /// Identifier: "fa-times-rectangle-o"
+    IFFATimesRectangleO                     = 0xf2d4,
+
+    /// Identifier: "fa-window-close-o"
+    IFFAWindowCloseO                        = 0xf2d4,
+
+    /// Identifier: "fa-bandcamp"
+    IFFABandcamp                            = 0xf2d5,
+
+    /// Identifier: "fa-grav"
+    IFFAGrav                                = 0xf2d6,
+
+    /// Identifier: "fa-etsy"
+    IFFAEtsy                                = 0xf2d7,
+
+    /// Identifier: "fa-imdb"
+    IFFAImdb                                = 0xf2d8,
+
+    /// Identifier: "fa-ravelry"
+    IFFARavelry                             = 0xf2d9,
+
+    /// Identifier: "fa-eercast"
+    IFFAEercast                             = 0xf2da,
+
+    /// Identifier: "fa-microchip"
+    IFFAMicrochip                           = 0xf2db,
+
+    /// Identifier: "fa-snowflake-o"
+    IFFASnowflakeO                          = 0xf2dc,
+
+    /// Identifier: "fa-superpowers"
+    IFFASuperpowers                         = 0xf2dd,
+
+    /// Identifier: "fa-wpexplorer"
+    IFFAWpexplorer                          = 0xf2de,
+
+    /// Identifier: "fa-meetup"
+    IFFAMeetup                              = 0xf2e0,
 
 };
 
