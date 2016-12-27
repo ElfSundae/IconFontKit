@@ -11,12 +11,9 @@
 #import <CoreText/CoreText.h>
 
 @interface IFIcon ()
-{
-    IFIconType _type;
-    NSString *  _identifier;
-}
-
 @property (nonatomic, strong) NSMutableAttributedString *mutableAttributedString;
+@property (nonatomic) IFIconType type;
+@property (nonatomic, copy) NSString *identifier;
 @end
 
 @implementation IFIcon
@@ -35,20 +32,22 @@
 - (id)copyWithZone:(NSZone *)zone
 {
     IFIcon *icon = [[[self class] allocWithZone:zone] init];
+
     icon.mutableAttributedString = [self.mutableAttributedString mutableCopy];
-    icon->_type = self->_type;
-    icon->_identifier = [self->_identifier copy];
+    icon.type = _type;
+    icon.identifier = _identifier;
     icon.drawingPositionAdjustment = self.drawingPositionAdjustment;
     icon.drawingPaddingMultiplie = self.drawingPaddingMultiplie;
     icon.drawingBackgroundColor = [self.drawingBackgroundColor copy];
     icon.adjustsFontSizeWhileDrawing = self.adjustsFontSizeWhileDrawing;
+
     return icon;
 }
 
 + (instancetype)iconWithType:(IFIconType)type fontSize:(CGFloat)fontSize
 {
     IFIcon *icon = [self iconWithCode:IFIconCodeForType(type) fontSize:fontSize];
-    icon->_type = type;
+    icon.type = type;
     return icon;
 }
 
@@ -69,7 +68,7 @@
     NSString *code = [self allIcons][identifier];
     if ([code isKindOfClass:[NSString class]]) {
         IFIcon *icon = [self iconWithCode:code fontSize:fontSize];
-        icon->_identifier = [identifier copy];
+        icon.identifier = identifier;
         return icon;
     }
     return nil;
@@ -103,6 +102,7 @@
     if (0 == _type) {
         _type = IFIconTypeForCode(self.code);
     }
+
     return _type;
 }
 
@@ -111,16 +111,17 @@
     if (!_identifier) {
         __block NSString *foundIdentifier = nil;
         NSString *code = self.code;
-        [[[self class] allIcons]
-         enumerateKeysAndObjectsWithOptions:NSEnumerationConcurrent
-                                 usingBlock:^(id _Nonnull key, id _Nonnull obj, BOOL * _Nonnull stop) {
+        [[[self class] allIcons] enumerateKeysAndObjectsWithOptions:NSEnumerationConcurrent
+                                                         usingBlock:^(id _Nonnull key, id _Nonnull obj, BOOL * _Nonnull stop)
+        {
             if ([obj isEqualToString:code]) {
                 foundIdentifier = key;
                 *stop = YES;
             }
         }];
-        _identifier = foundIdentifier;
+        _identifier = [foundIdentifier copy];
     }
+
     return _identifier;
 }
 
