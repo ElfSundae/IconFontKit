@@ -8,7 +8,7 @@ IconFontKit provides a convenient toolkit to use icon fonts for iOS development.
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Using custom icon fonts](#using-custom-icon-fonts)
+- [Using Custom Icon Fonts](#using-custom-icon-fonts)
 - [Built-in Icon Packs](#built-in-icon-packs)
 - [Credits](#credits)
 - [License](#license)
@@ -80,7 +80,7 @@ IconFontKit provides a convenient toolkit to use icon fonts for iOS development.
     UIImage *stackedImage = [UIImage if_imageWithStackedIcons:@[container, usbIcon, forbidden] imageSize:CGSizeMake(100, 100)];
     ```
 
-## Using custom icon fonts
+## Using Custom Icon Fonts
 
 - To use your own icon fonts, just subclass `IFIcon` and implement `+ (NSURL *)fontFileURL` method.
 - If the font name is not the same as the filename of `fontFileURL`, you need to implement `+ (NSString *)fontName` method as well.
