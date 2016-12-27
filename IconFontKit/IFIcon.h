@@ -13,7 +13,7 @@ typedef unichar IFIconType;
 
 /*!
  * Abstract superclass for icons, it should not be used directly.
- * You can subclass `IFIcon` to provide new icon font support.
+ * You can subclass `IFIcon` to provide new icon fonts support.
  */
 @interface IFIcon : NSObject <NSCopying>
 
