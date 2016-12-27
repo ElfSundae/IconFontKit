@@ -11,7 +11,7 @@
 #import <CoreText/CoreText.h>
 
 @interface IFIcon ()
-@property (nonatomic, strong) NSMutableAttributedString *mutableAttributedString;
+@property (nonatomic, copy) NSMutableAttributedString *mutableAttributedString;
 @property (nonatomic) IFIconType type;
 @property (nonatomic, copy) NSString *identifier;
 @end
@@ -33,12 +33,12 @@
 {
     IFIcon *icon = [[[self class] allocWithZone:zone] init];
 
-    icon.mutableAttributedString = [self.mutableAttributedString mutableCopy];
+    icon.mutableAttributedString = self.mutableAttributedString;
     icon.type = _type;
     icon.identifier = _identifier;
     icon.drawingPositionAdjustment = self.drawingPositionAdjustment;
     icon.drawingPaddingMultiplie = self.drawingPaddingMultiplie;
-    icon.drawingBackgroundColor = [self.drawingBackgroundColor copy];
+    icon.drawingBackgroundColor = self.drawingBackgroundColor;
     icon.adjustsFontSizeWhileDrawing = self.adjustsFontSizeWhileDrawing;
 
     return icon;

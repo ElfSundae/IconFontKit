@@ -153,7 +153,7 @@ typedef unichar IFIconType;
 /**
  * The background color of the image while drawing. If you do not specify this property, no background color is drawn.
  */
-@property (nonatomic, strong) UIColor *drawingBackgroundColor;
+@property (nonatomic, copy) UIColor *drawingBackgroundColor;
 
 /**
  * Indicates whether the font size should be reduced in order to fit the image's bounding rectangle while drawing.
