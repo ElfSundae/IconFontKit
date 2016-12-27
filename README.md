@@ -4,6 +4,17 @@
 
 IconFontKit provides a convenient toolkit to use icon fonts for iOS development.
 
+<!-- MarkdownTOC -->
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Using custom icon fonts](#using-custom-icon-fonts)
+- [Built-in Icon Packs](#built-in-icon-packs)
+- [Credits](#credits)
+- [License](#license)
+
+<!-- /MarkdownTOC -->
+
 [![Sample](https://raw.githubusercontent.com/ElfSundae/IconFontKit/master/screenshots/sample.png?3)](https://raw.githubusercontent.com/ElfSundae/IconFontKit/master/screenshots/sample.png)
 [![Explorer](https://raw.githubusercontent.com/ElfSundae/IconFontKit/master/screenshots/explorer.png?3)](https://raw.githubusercontent.com/ElfSundae/IconFontKit/master/screenshots/explorer.png)
 [![Selector](https://raw.githubusercontent.com/ElfSundae/IconFontKit/master/screenshots/selector.png?3)](https://raw.githubusercontent.com/ElfSundae/IconFontKit/master/screenshots/selector.png)
