@@ -12,7 +12,7 @@
 
 @interface IFIcon ()
 {
-    IFIconType  _type;
+    IFIconType _type;
     NSString *  _identifier;
 }
 
@@ -111,7 +111,9 @@
     if (!_identifier) {
         __block NSString *foundIdentifier = nil;
         NSString *code = self.code;
-        [[[self class] allIcons] enumerateKeysAndObjectsWithOptions:NSEnumerationConcurrent usingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
+        [[[self class] allIcons]
+         enumerateKeysAndObjectsWithOptions:NSEnumerationConcurrent
+                                 usingBlock:^(id _Nonnull key, id _Nonnull obj, BOOL * _Nonnull stop) {
             if ([obj isEqualToString:code]) {
                 foundIdentifier = key;
                 *stop = YES;
@@ -265,7 +267,7 @@
     if (self.adjustsFontSizeWhileDrawing && [self _iconSize:iconSize isBiggerThanImageSize:imageSize]) {
         NSMutableDictionary *attrs = [self.attributes mutableCopy];
         CGFloat tmpFontSize = self.fontSize;
-        while (tmpFontSize > 3.0/*minimumFontSize*/ && [self _iconSize:iconSize isBiggerThanImageSize:imageSize]) {
+        while (tmpFontSize > 3.0 /*minimumFontSize*/ && [self _iconSize:iconSize isBiggerThanImageSize:imageSize]) {
             tmpFontSize -= 1.5;
             attrs[NSFontAttributeName] = [[self class] fontWithSize:tmpFontSize];
             iconSize = [self.code sizeWithAttributes:attrs];

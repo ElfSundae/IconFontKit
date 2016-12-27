@@ -17,9 +17,9 @@ typedef unichar IFIconType;
  */
 @interface IFIcon : NSObject <NSCopying>
 
-///=============================================
+/// =============================================
 /// @name Initialization
-///=============================================
+/// =============================================
 
 /**
  * Creates an IFIcon instance for the given `type` and `fontSize`.
@@ -66,9 +66,9 @@ typedef unichar IFIconType;
  */
 - (instancetype)initWithCode:(NSString *)code fontSize:(CGFloat)fontSize;
 
-///=============================================
+/// =============================================
 /// @name Attributes Accessor
-///=============================================
+/// =============================================
 
 /**
  * The font size for the icon.
@@ -135,9 +135,9 @@ typedef unichar IFIconType;
  */
 - (void)removeAttribute:(NSString *)name;
 
-///=============================================
+/// =============================================
 /// @name Image Drawing
-///=============================================
+/// =============================================
 
 /**
  * The drawing offset of the icon in the image. If you do not specify this property, the icon is centered horizontally and vertically inside the image.
@@ -195,9 +195,9 @@ typedef unichar IFIconType;
 + (UIImage *)imageWithType:(IFIconType)type color:(UIColor *)color imageSize:(CGSize)imageSize;
 
 
-///=============================================
+/// =============================================
 /// @name Helper
-///=============================================
+/// =============================================
 
 /**
  * Returns a UIFont instance for this icon font.
