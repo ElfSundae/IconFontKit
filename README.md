@@ -22,7 +22,7 @@ IconFontKit provides a convenient toolkit to use icon fonts for iOS development.
 ## Installation
 
 - `pod 'IconFontKit/Core'` to install only the `IFIcon` abstract class.
-- `pod 'IconFontKit'` to install all icon packs.  
+- `pod 'IconFontKit'` to install [all icon packs](#built-in-icon-packs).
 - `pod 'IconFontKit/{Font Identifier}'` to install certain of icon packs, e.g. `pod 'IconFontKit/FontAwesome'`.
 
 ## Usage
