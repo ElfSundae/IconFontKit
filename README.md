@@ -142,6 +142,7 @@ IconFontKit provides a convenient toolkit to use icon fonts for iOS development.
     @end
     ```
 
+<a name="built-in-icon-packs">
 ## Built-in Icon Packs
 
 | Font Identifier | Version | Icons Number | Font Size | License | Description |
