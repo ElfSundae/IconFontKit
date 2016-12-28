@@ -1,99 +1,99 @@
 PODS:
-  - IconFontKit (2.1.1):
-    - IconFontKit/Core (= 2.1.1)
-    - IconFontKit/Dashicons (= 2.1.1)
-    - IconFontKit/Devicons (= 2.1.1)
-    - IconFontKit/Dripicons (= 2.1.1)
-    - IconFontKit/ElusiveIcons (= 2.1.1)
-    - IconFontKit/Entypo (= 2.1.1)
-    - IconFontKit/EvilIcons (= 2.1.1)
-    - IconFontKit/FontAwesome (= 2.1.1)
-    - IconFontKit/FoundationIcons (= 2.1.1)
-    - IconFontKit/Genericons (= 2.1.1)
-    - IconFontKit/HawconsFilled (= 2.1.1)
-    - IconFontKit/HawconsStroke (= 2.1.1)
-    - IconFontKit/IcoMoonFree (= 2.1.1)
-    - IconFontKit/Ionicons (= 2.1.1)
-    - IconFontKit/LigatureSymbols (= 2.1.1)
-    - IconFontKit/Linea (= 2.1.1)
-    - IconFontKit/LineariconsFree (= 2.1.1)
-    - IconFontKit/MapIcons (= 2.1.1)
-    - IconFontKit/MaterialDesignIcons (= 2.1.1)
-    - IconFontKit/MaterialIcons (= 2.1.1)
-    - IconFontKit/Meteocons (= 2.1.1)
-    - IconFontKit/MetrizeIcons (= 2.1.1)
-    - IconFontKit/MFGLabsIconset (= 2.1.1)
-    - IconFontKit/Octicons (= 2.1.1)
-    - IconFontKit/OpenIconic (= 2.1.1)
-    - IconFontKit/OpenWebIcons (= 2.1.1)
-    - IconFontKit/StreamlineFree (= 2.1.1)
-    - IconFontKit/Stroke7Icons (= 2.1.1)
-    - IconFontKit/ThemifyIcons (= 2.1.1)
-    - IconFontKit/Typicons (= 2.1.1)
-    - IconFontKit/WeatherIcons (= 2.1.1)
-    - IconFontKit/ZocialButtons (= 2.1.1)
-  - IconFontKit/Core (2.1.1)
-  - IconFontKit/Dashicons (2.1.1):
+  - IconFontKit (2.1.2):
+    - IconFontKit/Core (= 2.1.2)
+    - IconFontKit/Dashicons (= 2.1.2)
+    - IconFontKit/Devicons (= 2.1.2)
+    - IconFontKit/Dripicons (= 2.1.2)
+    - IconFontKit/ElusiveIcons (= 2.1.2)
+    - IconFontKit/Entypo (= 2.1.2)
+    - IconFontKit/EvilIcons (= 2.1.2)
+    - IconFontKit/FontAwesome (= 2.1.2)
+    - IconFontKit/FoundationIcons (= 2.1.2)
+    - IconFontKit/Genericons (= 2.1.2)
+    - IconFontKit/HawconsFilled (= 2.1.2)
+    - IconFontKit/HawconsStroke (= 2.1.2)
+    - IconFontKit/IcoMoonFree (= 2.1.2)
+    - IconFontKit/Ionicons (= 2.1.2)
+    - IconFontKit/LigatureSymbols (= 2.1.2)
+    - IconFontKit/Linea (= 2.1.2)
+    - IconFontKit/LineariconsFree (= 2.1.2)
+    - IconFontKit/MapIcons (= 2.1.2)
+    - IconFontKit/MaterialDesignIcons (= 2.1.2)
+    - IconFontKit/MaterialIcons (= 2.1.2)
+    - IconFontKit/Meteocons (= 2.1.2)
+    - IconFontKit/MetrizeIcons (= 2.1.2)
+    - IconFontKit/MFGLabsIconset (= 2.1.2)
+    - IconFontKit/Octicons (= 2.1.2)
+    - IconFontKit/OpenIconic (= 2.1.2)
+    - IconFontKit/OpenWebIcons (= 2.1.2)
+    - IconFontKit/StreamlineFree (= 2.1.2)
+    - IconFontKit/Stroke7Icons (= 2.1.2)
+    - IconFontKit/ThemifyIcons (= 2.1.2)
+    - IconFontKit/Typicons (= 2.1.2)
+    - IconFontKit/WeatherIcons (= 2.1.2)
+    - IconFontKit/ZocialButtons (= 2.1.2)
+  - IconFontKit/Core (2.1.2)
+  - IconFontKit/Dashicons (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/Devicons (2.1.1):
+  - IconFontKit/Devicons (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/Dripicons (2.1.1):
+  - IconFontKit/Dripicons (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/ElusiveIcons (2.1.1):
+  - IconFontKit/ElusiveIcons (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/Entypo (2.1.1):
+  - IconFontKit/Entypo (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/EvilIcons (2.1.1):
+  - IconFontKit/EvilIcons (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/FontAwesome (2.1.1):
+  - IconFontKit/FontAwesome (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/FoundationIcons (2.1.1):
+  - IconFontKit/FoundationIcons (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/Genericons (2.1.1):
+  - IconFontKit/Genericons (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/HawconsFilled (2.1.1):
+  - IconFontKit/HawconsFilled (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/HawconsStroke (2.1.1):
+  - IconFontKit/HawconsStroke (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/IcoMoonFree (2.1.1):
+  - IconFontKit/IcoMoonFree (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/Ionicons (2.1.1):
+  - IconFontKit/Ionicons (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/LigatureSymbols (2.1.1):
+  - IconFontKit/LigatureSymbols (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/Linea (2.1.1):
+  - IconFontKit/Linea (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/LineariconsFree (2.1.1):
+  - IconFontKit/LineariconsFree (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/MapIcons (2.1.1):
+  - IconFontKit/MapIcons (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/MaterialDesignIcons (2.1.1):
+  - IconFontKit/MaterialDesignIcons (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/MaterialIcons (2.1.1):
+  - IconFontKit/MaterialIcons (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/Meteocons (2.1.1):
+  - IconFontKit/Meteocons (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/MetrizeIcons (2.1.1):
+  - IconFontKit/MetrizeIcons (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/MFGLabsIconset (2.1.1):
+  - IconFontKit/MFGLabsIconset (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/Octicons (2.1.1):
+  - IconFontKit/Octicons (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/OpenIconic (2.1.1):
+  - IconFontKit/OpenIconic (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/OpenWebIcons (2.1.1):
+  - IconFontKit/OpenWebIcons (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/StreamlineFree (2.1.1):
+  - IconFontKit/StreamlineFree (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/Stroke7Icons (2.1.1):
+  - IconFontKit/Stroke7Icons (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/ThemifyIcons (2.1.1):
+  - IconFontKit/ThemifyIcons (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/Typicons (2.1.1):
+  - IconFontKit/Typicons (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/WeatherIcons (2.1.1):
+  - IconFontKit/WeatherIcons (2.1.2):
     - IconFontKit/Core
-  - IconFontKit/ZocialButtons (2.1.1):
+  - IconFontKit/ZocialButtons (2.1.2):
     - IconFontKit/Core
   - JTSImageViewController (1.5.1)
 
@@ -106,7 +106,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  IconFontKit: 10d365534a9f9f92f87651a225b8f90e41054bb8
+  IconFontKit: 3ce6ef3f532016042405819cf983fed8d649dff7
   JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
 
 PODFILE CHECKSUM: cfb0a1009eaa675f1f5efb289ce3a71bc40cca22

@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name              = "IconFontKit"
-  s.version           = "2.1.1"
+  s.version           = "2.1.2"
   s.license           = "MIT"
-  s.summary           = "Icon fonts for iOS."
+  s.summary           = "Icon fonts toolkit for iOS."
   s.homepage          = "https://github.com/ElfSundae/IconFontKit"
   s.authors           = { "Elf Sundae" => "http://0x123.com" }
   s.source            = { :git => "https://github.com/ElfSundae/IconFontKit.git", :tag => s.version, :submodules => true }
@@ -203,5 +203,4 @@ Pod::Spec.new do |s|
     ss.source_files         = "IconFontKit/IFEvilIcons.{h,m}"
     ss.resource             = "IconFontKit/EvilIcons.ttf"
   end
-
 end
